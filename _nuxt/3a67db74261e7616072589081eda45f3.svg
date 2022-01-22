@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<defs>
-
-</defs>
-<symbol id="i-chevron"><path d="M.223 6.4L6.4.223a.763.763 0 011.078 0l.72.72a.763.763 0 010 1.077L3.3 6.937l4.9 4.917a.762.762 0 010 1.077l-.72.72a.763.763 0 01-1.078 0L.223 7.476a.763.763 0 010-1.076z" fill="#fff"/></symbol>
-<symbol id="i-menu"><path d="M0 0h24v2H0zm0 7h24v2H0zm0 7h24v2H0z" fill="#fff"/></symbol>
-</svg>

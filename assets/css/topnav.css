@@ -1,0 +1,101 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-home {
+  display: flex;
+  display: flex;
+  align-items: center;
+  gap: .3rem;
+}
+
+.nav-home-1 {
+  display: flex;
+  gap: .5rem;
+}
+
+.nav-home-1 a p{
+  color:#4758fc;
+}
+
+.nav-home-2 {
+  display: flex;
+}
+
+.nav-home-2 :nth-child(2) {
+  color: #4b4b4b;
+}
+
+.svg-chevron,
+.chevron-topnav {
+  display: flex;
+  align-self: center;
+  width: 8px;
+  height: 13px;
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+
+.svg-menu{
+  display: flex;
+  justify-content: flex-end;
+  align-self: center;
+  width: 24px;
+  height: 16px;
+  cursor: pointer;
+}
+
+nav ul {
+  display: none;
+}
+
+nav ul li a p {
+}
+
+nav ul a p:hover::after {
+}
+
+nav ul li a p::after {
+}
+
+
+@media (min-width: 640px) {}
+@media (min-width: 768px) {
+  nav ul {
+    display: flex;
+    justify-self: end;
+    gap: 1rem;
+  }
+  
+  nav ul li {
+    letter-spacing: .1rem;
+    padding: .75rem 0rem;
+  }
+  
+  nav ul li a p {
+    position: relative;
+    padding: .75em 1em;
+  
+  }
+  
+  nav ul a p:hover::after {
+    height: 100%;
+    transition: all .5s ease;
+  }
+  
+  nav ul li a p::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    left: 0%;
+    bottom: 0;
+    width: 100%;
+    height: .1rem;
+    transition: all .5s ease;
+    background-color: #4758fc;
+  }
+}
+@media (min-width: 1024px) {}
+@media (min-width: 1280px) {}
+@media (min-width: 1536px) {}

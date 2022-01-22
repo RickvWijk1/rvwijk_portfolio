@@ -1,12 +1,10 @@
 <template>
-  <body>
-    <div class="wrapper"></div>
-  </body>
+  <div class="wrapper">
+    <TopNav />
+    <Nuxt />
+  </div>
 </template>
-
-<script></script>
 
 <style scoped>
   @import '~/assets/css/main.css';
 </style>
-

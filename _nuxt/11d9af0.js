@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{245:function(t,e,n){"use strict";n.r(e);var c={},o=n(33),component=Object(o.a)(c,(function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("h1",[n("NuxtLink",{attrs:{to:"/"}},[t._v("About page")])],1)}),[],!1,null,"0c4cd415",null);e.default=component.exports}}]);

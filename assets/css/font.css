@@ -1,17 +1,23 @@
-/* example */
+@font-face {
+  font-family: louis_george_caferegular;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url(~/assets/fonts/louis_george_cafe-webfont.woff2) format("woff2")
+}
 
 @font-face {
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url('~assets/fonts/DMSans-Regular.ttf') format('truetype');
-  }
-  
-  @font-face {
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: url('~assets/fonts/DMSans-Bold.ttf') format('truetype');
-  }
+  font-family: louis_george_cafelight;
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+  src: url(~/assets/fonts/louis_george_cafe_light-webfont.woff2) format("woff2")
+}
+
+@font-face {
+  font-family: louis_george_cafebold;
+  font-weight: 700;
+  font-style: bold;
+  font-display: swap;
+  src: url(~/assets/fonts/louis_george_cafe_bold-webfont.woff2) format("woff2")
+}

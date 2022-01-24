@@ -1,6 +1,10 @@
 nav {
   display: flex;
+  align-self: center;
   justify-content: space-between;
+  width: 100%;
+  padding:  2rem 0 0 0;
+  /* max-width: 1536px; */
 }
 
 .nav-home {
@@ -15,8 +19,9 @@ nav {
   gap: .5rem;
 }
 
-.nav-home-1 a p{
-  color:#4758fc;
+.nav-home-1 a p {
+  font-size: large;
+  color: #4758fc;
 }
 
 .nav-home-2 {
@@ -37,9 +42,11 @@ nav {
   cursor: pointer;
 }
 
-.svg-menu{
+.svg-menu,
+.menu-topnav {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   align-self: center;
   width: 24px;
   height: 16px;
@@ -50,41 +57,81 @@ nav ul {
   display: none;
 }
 
-nav ul li a p {
+.nav-mobile {
+  display: none;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 100%;
+    background: #000;
 }
 
-nav ul a p:hover::after {
+.nav-mobile.hamburger {
+  display: flex;
+  flex-direction: column;
+
 }
 
-nav ul li a p::after {
+.nav-mobile-cont {
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  padding: 2rem 2rem 0 2rem;
 }
 
+.nav-mobile-header {
+  display: flex;
+  justify-content: flex-end;
+}
 
-@media (min-width: 640px) {}
-@media (min-width: 768px) {
+.svg-close,
+.menu-topnav {
+  display: flex;
+  justify-content: flex-end;
+  width: 19px;
+  height: 19px;
+  cursor: pointer;
+}
+
+@media (min-width: 640px) {
+
+  nav{
+    height: 8rem;
+  }
+
+  .svg-menu,
+  .menu-topnav {
+    display: none;
+  }
+
   nav ul {
     display: flex;
+    align-items: center;
     justify-self: end;
-    gap: 1rem;
+    gap: 2rem;
   }
-  
+
   nav ul li {
     letter-spacing: .1rem;
     padding: .75rem 0rem;
   }
-  
-  nav ul li a p {
+
+  nav ul li a {
     position: relative;
     padding: .75em 1em;
-  
   }
-  
-  nav ul a p:hover::after {
+
+  nav ul a:hover::after {
     height: 100%;
     transition: all .5s ease;
   }
-  
-  nav ul li a p::after {
+
+  nav ul li a::after {
     content: "";
     z-index: -1;
     position: absolute;
@@ -95,7 +142,16 @@ nav ul li a p::after {
     transition: all .5s ease;
     background-color: #4758fc;
   }
+
+nav ul li a.nuxt-link-active {
+    background-color: #4758fc;
+  }
 }
+
+@media (min-width: 768px) {}
+
 @media (min-width: 1024px) {}
+
 @media (min-width: 1280px) {}
+
 @media (min-width: 1536px) {}

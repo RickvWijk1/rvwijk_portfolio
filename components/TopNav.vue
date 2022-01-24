@@ -13,21 +13,54 @@
           <p>}</p>
         </div>
       </div>
-      <svg-icon class="svg-menu menu-topnav" name="menu" />
+      <svg-icon v-on:click="menuToggle()" class="svg-menu menu-topnav" name="menu" />
       <ul>
-        <li><a>
-            <NuxtLink to="/about"><p>About</p></NuxtLink>
-          </a></li>
-        <li><a>
-            <NuxtLink to="/about"><p>Projects</p></NuxtLink>
-          </a></li>
-        <li><a>
-            <NuxtLink to="/about"><p>Interests</p></NuxtLink>
-          </a></li>
+        <li>
+            <NuxtLink to="/about">About</NuxtLink>
+          </li>
+        <li>
+            <NuxtLink to="/projects">Projects</NuxtLink>
+          </li>
+        <li>
+            <NuxtLink to="/interests">Interests</NuxtLink>
+          </li>
       </ul>
+      <div class="nav-mobile">
+        <div class="nav-mobile-cont">
+            <div class="nav-mobile-header">
+                <!-- <div class="logo-nav">
+                    <a href="">
+                        <img src="" alt="">
+                    </a>
+                </div> -->
+                <svg-icon v-on:click="menuToggle()" class="svg-close menu-topnav" name="close" />
+            </div>
+
+            <ul class="nav-mobile-items">
+                <div class="nav-item-cont">
+                  <li class="nav-item">People</li>
+                </div>
+            </ul>
+        </div>
+    </div>
     </nav>
 </template>
-
+<script>
+export default {
+  methods:{
+    menuToggle()
+    {
+      let getHamburgerMenu = document.querySelectorAll('.menu-topnav');
+getHamburgerMenu.forEach((toggleMenu) => {
+    toggleMenu.onclick = () => {
+        let getMenu = document.querySelector(".nav-mobile");
+        getMenu.classList.toggle("hamburger");
+    };
+});
+    }
+  }
+}
+</script>
 <style scoped>
   @import '~/assets/css/topnav.css';
 </style>

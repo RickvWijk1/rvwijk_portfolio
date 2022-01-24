@@ -1,0 +1,103 @@
+.home-title-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.home-title {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+  width: 100%;
+}
+
+.home-title h1 {
+  letter-spacing: 10px;
+  text-align: justify;
+  font-size: 13.3vw;
+  font-family: louis_george_cafebold;
+  white-space: nowrap;
+}
+
+.home-title h1::after {
+  content: "";
+  display: inline-block;
+  max-width: 100%;
+}
+
+.home-icon-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.home-icon-section p {
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-family: louis_george_cafelight;
+  color: #4758fc;
+}
+
+.home-icon-wrapper {
+  display: flex;
+  gap: 1rem;
+}
+
+.home-icon-wrapper a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: .75rem;
+  background-color: #000;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+}
+
+.home-icon-wrapper a:hover .home-icon-name {
+  opacity: 1;
+  transform-origin: center;
+  transform: translateX(-50%) rotate(10deg);
+}
+
+.home-icon-wrapper a p {
+  position: absolute;
+  bottom: 145%;
+  left: 20%;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  font-size: 1rem;
+  letter-spacing: 3px;
+  transition: all 0.3s ease 0s;
+  color: #4758fc;
+}
+
+.home-icon-svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 2.5rem;
+  fill: #fff;
+}
+
+.home-photo-wrapper {}
+
+@media (min-width: 640px) {
+  .home-title {
+    line-height: unset;
+  }
+
+  .home-title h1 {
+    font-size: calc(32px + 28*(100vw - 320px)/1120);
+  }
+}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 1024px) {}
+
+@media (min-width: 1280px) {}
+
+@media (min-width: 1536px) {}

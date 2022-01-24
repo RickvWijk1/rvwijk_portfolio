@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{272:function(e,n,t){"use strict";t.r(n);var c={},r=t(28),component=Object(r.a)(c,(function(){var e=this,n=e.$createElement;return(e._self._c||n)("p",[e._v("Projects page")])}),[],!1,null,"7b0df2e0",null);n.default=component.exports}}]);

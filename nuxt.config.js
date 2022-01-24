@@ -1,7 +1,7 @@
 export default {
   target: 'static',
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
-  ssr: true,
+  ssr: false,
   router: {
     base: '/rvwijk_portfolio/'
   },
@@ -38,6 +38,7 @@ export default {
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     '~/assets/css/global.css',
+    '~/assets/css/font.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -50,11 +51,13 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     '@nuxtjs/svg-sprite',
+    '@nuxt/image',
   ],
   svgSprite: {
     // manipulate module options

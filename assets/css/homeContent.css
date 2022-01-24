@@ -1,3 +1,9 @@
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 3rem 0 0 0;
+}
 .home-title-wrapper {
   display: flex;
   flex-direction: column;
@@ -82,7 +88,11 @@
   fill: #fff;
 }
 
-.home-photo-wrapper {}
+.home-photo-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+}
 
 @media (min-width: 640px) {
   .home-title {

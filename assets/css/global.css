@@ -1,8 +1,8 @@
+html,body{
+  height:100%;
+  overflow-y: hidden;
+}
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
   background-color: #242424;
   color: #fff;
   font-family: louis_george_caferegular, sans-serif;
@@ -13,18 +13,14 @@ img {
   height: auto;
 }
 
-section {
-  padding: 3rem 0 ;
-}
+
 
 .layout-body {
   display: flex;
   width: 100%;
-  justify-content: center;
 }
 
 .wrapper {
-  display: flex;
   flex-direction: column;
   align-self: center;
   padding: 0em 2rem;

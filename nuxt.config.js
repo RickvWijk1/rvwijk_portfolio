@@ -73,6 +73,12 @@ export default {
       meta: {
         /* meta options */
         
+      },
+      manifest:{
+        name: 'Rick v W',
+        short_name: 'Rick v W',
+        background_color: '#242424',
+        theme_color: '#242424'
       }
     },
 

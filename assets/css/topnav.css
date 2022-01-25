@@ -3,7 +3,6 @@ nav {
   align-self: center;
   justify-content: space-between;
   width: 100%;
-  padding:  2rem 0 0 0;
   /* max-width: 1536px; */
 }
 
@@ -21,6 +20,7 @@ nav {
 
 .nav-home-1 a p {
   font-size: large;
+  font-weight: 700;
   color: #4758fc;
 }
 
@@ -59,14 +59,14 @@ nav ul {
 
 .nav-mobile {
   display: none;
-    position: fixed;
-    top: 0;
-    z-index: 2;
-    right: 0;
-    bottom: 0;
-    height: 100vh;
-    width: 100%;
-    background: #000;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 100%;
+  background: #000;
 }
 
 .nav-mobile.hamburger {
@@ -89,6 +89,17 @@ nav ul {
   justify-content: flex-end;
 }
 
+.nav-mobile-items {
+  display: flex;
+}
+
+.nav-item-cont {}
+
+.nav-item {
+  font-family: louis_george_caferegular;
+  font-size: 2rem;
+}
+
 .svg-close,
 .menu-topnav {
   display: flex;
@@ -99,8 +110,11 @@ nav ul {
 }
 
 @media (min-width: 640px) {
+  .nav-mobile.hamburger {
+    display: none;
+  }
 
-  nav{
+  nav {
     height: 8rem;
   }
 
@@ -143,9 +157,10 @@ nav ul {
     background-color: #4758fc;
   }
 
-nav ul li a.nuxt-link-active {
+  nav ul li a.nuxt-link-active {
     background-color: #4758fc;
   }
+
 }
 
 @media (min-width: 768px) {}

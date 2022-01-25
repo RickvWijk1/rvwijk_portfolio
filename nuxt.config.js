@@ -7,7 +7,7 @@ export default {
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Rick van Wijk',
+    title: 'Rick van Wijk - Portfolio',
     htmlAttrs: {
       lang: 'en'
     },
@@ -21,7 +21,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: ''
+        content: 'Portfolio of Rick van Wijk'
       },
       {
         name: 'format-detection',
@@ -31,7 +31,7 @@ export default {
     link: [{
       rel: 'icon',
       type: 'image/x-icon',
-      href: '/favicon.ico'
+      href: '/rvwijk_portfolio/favicon.ico'
     }]
   },
 
@@ -51,6 +51,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/pwa',
     
   ],
 
@@ -58,11 +59,23 @@ export default {
   modules: [
     '@nuxtjs/svg-sprite',
     '@nuxt/image',
+    '@nuxtjs/pwa',
   ],
   svgSprite: {
     // manipulate module options
   },
   
+  
+    pwa: {
+      icon: {
+
+      },
+      meta: {
+        /* meta options */
+        
+      }
+    },
+
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {}
 }

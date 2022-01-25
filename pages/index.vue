@@ -13,15 +13,15 @@
             <p class="home-icon-name">Github</p>
             <svg-icon class="home-icon-svg" name="github" />
           </a>
-          <a target="__blank" href="https://github.com/RickvWijk1">
+          <a target="__blank" href="https://www.linkedin.com/in/rick-van-wijk-2b06821a0">
             <p class="home-icon-name">LinkedIn</p>
             <svg-icon class="home-icon-svg" name="linkedin" />
           </a>
-          <a target="__blank" href="https://github.com/RickvWijk1">
+          <a href="mailto:rick_van_wijk@hotmail.com">
             <p class="home-icon-name">Email</p>
             <svg-icon class="home-icon-svg" name="email" />
           </a>
-          <a target="__blank" href="https://github.com/RickvWijk1">
+          <a target="__blank" href="/pdf/cv.pdf">
             <p class="home-icon-name">CV</p>
             <svg-icon class="home-icon-svg" name="cv" />
           </a>
@@ -29,7 +29,8 @@
       </div>
     </div>
     <div class="home-photo-wrapper">
-      <nuxt-picture class="picture-home" src="/BlackWhiteInHuis.png" />
+      <img src="~/assets/img/ik/me_black_white_portrait.webp" style="width: 100%; height: auto;" alt="">
+      <!-- <nuxt-picture class="picture-home" src="/BlackWhiteInHuis.png" /> -->
     </div>
   </section>
 

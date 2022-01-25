@@ -1,7 +1,10 @@
-html,body{
-  height:100%;
-  overflow-y: hidden;
+html,
+body,
+#__nuxt,
+#__layout {
+  height: 100%;
 }
+
 body {
   background-color: #242424;
   color: #fff;
@@ -13,19 +16,21 @@ img {
   height: auto;
 }
 
-
-
 .layout-body {
   display: flex;
   width: 100%;
+  height: 100%;
 }
 
 .wrapper {
+  display: flex;
   flex-direction: column;
   align-self: center;
-  padding: 0em 2rem;
+  padding: 2em 2rem 0;
   max-width: 1536px;
   width: 100%;
+  height: 100%;
+  gap: 2em;
 }
 
 @media (min-width: 640px) {}

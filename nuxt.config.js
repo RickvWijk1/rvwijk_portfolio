@@ -68,15 +68,16 @@ export default {
   
     pwa: {
       icon: {
-
+        purpose: 'maskable'
       },
       meta: {
         /* meta options */
         
       },
       manifest:{
-        name: 'Rick v W',
+        name: 'Rick van Wijk',
         short_name: 'Rick v W',
+        description: 'The portfolio of Rick van Wijk',
         background_color: '#242424',
         theme_color: '#242424'
       }

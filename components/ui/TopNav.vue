@@ -3,10 +3,8 @@
     <div class="nav-home">
       <div class="nav-home-1">
         <svg-icon class="svg-chevron chevron-topnav" name="chevron" />
-        <a>
-          <NuxtLink to="/">
+        <a href="/">
             <p>van-Wijk</p>
-          </NuxtLink>
         </a>
       </div>
       <div class="nav-home-2">
@@ -36,17 +34,21 @@
 
         <ul class="nav-mobile-items">
           <div class="nav-item-cont">
-            <NuxtLink class="nav-item" to="/about"><li>About</li></NuxtLink>
-            <li class="nav-item">People</li>
-            <li class="nav-item">People</li>
+            <li><NuxtLink class="nav-item" to="/about">About</NuxtLink></li>
+            <li><NuxtLink class="nav-item" to="/projects">Projects</NuxtLink></li>
+            <li><NuxtLink class="nav-item" to="/interests">Interests</NuxtLink></li>
           </div>
         </ul>
       </div>
     </div>
   </nav>
 </template>
+
 <script>
-  export default {
+export default {
+    setup() {
+        
+    },
     methods: {
       menuToggle() {
         let getHamburgerMenu = document.querySelectorAll('.menu-topnav');
@@ -59,7 +61,7 @@
       },
       
     }
-  }
+}
 </script>
 <style scoped>
   @import '~/assets/css/topnav.css';

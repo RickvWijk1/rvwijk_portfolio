@@ -1,6 +1,8 @@
 <template lang="html">
 
-  <p>Projects page</p>
+  <section>
+    <p>Projects page</p>
+  </section>
 </template>
 <script>
   export default {}

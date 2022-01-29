@@ -11,9 +11,20 @@ body {
   font-family: louis_george_caferegular, sans-serif;
 }
 
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  height: 100%;
+}
+
 img {
   max-width: 100%;
   height: auto;
+}
+
+h3 {
+  font-size: 1.3rem;
 }
 
 .layout-body {
@@ -33,12 +44,51 @@ img {
   gap: 2em;
 }
 
-@media (min-width: 640px) {}
+.title-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
 
-@media (min-width: 768px) {
-  .wrapper {
+.page-title {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+  width: 100%;
+}
+
+.page-title h1 {
+  letter-spacing: 10px;
+  text-align: justify;
+  font-size: 13.3vw;
+  font-family: louis_george_cafebold;
+  white-space: nowrap;
+}
+
+.page-title h1::after {
+  content: "";
+  display: inline-block;
+  max-width: 100%;
+}
+
+@media (min-width: 640px) {
+  html{
+    padding-right: calc(17px - (100vw - 100%));
+  }
+    .wrapper {
     padding: 0em 4rem;
   }
+  .page-title {
+    line-height: unset;
+  }
+
+  .page-title h1 {
+    font-size: calc(32px + 28*(100vw - 320px)/1120);
+  }
+}
+
+@media (min-width: 768px) {
+
 }
 
 @media (min-width: 1024px) {}

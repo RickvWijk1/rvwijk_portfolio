@@ -1,8 +1,8 @@
 <template>
 
   <section>
-    <div class="home-title-wrapper">
-      <div class="home-title">
+    <div class="title-wrapper">
+      <div class="page-title">
         <h1>Rick</h1>
         <h1>van Wijk</h1>
       </div>

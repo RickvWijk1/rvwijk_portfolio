@@ -8,7 +8,6 @@ nav {
 
 .nav-home {
   display: flex;
-  display: flex;
   align-items: center;
   gap: .3rem;
 }
@@ -33,8 +32,7 @@ nav {
   color: #4b4b4b;
 }
 
-.svg-chevron,
-.chevron-topnav {
+.svg-chevron.chevron-topnav {
   display: flex;
   align-self: center;
   width: 8px;
@@ -95,6 +93,30 @@ nav ul {
 }
 
 .nav-item-cont {}
+.nav-item-cont li{
+  display: flex;
+}
+
+.nav-item-cont li a.nuxt-link-active::after {
+  content: '<=';
+  color: #4758FB;
+  gap: 1rem;
+  transition: 0.5s ease-in-out;
+}
+
+.nav-item-cont li a{
+  display: flex;
+  gap: .5em;
+}
+
+.svg-chevron.chevron-mobile-nav {
+  display: flex;
+  align-self: center;
+  width: 8px;
+  height: 13px;
+
+  cursor: pointer;
+}
 
 .nav-item {
   font-family: louis_george_caferegular;
@@ -115,13 +137,13 @@ nav ul {
     display: none;
   }
 
-  nav {
-    height: 8rem;
-  }
-
   .svg-menu,
   .menu-topnav {
     display: none;
+  }
+
+  nav{
+    padding: 4rem 0 0 0;
   }
 
   nav ul {

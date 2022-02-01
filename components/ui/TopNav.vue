@@ -3,7 +3,7 @@
     <div class="nav-home">
       <div class="nav-home-1">
         <svg-icon class="svg-chevron chevron-topnav" name="chevron" />
-        <a href="/">
+        <a href="/rvwijk_portfolio">
             <p>van-Wijk</p>
         </a>
       </div>

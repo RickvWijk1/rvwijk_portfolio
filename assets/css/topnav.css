@@ -1,8 +1,14 @@
 nav {
+  flex: 1;
+  z-index: 99;
   display: flex;
   align-self: center;
   justify-content: space-between;
+  position: fixed;
   width: 100%;
+  padding: 1em 2em;
+  height: 4em;
+  background-color: #000;
   /* max-width: 1536px; */
 }
 
@@ -39,6 +45,7 @@ nav {
   height: 13px;
   transform: rotate(180deg);
   cursor: pointer;
+  fill: #fff;
 }
 
 .svg-menu,
@@ -80,7 +87,7 @@ nav ul {
   display: flex;
   flex-direction: column;
   gap: 5rem;
-  padding: 2rem 2rem 0 2rem;
+  padding: 1.25em 2em 0 2em;
 }
 
 .nav-mobile-header {
@@ -132,6 +139,17 @@ nav ul {
   cursor: pointer;
 }
 
+@media (max-width: 300px) {
+  nav {
+    padding: 1em 1em;
+  }
+
+  .nav-mobile-cont {
+    padding: 1.25em 1em;
+  }
+
+}
+
 @media (min-width: 640px) {
   .nav-mobile.hamburger {
     display: none;
@@ -143,8 +161,13 @@ nav ul {
   }
 
   nav{
-    padding: 4rem 0 0 0;
+    position: relative;
+    padding: 2em 4em;
+  height: unset;
+  background-color: unset;
+  max-width: 1536px
   }
+  
 
   nav ul {
     display: flex;

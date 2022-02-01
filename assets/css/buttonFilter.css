@@ -1,0 +1,78 @@
+input[type="radio"] {
+    display: none;
+  }
+  
+  input[type="radio"]:focus {
+    outline: none;
+  }
+  
+  input[type='radio']:focus {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  
+  ::-moz-focus-inner{
+    border: 0;
+  }
+  
+  ol {
+    list-style: none;
+  }
+  
+  .filters{
+    padding: 0rem 0 0 0;
+  }
+  
+  @media (min-width: 640px) {
+    .filters{
+      padding: 2rem 0 0 0;
+    }
+    
+  }
+  
+  .filters {
+    text-align: center;
+  }
+  
+  
+  .filters * {
+    display: inline-block;
+    
+  }
+  
+  .filters label{
+    border: 2px solid #2738DE;
+  }
+  
+  .filters label{
+    font-size: 1.2rem;
+    padding: 0.5em 1.2em;
+    margin-bottom: 0.5em;
+    border-radius: 2em;
+    min-width: 50px;
+    line-height: normal;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .filters label:hover {
+    background-color: #2738DE;
+  }
+  
+  /* SEMESTER FILTERS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  [value="first"]:checked~.filters [for="first"],
+  [value="second"]:checked~.filters [for="second"],
+  [value="third"]:checked~.filters [for="third"],
+  [value="fourth"]:checked~.filters [for="fourth"]
+  {
+    background-color: #2738DE;
+  }
+  
+  [value="first"]:checked~.semester-cards .card-wrapper:not([data_category~="first"]),
+  [value="second"]:checked~.semester-cards .card-wrapper:not([data_category~="second"]),
+  [value="third"]:checked~.semester-cards .card-wrapper:not([data_category~="third"]),
+  [value="fourth"]:checked~.semester-cards .card-wrapper:not([data_category~="fourth"])
+  {
+    display: none;
+  }

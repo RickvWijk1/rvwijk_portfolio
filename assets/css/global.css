@@ -1,3 +1,6 @@
+a:focus,a:visited,a:active{
+  outline: none;
+}
 html,
 body,
 #__nuxt,
@@ -29,18 +32,24 @@ h3 {
 
 .layout-body {
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
   width: 100%;
   height: 100%;
+  gap: 2em;
 }
 
 .wrapper {
   display: flex;
   flex-direction: column;
+  justify-self: flex-end;
   align-self: center;
-  padding: 2em 2rem 0;
+  padding: 0em 2em 0;
   max-width: 1536px;
   width: 100%;
   height: 100%;
+  margin-top: 6em;
   gap: 2em;
 }
 
@@ -71,13 +80,22 @@ h3 {
   max-width: 100%;
 }
 
+@media (max-width: 300px) {
+  .wrapper {
+    padding: 0em 1em;
+  }
+}
+
 @media (min-width: 640px) {
-  html{
+  html {
     padding-right: calc(17px - (100vw - 100%));
   }
-    .wrapper {
-    padding: 0em 4rem;
+
+  .wrapper {
+    padding: 0em 4em;
+    margin-top: unset;
   }
+
   .page-title {
     line-height: unset;
   }
@@ -87,9 +105,7 @@ h3 {
   }
 }
 
-@media (min-width: 768px) {
-
-}
+@media (min-width: 768px) {}
 
 @media (min-width: 1024px) {}
 

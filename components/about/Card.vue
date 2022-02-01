@@ -1,6 +1,6 @@
 <template>
 
-    <div class="card-wrapper">
+    <div class="card-wrapper" v-bind:data_category="data_category">
       <div class="card-header-wrapper">
         <div class="card-number">
           <p>{{ number }}</p>
@@ -26,6 +26,10 @@
         required: true,
       },
       description: {
+        type: String,
+        required: true,
+      },
+      data_category: {
         type: String,
         required: true,
       },

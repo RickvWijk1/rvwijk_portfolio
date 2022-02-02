@@ -1,5 +1,9 @@
 <template>
   <section>
+    <div class="about-desc-wrapper">
+        <p>The study consists of 8 semesters.
+          Each semester takes half a year.</p>
+      </div>
     <input type="radio" id="first" name="semesters" value="first" checked>
     <input type="radio" id="second" name="semesters" value="second">
     <input type="radio" id="third" name="semesters" value="third">

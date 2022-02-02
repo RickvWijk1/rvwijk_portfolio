@@ -2,7 +2,7 @@
   <div class="dropdown-wrapper">
       <svg-icon class="svg-study" v-bind:name="name" />
       <p>{{ title }}</p>
-      <svg-icon class="svg-chevron chevron-dropdown" name="chevron" />
+      <svg-icon v-bind:v-on:click="activeToggle" class="svg-chevron chevron-dropdown" name="chevron" />
   </div>
 </template>
 
@@ -17,6 +17,10 @@ export default {
         type: String,
         required: true,
       },
+      click: {
+        type: String,
+        required: true,
+      },
       },
   }
 </script>
@@ -26,6 +30,8 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 1rem;
+    width: 100%;
     padding: 0 0 .5rem 0;
     border-bottom: 2px solid #4758fc;
 }

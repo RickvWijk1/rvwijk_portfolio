@@ -12,21 +12,13 @@
         dynamic user experiences.</p>
     </div>
     <UIBorderFullWidth />
-
- 
       <div class="about-desc-wrapper">
         <h3>My education</h3>
       </div>
       <AboutDropdown name="study" title="Bachelor ICT & Media Design"/>
-      <AboutDropdown name="school" title="Fontys University of Applied Sciences"/>
-      <div class="about-desc-wrapper">
-        <p>The study consists of 8 semesters.
-          Each semester takes half a year.</p>
-      </div>
       <AboutFilterSemesters />
-
-  
-
+      <AboutDropdown name="school" title="Fontys University of Applied Sciences"/>
+      <img src="~/assets/img/about/fontys_white_logo.png" width="228" height="137" alt="Logo of Fontys University of Applied Sciences">
     <section>
       <div class="video-wrapper"><iframe width="560" height="315" style="--aspect-ratio: 3 / 4;"
           src="https://www.youtube-nocookie.com/embed/A0sVMP4Cxes" title="YouTube video player" frameborder="0"
@@ -46,6 +38,9 @@
 </template>
 <script>
   export default {
+    data: () => ({
+    studyDropdownIsActive: false
+  }),
     // head: {
     //     title: 'My title',
     //     meta: [

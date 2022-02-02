@@ -19,24 +19,22 @@ input[type="radio"] {
     list-style: none;
   }
   
-  .filters{
-    padding: 0rem 0 0 0;
-  }
-  
-  @media (min-width: 640px) {
-    .filters{
-      padding: 2rem 0 0 0;
-    }
-    
-  }
-  
+
   .filters {
     text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 80%;
+    gap: .5rem;
   }
   
   
   .filters * {
     display: inline-block;
+    
+  }
+
+  .filters li {
     
   }
   
@@ -45,8 +43,8 @@ input[type="radio"] {
   }
   
   .filters label{
-    font-size: 1.2rem;
-    padding: 0.5em 1.2em;
+    font-size: 1rem;
+    padding: 0.5em 1.5em;
     margin-bottom: 0.5em;
     border-radius: 2em;
     min-width: 50px;
@@ -75,4 +73,11 @@ input[type="radio"] {
   [value="fourth"]:checked~.semester-cards .card-wrapper:not([data_category~="fourth"])
   {
     display: none;
+  }
+
+  @media (max-width: 300px) {
+    .filters {
+      grid-template-columns: repeat(2, 1fr);
+      max-width: 100%;
+    }
   }

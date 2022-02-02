@@ -13,7 +13,7 @@
         <p>}</p>
       </div>
     </div>
-    <svg-icon v-on:click="menuToggle()" class="svg-menu menu-topnav" name="menu" />
+    <svg-icon v-on:click="mobileNavIsActive = !mobileNavIsActive" class="svg-menu menu-topnav" name="menu" />
     <!-- <svg-icon  class="svg-menu menu-topnav" name="menu" /> -->
     <ul>
       <li>
@@ -26,10 +26,10 @@
         <NuxtLink to="/interests">Interests</NuxtLink>
       </li>
     </ul>
-    <div class="nav-mobile">
+    <div v-show="mobileNavIsActive" class="nav-mobile">
       <div class="nav-mobile-cont">
         <div class="nav-mobile-header">
-          <svg-icon v-on:click="menuToggle()" class="svg-close menu-topnav" name="close" />
+          <svg-icon v-on:click="mobileNavIsActive = !mobileNavIsActive" class="svg-close menu-topnav" name="close" />
         </div>
 
         <ul class="nav-mobile-items">
@@ -49,18 +49,21 @@ export default {
     setup() {
         
     },
-    methods: {
-      menuToggle() {
-        let getHamburgerMenu = document.querySelectorAll('.menu-topnav');
-        getHamburgerMenu.forEach((toggleMenu) => {
-          toggleMenu.onclick = () => {
-       let getMenu = document.querySelector(".nav-mobile");
-            getMenu.classList.toggle("hamburger");
-          };
-        });
-      },
+    data: () => ({
+    mobileNavIsActive: false
+  }),
+    // methods: {
+    //   menuToggle() {
+    //     let getHamburgerMenu = document.querySelectorAll('.menu-topnav');
+    //     getHamburgerMenu.forEach((toggleMenu) => {
+    //       toggleMenu.onclick = () => {
+    //    let getMenu = document.querySelector(".nav-mobile");
+    //         getMenu.classList.toggle("hamburger");
+    //       };
+    //     });
+    //   },
       
-    }
+    // }
 }
 </script>
 <style scoped>

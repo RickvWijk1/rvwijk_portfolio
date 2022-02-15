@@ -19,7 +19,6 @@ section {
   flex-direction: column;
   align-items: center;
   gap: 2rem;
-
 }
 
 img {
@@ -94,6 +93,7 @@ h3 {
 
   section{
     height: 100%;
+    align-items: flex-start;
   }
 
   .wrapper {

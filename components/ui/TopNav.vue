@@ -49,21 +49,14 @@ export default {
     setup() {
         
     },
+    watch: {
+      '$route' (){
+        this.mobileNavIsActive = false
+      }
+    },
     data: () => ({
     mobileNavIsActive: false
   }),
-    // methods: {
-    //   menuToggle() {
-    //     let getHamburgerMenu = document.querySelectorAll('.menu-topnav');
-    //     getHamburgerMenu.forEach((toggleMenu) => {
-    //       toggleMenu.onclick = () => {
-    //    let getMenu = document.querySelector(".nav-mobile");
-    //         getMenu.classList.toggle("hamburger");
-    //       };
-    //     });
-    //   },
-      
-    // }
 }
 </script>
 <style scoped>

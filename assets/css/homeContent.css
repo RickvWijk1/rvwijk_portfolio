@@ -1,3 +1,9 @@
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  height: 100%;
+}
 .home-icon-section {
   display: flex;
   flex-direction: column;

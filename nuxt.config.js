@@ -32,7 +32,14 @@ export default {
       rel: 'icon',
       type: 'image/x-icon',
       href: '/rvwijk_portfolio/favicon.ico'
-    }]
+    }],
+    script: [
+      {
+        type: 'text/javascript',
+        src: 'js/modal.js',
+        body: true
+      }
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -40,6 +47,12 @@ export default {
     '~/assets/css/global.css',
     '~/assets/css/font.css',
   ],
+
+  styleResources: {
+    scss: [
+      '~assets/scss/global.scss'
+    ]
+  },
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
@@ -67,6 +80,7 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
+    '@nuxtjs/style-resources',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/pwa',
     '@nuxtjs/vuetify',

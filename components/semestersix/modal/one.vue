@@ -1,12 +1,16 @@
 <template>
-  <div>
-    <SemestersixHovercard />
-  </div>
+  
+    <SemestersixModal />
+
 </template>
 
 <script>
 export default {
-
+    data() {
+      return {
+        
+      }
+    },
 }
 </script>
 

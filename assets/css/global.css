@@ -1,3 +1,15 @@
+.v-application {
+  .title {
+      font-size: unset !important;
+      font-weight: unset !important;
+      letter-spacing: unset !important;
+  }
+
+  a {
+      color: unset !important;
+  }
+}
+
 a:focus,a:visited,a:active{
   outline: none;
 }

@@ -18,9 +18,13 @@
   "devDependencies": {
     "@nuxt/image": "^0.6.0",
     "@nuxtjs/pwa": "^3.3.5",
+    "@nuxtjs/style-resources": "^1.2.1",
     "@nuxtjs/tailwindcss": "^4.2.0",
     "@nuxtjs/vuetify": "^1.12.3",
+    "fibers": "^5.0.1",
     "gh-pages": "^3.2.3",
-    "postcss": "^8.3.5"
+    "node-sass": "^6.0.1",
+    "postcss": "^8.3.5",
+    "sass-loader": "^10.2.1"
   }
 }

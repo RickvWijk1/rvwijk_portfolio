@@ -1,8 +1,11 @@
 <template>
   <div class="row">
     <!-- Contains all semester 6 modals -->
-    <SemestersixHovercard v-for="hoverCard in hoverCards" :key="hoverCard.id"
+    <button @click="openModal">hi</button>
+    <SemestersixHovercard  :data_modal="hoverCard.data_modal" v-for="hoverCard in hoverCards" :key="hoverCard.id"
       :hoverCard="hoverCard" />
+      <SemestersixModal v-model="modalOpen"/>
+      
   </div>
 </template>
 
@@ -10,23 +13,29 @@
   export default {
     data() {
       return {
+        modalOpen: false,
         hoverCards: [{
-            id: 1,
+            data_modal: 'test',
             title: 'Test',
             src:
-              "http://1.bp.blogspot.com/-8PfnHfgrH4I/TylX2v8pTMI/AAAAAAAAJJ4/TICBoSEI57o/s1600/search_by_image_image.png"
+              "https://www.cmete.com/skins/theme_cmete_2016/images/placeholders/image-placeholder.jpg"
             
           },
           {
-            id: 2,
+            data_modal: 'test2',
             title: 'Test2',
             src:
-              "/assets/img/ik/me_black_white_portrait.webp"
+              "/icon.png"
             
           },
-        ]
+        ],
       }
-    }
+    },
+        methods: {
+        openModal() {
+            this.modalOpen = !this.modalOpen;
+        }    
+    },
   }
 
 </script>

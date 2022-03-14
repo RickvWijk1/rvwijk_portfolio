@@ -9,8 +9,7 @@
         </div>
         <p>I'm an ICT & Media Design student in
           Eindhoven, The Netherlands.
-          I have serious passion for designing UI's, and creating intuitive,
-          dynamic user experiences.</p>
+          I have serious passion for designing and developing UI's. My goal is to become a well-experienced front-end developer.</p>
       </div>
       <UIBorderFullWidth />
         <div class="about-desc-wrapper">

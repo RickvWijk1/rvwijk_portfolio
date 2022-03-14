@@ -130,7 +130,6 @@ section{
 
   .svg-location {
     display: flex;
-
     width: 30px;
     height: 30px;
     cursor: pointer;
@@ -156,6 +155,7 @@ section{
     align-items: center;
     height: 100%;
     font-size: 1.4rem;
+    font-weight: 500;
   }
 
 

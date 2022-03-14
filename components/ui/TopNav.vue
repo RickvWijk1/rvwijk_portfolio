@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <div class="nav-home">
+    <!-- <div class="nav-home">
       <div class="nav-home-1">
         <svg-icon class="svg-chevron chevron-topnav" name="chevron" />
         <a href="/rvwijk_portfolio">
@@ -12,7 +12,10 @@
         <p>...</p>
         <p>}</p>
       </div>
-    </div>
+    </div> -->
+    <NuxtLink to="/" class="nav-logo">
+      <p>R/</p>
+    </NuxtLink>
     <svg-icon v-on:click="mobileNavIsActive = !mobileNavIsActive" class="svg-menu menu-topnav" name="menu" />
     <!-- <svg-icon  class="svg-menu menu-topnav" name="menu" /> -->
     <ul>

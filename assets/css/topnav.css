@@ -9,8 +9,6 @@ nav {
   padding: 1em 2em;
   height: 4em;
   background-color: #242424;
-  /* border-bottom: 5px solid red; */
-  box-shadow: 0 8px 6px -6px rgba(0, 0, 0, .3);
   /* max-width: 1536px; */
 }
 
@@ -113,7 +111,7 @@ nav ul {
 
 .nav-mobile-header {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
 
 .nav-mobile-items {
@@ -166,7 +164,7 @@ nav ul {
   }
 
   .nav-mobile-cont {
-    padding: 1.25em 1em;
+    padding: 1em 1em;
   }
 
 }

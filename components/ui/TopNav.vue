@@ -1,5 +1,5 @@
 <template>
-  <nav>
+  <nav :class="{ 'onScroll': !view.topOfPage}">
     <!-- <div class="nav-home">
       <div class="nav-home-1">
         <svg-icon class="svg-chevron chevron-topnav" name="chevron" />
@@ -31,7 +31,11 @@
     </ul>
     <div v-show="mobileNavIsActive" class="nav-mobile">
       <div class="nav-mobile-cont">
+        
         <div class="nav-mobile-header">
+          <NuxtLink to="/" class="nav-logo">
+      <p>R/</p>
+    </NuxtLink>
           <svg-icon v-on:click="mobileNavIsActive = !mobileNavIsActive" class="svg-close menu-topnav" name="close" />
         </div>
 
@@ -58,12 +62,31 @@ export default {
         this.mobileNavIsActive = false
       }
     },
-    data: () => ({
-    mobileNavIsActive: false
-  }),
+
+  data () {
+    return {
+      mobileNavIsActive: false,
+      view: {
+        topOfPage: true
+      }
+    }
+  },
+  beforeMount() {
+    window.addEventListener('scroll', this.handleScroll)
+  },
+  methods: {
+    handleScroll(){
+      if(window.pageYOffset>0){
+        if(this.view.topOfPage) this.view.topOfPage = false
+      } else {
+        if(!this.view.topOfPage) this.view.topOfPage = true
+      }
+    }
+  },
 }
 </script>
 <style scoped>
   @import '~/assets/css/topnav.css';
+  @import '~/assets/scss/nav.scss';
 
 </style>

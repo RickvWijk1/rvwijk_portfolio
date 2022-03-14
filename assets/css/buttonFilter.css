@@ -21,11 +21,11 @@ input[type="radio"] {
   
 
   .filters {
-    text-align: center;
-    display: grid;
+    display: block;
+    width: 100%;
+    text-align: left;
     grid-template-columns: repeat(2, 1fr);
-    max-width: 80%;
-    gap: .5rem;
+    gap: .5em;
   }
   
   
@@ -34,8 +34,11 @@ input[type="radio"] {
     
   }
 
-  .filters li {
-    
+  .filters li:nth-child(odd) {
+    justify-self: flex-end;
+  }
+  .filters li:nth-child(even) {
+    justify-self: flex-start;
   }
   
   .filters label{
@@ -45,9 +48,9 @@ input[type="radio"] {
   .filters label{
     font-size: 1rem;
     padding: 0.5em 1.5em;
-    margin-bottom: 0.5em;
+    margin-bottom: .5em;
     border-radius: 2em;
-    min-width: 50px;
+    max-width: 100%;
     line-height: normal;
     cursor: pointer;
     transition: all 0.3s;
@@ -71,6 +74,30 @@ input[type="radio"] {
   [value="second"]:checked~.semester-cards .card-wrapper:not([data_category~="second"]),
   [value="third"]:checked~.semester-cards .card-wrapper:not([data_category~="third"]),
   [value="fourth"]:checked~.semester-cards .card-wrapper:not([data_category~="fourth"])
+  {
+    display: none;
+  }
+
+  /* SEMESTER 6 FILTERS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  [value="grp_all"]:checked~.filters [for="grp_all"],
+  [value="grp_analyse"]:checked~.filters [for="grp_analyse"],
+  [value="grp_advise"]:checked~.filters [for="grp_advise"],
+  [value="grp_design"]:checked~.filters [for="grp_design"],
+  [value="grp_realise"]:checked~.filters [for="grp_realise"],
+  [value="grp_manage"]:checked~.filters [for="grp_manage"]
+  {
+    background-color: #2738DE;
+  }
+
+  [value="grp_all"]:checked~.row-grid [data-category] {
+    display: grid;
+  }
+  [value="grp_analyse"]:checked~.row-grid .modal-link .overview-grid:not([data_category~="grp_analyse"]),
+  [value="grp_advise"]:checked~.row-grid .modal-link .overview-grid:not([data_category~="grp_advise"]),
+  [value="grp_design"]:checked~.row-grid .modal-link .overview-grid:not([data_category~="grp_design"]),
+  [value="grp_realise"]:checked~.row-grid .modal-link .overview-grid:not([data_category~="grp_realise"]),
+  [value="grp_manage"]:checked~.row-grid .modal-link .overview-grid:not([data_category~="grp_manage"])
   {
     display: none;
   }

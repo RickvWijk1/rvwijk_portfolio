@@ -1,25 +1,14 @@
 <template lang="html">
 
-<section>
+<div class="wrapper">
 
-
-      <!-- <UIModal /> -->
-      <SemestersixAllModals />
-
-
-</section>
+</div>
 </template>
 <script>
   export default {}
 
 </script>
-<style lang="css" scoped>
-.row {
-  /* display: flex;
-  flex-direction: row;
-  position: relative;
-  width: 100%;
-  float: left !important; */
+<style>
 
-}
+
 </style>

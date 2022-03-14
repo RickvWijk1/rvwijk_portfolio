@@ -32,4 +32,5 @@ export default {
 .dropdown-study svg-icon{
   transform: rotate(180deg);
 }
+
 </style>

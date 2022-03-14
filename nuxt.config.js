@@ -33,13 +33,13 @@ export default {
       type: 'image/x-icon',
       href: '/rvwijk_portfolio/favicon.ico'
     }],
-    script: [
-      {
-        type: 'text/javascript',
-        src: 'js/modal.js',
-        body: true
-      }
-    ],
+    // script: [
+    //   {
+    //     type: 'text/javascript',
+    //     src: 'js/modal.js',
+    //     body: true
+    //   }
+    // ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -50,9 +50,15 @@ export default {
 
   styleResources: {
     scss: [
-      '~assets/scss/global.scss'
+      '~assets/scss/global.scss',
+      '~assets/scss/modal.scss'
     ]
   },
+
+  bootstrapVue: {
+    bootstrapCSS: false,
+    bootstrapVueCSS: false
+   },
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
@@ -89,6 +95,7 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    // 'bootstrap-vue/nuxt',
     '@nuxtjs/svg-sprite',
     '@nuxt/image',
     '@nuxtjs/pwa',

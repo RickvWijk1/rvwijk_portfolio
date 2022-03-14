@@ -37,6 +37,7 @@
             <li><NuxtLink class="nav-item" to="/about">About</NuxtLink></li>
             <li><NuxtLink class="nav-item" to="/projects">Projects</NuxtLink></li>
             <li><NuxtLink class="nav-item" to="/interests">Interests</NuxtLink></li>
+            <li><NuxtLink class="nav-item" to="/semesters/semesterSix">Semester 6</NuxtLink></li>
           </div>
         </ul>
       </div>

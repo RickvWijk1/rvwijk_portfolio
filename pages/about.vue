@@ -1,37 +1,33 @@
-<template lang="html">
-  <section>
-    <div class="about-desc-wrapper">
-      <h3>Who's this guy?</h3>
-      <div class="about-desc-img">
-        <div class="about-desc-img circle" role="img" aria-label="Outdoor image of Rick van Wijk"
-          title="Outdoor image of Rick van Wijk"></div>
-      </div>
-      <p>I'm an ICT & Media Design student in
-        Eindhoven, The Netherlands.
-        I have serious passion for designing UI's, and creating intuitive,
-        dynamic user experiences.</p>
-    </div>
-    <UIBorderFullWidth />
-      <div class="about-desc-wrapper">
-        <h3>My education</h3>
-      </div>
-      <AboutContDropdown />
-    <section>
-      <div class="video-wrapper"><iframe width="560" height="315" style="--aspect-ratio: 3 / 4;"
-          src="https://www.youtube-nocookie.com/embed/A0sVMP4Cxes" title="YouTube video player" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe></div>
-    </section>
-    <UIBorderFullWidth />
+<template lang="html"><div class="wrapper">
+  
     <section>
       <div class="about-desc-wrapper">
-        <h3>My approach</h3>
+        <h3>Who's this guy?</h3>
+        <div class="about-desc-img">
+          <div class="about-desc-img circle" role="img" aria-label="Outdoor image of Rick van Wijk"
+            title="Outdoor image of Rick van Wijk"></div>
+        </div>
+        <p>I'm an ICT & Media Design student in
+          Eindhoven, The Netherlands.
+          I have serious passion for designing UI's, and creating intuitive,
+          dynamic user experiences.</p>
       </div>
-      <AboutApproachContainer />
+      <UIBorderFullWidth />
+        <div class="about-desc-wrapper">
+          <h3>My education</h3>
+        </div>
+        <AboutContDropdown />
+      <UIBorderFullWidth />
+      <section>
+        <div class="about-desc-wrapper">
+          <h3>My approach</h3>
+        </div>
+        <AboutApproachContainer />
+      </section>
+      <UIBorderFullWidth />
     </section>
-    <UIBorderFullWidth />
-  </section>
-
+  
+</div>
 </template>
 <script>
   export default {

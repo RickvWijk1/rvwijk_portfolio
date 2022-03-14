@@ -42,6 +42,12 @@
           <AboutCard :number="8" title="iOS Developing" data_category="fourth"
             description="Learned the iOS dev fundamentals and human centered design. From this semester onwards I started designing and developing with a mobile-first approach" />
     </section>
+    <section>
+        <div class="video-wrapper"><iframe width="560" height="315" style="--aspect-ratio: 3 / 4;"
+            src="https://www.youtube-nocookie.com/embed/A0sVMP4Cxes" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe></div>
+      </section>
   </section>
 </template>
 
@@ -54,6 +60,20 @@
 
 </script>
 
-<style>
+<style scoped>
   @import '~/assets/css/buttonFilter';
+
+.video-wrapper{
+  position: relative;
+  height: 0;
+  padding-top: calc(var(--aspect-ratio, .5625) * 100%); 
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 </style>

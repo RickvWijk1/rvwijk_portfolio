@@ -1,13 +1,14 @@
 <template lang="html">
 
-  <section>
+  <div class="wrapper">
     <p>Projects page</p>
-  </section>
+
+  </div>
 </template>
 <script>
   export default {}
 
 </script>
-<style lang="css" scoped>
+<style lang="css">
 
 </style>

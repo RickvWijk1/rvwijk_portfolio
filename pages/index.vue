@@ -1,6 +1,6 @@
 <template>
 
-  <section>
+  <div class="wrapper">
     <div class="title-wrapper">
       <div class="page-title">
         <h1>Rick</h1>
@@ -32,7 +32,7 @@
       <img src="~/assets/img/ik/me_black_white_portrait.webp" width="769" height="687" alt="Portrait image of Rick van Wijk">
       <!-- <nuxt-picture class="picture-home" src="/BlackWhiteInHuis.png" /> -->
     </div>
-  </section>
+  </div>
 
 </template>
 
@@ -40,5 +40,6 @@
 <style scoped>
   @import '~/assets/css/global.css';
   @import '~/assets/css/homeContent.css';
+
 
 </style>

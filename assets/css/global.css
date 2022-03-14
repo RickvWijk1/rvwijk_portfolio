@@ -1,14 +1,3 @@
-.v-application {
-  .title {
-      font-size: unset !important;
-      font-weight: unset !important;
-      letter-spacing: unset !important;
-  }
-
-  a {
-      color: unset !important;
-  }
-}
 
 a:focus,a:visited,a:active{
   outline: none;
@@ -17,19 +6,30 @@ html,
 body,
 #__nuxt,
 #__layout {
+  position: relative;
   height: 100%;
 }
 
 body {
+  position: relative;
   background-color: #242424;
   color: #fff;
   font-family: louis_george_caferegular, sans-serif;
+}
+
+p, ul, ol, li, i, h3{
+  font-family: 'Roboto', sans-serif;
+}
+
+h3{
+  letter-spacing: 2px;
 }
 
 section {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  width: 100%;
 }
 
 img {
@@ -55,10 +55,10 @@ h3 {
   flex-direction: column;
   justify-self: flex-end;
   align-self: center;
-  padding: 0em 2em 0;
   max-width: 1536px;
   width: 100%;
   height: 100%;
+  padding: 0em 2em 0;
   margin-top: 6em;
   gap: 2em;
 }

@@ -39,11 +39,7 @@
 
 
 <style>
-  .section1 {
-    display: flex;
-    flex-direction: row;
-    gap: 1em;
-  }
+
 
   .card-wrapper {
     display: flex;

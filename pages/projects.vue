@@ -1,6 +1,10 @@
 <template lang="html">
 
 <div class="wrapper">
+  <div class="page-title">
+        <h1>Projects</h1>
+      </div>
+    <ProjectsProducts />
 
 </div>
 </template>

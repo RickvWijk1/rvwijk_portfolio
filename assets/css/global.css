@@ -21,10 +21,6 @@ p, ul, ol, li, i, h3{
   font-family: 'Roboto', sans-serif;
 }
 
-h3{
-  letter-spacing: 2px;
-}
-
 section {
   display: flex;
   flex-direction: column;

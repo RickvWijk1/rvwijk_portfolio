@@ -2,7 +2,9 @@
   
     <section>
       <div class="about-desc-wrapper">
-        <h3>Who's this guy?</h3>
+        <div class="page-title">
+        <h1>About</h1>
+      </div>
         <div class="about-desc-img">
           <div class="about-desc-img circle" role="img" aria-label="Outdoor image of Rick van Wijk"
             title="Outdoor image of Rick van Wijk"></div>

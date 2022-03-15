@@ -1,7 +1,10 @@
 <template lang="html">
 
   <div class="wrapper">
-    <p>Projects page</p>
+    <div class="page-title">
+        <h1>Interests</h1>
+      </div>
+    <InterestsProducts />
 
   </div>
 </template>

@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="about-desc-wrapper">
-        <p>The study consists of 8 semesters.
+        <p>The bachelor consists of 8 semesters.
           Each semester takes half a year.</p>
       </div>
     <input type="radio" id="first" name="semesters" value="first" checked>

@@ -3,11 +3,12 @@ nav {
   z-index: 99;
   display: flex;
   align-self: center;
+  align-items: center;
   justify-content: space-between;
   position: fixed;
   width: 100%;
   padding: 1em 2em;
-  height: 4em;
+  /* height: 4em; */
   background-color: #242424;
   /* max-width: 1536px; */
 }
@@ -15,20 +16,32 @@ nav {
 .nav-logo{
   display: flex;
   color: #4758fb;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   font-weight: 500;
   letter-spacing: 2px;
 }
+
+.nav-logo p:hover {
+  transform: rotate(360deg);
+  transition: ease-in-out .4s;
+}
+
 .nav-logo::before{
   content: '<';
+}
+/* .nav-logo:hover::before{
+  transform: rotate(-45deg);
+  transition: ease-in-out .2s;
+} */
 
-}
-.nav-logo p{
- 
-}
 .nav-logo::after{
   content: '>';
 }
+/* .nav-logo:hover::after{
+  transform-origin: center;
+  transform: rotate(45deg);
+  transition: ease-in-out .2s;
+} */
 
 .nav-home {
   display: flex;
@@ -112,6 +125,7 @@ nav ul {
 .nav-mobile-header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .nav-mobile-items {
@@ -170,6 +184,13 @@ nav ul {
 }
 
 @media (min-width: 640px) {
+
+  .nav-logo{
+    font-size: 2.5rem;
+  }
+
+
+
   .nav-mobile.hamburger {
     display: none;
   }

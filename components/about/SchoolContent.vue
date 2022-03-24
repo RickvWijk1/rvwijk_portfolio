@@ -20,7 +20,7 @@
     <client-only>
       <LightGallery :images="images" :index="index" :disable-scroll="false" @close="index = null" />
     </client-only>
-    <ul>
+    <ul class="gallery-cont">
       <li v-for="(img_src, img_thumbnail_index) in [
           'img/about/strijpTQ1.jpg',
           'img/about/strijpTQ2.jpg',
@@ -132,7 +132,6 @@ section{
     display: flex;
     width: 30px;
     height: 30px;
-    cursor: pointer;
     fill: #fff;
   }
 
@@ -169,11 +168,31 @@ section{
 
   @media (max-width: 300px) {}
 
-  @media (min-width: 640px) {}
+  @media (min-width: 640px) {
+    /* .gallery-cont{
+      max-height: 2em;
+    }
+    .gallery-cont li{
+      max-height: 2em;
+    } */
+
+    .img-overlay-cont img{
+      object-fit: cover;
+      max-height: 300px;
+    }
+
+    .about-filter-school{
+      align-items: center;
+    }
+  }
 
   @media (min-width: 768px) {}
 
-  @media (min-width: 1024px) {}
+  @media (min-width: 1024px) {
+    .fontys-logo{
+      width: 200px;
+    }
+  }
 
   @media (min-width: 1280px) {}
 

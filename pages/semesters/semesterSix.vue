@@ -7,8 +7,12 @@
         </div>
         <div class="src-buttons">
           <ul>
-            <li class="btnModalClose bg-color-abstract">Portfolio Abstract</li>
-            <li class="btnModalClose bg-color-goals">Learning Goals</li>
+            <NuxtLink to="/modals/semesterSix/portfolio-abstract">
+              <li class="btnModalClose bg-color-abstract">Portfolio Abstract</li>
+            </NuxtLink>
+            <NuxtLink to="/modals/semesterSix/learning-outcomes">
+              <li class="btnModalClose bg-color-goals">Learning Outcomes</li>
+            </NuxtLink>
           </ul>
         </div>
       </div>

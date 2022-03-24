@@ -1,17 +1,25 @@
 <template>
-  <section>
-    <div class="dropdown-wrapper">
-      <svg-icon class="svg-study" name="study" />
-      <p>Bachelor ICT & Media Design</p>
-      <svg-icon class="svg-chevron chevron-dropdown chevron-study" name="chevron" />
+  <section class="main-wrapper">
+    <h3 class="subtitle">My education</h3>
+    <div class="section-dropdown">
+      <div class="study-dropdown-wrapper">
+        <div class="dropdown-wrapper">
+          <svg-icon class="svg-study" name="study" />
+          <p>Bachelor ICT & Media Design</p>
+          <svg-icon class="svg-chevron chevron-dropdown chevron-study" name="chevron" />
+        </div>
+        <AboutFilterSemesters class="about-filter-semesters" />
+      </div>
+      <UIBorderFullHeight class="dropdown-border" />
+      <div class="school-dropdown-wrapper">
+        <div class="dropdown-wrapper">
+          <svg-icon class="svg-study" name="school" />
+          <p>Fontys University of Applied Sciences</p>
+          <svg-icon class="svg-chevron chevron-dropdown chevron-school" name="chevron" />
+        </div>
+        <AboutSchoolContent class="about-filter-school" />
+      </div>
     </div>
-    <AboutFilterSemesters class="about-filter-semesters" />
-    <div class="dropdown-wrapper">
-      <svg-icon class="svg-study" name="school" />
-      <p>Fontys University of Applied Sciences</p>
-      <svg-icon class="svg-chevron chevron-dropdown chevron-school" name="chevron" />
-    </div>
-    <AboutSchoolContent class="about-filter-school" />
   </section>
 </template>
 
@@ -31,17 +39,21 @@
       let rotateChevronSchool = document.querySelectorAll('.chevron-school');
       let schoolContent = document.querySelector('.about-filter-school');
 
+      let borderFullHeight = document.querySelector('.dropdown-border');
+
 
       rotateChevronStudy.forEach(chevron => {
         chevron.addEventListener('click', () => {
           chevron.classList.toggle('study-toggle');
           studyContent.classList.toggle('semesters-toggle');
+          borderFullHeight.classList.toggle('border-toggle');
         });
       });
       rotateChevronSchool.forEach(chevron => {
         chevron.addEventListener('click', () => {
           chevron.classList.toggle('school-toggle');
           schoolContent.classList.toggle('school-content-toggle');
+          borderFullHeight.classList.toggle('border-toggle');
         });
       });
 
@@ -51,7 +63,24 @@
 
 </script>
 
-<style>
+<style lang="css" scoped>
+  @import '~/assets/css/aboutContent.css';
+
+  .main-wrapper {
+    flex: 1;
+    gap: 2rem;
+  }
+
+  .section-dropdown {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .dropdown-border {
+    display: none;
+  }
+
   .dropdown-wrapper {
     display: flex;
     justify-content: space-between;
@@ -91,24 +120,84 @@
 
 
 
-  .about-filter-semesters {
-    display: none;
-  }
-
-  .about-filter-semesters.semesters-toggle {
-    display: flex;
-  }
-
+  .about-filter-semesters,
   .about-filter-school {
     display: none;
   }
 
+  .about-filter-semesters.semesters-toggle,
   .about-filter-school.school-content-toggle {
     display: flex;
   }
 
-  /* .dropdown-study svg-icon{
-  transform: rotate(180deg);
-} */
+
+
+
+
+  @media (min-width: 640px) {}
+
+  .study-dropdown-wrapper,
+  .school-dropdown-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+  }
+
+  @media (min-width: 768px) {}
+
+  @media (min-width: 1024px) {
+
+    .section-dropdown {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .dropdown-border {
+      display: flex;
+    }
+
+    .dropdown-border.border-toggle {
+      display: flex;
+    }
+
+    .study-dropdown-wrapper {
+      flex: 1;
+      gap: 2em;
+    }
+
+    .school-dropdown-wrapper {
+      flex: 1;
+      align-items: flex-end;
+      gap: 2rem;
+    }
+
+    .dropdown-wrapper {}
+
+    .about-filter-semesters,
+    .about-filter-school {
+      display: flex;
+      padding: 0em 1em;
+    }
+
+    .about-filter-semesters.semesters-toggle,
+    .about-filter-school.school-content-toggle {
+      display: none;
+    }
+
+
+
+    .svg-chevron.chevron-dropdown {
+      transform: rotate(270deg);
+    }
+
+    .chevron-study.study-toggle,
+    .chevron-school.school-toggle {
+      transform: rotate(180deg);
+    }
+  }
+
+  @media (min-width: 1280px) {}
+
+  @media (min-width: 1536px) {}
 
 </style>

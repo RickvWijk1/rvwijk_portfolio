@@ -1,40 +1,44 @@
-<template lang="html"><div class="wrapper">
-  
-    <section>
+<template lang="html">
+  <div class="wrapper">
+
+    <section class="main-wrapper">
       <div class="about-desc-wrapper">
-        <div class="page-title">
+      <div class="page-title">
         <h1>About</h1>
       </div>
         <div class="about-desc-img">
           <div class="about-desc-img circle" role="img" aria-label="Outdoor image of Rick van Wijk"
             title="Outdoor image of Rick van Wijk"></div>
         </div>
-        <p>I'm an ICT & Media Design student in
-          Eindhoven, The Netherlands.
-          I have serious passion for designing and developing UI's. My goal is to become a well-experienced front-end developer.</p>
+        <div class="about-desc-text">
+          <i>"I'm an ICT & Media Design student located in
+            Eindhoven, The Netherlands.
+            I have serious passion for designing and developing UI's.</i><i>My goal is to become a well-experienced front-end
+            developer; someone who can flawlessly bring design sketches to life."</i>
+        </div>
       </div>
-      <UIBorderFullWidth />
-        <div class="about-desc-wrapper">
-          <h3>My education</h3>
-        </div>
-        <AboutContDropdown />
-      <UIBorderFullWidth />
-      <section>
-        <div class="about-desc-wrapper">
-          <h3>My approach</h3>
-        </div>
+      <UIBorderFullWidth class="border-full-width"/>
+      
+        
+     
+      <AboutContDropdown />
+      <UIBorderFullWidth class="border-full-width"/>
+      
+        
+      
+        
         <AboutApproachContainer />
-      </section>
-      <UIBorderFullWidth />
+     
+      <UIBorderFullWidth class="border-full-width"/>
     </section>
-  
-</div>
+
+  </div>
 </template>
 <script>
   export default {
     data: () => ({
-   
-  }),
+
+    }),
     // head: {
     //     title: 'My title',
     //     meta: [
@@ -71,4 +75,28 @@
 <style lang="css" scoped>
   @import '~/assets/css/aboutContent.css';
 
+  @media (max-width: 300px) {
+
+}
+
+@media (min-width: 640px) {
+  
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+  section{
+    gap: 8em;
+  }
+}
+
+@media (min-width: 1280px) {}
+
+@media (min-width: 1536px) {}
+section{
+
+}
 </style>

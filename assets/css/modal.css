@@ -36,19 +36,25 @@ a.close-modal {
   background-color: var(--modal-color);
   padding: 1em 1.5em;
   gap: 2em;
+  width: 100%;
   color: #fff;
+  justify-content: center;
+  align-items: center;
 }
 
 .modal-header h1 {
+  justify-content: center;
   word-wrap: break-word;
   font-size: 2rem;
   line-height: 1.2em;
+  max-width: 100%;
+  display:inline-block
 }
 
 .modal-close {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  align-self: flex-end;
   text-align: right;
-  left: 95%;
   font-weight: 20;
   font-size: 4.5rem;
   color: #fff;
@@ -235,9 +241,7 @@ a.close-modal {
 }
 
 @media (min-width: 640px) {
-  section{
-    align-items: unset;
-  }
+
   .modal-content {
     margin: 7% auto;
     width: 55%;

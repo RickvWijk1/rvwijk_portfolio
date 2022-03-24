@@ -1,9 +1,15 @@
+
 section {
   display: flex;
   flex-direction: column;
   gap: 2rem;
   height: 100%;
 }
+
+.wrapper{
+  padding: 0em 4em;
+}
+
 .home-icon-section {
   display: flex;
   flex-direction: column;
@@ -86,7 +92,17 @@ section {
   }
 }
 
-@media (min-width: 640px) {}
+@media (min-width: 640px) {
+  .home-photo-wrapper {
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+  
+  .home-photo-wrapper img {
+    max-width: 100%;
+    height: auto;
+  }
+}
 
 @media (min-width: 768px) {}
 

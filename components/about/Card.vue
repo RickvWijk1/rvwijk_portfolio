@@ -38,8 +38,7 @@
 </script>
 
 
-<style>
-
+<style lang="css" scoped>
 
   .card-wrapper {
     display: flex;
@@ -69,5 +68,22 @@
   .card-number p {
     color: #000;
   }
+
+  
+  @media (min-width: 640px) {
+    .card-wrapper{
+      max-width: 400px;
+    }
+  }
+
+  @media (min-width: 768px) {}
+
+  @media (min-width: 1024px) {
+
+  }
+
+  @media (min-width: 1280px) {}
+
+  @media (min-width: 1536px) {}
 
 </style>

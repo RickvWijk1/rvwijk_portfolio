@@ -14,7 +14,8 @@
       </div>
     </div> -->
     <NuxtLink to="/" class="nav-logo">
-      <p>R/</p>
+      <p>R</p>
+      <p>/</p>
     </NuxtLink>
     <svg-icon v-on:click="mobileNavIsActive = !mobileNavIsActive" class="svg-menu menu-topnav" name="menu" />
     <!-- <svg-icon  class="svg-menu menu-topnav" name="menu" /> -->

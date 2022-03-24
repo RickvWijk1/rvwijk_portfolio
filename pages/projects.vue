@@ -12,7 +12,7 @@
   export default {}
 
 </script>
-<style>
-
+<style lang="css" scoped>
+  @import '~/assets/css/productCards.css';
 
 </style>

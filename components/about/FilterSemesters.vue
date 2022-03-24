@@ -1,9 +1,9 @@
 <template>
   <section>
     <div class="about-desc-wrapper">
-        <p>The bachelor consists of 8 semesters.
-          Each semester takes half a year.</p>
-      </div>
+      <p>The bachelor consists of 8 semesters.
+        Each semester takes half a year.</p>
+    </div>
     <input type="radio" id="first" name="semesters" value="first" checked>
     <input type="radio" id="second" name="semesters" value="second">
     <input type="radio" id="third" name="semesters" value="third">
@@ -26,54 +26,82 @@
 
     <section class="semester-cards">
       <AboutCard :number="1" title="Introduction" data_category="first"
-            description="Learned about the different kinds of fields in ICT. My first time programming. I chose to continue with ICT & Media Design." />
-          <AboutCard :number="2" title="Branding" data_category="first"
-            description="Learned to build a brand for an upcoming artist from the Tilburg Rock Academy. Designed & developed media products." />
-          <AboutCard :number="3" title="iOS Developing" data_category="second"
-            description="Learned the iOS dev fundamentals and human centered design. From this semester onwards I started designing and developing with a mobile-first approach" />
-          <AboutCard :number="4" title="iOS Developing" data_category="second"
-            description="Learned the iOS dev fundamentals and human centered design. From this semester onwards I started designing and developing with a mobile-first approach" />
-          <AboutCard :number="5" title="iOS Developing" data_category="third"
-            description="Learned the iOS dev fundamentals and human centered design. From this semester onwards I started designing and developing with a mobile-first approach" />
-          <AboutCard :number="6" title="iOS Developing" data_category="third"
-            description="Learned the iOS dev fundamentals and human centered design. From this semester onwards I started designing and developing with a mobile-first approach" />
-          <AboutCard :number="7" title="iOS Developing" data_category="fourth"
-            description="Learned the iOS dev fundamentals and human centered design. From this semester onwards I started designing and developing with a mobile-first approach" />
-          <AboutCard :number="8" title="iOS Developing" data_category="fourth"
-            description="Learned the iOS dev fundamentals and human centered design. From this semester onwards I started designing and developing with a mobile-first approach" />
+        description="Learned about the different kinds of fields in ICT. My first time programming. I chose to continue with ICT & Media Design." />
+      <AboutCard :number="2" title="Branding" data_category="first"
+        description="Learned to build a brand for an upcoming artist from the Tilburg Rock Academy. Designed & developed media products." />
+      <AboutCard :number="3" title="iOS Developing" data_category="second"
+        description="Learned the iOS dev fundamentals and human centered design. From this semester onwards I started designing and developing with a mobile-first approach" />
+      <AboutCard :number="4" title="iOS Developing" data_category="second"
+        description="Learned the iOS dev fundamentals and human centered design. From this semester onwards I started designing and developing with a mobile-first approach" />
+      <AboutCard :number="5" title="iOS Developing" data_category="third"
+        description="Learned the iOS dev fundamentals and human centered design. From this semester onwards I started designing and developing with a mobile-first approach" />
+      <AboutCard :number="6" title="iOS Developing" data_category="third"
+        description="Learned the iOS dev fundamentals and human centered design. From this semester onwards I started designing and developing with a mobile-first approach" />
+      <AboutCard :number="7" title="iOS Developing" data_category="fourth"
+        description="Learned the iOS dev fundamentals and human centered design. From this semester onwards I started designing and developing with a mobile-first approach" />
+      <AboutCard :number="8" title="iOS Developing" data_category="fourth"
+        description="Learned the iOS dev fundamentals and human centered design. From this semester onwards I started designing and developing with a mobile-first approach" />
     </section>
-    <section>
-        <div class="video-wrapper"><iframe width="560" height="315" style="--aspect-ratio: 3 / 4;"
-            src="https://www.youtube-nocookie.com/embed/A0sVMP4Cxes" title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe></div>
-      </section>
+    <div class="video-wrapper"><iframe width="560" height="315" style="--aspect-ratio: 3 / 4;"
+        src="https://www.youtube-nocookie.com/embed/A0sVMP4Cxes" title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe></div>
   </section>
 </template>
 
 <script>
   export default {
     setup() {
-        
+
     },
   }
 
 </script>
 
-<style scoped>
+<style lang="css" scoped>
   @import '~/assets/css/buttonFilter';
 
-.video-wrapper{
-  position: relative;
-  height: 0;
-  padding-top: calc(var(--aspect-ratio, .5625) * 100%); 
-}
 
-.video-wrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
+  section {
+    height: unset;
+  }
+
+  .filters {
+    text-align: left;
+  }
+
+  .video-wrapper {
+    position: relative;
+    height: 0;
+    padding-top: calc(var(--aspect-ratio, .5625) * 100%);
+  }
+
+  .video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+
+  @media (min-width: 640px) {}
+
+  @media (min-width: 768px) {
+    .semester-cards {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .video-wrapper {
+      justify-self: flex-end;
+    }
+  }
+
+  @media (min-width: 1280px) {}
+
+  @media (min-width: 1536px) {}
+
 </style>

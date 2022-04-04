@@ -51,7 +51,7 @@
         description="Learned the iOS dev fundamentals and human centered design. From this semester onwards I started designing and developing with a mobile-first approach.">
         <template v-slot:footer_btn_html>
           <div class="card-footer-wrapper">
-                <a target="__blank" href="https://fontys.edu/"><button class="btnModalClose bntModalClose-bg-color">
+                <a target="__blank" href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/projects/mft"><button class="btnModalClose bntModalClose-bg-color">
               <p>View Project</p>
               <svg-icon class="svg-external-link" name="external_link" />
             </button></a>

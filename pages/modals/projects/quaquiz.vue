@@ -8,9 +8,11 @@
         </div>
         <div class="modalbody-container">
           <div class="col-lg-8 mx-auto">
-            <i>An interactive quiz app that keeps you and your family fit during quarantine!
-            </i>
-            <img src="~/assets/img/projects/quaquiz/mockup1.png" width="80%" alt="">
+            <div class="text spacing ">
+              <h3 class="centered">An interactive quiz app that keeps you and your family fit during quarantine!
+              </h3>
+              <img class="centered" src="~/assets/img/projects/quaquiz/mockup1.png" width="600px" alt="">
+            </div>
             <div class="paddedText">
               <p>
                 A lot of people have been infected with the Corona virus and had to go into
@@ -24,28 +26,33 @@
               </p>
               <div class="paddedTextLine-white"></div>
             </div>
-          </div>
-          <div class="col-lg-8 mx-auto">
-            <div class="modal-body">
-              <i>How It Works</i>
-              <img src="~/assets/img/projects/quaquiz/Quarantine_Explanation.jpg" style="" width="100%" alt="">
+            <div class="text spacing">
+              <h3>How It Works</h3>
+              <img src="~/assets/img/projects/quaquiz/Quarantine_Explanation.jpg" width="900px" alt="">
+            </div>
+            <div class="text spacing">
               <p>Some screenshots of the app.</p>
-              <img src="~/assets/img/projects/quaquiz/screen1.png" style="" width="45%" alt="">
-              <img src="~/assets/img/projects/quaquiz/screen2.png" style="margin-left: 1.2em;" width="45%" alt="">
-              <img src="~/assets/img/projects/quaquiz/screen3.png" style="margin-top: 1.2em;" width="45%" alt="">
-              <i>Technology Behind The App</i>
+              <div class="image-grid">
+                <img src="~/assets/img/projects/quaquiz/screen1.png" width="500px" alt="">
+                <img src="~/assets/img/projects/quaquiz/screen2.png" width="500px"  alt="">
+                <img src="~/assets/img/projects/quaquiz/screen3.png" width="500px" alt="">
+              </div>
+            </div>
+            <div class="text spacing">
+              <h3>Technology Behind The App</h3>
               <p>The app uses React-Native to make the app cross-platform.
                 The react-native NFC library 'react-native-nfc-manager' makes the
                 interaction possible.</p>
-              <img src="~/assets/img/projects/quaquiz/react-native2.png" style="" width="80%" alt="">
-              <a target="_blank" href="https://git.fhict.nl/I404350/Quarantine-Quiz">
-                <div class="paddedText">
-                  <p>View the repo for more information here</p>
-                  <!-- <img src="~/assets/img/projects/quaquiz/github.svg" style="width: 10%;" alt="Github"> -->
-                </div>
-              </a>
+              <img src="~/assets/img/projects/quaquiz/react-native2.png" width="500px" alt="">
             </div>
+              <div class="text centered full-width">
+                <a class="paddedText" target="_blank" href="https://git.fhict.nl/I404350/Quarantine-Quiz">
+                    <p>View the repo for more information here</p>
+                    <svg-icon class="svg-github" name="github" />
+                </a>
+              </div>
           </div>
+
         </div>
         <div class="modal-footer">
           <NuxtLink to="/semesters/semesterSix"><button class="btnModalClose bntModalClose-bg-color">Close</button>
@@ -58,7 +65,7 @@
 
     </NuxtLink>
   </div>
-  
+
 
 </template>
 
@@ -73,4 +80,3 @@
   @import '~/assets/css/modal.css';
 
 </style>
-

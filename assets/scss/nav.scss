@@ -3,3 +3,11 @@ nav{
         box-shadow: 0 8px 6px -6px rgba(0, 0, 0, .3);
     }
 }
+
+@media (min-width: 640px) {
+    nav{
+        &.onScroll {
+            box-shadow: unset;
+        }
+    }
+}

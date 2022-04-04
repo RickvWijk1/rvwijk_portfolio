@@ -4,6 +4,7 @@
     <div class="page-title">
         <h1>Interests</h1>
       </div>
+      <p>Some of my spare time projects.</p>
     <InterestsProducts />
 
   </div>

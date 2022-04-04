@@ -53,6 +53,42 @@ input[type="radio"] {
   .filters label:hover {
     background-color: #2738DE;
   }
+
+  .tooltip {
+    display: inline-block;
+    position: relative;
+}
+
+.info-png {
+  width: 34px;
+}
+
+.tooltip .right {
+  display: none;
+  z-index: 99;
+  position: absolute;
+  top: 40%;
+  right: 150%;
+  min-width: 200px;
+  max-width: 400px;
+  transform: translate(0, -50%);
+  color: #000;
+  background-color: #eceefc;
+  font-size: 13px;
+  border-radius: .3em;
+  
+}
+
+.tooltip:hover .right {
+  display: flex;
+}
+
+.tooltip .text-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 10px 20px;
+}
   
   /* SEMESTER FILTERS
     –––––––––––––––––––––––––––––––––––––––––––––––––– */

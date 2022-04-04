@@ -44,9 +44,12 @@
   .ghostbutton {
     width: 100%;
     position: relative;
-    float: left;
-    display: inline-block !important;
-    padding: 10px 30px;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    /* float: left;
+    display: inline-block !important; */
+    padding: 10px 10px;
     color: #fff;
     text-decoration: none;
     border-bottom: none;
@@ -112,6 +115,7 @@
     .row-grid {
       grid-template-columns: repeat(3, minmax(0, 1fr));
     }
+    
   }
 
   @media (min-width: 1280px) {}

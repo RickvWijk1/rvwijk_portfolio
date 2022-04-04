@@ -11,10 +11,15 @@
             title="Outdoor image of Rick van Wijk"></div>
         </div>
         <div class="about-desc-text">
-          <i>"I'm an ICT & Media Design student located in
-            Eindhoven, The Netherlands.
-            I have serious passion for designing and developing UI's.</i><i>My goal is to become a well-experienced front-end
-            developer; someone who can flawlessly bring design sketches to life."</i>
+          <svg-icon class="svg-quotes svg-quotes-left" name="quote_left_solid" />
+          <div class="paragraph-text">
+            <p>I'm an ICT & Media Design student located in
+              Eindhoven, The Netherlands.
+              I have serious passion for designing and developing UI's.</p><p>My goal is to become a well-experienced front-end
+              developer; someone who can bring design sketches to life.</p>
+          </div>
+          <svg-icon class="svg-quotes svg-quotes-right" name="quote_right_solid" />
+
         </div>
       </div>
       <UIBorderFullWidth class="border-full-width"/>

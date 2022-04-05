@@ -97,7 +97,6 @@ nav ul {
 .nav-mobile.hamburger {
   display: flex;
   flex-direction: column;
-
 }
 
 .nav-mobile-cont {
@@ -106,7 +105,7 @@ nav ul {
   display: flex;
   flex-direction: column;
   gap: 5rem;
-  padding: 1.25em 2em 0 2em;
+  padding: 1em 2em 0 2em;
 }
 
 .nav-mobile-header {

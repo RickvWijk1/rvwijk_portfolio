@@ -67,6 +67,7 @@
   @import '~/assets/css/aboutContent.css';
 
   .main-wrapper {
+    position: relative;
     flex: 1;
     gap: 2rem;
   }

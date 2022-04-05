@@ -44,7 +44,73 @@
                         <h3>Problem/opportunity</h3>
                         <div class="project-body">
                           <p>Technological developments are moving fast and there are now countless possibilities for
-                            setting up digital platforms.</p>
+                            setting up digital platforms. Setting up and maintaining a custom-built app
+                            requires a relatively large amount of work and investment, because you have to develop
+                            everything separately for android and ios. At the same time, the possibilities of mobile
+                            websites are increasing. This all lead PSV to wonder how PSV can best organise its digital
+                            platforms with regard to what they want to offer fans and followers.</p>
+                          <img src="~/assets/img/school/semester6/psv_logo.png" width="100px" alt="">
+                        </div>
+                      </div>
+                      <div class="project-h3-content">
+                        <h3>Goals</h3>
+                        <div class="project-body">
+                          <p>Technological developments are moving fast and there are now countless possibilities for
+                            setting up digital platforms. Setting up and maintaining a custom-built app
+                            requires a relatively large amount of work and investment, because you have to develop
+                            everything separately for android and ios. At the same time, the possibilities of mobile
+                            websites are increasing. This all lead PSV to wonder how PSV can best organise its digital
+                            platforms with regard to what they want to offer fans and followers.</p>
+                          <img src="~/assets/img/school/semester6/psv_logo.png" width="100px" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="project-h2-section">
+                <div class="project-h2-wrapper">
+                  <div class="project-h2-content">
+                    <h2>Sprint 0 - Project Kickoff</h2>
+                    <p>On the introduction day, groups were made and linked to assignments of clients. Our group was
+                      linked to the assignment of PSV.</p>
+                  </div>
+                </div>
+                <div class="project-h3-section">
+                  <div class="project-h3-wrapper">
+                    <div class="project-sub-wrapper">
+                      <div class="project-h3-content">
+                        <h3>Context</h3>
+                        <div class="project-body">
+                          <p>PSV is a Dutch sports club and is mainly known as a football club. PSV wants to offer its
+                            fans
+                            and followers a good and relevant experience on every device and at any time. PSV currently
+                            has
+                            a website and two native apps to provide this.</p>
+                          <img src="~/assets/img/school/semester6/psv_logo.png" width="100px" alt="">
+                        </div>
+                      </div>
+                      <div class="project-h3-content">
+                        <h3>Problem/opportunity</h3>
+                        <div class="project-body">
+                          <p>Technological developments are moving fast and there are now countless possibilities for
+                            setting up digital platforms. Setting up and maintaining a custom-built app
+                            requires a relatively large amount of work and investment, because you have to develop
+                            everything separately for android and ios. At the same time, the possibilities of mobile
+                            websites are increasing. This all lead PSV to wonder how PSV can best organise its digital
+                            platforms with regard to what they want to offer fans and followers.</p>
+                          <img src="~/assets/img/school/semester6/psv_logo.png" width="100px" alt="">
+                        </div>
+                      </div>
+                      <div class="project-h3-content">
+                        <h3>Goals</h3>
+                        <div class="project-body">
+                          <p>Technological developments are moving fast and there are now countless possibilities for
+                            setting up digital platforms. Setting up and maintaining a custom-built app
+                            requires a relatively large amount of work and investment, because you have to develop
+                            everything separately for android and ios. At the same time, the possibilities of mobile
+                            websites are increasing. This all lead PSV to wonder how PSV can best organise its digital
+                            platforms with regard to what they want to offer fans and followers.</p>
                           <img src="~/assets/img/school/semester6/psv_logo.png" width="100px" alt="">
                         </div>
                       </div>

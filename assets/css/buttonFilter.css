@@ -67,11 +67,11 @@ input[type="radio"] {
   display: none;
   z-index: 99;
   position: absolute;
-  top: 40%;
-  right: 150%;
+  top: -50%;
+  right: -100%;
   min-width: 200px;
   max-width: 400px;
-  transform: translate(0, -50%);
+  transform: translate(0, -100%);
   color: #000;
   background-color: #eceefc;
   font-size: 13px;
@@ -153,3 +153,15 @@ input[type="radio"] {
       max-width: 100%;
     }
   }
+
+  @media (min-width: 640px) {
+    .tooltip .right {
+      top: 40%;
+      right: 150%;
+    }
+  }
+
+  @media (min-width: 768px) {}
+
+@media (min-width: 1024px) {
+}

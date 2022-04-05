@@ -88,7 +88,7 @@
               </ol>
             </div>
             <div class="image-description">
-              <embed src="/pdf/semester6/debriefing.pdf" width="100%" height="1000" type="application/pdf">
+              
               <i>Click <a style="color: #4758fc;" target="_blank" href="/pdf/semester6/debriefing.pdf">here</a>
                 to open
                 the
@@ -103,7 +103,7 @@
               </ol>
             </div>
             <div class="image-description">
-              <embed src="/pdf/semester6/projectplan_v3.pdf" width="100%" height="1000" type="application/pdf">
+              
               <i>Click <a style="color: #4758fc;" target="_blank" href="/pdf/semester6/projectplan_v3.pdf">here</a>
                 to open
                 the

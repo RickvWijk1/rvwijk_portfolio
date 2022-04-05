@@ -9,11 +9,13 @@
       <div class="home-icon-section">
         <p>Student ICT & Media Design</p>
         <div class="home-icon-wrapper">
-          <a target="__blank" href="https://github.com/RickvWijk1" aria-label="The GitHub profile page of Rick van Wijk">
+          <a target="__blank" href="https://github.com/RickvWijk1"
+            aria-label="The GitHub profile page of Rick van Wijk">
             <p class="home-icon-name">Github</p>
             <svg-icon class="home-icon-svg" name="github" />
           </a>
-          <a target="__blank" href="https://www.linkedin.com/in/rick-van-wijk-2b06821a0" aria-label="The LinkedIn profile page of Rick van Wijk">
+          <a target="__blank" href="https://www.linkedin.com/in/rick-van-wijk-2b06821a0"
+            aria-label="The LinkedIn profile page of Rick van Wijk">
             <p class="home-icon-name">LinkedIn</p>
             <svg-icon class="home-icon-svg" name="linkedin" />
           </a>
@@ -29,7 +31,8 @@
       </div>
     </div>
     <div class="home-photo-wrapper">
-      <img src="~/assets/img/ik/me_black_white_portrait.webp" width="769" height="687" alt="Portrait image of Rick van Wijk">
+      <img src="~/assets/img/ik/me_black_white_portrait.webp" width="769" height="687"
+        alt="Portrait image of Rick van Wijk">
       <!-- <nuxt-picture class="picture-home" src="/BlackWhiteInHuis.png" /> -->
     </div>
   </div>
@@ -37,9 +40,13 @@
 </template>
 
 <script></script>
-<style scoped>
+<style lang="css" scoped>
   @import '~/assets/css/global.css';
   @import '~/assets/css/homeContent.css';
 
+  .wrapper{
+    width: 100%;
+    padding: 0em 4em 0em;
+  }
 
 </style>

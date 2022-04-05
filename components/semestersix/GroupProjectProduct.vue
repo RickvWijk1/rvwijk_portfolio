@@ -44,64 +44,64 @@
         <label for="grp_oriented">Goal-oriented Interaction</label>
       </li>
     </ol>
-    <div class="row-grid">
-      <NuxtLink class="modal-link" to="/modals/semesterSix/projectPlan" data_category="grp_design">
-        <div class="overview-grid" :style="{ backgroundImage: `url('icon.png')`}">
-          <div>
-            <a class="a-ghostbtn">
-              <div id="hover-box" class="hover-box">
-                <div class="ghostbutton">
-                  <p>Project Plan</p>
-                  <svg-icon name="external_link" class="svg-external-link" />
+      <div class="row-grid">
+        <NuxtLink class="modal-link" to="/modals/semesterSix/projectPlan" data_category="grp_design">
+          <div class="overview-grid" :style="{ backgroundImage: `url('icon.png')`}">
+            <div>
+              <a class="a-ghostbtn">
+                <div id="hover-box" class="hover-box">
+                  <div class="ghostbutton">
+                    <p>Project Plan</p>
+                    <svg-icon name="external_link" class="svg-external-link" />
+                  </div>
                 </div>
-              </div>
-            </a>
+              </a>
+            </div>
           </div>
-        </div>
-      </NuxtLink>
-      <NuxtLink class="modal-link" to="/modals/semesterSix/architecture" data_category="grp_realise">
-        <div class="overview-grid" :style="{ backgroundImage: `url('icon.png')`}">
-          <div>
-            <a class="a-ghostbtn">
-              <div id="hover-box" class="hover-box">
-                <div class="ghostbutton">
-                  <p>Software architecture</p>
-                  <svg-icon name="external_link" class="svg-external-link" />
+        </NuxtLink>
+        <NuxtLink class="modal-link" to="/modals/semesterSix/architecture" data_category="grp_realise">
+          <div class="overview-grid" :style="{ backgroundImage: `url('icon.png')`}">
+            <div>
+              <a class="a-ghostbtn">
+                <div id="hover-box" class="hover-box">
+                  <div class="ghostbutton">
+                    <p>Software architecture</p>
+                    <svg-icon name="external_link" class="svg-external-link" />
+                  </div>
                 </div>
-              </div>
-            </a>
+              </a>
+            </div>
           </div>
-        </div>
-      </NuxtLink>
-      <NuxtLink class="modal-link" to="/modals/semesterSix/interviews" data_category="grp_advise grp_design">
-        <div class="overview-grid" :style="{ backgroundImage: `url('icon.png')`}">
-          <div>
-            <a class="a-ghostbtn">
-              <div id="hover-box" class="hover-box">
-                <div class="ghostbutton">
-                  <p>Target Audience Interviews</p>
-                  <svg-icon name="external_link" class="svg-external-link" />
+        </NuxtLink>
+        <NuxtLink class="modal-link" to="/modals/semesterSix/interviews" data_category="grp_advise grp_design">
+          <div class="overview-grid" :style="{ backgroundImage: `url('icon.png')`}">
+            <div>
+              <a class="a-ghostbtn">
+                <div id="hover-box" class="hover-box">
+                  <div class="ghostbutton">
+                    <p>Target Audience Interviews</p>
+                    <svg-icon name="external_link" class="svg-external-link" />
+                  </div>
                 </div>
-              </div>
-            </a>
+              </a>
+            </div>
           </div>
-        </div>
-      </NuxtLink>
-      <NuxtLink class="modal-link" to="/modals/semesterSix/userstories" data_category="grp_analyse">
-        <div class="overview-grid" :style="{ backgroundImage: `url('icon.png')`}">
-          <div>
-            <a class="a-ghostbtn">
-              <div id="hover-box" class="hover-box">
-                <div class="ghostbutton">
-                  <p>User stories - Plan of Action</p>
-                  <svg-icon name="external_link" class="svg-external-link" />
+        </NuxtLink>
+        <NuxtLink class="modal-link" to="/modals/semesterSix/userstories" data_category="grp_analyse">
+          <div class="overview-grid" :style="{ backgroundImage: `url('icon.png')`}">
+            <div>
+              <a class="a-ghostbtn">
+                <div id="hover-box" class="hover-box">
+                  <div class="ghostbutton">
+                    <p>User stories - Plan of Action</p>
+                    <svg-icon name="external_link" class="svg-external-link" />
+                  </div>
                 </div>
-              </div>
-            </a>
+              </a>
+            </div>
           </div>
-        </div>
-      </NuxtLink>
-    </div>
+        </NuxtLink>
+      </div>
   </section>
 </template>
 

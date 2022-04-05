@@ -1,7 +1,9 @@
-
-a:focus,a:visited,a:active{
+a:focus,
+a:visited,
+a:active {
   outline: none;
 }
+
 html,
 body,
 #__nuxt,
@@ -17,7 +19,12 @@ body {
   font-family: louis_george_caferegular, sans-serif;
 }
 
-p, ul, ol, li, i, h3{
+p,
+ul,
+ol,
+li,
+i,
+h3 {
   font-family: 'Roboto', sans-serif;
 }
 
@@ -97,12 +104,18 @@ h3 {
     padding-right: calc(17px - (100vw - 100%));
   }
 
-  section{
+  /* section{
     height: 100%;
-  }
-
+  } */
+.layout-body{
+  width: unset;
+  height: unset;
+  justify-content: unset;
+}
   .wrapper {
-    padding: 0em 4em;
+    /* width: unset; */
+    height: unset;
+    padding: 0em 4em 2em;
     margin-top: unset;
   }
 
@@ -113,16 +126,14 @@ h3 {
   .page-title h1 {
     font-size: calc(32px + 28*(100vw - 320px)/1120);
   }
-  
+
 }
 
 @media (min-width: 768px) {}
 
 @media (min-width: 1024px) {
 
-  .wrapper{
-    padding: 0em 4em 2em;
-  }
+  .wrapper {}
 
 
 

@@ -22,9 +22,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    border-radius: .3em;
   }
-
-  
 
   .a-ghostbtn {
     position: static;

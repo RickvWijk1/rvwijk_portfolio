@@ -5,7 +5,7 @@
         alt="Logo of Fontys University of Applied Sciences">
       <i class="fontys-desc">"Fontys University of Applied Sciences offers various bachelors, masters and short term
         programmes."</i>
-        <a target="__blank" href="https://fontys.edu/"><button class="btnModalClose bntModalClose-bg-color">
+      <a target="__blank" href="https://fontys.edu/"><button class="btnModalClose bntModalClose-bg-color">
           <p>Learn more</p>
           <svg-icon class="svg-external-link" name="external_link" />
         </button></a>
@@ -20,7 +20,7 @@
     <client-only>
       <LightGallery :images="images" :index="index" :disable-scroll="false" @close="index = null" />
     </client-only>
-    <ul>
+    <ul class="gallery-cont">
       <li v-for="(img_src, img_thumbnail_index) in [
           'img/about/strijpTQ1.jpg',
           'img/about/strijpTQ2.jpg',
@@ -80,9 +80,9 @@
 <style lang="css" scoped>
   @import '~/assets/css/modal.css';
 
-section{
-  gap: 3rem;
-}
+  section {
+    gap: 3rem;
+  }
 
   ol {
     list-style-type: decimal;
@@ -95,12 +95,13 @@ section{
     font-weight: 600;
   }
 
-.fontys-info{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1.5rem;
-}
+  .fontys-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
   .fontys-logo {
     display: flex;
     max-width: 60%;
@@ -132,12 +133,12 @@ section{
     display: flex;
     width: 30px;
     height: 30px;
-    cursor: pointer;
     fill: #fff;
   }
 
   .img-overlay-cont {
     position: relative;
+    cursor: pointer;
   }
 
   .img-overlay {
@@ -146,6 +147,9 @@ section{
     /* background-image:
     linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 20%, rgba(255, 255, 255, 0.2)) */
     background: radial-gradient(circle, rgba(2, 0, 36, .4) 0%, rgba(0, 0, 15, .3) 71%, rgba(255, 255, 255, .0) 100%);
+  }
+  .img-overlay:hover {
+    background: rgba(0, 0, 0, .5);
   }
 
   .img-overlay::after {
@@ -169,11 +173,31 @@ section{
 
   @media (max-width: 300px) {}
 
-  @media (min-width: 640px) {}
+  @media (min-width: 640px) {
+    /* .gallery-cont{
+      max-height: 2em;
+    }
+    .gallery-cont li{
+      max-height: 2em;
+    } */
+
+    .img-overlay-cont img {
+      object-fit: cover;
+      max-height: 300px;
+    }
+
+    .about-filter-school {
+      align-items: center;
+    }
+  }
 
   @media (min-width: 768px) {}
 
-  @media (min-width: 1024px) {}
+  @media (min-width: 1024px) {
+    .fontys-logo {
+      width: 200px;
+    }
+  }
 
   @media (min-width: 1280px) {}
 

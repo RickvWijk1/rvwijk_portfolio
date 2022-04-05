@@ -19,19 +19,13 @@ input[type="radio"] {
     list-style: none;
   }
   
-
-  .filters {
-    display: block;
-    width: 100%;
-    text-align: left;
-    grid-template-columns: repeat(2, 1fr);
-    gap: .5em;
+  .filters{
+    text-align: center;
+    max-width: 890px;
   }
-  
   
   .filters * {
     display: inline-block;
-    
   }
 
   .filters li:nth-child(odd) {
@@ -59,6 +53,42 @@ input[type="radio"] {
   .filters label:hover {
     background-color: #2738DE;
   }
+
+  .tooltip {
+    display: inline-block;
+    position: relative;
+}
+
+.info-png {
+  width: 34px;
+}
+
+.tooltip .right {
+  display: none;
+  z-index: 99;
+  position: absolute;
+  top: 40%;
+  right: 150%;
+  min-width: 200px;
+  max-width: 400px;
+  transform: translate(0, -50%);
+  color: #000;
+  background-color: #eceefc;
+  font-size: 13px;
+  border-radius: .3em;
+  
+}
+
+.tooltip:hover .right {
+  display: flex;
+}
+
+.tooltip .text-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 10px 20px;
+}
   
   /* SEMESTER FILTERS
     –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -85,6 +115,8 @@ input[type="radio"] {
   [value="grp_advise"]:checked~.filters [for="grp_advise"],
   [value="grp_design"]:checked~.filters [for="grp_design"],
   [value="grp_realise"]:checked~.filters [for="grp_realise"],
+  [value="grp_personal"]:checked~.filters [for="grp_personal"],
+  [value="grp_oriented"]:checked~.filters [for="grp_oriented"],
   [value="grp_manage"]:checked~.filters [for="grp_manage"]
   {
     background-color: #2738DE;
@@ -93,13 +125,26 @@ input[type="radio"] {
   [value="grp_all"]:checked~.row-grid [data-category] {
     display: grid;
   }
-  [value="grp_analyse"]:checked~.row-grid .modal-link .overview-grid:not([data_category~="grp_analyse"]),
-  [value="grp_advise"]:checked~.row-grid .modal-link .overview-grid:not([data_category~="grp_advise"]),
-  [value="grp_design"]:checked~.row-grid .modal-link .overview-grid:not([data_category~="grp_design"]),
-  [value="grp_realise"]:checked~.row-grid .modal-link .overview-grid:not([data_category~="grp_realise"]),
-  [value="grp_manage"]:checked~.row-grid .modal-link .overview-grid:not([data_category~="grp_manage"])
+  [value="grp_analyse"]:checked~.row-grid a:not([data_category~="grp_analyse"]),
+  [value="grp_advise"]:checked~.row-grid a:not([data_category~="grp_advise"]),
+  [value="grp_design"]:checked~.row-grid a:not([data_category~="grp_design"]),
+  [value="grp_personal"]:checked~.row-grid a:not([data_category~="grp_personal"]),
+  [value="grp_oriented"]:checked~.row-grid a:not([data_category~="grp_oriented"]),
+  [value="grp_realise"]:checked~.row-grid a:not([data_category~="grp_realise"]),
+  [value="grp_manage"]:checked~.row-grid a:not([data_category~="grp_manage"])
   {
     display: none;
+  }
+  [value="grp_analyse"]:checked~.row-grid .modal-link  .overview-grid div .a-ghostbtn:not([data_category~="grp_analyse"]),
+  [value="grp_advise"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="grp_advise"]),
+  [value="grp_design"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="grp_design"]),
+  [value="grp_personal"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="grp_personal"]),
+  [value="grp_oriented"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="grp_oriented"]),
+  [value="grp_realise"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="grp_realise"]),
+  [value="grp_manage"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="grp_manage"])
+  {
+    display: flex;
+
   }
 
   @media (max-width: 300px) {

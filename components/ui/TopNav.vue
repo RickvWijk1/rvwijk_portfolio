@@ -14,7 +14,8 @@
       </div>
     </div> -->
     <NuxtLink to="/" class="nav-logo">
-      <p>R/</p>
+      <p>R</p>
+      <p>/</p>
     </NuxtLink>
     <svg-icon v-on:click="mobileNavIsActive = !mobileNavIsActive" class="svg-menu menu-topnav" name="menu" />
     <!-- <svg-icon  class="svg-menu menu-topnav" name="menu" /> -->
@@ -31,20 +32,28 @@
     </ul>
     <div v-show="mobileNavIsActive" class="nav-mobile">
       <div class="nav-mobile-cont">
-        
+
         <div class="nav-mobile-header">
           <NuxtLink to="/" class="nav-logo">
-      <p>R/</p>
-    </NuxtLink>
+            <p>R/</p>
+          </NuxtLink>
           <svg-icon v-on:click="mobileNavIsActive = !mobileNavIsActive" class="svg-close menu-topnav" name="close" />
         </div>
 
         <ul class="nav-mobile-items">
           <div class="nav-item-cont">
-            <li><NuxtLink class="nav-item" to="/about">About</NuxtLink></li>
-            <li><NuxtLink class="nav-item" to="/projects">Projects</NuxtLink></li>
-            <li><NuxtLink class="nav-item" to="/interests">Interests</NuxtLink></li>
-            <li><NuxtLink class="nav-item" to="/semesters/semesterSix">Semester 6</NuxtLink></li>
+            <li>
+              <NuxtLink class="nav-item" to="/about">About</NuxtLink>
+            </li>
+            <li>
+              <NuxtLink class="nav-item" to="/projects">Projects</NuxtLink>
+            </li>
+            <li>
+              <NuxtLink class="nav-item" to="/interests">Interests</NuxtLink>
+            </li>
+            <li>
+              <NuxtLink class="nav-item" to="/semesters/semesterSix">Semester 6</NuxtLink>
+            </li>
           </div>
         </ul>
       </div>
@@ -53,37 +62,38 @@
 </template>
 
 <script>
-export default {
+  export default {
     setup() {
-        
+
     },
     watch: {
-      '$route' (){
+      '$route'() {
         this.mobileNavIsActive = false
       }
     },
 
-  data () {
-    return {
-      mobileNavIsActive: false,
-      view: {
-        topOfPage: true
+    data() {
+      return {
+        mobileNavIsActive: false,
+        view: {
+          topOfPage: true
+        }
       }
-    }
-  },
-  beforeMount() {
-    window.addEventListener('scroll', this.handleScroll)
-  },
-  methods: {
-    handleScroll(){
-      if(window.pageYOffset>0){
-        if(this.view.topOfPage) this.view.topOfPage = false
-      } else {
-        if(!this.view.topOfPage) this.view.topOfPage = true
+    },
+    beforeMount() {
+      window.addEventListener('scroll', this.handleScroll)
+    },
+    methods: {
+      handleScroll() {
+        if (window.pageYOffset > 0) {
+          if (this.view.topOfPage) this.view.topOfPage = false
+        } else {
+          if (!this.view.topOfPage) this.view.topOfPage = true
+        }
       }
-    }
-  },
-}
+    },
+  }
+
 </script>
 <style scoped>
   @import '~/assets/css/topnav.css';

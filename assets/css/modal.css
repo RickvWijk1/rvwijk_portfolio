@@ -61,7 +61,7 @@ a.close-modal {
 }
 
 .modalbody-container img {
-  align-self: flex-start;
+  /* align-self: flex-start; */
 }
 
 .col-lg-8 {
@@ -332,10 +332,37 @@ a.paddedText{
   gap: 1em;
 }
 
+.max-w-40{
+  max-width: 20em;
+}
+
+.justified-between{
+  display: flex;
+  justify-content: space-between;
+}
+
 .image-grid{
   display: grid;
+  width: 100%;
   grid-template-columns: repeat(1, minmax(0, 1fr));
   justify-content: center;
+  gap: 1em;
+}
+
+.img-round{
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.txt-link{
+  border-bottom: #4758FB 2px solid;
+  border-radius: 2px;
+}
+
+.white-link{
+  border-bottom: #fff 2px solid;
 }
 
 .svg-github {

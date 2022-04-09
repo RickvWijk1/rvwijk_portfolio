@@ -30,7 +30,7 @@
       <template v-slot:footer_btn_html>
           <div class="card-footer-wrapper">
                 <a target="__blank" href="https://rickvwijk1.github.io/portfolio/Semester1/"><button class="btnModalClose bntModalClose-bg-color">
-              <p>Learn more</p>
+              <p>View Projects</p>
               <svg-icon class="svg-external-link" name="external_link" />
             </button></a>
               </div>
@@ -41,7 +41,7 @@
         <template v-slot:footer_btn_html>
           <div class="card-footer-wrapper">
                 <a target="__blank" href="https://rickvwijk1.github.io/portfolio/Semester2/"><button class="btnModalClose bntModalClose-bg-color">
-              <p>Learn more</p>
+              <p>View Projects</p>
               <svg-icon class="svg-external-link" name="external_link" />
             </button></a>
               </div>
@@ -63,7 +63,7 @@
         <template v-slot:footer_btn_html>
           <div class="card-footer-wrapper">
                 <a target="__blank" href="https://rickvwijk1.github.io/portfolio/Semester4/"><button class="btnModalClose bntModalClose-bg-color">
-              <p>Learn more</p>
+              <p>View Projects</p>
               <svg-icon class="svg-external-link" name="external_link" />
             </button></a>
               </div>
@@ -74,7 +74,7 @@
         <template v-slot:footer_btn_html>
           <div class="card-footer-wrapper">
                 <a target="__blank" href="https://rickvwijk1.github.io/portfolio/stage/stage.html"><button class="btnModalClose bntModalClose-bg-color">
-              <p>Learn more</p>
+              <p>View Projects</p>
               <svg-icon class="svg-external-link" name="external_link" />
             </button></a>
               </div>
@@ -85,7 +85,7 @@
         <template v-slot:footer_btn_html>
           <div class="card-footer-wrapper">
                 <a target="__blank" href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/semesterSix"><button class="btnModalClose bntModalClose-bg-color">
-              <p>Learn more</p>
+              <p>View Projects</p>
               <svg-icon class="svg-external-link" name="external_link" />
             </button></a>
               </div>
@@ -96,7 +96,7 @@
         <template v-slot:footer_btn_html>
           <div class="card-footer-wrapper">
                 <a target="__blank" href="https://rickvwijk1.github.io/portfolio/minor/minor.html"><button class="btnModalClose bntModalClose-bg-color">
-              <p>Learn more</p>
+              <p>View Projects</p>
               <svg-icon class="svg-external-link" name="external_link" />
             </button></a>
               </div>

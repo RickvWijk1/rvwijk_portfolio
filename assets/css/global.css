@@ -107,14 +107,8 @@ h3 {
   /* section{
     height: 100%;
   } */
-.layout-body{
-  width: unset;
-  height: unset;
-  justify-content: unset;
-}
+
   .wrapper {
-    /* width: unset; */
-    height: unset;
     padding: 0em 4em 2em;
     margin-top: unset;
   }

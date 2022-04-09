@@ -22,7 +22,7 @@
             <a class="a-ghostbtn">
               <div id="hover-box" class="hover-box">
                 <div class="ghostbutton">
-                  <p>MFT</p>
+                  <p>MFM</p>
                   <svg-icon name="external_link" class="svg-external-link" />
                 </div>
               </div>
@@ -44,7 +44,7 @@
           </div>
         </div>
       </NuxtLink>
-      <NuxtLink class="modal-link" to="/modals/projects/solid">
+      <NuxtLink class="modal-link" to="/modals/projects/fect">
         <div class="overview-grid" data_category="grp_analyse" :style="{ backgroundImage: `url('./img/projects/fect.png')`}">
           <div>
             <a class="a-ghostbtn">

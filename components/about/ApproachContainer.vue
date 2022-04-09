@@ -15,7 +15,7 @@
           <svg-icon class="about-icon-svg" name="responsive" />
         </div>
         <h3>Accessibility</h3>
-        <p>My apps are usable for anyone, on
+        <p>Apps should be usable for anyone, on
           any device, big or small.</p>
       </div>
       <div class="about-icon-cont">
@@ -68,7 +68,8 @@
   }
 
   .about-icon-cont p {
-    font-family: louis_george_cafelight;
+    font-weight: 300;
+    /* font-family: louis_george_cafelight; */
   }
 
   .about-icon {

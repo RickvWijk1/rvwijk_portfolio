@@ -44,9 +44,16 @@
   @import '~/assets/css/global.css';
   @import '~/assets/css/homeContent.css';
 
-  .wrapper{
+@media (min-width: 640px) {
+  .layout-body {
+    width: 100%;
+    height: 100%;
+    /* justify-content: space-between; */
+  }
+}@media (min-width: 640px) {
+  .wrapper {
     width: 100%;
     padding: 0em 4em 0em;
-  }
+  }}
 
 </style>

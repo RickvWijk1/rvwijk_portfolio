@@ -55,15 +55,11 @@
 
         </div>
         <div class="modal-footer">
-          <NuxtLink to="/semesters/semesterSix"><button class="btnModalClose bntModalClose-bg-color">Close</button>
+          <NuxtLink to="/projects"><button class="btnModalClose bntModalClose-bg-color">Close</button>
           </NuxtLink>
         </div>
       </div>
     </div>
-
-    <NuxtLink to="/semesters/semesterSix" class="close-modal">
-
-    </NuxtLink>
   </div>
 
 

@@ -71,8 +71,7 @@
             <div class="paddedTextLine"></div>
 
             <div class="image-description">
-              <embed src="/pdf/semester6/architecture.pdf" width="100%" height="1000" type="application/pdf">
-              <i>Click <a style="color: #4758fc;" target="_blank" href="/pdf/semester6/architecture.pdf">here</a>
+              <i>Click <a style="color: #4758fc;" target="_blank" href="./pdf/semester6/architecture.pdf">here</a>
                 to open
                 the
                 PDF in a new tab.</i>

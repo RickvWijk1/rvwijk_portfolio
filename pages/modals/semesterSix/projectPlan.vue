@@ -89,7 +89,7 @@
             </div>
             <div class="image-description">
               
-              <i>Click <a style="color: #4758fc;" target="_blank" href="~/pdf/semester6/debriefing.pdf">here</a>
+              <i>Click <a style="color: #4758fc;" target="_blank" href="./pdf/semester6/debriefing.pdf">here</a>
                 to open
                 the
                 PDF in a new tab.</i>

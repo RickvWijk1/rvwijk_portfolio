@@ -15,9 +15,8 @@
           </div>
             <div class="pdf-padding">
               <div class="image-description">
-                <embed src="/pdf/learning_outcomes.pdf" width="100%" height="1000" type="application/pdf">
                 <i>Click <a style="color: #4758fc;" target="_blank"
-                    href="/pdf/learning_outcomes.pdf">here</a>
+                    href="./pdf/learning_outcomes.pdf">here</a>
                   to open
                   the
                   PDF in a new tab.</i>

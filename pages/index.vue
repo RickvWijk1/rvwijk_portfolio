@@ -23,7 +23,7 @@
             <p class="home-icon-name">Email</p>
             <svg-icon class="home-icon-svg" name="email" />
           </a>
-          <a target="__blank" href="/pdf/cv.pdf" aria-label="The Curriculum Vitae of Rick van Wijk in PDF view">
+          <a target="__blank" href="./pdf/cv.pdf" aria-label="The Curriculum Vitae of Rick van Wijk in PDF view">
             <p class="home-icon-name">CV</p>
             <svg-icon class="home-icon-svg" name="cv" />
           </a>

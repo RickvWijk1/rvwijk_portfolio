@@ -27,92 +27,99 @@
     <section class="semester-cards">
       <AboutCard :number="1" title="Introduction 📜" data_category="first"
         description="Learned about the different kinds of fields in ICT. My first time programming. I chose to continue with ICT & Media Design.">
-      <template v-slot:footer_btn_html>
+        <template v-slot:footer_btn_html>
           <div class="card-footer-wrapper">
-                <a target="__blank" href="https://rickvwijk1.github.io/portfolio/Semester1/"><button class="btnModalClose bntModalClose-bg-color">
-              <p>View Projects</p>
-              <svg-icon class="svg-external-link" name="external_link" />
-            </button></a>
-              </div>
+            <a target="__blank" href="https://rickvwijk1.github.io/portfolio/Semester1/"><button
+                class="btnModalClose bntModalClose-bg-color">
+                <p>View Projects</p>
+                <svg-icon class="svg-external-link" name="external_link" />
+              </button></a>
+          </div>
         </template>
       </AboutCard>
       <AboutCard :number="2" title="Branding 🎤" data_category="first"
         description="Learned to build a brand for an upcoming artist from the Tilburg Rock Academy. Designed & developed media products.">
         <template v-slot:footer_btn_html>
           <div class="card-footer-wrapper">
-                <a target="__blank" href="https://rickvwijk1.github.io/portfolio/Semester2/"><button class="btnModalClose bntModalClose-bg-color">
-              <p>View Projects</p>
-              <svg-icon class="svg-external-link" name="external_link" />
-            </button></a>
-              </div>
+            <a target="__blank" href="https://rickvwijk1.github.io/portfolio/Semester2/"><button
+                class="btnModalClose bntModalClose-bg-color">
+                <p>View Projects</p>
+                <svg-icon class="svg-external-link" name="external_link" />
+              </button></a>
+          </div>
         </template>
-        </AboutCard>
+      </AboutCard>
       <AboutCard :number="3" title="iOS Developing 🍎" data_category="second"
         description="Learned the iOS dev fundamentals and human centered design. From this semester onwards I started designing and developing with a mobile-first approach.">
         <template v-slot:footer_btn_html>
           <div class="card-footer-wrapper">
-                <a target="__blank" href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/projects/mft"><button class="btnModalClose bntModalClose-bg-color">
-              <p>View Project</p>
-              <svg-icon class="svg-external-link" name="external_link" />
-            </button></a>
-              </div>
+            <a target="__blank" href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/projects/mft"><button
+                class="btnModalClose bntModalClose-bg-color">
+                <p>View Project</p>
+                <svg-icon class="svg-external-link" name="external_link" />
+              </button></a>
+          </div>
         </template>
-        </AboutCard>
+      </AboutCard>
       <AboutCard :number="4" title="Human Driven Innovation 🧠" data_category="second"
-        description="Learned how to design fitting digital products for humans specifically and learned to develop decentralized apps with the Solid framework." >
+        description="Learned how to design fitting digital products for humans specifically and learned to develop decentralized apps with the Solid framework.">
         <template v-slot:footer_btn_html>
           <div class="card-footer-wrapper">
-                <a target="__blank" href="https://rickvwijk1.github.io/portfolio/Semester4/"><button class="btnModalClose bntModalClose-bg-color">
-              <p>View Projects</p>
-              <svg-icon class="svg-external-link" name="external_link" />
-            </button></a>
-              </div>
+            <a target="__blank" href="https://rickvwijk1.github.io/portfolio/Semester4/"><button
+                class="btnModalClose bntModalClose-bg-color">
+                <p>View Projects</p>
+                <svg-icon class="svg-external-link" name="external_link" />
+              </button></a>
+          </div>
         </template>
-        </AboutCard>
+      </AboutCard>
       <AboutCard :number="5" title="Internship 👨‍💻" data_category="third"
         description="Learned how to work in a professional IT environment. I completed an internship assignment at the Interaction Design Lectoraat.">
         <template v-slot:footer_btn_html>
           <div class="card-footer-wrapper">
-                <a target="__blank" href="https://rickvwijk1.github.io/portfolio/stage/stage.html"><button class="btnModalClose bntModalClose-bg-color">
-              <p>View Projects</p>
-              <svg-icon class="svg-external-link" name="external_link" />
-            </button></a>
-              </div>
+            <a target="__blank" href="https://rickvwijk1.github.io/portfolio/stage/stage.html"><button
+                class="btnModalClose bntModalClose-bg-color">
+                <p>View Projects</p>
+                <svg-icon class="svg-external-link" name="external_link" />
+              </button></a>
+          </div>
         </template>
-        </AboutCard>
+      </AboutCard>
       <AboutCard :number="6" title="Society Driven Innovation ⚽" data_category="third"
         description="Created a mobile solution for football club PSV Eindhoven's media platforms. I developed POC's with Flutter to proof the solution was the right one.">
         <template v-slot:footer_btn_html>
           <div class="card-footer-wrapper">
-                <a target="__blank" href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/semesterSix"><button class="btnModalClose bntModalClose-bg-color">
-              <p>View Projects</p>
-              <svg-icon class="svg-external-link" name="external_link" />
-            </button></a>
-              </div>
+            <a target="__blank" href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/semesterSix"><button
+                class="btnModalClose bntModalClose-bg-color">
+                <p>View Projects</p>
+                <svg-icon class="svg-external-link" name="external_link" />
+              </button></a>
+          </div>
         </template>
-        </AboutCard>
+      </AboutCard>
       <AboutCard :number="7" title="Smart Mobile Minor 📱" data_category="fourth"
         description="Explored the possibilities of AR and its future uses. In addition, I worked on some small projects that improved my Flutter, Android & iOS development knowledge.">
         <template v-slot:footer_btn_html>
           <div class="card-footer-wrapper">
-                <a target="__blank" href="https://rickvwijk1.github.io/portfolio/minor/minor.html"><button class="btnModalClose bntModalClose-bg-color">
-              <p>View Projects</p>
-              <svg-icon class="svg-external-link" name="external_link" />
-            </button></a>
-              </div>
+            <a target="__blank" href="https://rickvwijk1.github.io/portfolio/minor/minor.html"><button
+                class="btnModalClose bntModalClose-bg-color">
+                <p>View Projects</p>
+                <svg-icon class="svg-external-link" name="external_link" />
+              </button></a>
+          </div>
         </template>
-        </AboutCard>
+      </AboutCard>
       <AboutCard :number="8" title="Graduation 🎓" data_category="fourth"
         description="I'm currently looking for a graduation internship that suits me! Please 📧 me if you know just the right place for me. Thanks in advance!🤗">
         <template v-slot:footer_btn_html>
           <div class="card-footer-wrapper">
-                <a href="mailto:rick_van_wijk@hotmail.com"><button class="btnModalClose bntModalClose-bg-color">
-              <p>Email Me</p>
-              <svg-icon class="svg-external-link" name="external_link" />
-            </button></a>
-              </div>
+            <a href="mailto:rick_van_wijk@hotmail.com"><button class="btnModalClose bntModalClose-bg-color">
+                <p>Email Me</p>
+                <svg-icon class="svg-external-link" name="external_link" />
+              </button></a>
+          </div>
         </template>
-        </AboutCard>
+      </AboutCard>
     </section>
     <div class="video-section">
       <div class="about-desc-wrapper">
@@ -147,7 +154,7 @@
     text-align: left;
   }
 
-  .video-section{
+  .video-section {
     display: flex;
     flex-direction: column;
     gap: 1em;

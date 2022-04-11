@@ -69,13 +69,12 @@
               </div>
             </div>
             <div class="paddedTextLine"></div>
-
-            <div class="image-description">
-              <i>Click <a style="color: #4758fc;" target="_blank" href="./pdf/semester6/architecture.pdf">here</a>
-                to open
-                the
-                PDF in a new tab.</i>
+            <div class="text">
+              <h3>Result</h3>
+              <p>The diagram below shows the flow of updating/maintaining the media platforms and what parties are
+                involved in this process.</p>
             </div>
+            <a target="_blank" href=""><button class="btnModalClose bntModalClose-bg-color">View Research Paper</button></a>
             <div class="text">
               <h3>Result</h3>
               <p>The diagram below shows the flow of updating/maintaining the media platforms and what parties are
@@ -110,7 +109,6 @@
     </div>
 
     <NuxtLink to="/semesters/semesterSix" class="close-modal">
-      <div class="filler"></div>
     </NuxtLink>
   </div>
 

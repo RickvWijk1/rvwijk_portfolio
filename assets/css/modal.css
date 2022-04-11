@@ -139,9 +139,15 @@ a.close-modal {
   gap: .5em;
 }
 
+
 .project-body{
   display: flex;
+  flex-direction: column;
   gap: 1em;
+}
+
+.project-img{
+  
 }
 
 .pdf-padding {
@@ -169,7 +175,7 @@ a.close-modal {
   align-self: center;
   width: 100%;
   height: 5px;
-  border-radius: 50%;
+  border-radius: 0%;
   background-color: #4758FB;
 }
 .paddedTextLine-white {
@@ -470,6 +476,7 @@ a.paddedText{
 }
 
 @media (min-width: 1024px) {
+
   .modal-content{
     
   }
@@ -479,6 +486,11 @@ a.paddedText{
   }
 }
 
-@media (min-width: 1280px) {}
+@media (min-width: 1280px) {
+  .project-body{
+    display: flex;
+    flex-direction: row;
+  }
+}
 
 @media (min-width: 1536px) {}

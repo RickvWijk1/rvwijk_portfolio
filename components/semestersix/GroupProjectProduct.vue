@@ -45,8 +45,8 @@
       </li>
     </ol>
       <div class="row-grid">
-        <NuxtLink class="modal-link" to="/modals/semesterSix/projectPlan" data_category="grp_design">
-          <div class="overview-grid" :style="{ backgroundImage: `url('icon.png')`}">
+        <NuxtLink class="modal-link" to="/modals/semesterSix/projectPlan" data_category="grp_manage">
+          <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/project_plan.jpg')`}">
             <div>
               <a class="a-ghostbtn">
                 <div id="hover-box" class="hover-box">
@@ -60,7 +60,7 @@
           </div>
         </NuxtLink>
         <NuxtLink class="modal-link" to="/modals/semesterSix/architecture" data_category="grp_realise">
-          <div class="overview-grid" :style="{ backgroundImage: `url('icon.png')`}">
+          <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/architecture.jpg')`}">
             <div>
               <a class="a-ghostbtn">
                 <div id="hover-box" class="hover-box">
@@ -74,7 +74,7 @@
           </div>
         </NuxtLink>
         <NuxtLink class="modal-link" to="/modals/semesterSix/interviews" data_category="grp_advise grp_design">
-          <div class="overview-grid" :style="{ backgroundImage: `url('icon.png')`}">
+          <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/target_audience.png')`}">
             <div>
               <a class="a-ghostbtn">
                 <div id="hover-box" class="hover-box">
@@ -88,7 +88,7 @@
           </div>
         </NuxtLink>
         <NuxtLink class="modal-link" to="/modals/semesterSix/userstories" data_category="grp_analyse">
-          <div class="overview-grid" :style="{ backgroundImage: `url('icon.png')`}">
+          <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/plan_action.jpg')`}">
             <div>
               <a class="a-ghostbtn">
                 <div id="hover-box" class="hover-box">

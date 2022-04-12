@@ -37,7 +37,40 @@
                     describe the different phases of this process for your project.</i>
                 </td>
                 <td>
-                  
+                  <div class="group-project-proof">
+                    <div>
+                      <p><b>PSV Group Project</b></p>
+                      <a target="_blank"
+                        href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/interviews"
+                        class="txt-link">
+                        Target Audience Interviews
+                      </a>
+                      <span>-></span>
+                      <p>Together with the other project members I helped define the target audience so that we could
+                        find
+                        the right people to interview. This was part of the empathize phase, which is part of the Design
+                        Thinking process we used.</p>
+                    </div>
+                    <div>
+                      <a target="_blank" href="#" class="txt-link">
+                        Flutter Notifications
+                      </a>
+                      <span>-></span>
+                      <p>I investigated the possibilities of notifications with a relatively new hybrid framework,
+                        Flutter. This included research into what public libraries/widgets would be usable and in what
+                        ways they could be beneficial.</p>
+                    </div>
+                    <div>
+                      <a target="_blank"
+                        href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/portfolio-abstract"
+                        class="txt-link">
+                        Design Thinking
+                      </a>
+                      <span>-></span>
+                      <p>In the reading guide I describe the different phases of the project process and why we chose
+                        design thinking.</p>
+                    </div>
+                  </div>
                 </td>
               </tr>
               <tr>
@@ -56,7 +89,38 @@
                   <i>By document, we mean that you can explain the choices you make in relation to user experience to
                     stakeholders effectively. </i>
                 </td>
-                <td></td>
+                <td>
+                  <div class="group-project-proof">
+                    <div>
+                      <p><b>PSV Group Project</b></p>
+                      <a target="_blank" href="#" class="txt-link">
+                        Final Prototype
+                      </a>
+                      <span>-></span>
+                      <p>I made a high-fidelity prototype so that I could test if/how well the users can accomplish
+                        their goals. Furthermore, I explain how my design choices support user friendliness.
+                      </p>
+                    </div>
+                    <div>
+                      <a target="_blank" href="#" class="txt-link">
+                        Customer Journey
+                      </a>
+                      <span>-></span>
+                      <p>I map what the user experience is like during the whole customer journey based on the results
+                        of the user tests.
+                      </p>
+                    </div>
+                    <div>
+                      <a target="_blank" href="#" class="txt-link">
+                        Flutter Notifications
+                      </a>
+                      <span>-></span>
+                      <p>I researched what the best Flutter practices are in relation to the development/maintaining
+                        process of the notification system, but also in relation to how it affects the user experience.
+                      </p>
+                    </div>
+                  </div>
+                </td>
               </tr>
               <tr>
                 <td>
@@ -79,12 +143,41 @@
                     security aspects and different types of devices.</i>
                 </td>
                 <td>
-                  <p><b>PSV Group Project</b></p>
-                  <a target="_blank" href="http://localhost:3000/rvwijk_portfolio/modals/semesterSix/architecture" class="txt-link">
-                    Software Architecture
-                  </a>
-                  <span>-></span>
-                  <p>I researched an existing software system and based on the findings I created an architecture diagram.</p>
+                  <div class="group-project-proof">
+                    <div>
+                      <p><b>PSV Group Project</b></p>
+                      <a target="_blank" href="http://localhost:3000/rvwijk_portfolio/modals/semesterSix/architecture"
+                        class="txt-link">
+                        Software Architecture
+                      </a>
+                      <span>-></span>
+                      <p>I researched an existing software system and based on the findings I created an architecture
+                        diagram.</p>
+                    </div>
+                    <div>
+                      <a target="_blank" href="http://localhost:3000/rvwijk_portfolio/modals/semesterSix/architecture"
+                        class="txt-link">
+                        Final Prototype
+                      </a>
+                      <span>-></span>
+                      <p>I developed the notification system prototype based on a list of established criteria.</p>
+                    </div>
+                    <div>
+                      <a target="_blank" href="#" class="txt-link">
+                        Flutter Notifications
+                      </a>
+                      <span>-></span>
+                      <p>I investigated the possibilities of what public libraries/widgets would be usable and in what
+                        ways they could be beneficial.</p>
+                    </div>
+                    <div>
+                      <a target="_blank" href="#" class="txt-link">
+                        Current Notification System
+                      </a>
+                      <span>-></span>
+                      <p>I investigated what the current notification system looks like. I talked to the stakeholders to get more information about the system and their wishes.</p>
+                    </div>
+                  </div>
                 </td>
               </tr>
               <tr>
@@ -105,12 +198,17 @@
                     question, documenting your sub-tasks, planning, quality and budget, amongst others.</i>
                 </td>
                 <td>
-                  <p><b>PSV Group Project</b></p>
-                  <a target="_blank" href="http://localhost:3000/rvwijk_portfolio/modals/semesterSix/projectPlan" class="txt-link">
-                    Project Plan
-                  </a>
-                  <span>-></span>
-                  <p>I created a project plan</p>
+                  <div class="group-project-proof">
+                    <div>
+                      <p><b>PSV Group Project</b></p>
+                      <a target="_blank" href="http://localhost:3000/rvwijk_portfolio/modals/semesterSix/projectPlan"
+                        class="txt-link">
+                        Project Plan
+                      </a>
+                      <span>-></span>
+                      <p>The problem was established by planning multiple debriefing meetings, asking questions (live or through email) and researching the media platforms of PSV.</p>
+                    </div>
+                  </div>
                 </td>
               </tr>
               <tr>
@@ -143,7 +241,9 @@
                     what role you play in a team, and that you document this in your portfolio. </i>
                   <i>By develop, we mean that you consciously look at what you still want to learn. </i>
                 </td>
-                <td><a class="txt-link" target="_blank" href="google.com">Italy</a></td>
+                <td>
+
+                </td>
               </tr>
               <tr>
                 <td>
@@ -204,8 +304,13 @@
     gap: 1em;
   }
 
+  tr {
+    display: flex;
+  }
+
   td,
   th {
+    flex: 1;
     border: 1px solid #000;
     text-align: left;
     padding: 8px;
@@ -224,6 +329,12 @@
   .col-goals,
   .col-proof {
     font-size: 1.1rem;
+  }
+
+  .group-project-proof {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
   }
 
 </style>

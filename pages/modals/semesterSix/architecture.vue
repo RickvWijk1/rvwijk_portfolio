@@ -74,9 +74,9 @@
               <p>The diagram below shows the flow of updating/maintaining the media platforms and what parties are
                 involved in this process.</p>
             </div>
-            <a target="_blank" href=""><button class="btnModalClose bntModalClose-bg-color">View Research Paper</button></a>
+            <a target="_blank" href="./pdf/semester6/architecture.pdf"><button class="btnModalClose bntModalClose-bg-color">View Research Paper</button></a>
             <div class="text">
-              <h3>Result</h3>
+              <h3>F</h3>
               <p>The diagram below shows the flow of updating/maintaining the media platforms and what parties are
                 involved in this process.</p>
             </div>

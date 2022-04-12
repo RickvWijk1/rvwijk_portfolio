@@ -86,13 +86,7 @@
                 <li>Helped formulate the problem & context</li>
                 <li>Helped formulate the main question and sub questions.</li>
               </ol>
-            </div>
-            <div class="image-description">
-              
-              <i>Click <a style="color: #4758fc;" target="_blank" href="./pdf/semester6/debriefing.pdf">here</a>
-                to open
-                the
-                PDF in a new tab.</i>
+            <a target="_blank" href="./pdf/semester6/debriefing.pdf"><button class="btnModalClose bntModalClose-bg-color">View Research Paper</button></a>
             </div>
             <div class="text">
               <h3>Project Plan</h3>
@@ -101,13 +95,7 @@
                 <li>Worked on everything that's in the project plan together with Dary van Sleeuwen. The rest of the
                   team helped formulate the questions and design challenge.</li>
               </ol>
-            </div>
-            <div class="image-description">
-              
-              <i>Click <a style="color: #4758fc;" target="_blank" href="/pdf/semester6/projectplan_v3.pdf">here</a>
-                to open
-                the
-                PDF in a new tab.</i>
+            <a target="_blank" href="./pdf/semester6/projectplan_v3.pdf"><button class="btnModalClose bntModalClose-bg-color">View Research Paper</button></a>
             </div>
             <div class="text">
               <h3>Result</h3>

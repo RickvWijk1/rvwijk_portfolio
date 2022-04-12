@@ -146,7 +146,8 @@
                   <div class="group-project-proof">
                     <div>
                       <p><b>PSV Group Project</b></p>
-                      <a target="_blank" href="http://localhost:3000/rvwijk_portfolio/modals/semesterSix/architecture"
+                      <a target="_blank"
+                        href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/architecture"
                         class="txt-link">
                         Software Architecture
                       </a>
@@ -155,8 +156,7 @@
                         diagram.</p>
                     </div>
                     <div>
-                      <a target="_blank" href="http://localhost:3000/rvwijk_portfolio/modals/semesterSix/architecture"
-                        class="txt-link">
+                      <a target="_blank" href="#" class="txt-link">
                         Final Prototype
                       </a>
                       <span>-></span>
@@ -175,7 +175,8 @@
                         Current Notification System
                       </a>
                       <span>-></span>
-                      <p>I investigated what the current notification system looks like. I talked to the stakeholders to get more information about the system and their wishes.</p>
+                      <p>I investigated what the current notification system looks like. I talked to the stakeholders to
+                        get more information about the system and their wishes.</p>
                     </div>
                   </div>
                 </td>
@@ -201,12 +202,15 @@
                   <div class="group-project-proof">
                     <div>
                       <p><b>PSV Group Project</b></p>
-                      <a target="_blank" href="http://localhost:3000/rvwijk_portfolio/modals/semesterSix/projectPlan"
+                      <a target="_blank"
+                        href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/projectPlan"
                         class="txt-link">
                         Project Plan
                       </a>
                       <span>-></span>
-                      <p>The problem was established by planning multiple debriefing meetings, asking questions (live or through email) and researching the media platforms of PSV.</p>
+                      <p>The problem was established by planning multiple debriefing meetings, asking questions (on
+                        location or through email) and researching the media platforms of PSV. In addition, the primary
+                        question and sub-questions were formulated. A planning was made, risks were noted down, etc.</p>
                     </div>
                   </div>
                 </td>
@@ -225,7 +229,28 @@
                   <i>By research methods, we mean that you make a substantiated choice of DOT framework/CMD methods,
                     using triangulation through relevant research patterns.</i>
                 </td>
-                <td></td>
+                <td>
+                  <div>
+                    <p><b>PSV Group Project</b></p>
+                    <a target="_blank"
+                      href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/projectPlan"
+                      class="txt-link">
+                      Project Plan
+                    </a>
+                    <span>-></span>
+                    <p>I formulated fitting sub-questions that helped answer the primary question.</p>
+                  </div>
+                  <div>
+                    <a target="_blank"
+                      href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/userstories"
+                      class="txt-link">
+                      User stories - Plan of Action
+                    </a>
+                    <span>-></span>
+                    <p>I formulated a primary question and fitting sub-questions that helped answer the primary
+                      question.</p>
+                  </div>
+                </td>
               </tr>
               <tr>
                 <td>
@@ -242,7 +267,25 @@
                   <i>By develop, we mean that you consciously look at what you still want to learn. </i>
                 </td>
                 <td>
-
+                  <div>
+                    <p><b>PSV Group Project</b></p>
+                    <a target="_blank"
+                      href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/semesterSix"
+                       class="txt-link">
+                      Every product
+                    </a>
+                    <span>-></span>
+                    <p>I reflected upon each product.</p>
+                  </div>
+                  <div>
+                    <a target="_blank"
+                      href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/portfolio-abstract"
+                      class="txt-link">
+                      Reading Guide
+                    </a>
+                    <span>-></span>
+                    <p>I reflected upon my work and actions during the project.</p>
+                  </div>
                 </td>
               </tr>
               <tr>

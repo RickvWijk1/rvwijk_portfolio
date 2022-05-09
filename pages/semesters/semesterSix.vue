@@ -25,7 +25,9 @@
   </div>
 </template>
 <script>
-  export default {}
+  export default {
+    layout: 'noNav',
+  }
 
 </script>
 <style lang="css" scoped>
@@ -85,6 +87,13 @@
     .src-buttons ul {
       flex-direction: column;
     }
+}
+
+@media (min-width: 640px){
+.wrapper {
+    padding: 4em 4em;
+    margin-top: unset;
+}
 }
 
 

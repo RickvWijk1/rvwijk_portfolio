@@ -37,8 +37,6 @@
                             and followers a good and relevant experience on every device and at any time. PSV currently
                             has
                             a website and two native apps to provide this.</p>
-                          <div class="project-img"><img src="~/assets/img/school/semester6/psv_logo.png" width="100px"
-                              alt=""></div>
                         </div>
                       </div>
                       <div class="project-h3-content">
@@ -50,8 +48,6 @@
                             everything separately for android and ios. At the same time, the possibilities of mobile
                             websites are increasing. This all lead PSV to wonder how PSV can best organise its digital
                             platforms with regard to what they want to offer fans and followers.</p>
-                          <div class="project-img"><img src="~/assets/img/school/semester6/psv_logo.png" width="100px"
-                              alt=""></div>
                         </div>
                       </div>
                       <div class="project-h3-content">
@@ -61,8 +57,6 @@
                             future-proof way. PSV originally wanted to let us research what technologies a new PSV app
                             should use. In addition, we (the project group) saw chance to also research and redesign some of its most
                             attractive/valuable features/concepts so that more value could be added to the PSV app in the future.</p>
-                          <div class="project-img"><img src="~/assets/img/school/semester6/psv_logo.png" width="100px"
-                              alt=""></div>
                         </div>
                       </div>
                     </div>
@@ -87,8 +81,7 @@
                             and followers a good and relevant experience on every device and at any time. PSV currently
                             has
                             a website and two native apps to provide this.</p>
-                          <div class="project-img"><img src="~/assets/img/school/semester6/psv_logo.png" width="100px"
-                              alt=""></div>
+                          
                         </div>
                       </div>
                       <div class="project-h3-content">
@@ -100,8 +93,7 @@
                             everything separately for android and ios. At the same time, the possibilities of mobile
                             websites are increasing. This all lead PSV to wonder how PSV can best organise its digital
                             platforms with regard to what they want to offer fans and followers.</p>
-                          <div class="project-img"><img src="~/assets/img/school/semester6/psv_logo.png" width="100px"
-                              alt=""></div>
+                          
                         </div>
                       </div>
                       <div class="project-h3-content">
@@ -113,8 +105,7 @@
                             everything separately for android and ios. At the same time, the possibilities of mobile
                             websites are increasing. This all lead PSV to wonder how PSV can best organise its digital
                             platforms with regard to what they want to offer fans and followers.</p>
-                          <div class="project-img"><img src="~/assets/img/school/semester6/psv_logo.png" width="100px"
-                              alt=""></div>
+                          
                         </div>
                       </div>
                     </div>
@@ -208,7 +199,7 @@
 
 <script>
   export default {
-
+layout: 'noNav',
   }
 
 </script>

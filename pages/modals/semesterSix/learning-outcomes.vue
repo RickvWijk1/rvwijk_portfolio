@@ -326,7 +326,7 @@
 
 <script>
   export default {
-
+layout: 'noNav',
   }
 
 </script>

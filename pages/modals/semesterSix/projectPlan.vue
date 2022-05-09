@@ -21,23 +21,8 @@
                   <p>Desktop</p>
                   <img src="~/assets/img/school/research_strats/library.png" alt="">
                 </div>
-                <div class="research-tag research-field">
-                  <p>Field</p>
-                  <img src="~/assets/img/school/research_strats/field.png" alt="">
-                </div>
-                <div class="research-tag research-lab">
-                  <p>Lab</p>
-                  <img src="~/assets/img/school/research_strats/lab.png" alt="">
-                </div>
-                <div class="research-tag research-showroom">
-                  <p>Showroom</p>
-                  <img src="~/assets/img/school/research_strats/showroom.png" alt="">
-                </div>
-                <div class="research-tag research-workshop">
-                  <p>Workshop</p>
-                  <img src="~/assets/img/school/research_strats/workshop.png" alt="">
-                </div>
               </div>
+              <p><b>Desktop research was applied,</b> because the current situation of PSV's problem/opportunity had to be analysed in order to understand the assignment. By talking to PSV's representatives we gained insight of what PSV was working on and what stakeholders were involved.</p>
             </div>
             <div class="text">
               <div class="learned-cont">
@@ -60,7 +45,7 @@
               </div>
               <div class="label-cont">
                 <ul class="list">
-                  <li class="list-bullet">Analysed the briefing (debriefed)</li>
+                  <li class="list-bullet">Analysed/debriefed the briefing</li>
                   <li class="list-bullet">Learned what the client's problem is</li>
                   <li class="list-bullet">Learned what opportunities the assignment offers</li>
                   <li class="list-bullet">Learned what the scope of the project is</li>
@@ -154,7 +139,7 @@
 
 <script>
   export default {
-
+layout: 'noNav',
   }
 
 </script>

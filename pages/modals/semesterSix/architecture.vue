@@ -21,18 +21,6 @@
                   <p>Desktop</p>
                   <img src="~/assets/img/school/research_strats/library.png" alt="">
                 </div>
-                <div class="research-tag research-field">
-                  <p>Field</p>
-                  <img src="~/assets/img/school/research_strats/field.png" alt="">
-                </div>
-                <div class="research-tag research-lab">
-                  <p>Lab</p>
-                  <img src="~/assets/img/school/research_strats/lab.png" alt="">
-                </div>
-                <div class="research-tag research-showroom">
-                  <p>Showroom</p>
-                  <img src="~/assets/img/school/research_strats/showroom.png" alt="">
-                </div>
                 <div class="research-tag research-active research-workshop">
                   <p>Workshop</p>
                   <img src="~/assets/img/school/research_strats/workshop.png" alt="">
@@ -116,7 +104,7 @@
 
 <script>
   export default {
-
+    layout: 'noNav',
   }
 
 </script>

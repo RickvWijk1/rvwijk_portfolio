@@ -34,6 +34,7 @@
                 <p>View Projects</p>
                 <svg-icon class="svg-external-link" name="external_link" />
               </button></a>
+              <img src="~/assets/img/school/semester6/psv_background.png" width="100px" alt="">
           </div>
         </template>
       </AboutCard>

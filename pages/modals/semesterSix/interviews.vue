@@ -156,7 +156,7 @@ systemen gaan hiermee gemoeid?
 
 <script>
   export default {
-
+layout: 'noNav',
   }
 
 </script>

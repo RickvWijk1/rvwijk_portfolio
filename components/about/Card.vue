@@ -89,7 +89,7 @@
 
 .card-footer-wrapper{
   display: flex;
-  align-items: flex-end;
+  flex-direction: column;
 }
 .btnModalClose{
   display: flex;

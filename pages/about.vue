@@ -34,7 +34,7 @@
         
         <AboutApproachContainer />
      
-      <UIBorderFullWidth class="border-full-width"/>
+      <!-- <UIBorderFullWidth class="border-full-width"/> -->
     </section>
 
   </div>

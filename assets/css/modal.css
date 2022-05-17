@@ -120,13 +120,19 @@ a.close-modal {
   /* cursor: pointer; */
 }
 
+
+
 .project-h2-section, .project-h3-section{
   display: flex;
     flex-direction: column;
     /* margin-bottom: 1.5rem; */
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     /* margin-left: 1em; */
     text-align: left;
+}
+
+.project-h2-section{
+  margin-top: 4rem;
 }
 
 .project-h2-content p, .project-h3-content p{
@@ -153,6 +159,11 @@ a.close-modal {
 .pdf-padding {
   text-align: left;
   padding: 0rem 4rem 0.5rem 4rem;
+}
+
+.pdf-btn-cont{
+  display: flex;
+  gap: 1em;
 }
 
 .paddedText {
@@ -212,6 +223,7 @@ a.paddedText{
   grid-template-columns: repeat(1, minmax(100px, 1fr));
   width: 100%;
   gap: 1rem 0rem;
+  margin-top: 1em;
 }
 
 .research-tag {
@@ -254,6 +266,10 @@ a.paddedText{
 
 .research-workshop {
   background-color: #27c1f0;
+}
+
+.research-text{
+  margin-top: 0em;
 }
 
 .learned-cont {
@@ -490,7 +506,7 @@ a.paddedText{
 @media (min-width: 1280px) {
   .project-body{
     display: flex;
-    flex-direction: row;
+    
   }
 }
 

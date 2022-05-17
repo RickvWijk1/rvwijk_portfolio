@@ -35,13 +35,13 @@
         type: String,
         required: true,
       },
-      // footer_btn: {
-      //   type: String,
-      // },
+      footer_btn: {
+        type: String,
+      },
     },
     data(){
        return{
-         footer_btn_html: '<i>hi</i>',
+        
        }
      }   
   }

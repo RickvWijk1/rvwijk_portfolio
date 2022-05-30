@@ -16,18 +16,6 @@
             </div>
             <div class="text">
               <div class="learned-cont">
-                <h3>My contribution</h3>
-                <img src="~/assets/img/school/icons/contribution.png" alt="">
-              </div>
-              <div class="label-cont">
-                <ul class="list">
-                  <li class="list-bullet">Analysed/debriefed the briefing</li>
-                  <li class="list-bullet">Created a project plan</li>
-                </ul>
-              </div>
-            </div>
-            <div class="text">
-              <div class="learned-cont">
                 <h3>Motivation</h3>
                 <img src="~/assets/img/school/icons/motivation.png" alt="">
               </div>
@@ -157,20 +145,6 @@
                   we as ICT & Media Design students excel in and that it's mandatory for us to do more user research.
                   The client understood this and agreed to adding this to the scope.
                 </p>
-              </div>
-            </div>
-            <div class="text">
-              <div class="learned-cont">
-                <h3>What have I learned?</h3>
-                <img src="~/assets/img/school/icons/learn_more.png" alt="">
-              </div>
-              <div class="label-cont">
-                <ul class="list">
-                  <li class="list-bullet">Learned what the context of the assignment is</li>
-                  <li class="list-bullet">Learned what the client's problem is by asking</li>
-                  <li class="list-bullet">Learned what opportunities the assignment offers</li>
-                  <li class="list-bullet">Learned what the scope of the project is</li>
-                </ul>
               </div>
             </div>
             <div class="text">

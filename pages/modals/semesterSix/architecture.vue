@@ -117,9 +117,17 @@
             <a target="_blank" href="./pdf/semester6/architecture.pdf"><button
                 class="btnModalClose bntModalClose-bg-color">View software architecture research in PDF</button></a>
             <div class="text">
-             <p><b>Software Architecture Diagram</b></p>
+              <p><b>Software Architecture Diagram</b></p>
               <p>The diagram below shows the flow of updating/maintaining the media platforms and what parties are
-                involved in this process.</p>
+                involved in this process. Visio was used to create the diagram.</p>
+              <p> After I created the diagram I found out about the C4 model. The C4 model is for mapping all kinds of
+                entities that are involved in a software architecture system.
+                My goal was to understand the current PSV software architecture as a whole, not a specific part. In
+                regard to the C4 model, the diagram below shows Level 1 (Context), Level 2 (Containers) and Level 3
+                (Component).
+                For example, the 'PSV redactie' is part of the context, while the PSV app is a container and the Sports
+                Alliance database is a component.
+              </p>
             </div>
             <img src="~/assets/img/school/semester6/architecture.webp" alt="">
             <a target="_blank" href="_nuxt/assets/img/school/semester6/architecture.webp"><button
@@ -162,21 +170,8 @@
               </div>
             </div>
             <div class="text">
-              <div class="learned-cont">
-                <h3>What have I learned?</h3>
-                <img src="~/assets/img/school/icons/learn_more.png" alt="">
-              </div>
-              <div class="label-cont">
-                <ul class="list">
-                  <li class="list-bullet">Learned what data the PSV app uses</li>
-                  <li class="list-bullet">Learned from what third parties the PSV app gets data</li>
-                  <li class="list-bullet">Learned that PSV uses a CMS for their website</li>
-                  <li class="list-bullet">Learned that PSV doesn't use a CMS for their app, but instead let TDE develop
-                    it.</li>
-                  <li class="list-bullet">Learned that PSV has got their own editorial office to produce content for the
-                    website and app.</li>
-                </ul>
-              </div>
+              <h3>What's next?</h3>
+              <p>After understanding the context of the assignment, it's time to define a target audience and get in touch so that it's clear for who we're developing.</p>
             </div>
           </div>
         </div>

@@ -110,6 +110,8 @@ input[type="radio"] {
 
   /* SEMESTER 6 FILTERS
     –––––––––––––––––––––––––––––––––––––––––––––––––– */
+    
+    /* PSV Group Project */
   [value="grp_all"]:checked~.filters [for="grp_all"],
   [value="grp_analyse"]:checked~.filters [for="grp_analyse"],
   [value="grp_advise"]:checked~.filters [for="grp_advise"],
@@ -142,6 +144,43 @@ input[type="radio"] {
   [value="grp_oriented"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="grp_oriented"]),
   [value="grp_realise"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="grp_realise"]),
   [value="grp_manage"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="grp_manage"])
+  {
+    display: flex;
+
+  }
+    /* Metaverse - International Project */
+  [value="int_all"]:checked~.filters [for="int_all"],
+  [value="int_analyse"]:checked~.filters [for="int_analyse"],
+  [value="int_advise"]:checked~.filters [for="int_advise"],
+  [value="int_design"]:checked~.filters [for="int_design"],
+  [value="int_realise"]:checked~.filters [for="int_realise"],
+  [value="int_personal"]:checked~.filters [for="int_personal"],
+  [value="int_oriented"]:checked~.filters [for="int_oriented"],
+  [value="int_manage"]:checked~.filters [for="int_manage"]
+  {
+    background-color: #2738DE;
+  }
+
+  [value="int_all"]:checked~.row-grid [data-category] {
+    display: grid;
+  }
+  [value="int_analyse"]:checked~.row-grid a:not([data_category~="int_analyse"]),
+  [value="int_advise"]:checked~.row-grid a:not([data_category~="int_advise"]),
+  [value="int_design"]:checked~.row-grid a:not([data_category~="int_design"]),
+  [value="int_personal"]:checked~.row-grid a:not([data_category~="int_personal"]),
+  [value="int_oriented"]:checked~.row-grid a:not([data_category~="int_oriented"]),
+  [value="int_realise"]:checked~.row-grid a:not([data_category~="int_realise"]),
+  [value="int_manage"]:checked~.row-grid a:not([data_category~="int_manage"])
+  {
+    display: none;
+  }
+  [value="int_analyse"]:checked~.row-grid .modal-link  .overview-grid div .a-ghostbtn:not([data_category~="int_analyse"]),
+  [value="int_advise"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="int_advise"]),
+  [value="int_design"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="int_design"]),
+  [value="int_personal"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="int_personal"]),
+  [value="int_oriented"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="int_oriented"]),
+  [value="int_realise"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="int_realise"]),
+  [value="int_manage"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="int_manage"])
   {
     display: flex;
 

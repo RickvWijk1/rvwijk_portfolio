@@ -22,6 +22,12 @@
           </div>
         <SemestersixGroupProjectProduct />
       </div>
+      <div class="resources-cont">
+        <div class="tl-row">
+            <h1>METAVERSE - INTERNATIONAL PROJECT</h1>
+          </div>
+        <SemestersixInterProjectProduct />
+      </div>
   </div>
 </template>
 <script>

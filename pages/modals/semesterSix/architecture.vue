@@ -171,7 +171,8 @@
             </div>
             <div class="text">
               <h3>What's next?</h3>
-              <p>After understanding the context of the assignment, it's time to define a target audience and get in touch so that it's clear for who we're developing.</p>
+              <p>After understanding the context of the assignment, it's time to define a target audience and get in
+                touch so that it's clear for who we're designing.</p>
             </div>
           </div>
         </div>

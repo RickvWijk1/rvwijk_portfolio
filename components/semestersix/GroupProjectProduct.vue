@@ -101,6 +101,48 @@
             </div>
           </div>
         </NuxtLink>
+        <NuxtLink class="modal-link" to="/modals/semesterSix/userstories" data_category="grp_analyse">
+          <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/plan_action.jpg')`}">
+            <div>
+              <a class="a-ghostbtn">
+                <div id="hover-box" class="hover-box">
+                  <div class="ghostbutton">
+                    <p>Current notification system</p>
+                    <svg-icon name="external_link" class="svg-external-link" />
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </NuxtLink>
+        <NuxtLink class="modal-link" to="/modals/semesterSix/userstories" data_category="grp_analyse">
+          <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/plan_action.jpg')`}">
+            <div>
+              <a class="a-ghostbtn">
+                <div id="hover-box" class="hover-box">
+                  <div class="ghostbutton">
+                    <p>Trend analysis notifications</p>
+                    <svg-icon name="external_link" class="svg-external-link" />
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </NuxtLink>
+        <NuxtLink class="modal-link" to="/modals/semesterSix/userstories" data_category="grp_analyse">
+          <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/plan_action.jpg')`}">
+            <div>
+              <a class="a-ghostbtn">
+                <div id="hover-box" class="hover-box">
+                  <div class="ghostbutton">
+                    <p>Flutter notifications</p>
+                    <svg-icon name="external_link" class="svg-external-link" />
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </NuxtLink>
       </div>
   </section>
 </template>

@@ -113,13 +113,13 @@ input[type="radio"] {
     
     /* PSV Group Project */
   [value="grp_all"]:checked~.filters [for="grp_all"],
-  [value="grp_analyse"]:checked~.filters [for="grp_analyse"],
-  [value="grp_advise"]:checked~.filters [for="grp_advise"],
-  [value="grp_design"]:checked~.filters [for="grp_design"],
-  [value="grp_realise"]:checked~.filters [for="grp_realise"],
-  [value="grp_personal"]:checked~.filters [for="grp_personal"],
-  [value="grp_oriented"]:checked~.filters [for="grp_oriented"],
-  [value="grp_manage"]:checked~.filters [for="grp_manage"]
+  [value="grp_analyse_advise"]:checked~.filters [for="grp_analyse_advise"],
+  [value="grp_exec_validate"]:checked~.filters [for="grp_exec_validate"],
+  [value="grp_software"]:checked~.filters [for="grp_software"],
+  [value="grp_organisation"]:checked~.filters [for="grp_organisation"],
+  [value="grp_problem"]:checked~.filters [for="grp_problem"],
+  [value="grp_leadership"]:checked~.filters [for="grp_leadership"],
+  [value="grp_oriented"]:checked~.filters [for="grp_oriented"]
   {
     background-color: #2738DE;
   }
@@ -127,23 +127,23 @@ input[type="radio"] {
   [value="grp_all"]:checked~.row-grid [data-category] {
     display: grid;
   }
-  [value="grp_analyse"]:checked~.row-grid a:not([data_category~="grp_analyse"]),
-  [value="grp_advise"]:checked~.row-grid a:not([data_category~="grp_advise"]),
-  [value="grp_design"]:checked~.row-grid a:not([data_category~="grp_design"]),
-  [value="grp_personal"]:checked~.row-grid a:not([data_category~="grp_personal"]),
-  [value="grp_oriented"]:checked~.row-grid a:not([data_category~="grp_oriented"]),
-  [value="grp_realise"]:checked~.row-grid a:not([data_category~="grp_realise"]),
-  [value="grp_manage"]:checked~.row-grid a:not([data_category~="grp_manage"])
+  [value="grp_analyse_advise"]:checked~.row-grid a:not([data_category~="grp_analyse_advise"]),
+  [value="grp_exec_validate"]:checked~.row-grid a:not([data_category~="grp_exec_validate"]),
+  [value="grp_software"]:checked~.row-grid a:not([data_category~="grp_software"]),
+  [value="grp_problem"]:checked~.row-grid a:not([data_category~="grp_problem"]),
+  [value="grp_leadership"]:checked~.row-grid a:not([data_category~="grp_leadership"]),
+  [value="grp_organisation"]:checked~.row-grid a:not([data_category~="grp_organisation"]),
+  [value="grp_oriented"]:checked~.row-grid a:not([data_category~="grp_oriented"])
   {
     display: none;
   }
-  [value="grp_analyse"]:checked~.row-grid .modal-link  .overview-grid div .a-ghostbtn:not([data_category~="grp_analyse"]),
-  [value="grp_advise"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="grp_advise"]),
-  [value="grp_design"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="grp_design"]),
-  [value="grp_personal"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="grp_personal"]),
-  [value="grp_oriented"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="grp_oriented"]),
-  [value="grp_realise"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="grp_realise"]),
-  [value="grp_manage"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="grp_manage"])
+  [value="grp_analyse_advise"]:checked~.row-grid .modal-link  .overview-grid div .a-ghostbtn:not([data_category~="grp_analyse_advise"]),
+  [value="grp_exec_validate"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="grp_exec_validate"]),
+  [value="grp_software"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="grp_software"]),
+  [value="grp_problem"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="grp_problem"]),
+  [value="grp_leadership"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="grp_leadership"]),
+  [value="grp_organisation"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="grp_organisation"]),
+  [value="grp_oriented"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="grp_oriented"])
   {
     display: flex;
 

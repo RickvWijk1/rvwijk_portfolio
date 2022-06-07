@@ -34,7 +34,7 @@
                 <p>View Projects</p>
                 <svg-icon class="svg-external-link" name="external_link" />
               </button></a>
-              <img src="~/assets/img/school/semester6/psv_background.png" width="100px" alt="">
+              <!-- <img src="~/assets/img/school/semester6/psv_background.png" width="100px" alt=""> -->
           </div>
         </template>
       </AboutCard>
@@ -111,7 +111,7 @@
         </template>
       </AboutCard>
       <AboutCard :number="8" title="Graduation 🎓" data_category="fourth"
-        description="I'm currently looking for a graduation internship that suits me! Please 📧 me if you know just the right place for me. Thanks in advance!🤗">
+        description="My graduation internship will start at the end of August at Bluebird Day in Breda!🤗">
         <template v-slot:footer_btn_html>
           <div class="card-footer-wrapper">
             <a href="mailto:rick_van_wijk@hotmail.com"><button class="btnModalClose bntModalClose-bg-color">

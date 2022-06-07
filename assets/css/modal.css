@@ -109,7 +109,7 @@ a.close-modal {
 .project-sub-wrapper{
   display: flex;
   flex-direction: column;
-  gap: 1em;
+  gap: 2em;
 }
 
 .project-h1-wrapper::before, .project-h2-wrapper::before, .project-h3-wrapper::before{
@@ -207,6 +207,14 @@ a.paddedText{
 .paddedText-p{
   max-width: unset;
 }
+
+.svg-collab {
+  display: flex;
+  width: 38px;
+  height: 23px;
+  fill: #4758fb;
+}
+
 .research-cont{
   display: flex;
   flex-direction: column;

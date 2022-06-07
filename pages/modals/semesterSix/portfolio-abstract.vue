@@ -18,6 +18,11 @@
                   </div>
                 </div>
               </div>
+              <br>
+              <div class="pdf-btn-cont">
+                <a target="_blank" href=""><button class="btnModalClose bntModalClose-bg-color">View reading guide in
+                    PDF</button></a>
+              </div>
               <div class="project-h2-section">
                 <div class="project-h2-wrapper">
                   <div class="project-h2-content">
@@ -27,7 +32,8 @@
                       completed we reviewed each other's work. Reviewing often happened during the stand-ups (Monday and
                       sometimes Wednesday morning) which were online via MS Teams. On Tuesday we met on location to
                       discuss and/or review work. On Thursday we each worked individually on our portfolio. Friday was
-                      often working from home individually.</p>
+                      often working from home individually. Google Drive was used to store all our research work and a
+                      GitHub organization was created to manage code.</p>
                   </div>
                 </div>
                 <div class="project-h3-section">
@@ -105,7 +111,7 @@
                             <a class="txt-link" target="_blank"
                               href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/projectPlan">project
                               plan</a>. When we were defining the project plan, we began to doubt whether this
-                            assignment was fiting for ICT & Media Design students since the client specifically asked
+                            assignment was fitting for ICT & Media Design students since the client specifically asked
                             for a cheaper technical solution and nothing that had something to do with users.</p>
                           <p>We arranged two more meetings with PSV to see if we could reformulate the assignment and
                             define the scope. In this
@@ -160,7 +166,7 @@
                               audience</a>. These type of fans often go to the Philips Stadium to watch a game. An app
                             that can save your ticket so that you can scan it at the stadium's entry is useful for the
                             target audience. Other features like 'Games' that focus on a young target audience are more
-                            convenient to use on the PSV website rather than the app.</p>
+                            convenient to use on the PSV website or develop natively in a separate app instead of the web-views PSV uses.</p>
                         </div>
                       </div>
                       <div class="project-h3-content">
@@ -241,7 +247,8 @@
                             a good understanding of the user experience and how much the notification system contributes
                             to the immersion/game experience. One time
                             during a game, I didn't get any notifications at all from the app despite notifications
-                            being enabled. This was solved by reopening the app, but another issue occured later on when
+                            being enabled. This was solved by reopening the app, but another issue occurred later on
+                            when
                             I received a few
                             notifications in the wrong order. The issue might have been my phone or network's fault
                             though since it
@@ -280,30 +287,54 @@
                             the game they would post photos of players, fans, the stadium. If I was a Feyenoord fan I
                             would have most likely gotten very excited for the game so this could be a good addition for
                             improving the immersion of the PSV app.</p>
-                          <p>One of the other apps I tested posted images in notifications which helps give more context
+                          <p>One of the other apps I tested, posted images in notifications which helps give more
+                            context
                             which on itself can increase the immersion. Most apps also offered notifications about when
                             the match would start, what the squad formation would be and when a penalty was given.
                             Penalties are a great way to build suspense since there's a high chance of a goal being
                             scored.</p>
-                            <p>The trend analysis gave me a lot of inspiration for making a prototype.</p>
+                          <p>The trend analysis gave me a lot of inspiration for making a prototype.</p>
                         </div>
                       </div>
                       <div class="project-h3-content">
                         <h3>Flutter notifications research</h3>
                         <div class="project-body">
-                          <p>Lorem</p>
+                          <p>During the Sprint 1 presentation I advised to research <a class="txt-link" target="_blank"
+                              href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/flutterNotifications">the
+                              capabilities of Flutter</a> in
+                            regard to notifications. This was needed since PSV wants to keep using notifications in the
+                            app. I researched what the functionalities and best practices of Flutter's notification
+                            capabilities are by applying desktop research and the literature study method.
+                            Of course I was primarily working on my user story, so the main question was:</p>
+                          <b><i>Which Flutter notification functionalities can be used to enhance the immersion of PSV
+                              fans
+                              around matches in the PSV app?</i></b>
+                          <p>From this research I concluded that using the 'flutter_local_notifications' package
+                            combined with the 'FlutterFire' functionalities would be the most useful, since the former
+                            can display notifications while the user is in the app and the latter is for displaying push
+                            notifications when the app is closed. They both offer
+                            the same notification customizations like giving a notification a title, paragraph, sound,
+                            image and a schedule which can potentially help create more immersion.</p>
                         </div>
                       </div>
                       <div class="project-h3-content">
-                        <h3>Wireframing</h3>
+                        <h3>Designing</h3>
                         <div class="project-body">
-                          <p>Lorem</p>
-                        </div>
-                      </div>
-                      <div class="project-h3-content">
-                        <h3>High-fidelity prototype</h3>
-                        <div class="project-body">
-                          <p>Lorem</p>
+                          <p>After gathering enough info about the target audience and trends, I started <a
+                              class="txt-link" target="_blank"
+                              href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/designTesting">designing</a>.
+                            Figma was used to create the designs.
+                            I started wireframing so that I could quickly decide what type of layout was needed and what
+                            information the screens/pages would need to contain.
+                            When I had my wireframes ready, I started creating a high-fidelity prototype based on the
+                            wireframes. This meant adding colors, fonts, effects and interactivity.
+                            During the wireframing and high-fidelity process I applied basic design
+                            principles/guidelines and the branding guidelines
+                            of PSV.
+                            The basic principles/guidelines were; menu layouts, icons, content alignment and content
+                            management.
+                            The applied branding guidelines were; typography, color palette, icons.
+                          </p>
                         </div>
                       </div>
                     </div>
@@ -314,7 +345,8 @@
                 <div class="project-h2-wrapper">
                   <div class="project-h2-content">
                     <h2>Sprint 3 - Testing & Final delivery</h2>
-                    <p>Lorem</p>
+                    <p>In this sprint it was mostly about getting the project ready to be delivered to the client and
+                      present our findings to them.</p>
                   </div>
                 </div>
                 <div class="project-h3-section">
@@ -323,12 +355,53 @@
                       <div class="project-h3-content">
                         <h3>Testing design</h3>
                         <div class="project-body">
-                          <p>Lorem</p>
-
+                          <p>While I was designing I began thinking about what would needed to be tested. Of course the
+                            main goal of the user story was to create more immersion for PSV fans through notifications,
+                            so I made a <a class="txt-link" target="_blank"
+                              href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/designTesting">test
+                              plan</a> to be able to see if the design I created would create more immersion.
+                            Unfortunately I was not able to get all the resources in time to carry out the test plan. In
+                            my test plan I wanted to make a prototype that would simulate the current notification
+                            system of PSV and compare it to my own designed notification system prototype. Sadly I
+                            needed to spare time for finishing the high-fidelity prototype and transfering the project
+                            to the client correctly.</p>
                         </div>
                       </div>
-
+                      <div class="project-h3-content">
+                        <h3>Final delivery</h3>
+                        <div class="project-body">
+                          <p>The last 1-2 weeks we wrapped up working on our user stories and discussed what the best
+                            way to <a class="txt-link" target="_blank"
+                              href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/designTesting">deliver
+                              the project</a> was.
+                            We figured it was best to create a well-organized folder in which we would include the most
+                            valuable research and a 'delivery/transfer' document. This document contained references to
+                            where they could find specific research in the folder, the link to our Figma designs, link
+                            to the GitHub organization and finally our advice to PSV with a conclusion and
+                            recommendations.
+                            This folder was handed to PSV in an email after we presented our findings at TQ.
+                          </p>
+                        </div>
+                      </div>
                     </div>
+                  </div>
+                </div>
+              </div>
+              <div class="project-h2-section">
+                <div class="project-h2-wrapper">
+                  <div class="project-h2-content">
+                    <h2>Evaluation</h2>
+                    <p>Looking back at the project I must say I'm happy about our process as a group. The start was
+                      rough, because
+                      the initial assignment wasn't 100% fit ICT & Media Design students. However, after a lot of
+                      discussing with the client we agreed on a scoping that was a bit different. From then on we
+                      applied our expertise and kept a good communication going with the client. The communication
+                      within the group was good, but could have been better. For example, a few times project members
+                      failed to
+                      show up for the weekly Monday stand-up, because they forgot it was planned (despite it being
+                      scheduled in MS
+                      Teams). Next time I will send reminders on Sunday or advise my project members to set a reminder.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -340,28 +413,81 @@
                   <h1>International project</h1>
                   <div class="collab-cont">
                     <svg-icon class="svg-collab" name="collab" />
-                    <i>R. van Wijk</i>
+                    <i>R. van Wijk, E. Banda, V.I. Petrove, S. Sodermans, V.A. Ivanova, T. Schiavone</i>
                   </div>
                 </div>
               </div>
               <div class="project-h2-section">
                 <div class="project-h2-wrapper">
                   <div class="project-h2-content">
-                    <h2>H2</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam cum quia quos fugit provident
-                      voluptates facere incidunt? Laboriosam esse, quibusdam optio, tempore, eius deserunt modi ut
-                      voluptate sint inventore eum nisi corrupti fugit. Dolores enim, veniam quam impedit quod magnam
-                      nesciunt sint repellat fugit corrupti sit dolorem! Qui accusantium odit numquam accusamus quis
-                      assumenda laborum id amet culpa? Exercitationem ipsa neque architecto officia nemo?</p>
+                    <h2>Preparation Week</h2>
+                    <p>Before the project started, I had to contact my project members. In Teams I created a new team
+                      and invited everyone. Unfortunately, the international guest student didn't respond to our emails.
+                    </p>
+
+                    <p>In our first meeting we discussed the first assignment which was about
+                      understanding the metaverse. For the second assignment we each made a metaverse avatar that
+                      represents ourselves, and as final assignment we made a group photo of the avatars, discussed
+                      how we created our avatars and what our core message is of the metaverse.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="project-h2-section">
+                <div class="project-h2-wrapper">
+                  <div class="project-h2-content">
+                    <h2>International Week</h2>
+                    <p>This time around, the international guest student did show up so we started brainstorming
+                      metaverse concepts for each client we could choose from. We achieved this by doing desktop
+                      research on the clients to understand what products/services they offered and then writing down
+                      metaverse ideas on a whiteboard that could improve those products/services.
+                      After voting, we chose to continue with Boymans.</p>
                   </div>
                 </div>
                 <div class="project-h3-section">
                   <div class="project-h3-wrapper">
                     <div class="project-h3-content">
-                      <h3>H3</h3>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, veniam odio quasi quaerat
-                        veritatis ipsum nihil suscipit, a culpa aliquid, eveniet quod animi recusandae saepe beatae
-                        voluptates sint ullam tempore.</p>
+                      <h3>Context & Concept</h3>
+                      <p>Boymans is a museum in Rotterdam. This means it sells an experience. Visitors can walk around
+                        the museum and
+                        learn about artworks of all kinds. Of course, visitors can't just touch everything and have to
+                        keep their distance to some of the artworks. Especially for kids it can be tempting to touch
+                        everything, run around out of boredom or pure concentration problems.</p>
+
+                      <p>What if the children can run around, get as close to artworks as they want to, touch them, even
+                        throw them around, smash them, getting rid off all their energy and experimenting like
+                        kids love to do. The metaverse makes this possible. Kids can stay home and use their VR system
+                        to visit the Boymans museum virtually. This way Boymans won't have to worry about kids causing
+                        chaos and damage while the kids can do whatever they like in the virtual museum.</p>
+                      <p>Of course the main purpose of a museum is to educate. For this reason we added another element
+                        to the concept; kids get to see information popup about the (hi)story behind artworks by
+                        standing in front of it. The information is followed by 3 interactive props. One of the props is
+                        related to the artwork and if chosen, the kids can destroy the artwork with the prop.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="project-h3-section">
+                  <div class="project-h3-wrapper">
+                    <div class="project-h3-content">
+                      <h3>Designs</h3>
+                      <p>Boymans is a museum in Rotterdam. This means it sells an experience. Visitors can walk around
+                        the museum and
+                        learn about artworks of all kinds. Of course, visitors can't just touch everything and have to
+                        keep their distance to some of the artworks. Especially for kids it can be tempting to touch
+                        everything, run around out of boredom or pure concentration problems.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="project-h3-section">
+                  <div class="project-h3-wrapper">
+                    <div class="project-h3-content">
+                      <div class="project-h3-content">
+                        <h3>Video prototyping</h3>
+                        <p>Boymans is a museum in Rotterdam. This means it sells an experience. Visitors can walk around
+                          the museum and
+                          learn about artworks of all kinds. Of course, visitors can't just touch everything and have to
+                          keep their distance to some of the artworks. Especially for kids it can be tempting to touch
+                          everything, run around out of boredom or pure concentration problems.</p>
+                      </div>
                     </div>
                   </div>
                 </div>

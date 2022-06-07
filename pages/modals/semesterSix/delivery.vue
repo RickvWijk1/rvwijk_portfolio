@@ -1,0 +1,135 @@
+<template>
+  <div>
+    <div class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <NuxtLink class="modal-close" to="/semesters/semesterSix">×</NuxtLink>
+          <h1>Delivery & Peer Feedback</h1>
+        </div>
+        <div class="modalbody-container">
+          <div class="col-lg-8 mx-auto">
+            <div class="text">
+              <div class="collab-cont">
+                <svg-icon class="svg-collab" name="collab" />
+                <i>R. van Wijk</i>
+              </div>
+            </div>
+            <div class="text">
+              <div class="learned-cont">
+                <h3>Motivation</h3>
+                <img src="~/assets/img/school/icons/motivation.png" alt="">
+              </div>
+              <div class="label-cont">
+                <p>For PSV this project is just the beginning of a bigger project. Our work will serve as inspiration
+                  and push PSV in the right direction. PSV will want to take our advice, research and designs and
+                  continue from
+                  there.
+                </p>
+                <p>Right after the final presentation, it was time to reflect upon the project, as a project group, but
+                  also with the client. By reflecting we can see what could have gone better and what went well so that
+                  we can all learn from it. We already performed retrospective in week 7 of the project to improve the way we worked as a group.</p>
+              </div>
+            </div>
+            <div class="text">
+              <div class="research-tags-cont">
+                <div class="research-tag research-active research-field">
+                  <p>Field</p>
+                  <img src="~/assets/img/school/research_strats/field.png" alt="">
+                </div>
+              </div>
+              <div class="research-text label-cont">
+                <p><b>Lab research was applied,</b> because by discussing the delivery with PSV, we understood what they
+                  would like to see delivered and in what way is most convenient for them. PSV wanted to receive the
+                  most important research documents, technical advice, and access to the code in GitHub and design
+                  (prototypes) in Figma.
+                  I suggested to send a zip file with WeTransfer (since email doesn't allow big files) which PSV agreed
+                  to.
+                </p>
+              </div>
+            </div>
+            <div class="text">
+              <h3>Delivery document</h3>
+              <div class="label-cont">
+                <p>The document contains:</p>
+                <ul class="list">
+                  <li>Technology - best practices and advice<ul style="margin-bottom: 0;" class="list">
+                      <li>Hybrid Frameworks</li>
+                      <li>Flutter</li>
+                    </ul>
+                  </li>
+                  <li class="list-bullet">Advice & Recommendations</li>
+                  <li class="list-bullet">Prototypes/Designs</li>
+                  <li class="list-bullet">Research references</li>
+                </ul>
+                <a target="_blank" href="./pdf/semester6/oplevering.pdf"><button
+                    class="btnModalClose bntModalClose-bg-color">View delivery document</button></a>
+              </div>
+            </div>
+            <div class="text">
+              <h3>Advice</h3>
+              <div class="label-cont">
+                <p>Our advice to PSV was delivered live to them at the end of the final presentation.</p>
+              </div>
+              <img src="~/assets/img/school/semester6/advies1.png" alt="">
+            </div>
+            <div class="text">
+              <h3>Retrospective</h3>
+              <div class="label-cont">
+                <p>In week 7, we discussed our way of working. We applied the 'Zeester' methode, because it's an easy way to sum up what we are doing well, what we should do and what we aren't doing well.</p>
+              <img src="~/assets/img/school/semester6/retrospective.png" alt="">
+              </div>
+            </div>
+            <div class="text">
+              <h3>Peer feedback</h3>
+              <div class="label-cont">
+                <p>After the final presentation we reflected upon the project and held a peer feedback session. With this</p>
+              </div>
+               <a target="_blank" href="./pdf/semester6/peerfeedback.pdf"><button
+                    class="btnModalClose bntModalClose-bg-color">View peer feedback</button></a>
+            </div>
+
+            <div class="paddedTextLine"></div>
+            <div class="text">
+              <div class="learned-cont">
+                <h3>Evaluation</h3>
+                <img src="~/assets/img/school/icons/evaluation.png" alt="">
+              </div>
+              <div class="label-cont">
+                <p>
+                  I gained a lot of new insights that will help me watch out for threats, but keep the strengths when
+                  designing a new notification system.
+                  Testing the current notification system myself was interesting and helped me immerse myself in the
+                  experience of a PSV app user. </p>
+              </div>
+            </div>
+            <div class="text">
+              <h3>What's next?</h3>
+              <p>The first sub question is answered. Now the rest of the sub questions require research to be answered.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <NuxtLink to="/semesters/semesterSix"><button class="btnModalClose bntModalClose-bg-color">Close</button>
+          </NuxtLink>
+        </div>
+      </div>
+    </div>
+
+    <NuxtLink to="/semesters/semesterSix" class="close-modal">
+    </NuxtLink>
+  </div>
+
+</template>
+
+<script>
+  export default {
+    layout: 'noNav',
+  }
+
+</script>
+
+<style>
+  @import '~/assets/css/modal.css';
+
+</style>

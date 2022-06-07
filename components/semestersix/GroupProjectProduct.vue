@@ -1,13 +1,13 @@
 <template>
   <section>
     <input type="radio" id="grp_all" name="semester6" value="grp_all" checked>
-    <input type="radio" id="grp_analyse" name="semester6" value="grp_analyse">
-    <input type="radio" id="grp_advise" name="semester6" value="grp_advise">
-    <input type="radio" id="grp_design" name="semester6" value="grp_design">
-    <input type="radio" id="grp_realise" name="semester6" value="grp_realise">
-    <input type="radio" id="grp_personal" name="semester6" value="grp_personal">
+    <input type="radio" id="grp_analyse_advise" name="semester6" value="grp_analyse_advise">
+    <input type="radio" id="grp_exec_validate" name="semester6" value="grp_exec_validate">
+    <input type="radio" id="grp_software" name="semester6" value="grp_software">
+    <input type="radio" id="grp_organisation" name="semester6" value="grp_organisation">
+    <input type="radio" id="grp_problem" name="semester6" value="grp_problem">
+    <input type="radio" id="grp_leadership" name="semester6" value="grp_leadership">
     <input type="radio" id="grp_oriented" name="semester6" value="grp_oriented">
-    <input type="radio" id="grp_manage" name="semester6" value="grp_manage">
     <ol class="filters">
       <li class="tooltip">
         <img class="info-png" src="~/assets/img/school/icons/info.png" alt="">
@@ -23,22 +23,22 @@
         <label for="grp_all">All</label>
       </li>
       <li>
-        <label for="grp_analyse">User Interaction - Analyse & Advise</label>
+        <label for="grp_analyse_advise">User Interaction - Analyse & Advise</label>
       </li>
       <li>
-        <label for="grp_design">User Interaction - Execution & Validation</label>
+        <label for="grp_exec_validate">User Interaction - Execution & Validation</label>
       </li>
       <li>
-        <label for="grp_realise">Software Design</label>
+        <label for="grp_software">Software Design</label>
       </li>
       <li>
-        <label for="grp_manage">Future-oriented Organisation</label>
+        <label for="grp_organisation">Future-oriented Organisation</label>
       </li>
       <li>
-        <label for="grp_advise">Investigative Problem Solving</label>
+        <label for="grp_problem">Investigative Problem Solving</label>
       </li>
       <li>
-        <label for="grp_personal">Personal Leadership</label>
+        <label for="grp_leadership">Personal Leadership</label>
       </li>
       <li>
         <label for="grp_oriented">Goal-oriented Interaction</label>
@@ -79,7 +79,7 @@
               <a class="a-ghostbtn">
                 <div id="hover-box" class="hover-box">
                   <div class="ghostbutton">
-                    <p>Target Audience Interviews</p>
+                    <p>Target Audience</p>
                     <svg-icon name="external_link" class="svg-external-link" />
                   </div>
                 </div>
@@ -93,7 +93,7 @@
               <a class="a-ghostbtn">
                 <div id="hover-box" class="hover-box">
                   <div class="ghostbutton">
-                    <p>User stories - Plan of Action</p>
+                    <p>User story - Plan of Action</p>
                     <svg-icon name="external_link" class="svg-external-link" />
                   </div>
                 </div>
@@ -101,8 +101,8 @@
             </div>
           </div>
         </NuxtLink>
-        <NuxtLink class="modal-link" to="/modals/semesterSix/userstories" data_category="grp_analyse">
-          <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/plan_action.jpg')`}">
+        <NuxtLink class="modal-link" to="/modals/semesterSix/notificationSystem" data_category="grp_analyse">
+          <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/notification_system.jpg')`}">
             <div>
               <a class="a-ghostbtn">
                 <div id="hover-box" class="hover-box">
@@ -115,8 +115,8 @@
             </div>
           </div>
         </NuxtLink>
-        <NuxtLink class="modal-link" to="/modals/semesterSix/userstories" data_category="grp_analyse">
-          <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/plan_action.jpg')`}">
+        <NuxtLink class="modal-link" to="/modals/semesterSix/trends" data_category="grp_analyse">
+          <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/trends.jpg')`}">
             <div>
               <a class="a-ghostbtn">
                 <div id="hover-box" class="hover-box">
@@ -129,13 +129,41 @@
             </div>
           </div>
         </NuxtLink>
-        <NuxtLink class="modal-link" to="/modals/semesterSix/userstories" data_category="grp_analyse">
-          <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/plan_action.jpg')`}">
+        <NuxtLink class="modal-link" to="/modals/semesterSix/flutterNotifications" data_category="grp_analyse">
+          <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/notifications.jpg')`}">
             <div>
               <a class="a-ghostbtn">
                 <div id="hover-box" class="hover-box">
                   <div class="ghostbutton">
                     <p>Flutter notifications</p>
+                    <svg-icon name="external_link" class="svg-external-link" />
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </NuxtLink>
+        <NuxtLink class="modal-link" to="/modals/semesterSix/designTesting" data_category="grp_analyse">
+          <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/design.jpg')`}">
+            <div>
+              <a class="a-ghostbtn">
+                <div id="hover-box" class="hover-box">
+                  <div class="ghostbutton">
+                    <p>Design & Testing</p>
+                    <svg-icon name="external_link" class="svg-external-link" />
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </NuxtLink>
+        <NuxtLink class="modal-link" to="/modals/semesterSix/delivery" data_category="grp_analyse">
+          <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/peerFeedback.jpeg')`}">
+            <div>
+              <a class="a-ghostbtn">
+                <div id="hover-box" class="hover-box">
+                  <div class="ghostbutton">
+                    <p>Delivery & Peer Feedback</p>
                     <svg-icon name="external_link" class="svg-external-link" />
                   </div>
                 </div>

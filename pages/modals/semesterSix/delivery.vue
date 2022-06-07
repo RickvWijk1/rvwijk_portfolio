@@ -27,7 +27,8 @@
                 </p>
                 <p>Right after the final presentation, it was time to reflect upon the project, as a project group, but
                   also with the client. By reflecting we can see what could have gone better and what went well so that
-                  we can all learn from it. We already performed retrospective in week 7 of the project to improve the way we worked as a group.</p>
+                  we can all learn from it. We already performed retrospective in week 7 of the project to improve the
+                  way we worked as a group.</p>
               </div>
             </div>
             <div class="text">
@@ -75,18 +76,31 @@
             <div class="text">
               <h3>Retrospective</h3>
               <div class="label-cont">
-                <p>In week 7, we discussed our way of working. We applied the 'Zeester' methode, because it's an easy way to sum up what we are doing well, what we should do and what we aren't doing well.</p>
-              <img src="~/assets/img/school/semester6/retrospective.png" alt="">
+                <p>In week 7, we discussed our way of working. We applied the 'Zeester' methode, because it's an easy
+                  way to sum up what we are doing well, what we should do and what we aren't doing well.</p>
+                <img src="~/assets/img/school/semester6/retrospective.png" alt="">
               </div>
             </div>
             <div class="text">
               <h3>Peer feedback</h3>
-              <div class="label-cont">
-                <p>After the final presentation we reflected upon the project and held a peer feedback session. With this</p>
+
+              <div class="text">
+                <p>After the final presentation we reflected upon the project and held a peer feedback session. I filled
+                  in a tip and top for every project member, so that they can see in what area there's room for
+                  improvement and in what areas they're already strong.</p>
+                <img src="~/assets/img/school/semester6/peerfeedback3.png" alt="">
               </div>
-               <a target="_blank" href="./pdf/semester6/peerfeedback.pdf"><button
-                    class="btnModalClose bntModalClose-bg-color">View peer feedback</button></a>
+              <br>
+              <div class="text">
+                <p>The other project members gave feedback to me as well:</p>
+                <div class="image-grid" style="grid-template-columns: repeat(5, minmax(0, 1fr));">
+                  <img src="~/assets/img/school/semester6/peerfeedback2.png" alt="">
+                  <img src="~/assets/img/school/semester6/peerfeedback1.png" alt="">
+                </div>
+              </div>
             </div>
+            <a target="_blank" href="./pdf/semester6/peerfeedback.pdf"><button
+                class="btnModalClose bntModalClose-bg-color">View peer feedback</button></a>
 
             <div class="paddedTextLine"></div>
             <div class="text">

@@ -11,7 +11,7 @@
             <div class="text">
               <div class="collab-cont">
                 <svg-icon class="svg-collab" name="collab" />
-                <i>R. van Wijk</i>
+                <i>K. Huggers, D. van Sleeuwen, S. Sodermans, M. Kroeze, R. van Wijk</i>
               </div>
             </div>
             <div class="text">
@@ -109,11 +109,9 @@
                 <img src="~/assets/img/school/icons/evaluation.png" alt="">
               </div>
               <div class="label-cont">
-                <p>
-                  I gained a lot of new insights that will help me watch out for threats, but keep the strengths when
-                  designing a new notification system.
-                  Testing the current notification system myself was interesting and helped me immerse myself in the
-                  experience of a PSV app user. </p>
+                <p>The delivery of the project was quite straightforward, it wasn't as much of a hassle compared to my past projects. This is probably, because we had a lot of contact with PSV.
+                  I liked doing the retrospective and giving peer feedback to each other, because it only takes a short amount of time to do, but helps improve yourself and the group a lot.
+                </p>
               </div>
             </div>
             <div class="text">

@@ -16,12 +16,11 @@
                     <svg-icon class="svg-collab" name="collab" />
                     <i>K. Huggers, D. van Sleeuwen, S. Sodermans, M. Kroeze, R. van Wijk</i>
                   </div>
-                </div>
-              </div>
-              <br>
               <div class="pdf-btn-cont">
                 <a target="_blank" href=""><button class="btnModalClose bntModalClose-bg-color">View reading guide in
                     PDF</button></a>
+              </div>
+                </div>
               </div>
               <div class="project-h2-section">
                 <div class="project-h2-wrapper">
@@ -468,25 +467,12 @@
                 <div class="project-h3-section">
                   <div class="project-h3-wrapper">
                     <div class="project-h3-content">
-                      <h3>Designs</h3>
-                      <p>Boymans is a museum in Rotterdam. This means it sells an experience. Visitors can walk around
-                        the museum and
-                        learn about artworks of all kinds. Of course, visitors can't just touch everything and have to
-                        keep their distance to some of the artworks. Especially for kids it can be tempting to touch
-                        everything, run around out of boredom or pure concentration problems.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="project-h3-section">
-                  <div class="project-h3-wrapper">
-                    <div class="project-h3-content">
                       <div class="project-h3-content">
-                        <h3>Video prototyping</h3>
-                        <p>Boymans is a museum in Rotterdam. This means it sells an experience. Visitors can walk around
-                          the museum and
-                          learn about artworks of all kinds. Of course, visitors can't just touch everything and have to
-                          keep their distance to some of the artworks. Especially for kids it can be tempting to touch
-                          everything, run around out of boredom or pure concentration problems.</p>
+                        <h3>Designs & video prototyping</h3>
+                        <p>After concepting we made visualizations of what we imagine the concept would look like. I made visualizations of the concept with Photoshop that would be used in the <a class="txt-link" target="_blank"
+                              href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/designTesting">video prototype</a>.
+                          The video prototype would be perfect as a pitch of our concept.
+                        </p>
                       </div>
                     </div>
                   </div>

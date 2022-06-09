@@ -45,7 +45,7 @@
       </li>
     </ol>
       <div class="row-grid">
-        <NuxtLink class="modal-link" to="/modals/semesterSix/projectPlan" data_category="grp_manage">
+        <NuxtLink class="modal-link" to="/modals/semesterSix/projectPlan" data_category="grp_problem">
           <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/project_plan.jpg')`}">
             <div>
               <a class="a-ghostbtn">
@@ -59,7 +59,7 @@
             </div>
           </div>
         </NuxtLink>
-        <NuxtLink class="modal-link" to="/modals/semesterSix/architecture" data_category="grp_realise">
+        <NuxtLink class="modal-link" to="/modals/semesterSix/architecture" data_category="grp_organisation">
           <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/architecture.jpg')`}">
             <div>
               <a class="a-ghostbtn">

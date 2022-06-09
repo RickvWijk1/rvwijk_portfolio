@@ -1,62 +1,63 @@
 input[type="radio"] {
-    display: none;
-  }
-  
-  input[type="radio"]:focus {
-    outline: none;
-  }
-  
-  input[type='radio']:focus {
-    outline: none !important;
-    box-shadow: none !important;
-  }
-  
-  ::-moz-focus-inner{
-    border: 0;
-  }
-  
-  ol {
-    list-style: none;
-  }
-  
-  .filters{
-    text-align: center;
-    max-width: 890px;
-  }
-  
-  .filters * {
-    display: inline-block;
-  }
+  display: none;
+}
 
-  .filters li:nth-child(odd) {
-    justify-self: flex-end;
-  }
-  .filters li:nth-child(even) {
-    justify-self: flex-start;
-  }
-  
-  .filters label{
-    border: 2px solid #2738DE;
-  }
-  
-  .filters label{
-    font-size: 1rem;
-    padding: 0.5em 1.5em;
-    margin-bottom: .5em;
-    border-radius: 2em;
-    max-width: 100%;
-    line-height: normal;
-    cursor: pointer;
-    transition: all 0.3s;
-  }
-  
-  .filters label:hover {
-    background-color: #2738DE;
-  }
+input[type="radio"]:focus {
+  outline: none;
+}
 
-  .tooltip {
-    display: inline-block;
-    position: relative;
+input[type='radio']:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+::-moz-focus-inner {
+  border: 0;
+}
+
+ol {
+  list-style: none;
+}
+
+.filters {
+  text-align: center;
+  max-width: 890px;
+}
+
+.filters * {
+  display: inline-block;
+}
+
+.filters li:nth-child(odd) {
+  justify-self: flex-end;
+}
+
+.filters li:nth-child(even) {
+  justify-self: flex-start;
+}
+
+.filters label {
+  border: 2px solid #2738DE;
+}
+
+.filters label {
+  font-size: 1rem;
+  padding: 0.5em 1.5em;
+  margin-bottom: .5em;
+  border-radius: 2em;
+  max-width: 100%;
+  line-height: normal;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.filters label:hover {
+  background-color: #2738DE;
+}
+
+.tooltip {
+  display: inline-block;
+  position: relative;
 }
 
 .info-png {
@@ -76,7 +77,7 @@ input[type="radio"] {
   background-color: #eceefc;
   font-size: 13px;
   border-radius: .3em;
-  
+
 }
 
 .tooltip:hover .right {
@@ -89,118 +90,152 @@ input[type="radio"] {
   gap: 1em;
   padding: 10px 20px;
 }
-  
-  /* SEMESTER FILTERS
+
+/* SEMESTER FILTERS
     –––––––––––––––––––––––––––––––––––––––––––––––––– */
-  [value="first"]:checked~.filters [for="first"],
-  [value="second"]:checked~.filters [for="second"],
-  [value="third"]:checked~.filters [for="third"],
-  [value="fourth"]:checked~.filters [for="fourth"]
-  {
-    background-color: #2738DE;
-  }
-  
-  [value="first"]:checked~.semester-cards .card-wrapper:not([data_category~="first"]),
-  [value="second"]:checked~.semester-cards .card-wrapper:not([data_category~="second"]),
-  [value="third"]:checked~.semester-cards .card-wrapper:not([data_category~="third"]),
-  [value="fourth"]:checked~.semester-cards .card-wrapper:not([data_category~="fourth"])
-  {
-    display: none;
-  }
-
-  /* SEMESTER 6 FILTERS
-    –––––––––––––––––––––––––––––––––––––––––––––––––– */
-    
-    /* PSV Group Project */
-  [value="grp_all"]:checked~.filters [for="grp_all"],
-  [value="grp_analyse_advise"]:checked~.filters [for="grp_analyse_advise"],
-  [value="grp_exec_validate"]:checked~.filters [for="grp_exec_validate"],
-  [value="grp_software"]:checked~.filters [for="grp_software"],
-  [value="grp_organisation"]:checked~.filters [for="grp_organisation"],
-  [value="grp_problem"]:checked~.filters [for="grp_problem"],
-  [value="grp_leadership"]:checked~.filters [for="grp_leadership"],
-  [value="grp_oriented"]:checked~.filters [for="grp_oriented"]
-  {
-    background-color: #2738DE;
-  }
-
-  [value="grp_all"]:checked~.row-grid [data-category] {
-    display: grid;
-  }
-  [value="grp_analyse_advise"]:checked~.row-grid a:not([data_category~="grp_analyse_advise"]),
-  [value="grp_exec_validate"]:checked~.row-grid a:not([data_category~="grp_exec_validate"]),
-  [value="grp_software"]:checked~.row-grid a:not([data_category~="grp_software"]),
-  [value="grp_problem"]:checked~.row-grid a:not([data_category~="grp_problem"]),
-  [value="grp_leadership"]:checked~.row-grid a:not([data_category~="grp_leadership"]),
-  [value="grp_organisation"]:checked~.row-grid a:not([data_category~="grp_organisation"]),
-  [value="grp_oriented"]:checked~.row-grid a:not([data_category~="grp_oriented"])
-  {
-    display: none;
-  }
-  [value="grp_analyse_advise"]:checked~.row-grid .modal-link  .overview-grid div .a-ghostbtn:not([data_category~="grp_analyse_advise"]),
-  [value="grp_exec_validate"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="grp_exec_validate"]),
-  [value="grp_software"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="grp_software"]),
-  [value="grp_problem"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="grp_problem"]),
-  [value="grp_leadership"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="grp_leadership"]),
-  [value="grp_organisation"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="grp_organisation"]),
-  [value="grp_oriented"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="grp_oriented"])
-  {
-    display: flex;
-
-  }
-    /* Metaverse - International Project */
-  [value="int_all"]:checked~.filters [for="int_all"],
-  [value="int_analyse"]:checked~.filters [for="int_analyse"],
-  [value="int_advise"]:checked~.filters [for="int_advise"],
-  [value="int_design"]:checked~.filters [for="int_design"],
-  [value="int_realise"]:checked~.filters [for="int_realise"],
-  [value="int_personal"]:checked~.filters [for="int_personal"],
-  [value="int_oriented"]:checked~.filters [for="int_oriented"],
-  [value="int_manage"]:checked~.filters [for="int_manage"]
-  {
-    background-color: #2738DE;
-  }
-
-  [value="int_all"]:checked~.row-grid [data-category] {
-    display: grid;
-  }
-  [value="int_analyse"]:checked~.row-grid a:not([data_category~="int_analyse"]),
-  [value="int_advise"]:checked~.row-grid a:not([data_category~="int_advise"]),
-  [value="int_design"]:checked~.row-grid a:not([data_category~="int_design"]),
-  [value="int_personal"]:checked~.row-grid a:not([data_category~="int_personal"]),
-  [value="int_oriented"]:checked~.row-grid a:not([data_category~="int_oriented"]),
-  [value="int_realise"]:checked~.row-grid a:not([data_category~="int_realise"]),
-  [value="int_manage"]:checked~.row-grid a:not([data_category~="int_manage"])
-  {
-    display: none;
-  }
-  [value="int_analyse"]:checked~.row-grid .modal-link  .overview-grid div .a-ghostbtn:not([data_category~="int_analyse"]),
-  [value="int_advise"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="int_advise"]),
-  [value="int_design"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="int_design"]),
-  [value="int_personal"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="int_personal"]),
-  [value="int_oriented"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="int_oriented"]),
-  [value="int_realise"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="int_realise"]),
-  [value="int_manage"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="int_manage"])
-  {
-    display: flex;
-
-  }
-
-  @media (max-width: 300px) {
-    .filters {
-      grid-template-columns: repeat(2, 1fr);
-      max-width: 100%;
-    }
-  }
-
-  @media (min-width: 640px) {
-    .tooltip .right {
-      top: 40%;
-      right: 150%;
-    }
-  }
-
-  @media (min-width: 768px) {}
-
-@media (min-width: 1024px) {
+[value="first"]:checked~.filters [for="first"],
+[value="second"]:checked~.filters [for="second"],
+[value="third"]:checked~.filters [for="third"],
+[value="fourth"]:checked~.filters [for="fourth"] {
+  background-color: #2738DE;
 }
+
+[value="first"]:checked~.semester-cards .card-wrapper:not([data_category~="first"]),
+[value="second"]:checked~.semester-cards .card-wrapper:not([data_category~="second"]),
+[value="third"]:checked~.semester-cards .card-wrapper:not([data_category~="third"]),
+[value="fourth"]:checked~.semester-cards .card-wrapper:not([data_category~="fourth"]) {
+  display: none;
+}
+
+/* SEMESTER 6 FILTERS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* PSV Group Project */
+[value="grp_all"]:checked~.filters [for="grp_all"],
+[value="grp_analyse_advise"]:checked~.filters [for="grp_analyse_advise"],
+[value="grp_exec_validate"]:checked~.filters [for="grp_exec_validate"],
+[value="grp_software"]:checked~.filters [for="grp_software"],
+[value="grp_organisation"]:checked~.filters [for="grp_organisation"],
+[value="grp_problem"]:checked~.filters [for="grp_problem"],
+[value="grp_leadership"]:checked~.filters [for="grp_leadership"],
+[value="grp_oriented"]:checked~.filters [for="grp_oriented"] {
+  background-color: #2738DE;
+}
+
+[value="grp_all"]:checked~.row-grid [data-category] {
+  display: grid;
+}
+
+[value="grp_analyse_advise"]:checked~.row-grid a:not([data_category~="grp_analyse_advise"]),
+[value="grp_exec_validate"]:checked~.row-grid a:not([data_category~="grp_exec_validate"]),
+[value="grp_software"]:checked~.row-grid a:not([data_category~="grp_software"]),
+[value="grp_problem"]:checked~.row-grid a:not([data_category~="grp_problem"]),
+[value="grp_leadership"]:checked~.row-grid a:not([data_category~="grp_leadership"]),
+[value="grp_organisation"]:checked~.row-grid a:not([data_category~="grp_organisation"]),
+[value="grp_oriented"]:checked~.row-grid a:not([data_category~="grp_oriented"]) {
+  display: none;
+}
+
+[value="grp_analyse_advise"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="grp_analyse_advise"]),
+[value="grp_exec_validate"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="grp_exec_validate"]),
+[value="grp_software"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="grp_software"]),
+[value="grp_problem"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="grp_problem"]),
+[value="grp_leadership"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="grp_leadership"]),
+[value="grp_organisation"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="grp_organisation"]),
+[value="grp_oriented"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="grp_oriented"]) {
+  display: flex;
+
+}
+
+/* Metaverse - International Project */
+[value="int_all"]:checked~.filters [for="int_all"],
+[value="int_analyse_advise"]:checked~.filters [for="int_analyse_advise"],
+[value="int_exec_validate"]:checked~.filters [for="int_exec_validate"],
+[value="int_software"]:checked~.filters [for="int_software"],
+[value="int_organisation"]:checked~.filters [for="int_organisation"],
+[value="int_problem"]:checked~.filters [for="int_problem"],
+[value="int_leadership"]:checked~.filters [for="int_leadership"],
+[value="int_oriented"]:checked~.filters [for="int_oriented"] {
+  background-color: #2738DE;
+}
+
+[value="int_all"]:checked~.row-grid [data-category] {
+  display: grid;
+}
+
+[value="int_analyse_advise"]:checked~.row-grid a:not([data_category~="int_analyse_advise"]),
+[value="int_exec_validate"]:checked~.row-grid a:not([data_category~="int_exec_validate"]),
+[value="int_software"]:checked~.row-grid a:not([data_category~="int_software"]),
+[value="int_problem"]:checked~.row-grid a:not([data_category~="int_problem"]),
+[value="int_leadership"]:checked~.row-grid a:not([data_category~="int_leadership"]),
+[value="int_organisation"]:checked~.row-grid a:not([data_category~="int_organisation"]),
+[value="int_oriented"]:checked~.row-grid a:not([data_category~="int_oriented"]) {
+  display: none;
+}
+
+[value="int_analyse_advise"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="int_analyse_advise"]),
+[value="int_exec_validate"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="int_exec_validate"]),
+[value="int_software"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="int_software"]),
+[value="int_problem"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="int_problem"]),
+[value="int_leadership"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="int_leadership"]),
+[value="int_organisation"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="int_organisation"]),
+[value="int_oriented"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="int_oriented"]) {
+  display: flex;
+
+}
+
+
+/* F1 Widget - Individual Project */
+[value="ind_all"]:checked~.filters [for="ind_all"],
+[value="ind_analyse_advise"]:checked~.filters [for="ind_analyse_advise"],
+[value="ind_exec_validate"]:checked~.filters [for="ind_exec_validate"],
+[value="ind_software"]:checked~.filters [for="ind_software"],
+[value="ind_organisation"]:checked~.filters [for="ind_organisation"],
+[value="ind_problem"]:checked~.filters [for="ind_problem"],
+[value="ind_leadership"]:checked~.filters [for="ind_leadership"],
+[value="ind_oriented"]:checked~.filters [for="ind_oriented"] {
+  background-color: #2738DE;
+}
+
+[value="ind_all"]:checked~.row-grid [data-category] {
+  display: grid;
+}
+
+[value="ind_analyse_advise"]:checked~.row-grid a:not([data_category~="ind_analyse_advise"]),
+[value="ind_exec_validate"]:checked~.row-grid a:not([data_category~="ind_exec_validate"]),
+[value="ind_software"]:checked~.row-grid a:not([data_category~="ind_software"]),
+[value="ind_problem"]:checked~.row-grid a:not([data_category~="ind_problem"]),
+[value="ind_leadership"]:checked~.row-grid a:not([data_category~="ind_leadership"]),
+[value="ind_organisation"]:checked~.row-grid a:not([data_category~="ind_organisation"]),
+[value="ind_oriented"]:checked~.row-grid a:not([data_category~="ind_oriented"]) {
+  display: none;
+}
+
+[value="ind_analyse_advise"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="ind_analyse_advise"]),
+[value="ind_exec_validate"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="ind_exec_validate"]),
+[value="ind_software"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="ind_software"]),
+[value="ind_problem"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="ind_problem"]),
+[value="ind_leadership"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="ind_leadership"]),
+[value="ind_organisation"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="ind_organisation"]),
+[value="ind_oriented"]:checked~.row-grid .modal-link .overview-grid div .a-ghostbtn:not([data_category~="ind_oriented"]) {
+  display: flex;
+
+}
+
+@media (max-width: 300px) {
+  .filters {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 640px) {
+  .tooltip .right {
+    top: 40%;
+    right: 150%;
+  }
+}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 1024px) {}

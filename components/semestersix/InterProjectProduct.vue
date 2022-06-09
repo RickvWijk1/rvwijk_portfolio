@@ -1,13 +1,13 @@
 <template>
   <section>
     <input type="radio" id="int_all" name="semester6" value="int_all" checked>
-    <input type="radio" id="int_analyse" name="semester6" value="int_analyse">
-    <input type="radio" id="int_advise" name="semester6" value="int_advise">
-    <input type="radio" id="int_design" name="semester6" value="int_design">
-    <input type="radio" id="int_realise" name="semester6" value="int_realise">
-    <input type="radio" id="int_personal" name="semester6" value="int_personal">
+    <input type="radio" id="int_analyse_advise" name="semester6" value="int_analyse_advise">
+    <input type="radio" id="int_exec_validate" name="semester6" value="int_exec_validate">
+    <input type="radio" id="int_software" name="semester6" value="int_software">
+    <input type="radio" id="int_problem" name="semester6" value="int_problem">
+    <input type="radio" id="int_leadership" name="semester6" value="int_leadership">
+    <input type="radio" id="int_organisation" name="semester6" value="int_organisation">
     <input type="radio" id="int_oriented" name="semester6" value="int_oriented">
-    <input type="radio" id="int_manage" name="semester6" value="int_manage">
     <ol class="filters">
       <li class="tooltip">
         <img class="info-png" src="~/assets/img/school/icons/info.png" alt="">
@@ -23,29 +23,29 @@
         <label for="int_all">All</label>
       </li>
       <li>
-        <label for="int_analyse">User Interaction - Analyse & Advise</label>
+        <label for="int_analyse_advise">User Interaction - Analyse & Advise</label>
       </li>
       <li>
-        <label for="int_design">User Interaction - Execution & Validation</label>
+        <label for="int_exec_validate">User Interaction - Execution & Validation</label>
       </li>
       <li>
-        <label for="int_realise">Software Design</label>
+        <label for="int_software">Software Design</label>
       </li>
       <li>
-        <label for="int_manage">Future-oriented Organisation</label>
+        <label for="int_organisation">Future-oriented Organisation</label>
       </li>
       <li>
-        <label for="int_advise">Investigative Problem Solving</label>
+        <label for="int_problem">Investigative Problem Solving</label>
       </li>
       <li>
-        <label for="int_personal">Personal Leadership</label>
+        <label for="int_leadership">Personal Leadership</label>
       </li>
       <li>
         <label for="int_oriented">Goal-oriented Interaction</label>
       </li>
     </ol>
       <div class="row-grid">
-        <NuxtLink class="modal-link" to="/modals/semesterSix/prepweek" data_category="int_manage">
+        <NuxtLink class="modal-link" to="/modals/semesterSix/prepweek" data_category="int_problem">
           <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/metaverse1.jpg')`}">
             <div>
               <a class="a-ghostbtn">
@@ -59,7 +59,7 @@
             </div>
           </div>
         </NuxtLink>
-        <NuxtLink class="modal-link" to="/modals/semesterSix/architecture" data_category="grp_realise">
+        <NuxtLink class="modal-link" to="/modals/semesterSix/metaconcept" data_category="int_exec_validate">
           <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/metaverse2.jpeg')`}">
             <div>
               <a class="a-ghostbtn">
@@ -73,7 +73,7 @@
             </div>
           </div>
         </NuxtLink>
-        <NuxtLink class="modal-link" to="/modals/semesterSix/interviews" data_category="grp_advise grp_design">
+        <NuxtLink class="modal-link" to="/modals/semesterSix/metavideo" data_category="int_leadership">
           <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/metaverse3.jpg')`}">
             <div>
               <a class="a-ghostbtn">

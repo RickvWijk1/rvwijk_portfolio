@@ -164,6 +164,7 @@ a.close-modal {
 .pdf-btn-cont{
   display: flex;
   gap: 1em;
+  padding-top: 1em;
 }
 
 .paddedText {

@@ -312,6 +312,9 @@ a.paddedText{
   flex-direction: column;
   max-width: 40em;
 }
+.list > li{
+  max-width: 40em;
+}
 
 .text-header {
   display: flex;

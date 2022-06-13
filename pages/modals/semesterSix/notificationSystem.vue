@@ -106,6 +106,14 @@
               <a target="_blank" href="./pdf/semester6/PSV_notificatiesysteem.pdf"><button
                   class="btnModalClose bntModalClose-bg-color">View notification system research</button></a>
             </div>
+            <div class="text">
+              <i>Observations</i>
+              <p>One time during a game, I didn't get any notifications at all from the app despite notifications being
+                enabled. This was solved by reopening the app, but another issue occurred later on when I received a few
+                notifications in the wrong order. Later on when talking to PSV about it, I discovered PSV's notification
+                system can have a delay up till one minute so it is possible multiple notifications get pushed out at
+                once causing the wrong order.</p>
+            </div>
             <div class="paddedTextLine"></div>
             <div class="text">
               <div class="learned-cont">
@@ -165,7 +173,8 @@
             </div>
             <div class="text">
               <h3>What's next?</h3>
-              <p>The first sub question is answered. Now the rest of the sub questions require research to be answered.</p>
+              <p>The first sub question is answered. Now the rest of the sub questions require research to be answered.
+              </p>
             </div>
           </div>
         </div>

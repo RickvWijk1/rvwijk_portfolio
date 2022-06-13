@@ -69,7 +69,7 @@
             <div class="text">
               <h3>Advice</h3>
               <div class="label-cont">
-                <p>Our advice to PSV was delivered live to them at the end of the final presentation.</p>
+                <p>Our advice to PSV was delivered to them live at the end of the final presentation.</p>
               </div>
               <img src="~/assets/img/school/semester6/advies1.png" alt="">
             </div>

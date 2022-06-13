@@ -361,7 +361,7 @@
                               plan</a> to be able to see if the design I created would create more immersion.
                             Unfortunately I was not able to get all the resources in time to carry out the test plan. In
                             my test plan I wanted to make a prototype that would simulate the current notification
-                            system of PSV and compare it to my own designed notification system prototype. Sadly I
+                            system of PSV and compare it to my own designed notification system prototype. Sadly, I
                             needed to spare time for finishing the high-fidelity prototype and transfering the project
                             to the client correctly.</p>
                         </div>

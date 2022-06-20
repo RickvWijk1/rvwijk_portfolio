@@ -16,10 +16,11 @@
                     <svg-icon class="svg-collab" name="collab" />
                     <i>K. Huggers, D. van Sleeuwen, S. Sodermans, M. Kroeze, R. van Wijk</i>
                   </div>
-              <div class="pdf-btn-cont">
-                <a target="_blank" href=""><button class="btnModalClose bntModalClose-bg-color">View reading guide in
-                    PDF</button></a>
-              </div>
+                  <div class="pdf-btn-cont">
+                    <a target="_blank" href=""><button class="btnModalClose bntModalClose-bg-color">View reading guide
+                        in
+                        PDF</button></a>
+                  </div>
                 </div>
               </div>
               <div class="project-h2-section">
@@ -103,33 +104,21 @@
                           <p>In the <a class="txt-link" target="_blank"
                               href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/projectPlan">debriefing</a>
                             meeting we mainly listened to what the client had to say. PSV told us
-                            that developing and maintaining their website and apps costs a lot of money. Mainly their
-                            iOS and Android apps which are developed by a third party. They would like a cheaper
-                            solution to bring PSV fans the content & functions they need.</p>
+                            about their problem.</p>
                           <p>Based on the information from the debriefing, me and Dary, created the first version of the
                             <a class="txt-link" target="_blank"
                               href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/projectPlan">project
-                              plan</a>. When we were defining the project plan, we began to doubt whether this
-                            assignment was fitting for ICT & Media Design students since the client specifically asked
-                            for a cheaper technical solution and nothing that had something to do with users.</p>
-                          <p>We arranged two more meetings with PSV to see if we could reformulate the assignment and
-                            define the scope. In this
-                            meeting PSV told us that they were busy concepting new features for the app, like being able
-                            to scan tickets, order food during a game and more. They didn't want us to work on these
-                            features, but we suggested that we would do technical research and also design the features
-                            PSV were working on so that they could perhaps draw inspiration from our ideas/designs. PSV
-                            agreed and so we adjusted the project plan.</p>
+                              plan</a>.</p>
                         </div>
                       </div>
                       <div class="project-h3-content">
                         <h3>Researching software architecture</h3>
                         <div class="project-body">
-                          <p>While we were waiting for meetings with PSV to update the project plan, we were doing
-                            research on the current situation. I did research on what entities the architecture of PSV's
+                          <p>While waiting for meetings with PSV to update the project plan, we were doing
+                            research on the current situation. I did literature research on what entities the architecture of PSV's
                             media platforms consisted of. This would help give us an overview on what could be improved
                             while keeping into account the existing software architecture (e.g. API's) and stakeholders.
-                            Information about PSV's architecture was collected by talking to PSV and doing additional
-                            desktop research (e.g. researching what the API's were capable of). This information was
+                           The knowledge was
                             used to create a <a class="txt-link" target="_blank"
                               href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/architecture">software
                               architecture diagram</a> using the C4 model. </p>
@@ -153,10 +142,7 @@
                       <div class="project-h3-content">
                         <h3>Target Audience</h3>
                         <div class="project-body">
-                          <p>PSV's current apps target PSV fans of any age. The apps have lots of features/sections like
-                            games, augmented reality, videos, the fanstore and more. A lot of these sections are loaded
-                            into a web
-                            view which is very user unfriendly like we experienced when we were using the app. This is
+                          <p>The current PSV app has lots of features/sections we weren't sure of that they're useful to their target audience. This is
                             why we decided to only work on features that would add real value to PSV fans.
                             A mobile app is most valuable to have when you're not at home behind your desk. For this
                             reason we selected the loyal/more hardcore PSV fans as our <a class="txt-link"
@@ -164,8 +150,7 @@
                               href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/interviews">target
                               audience</a>. These type of fans often go to the Philips Stadium to watch a game. An app
                             that can save your ticket so that you can scan it at the stadium's entry is useful for the
-                            target audience. Other features like 'Games' that focus on a young target audience are more
-                            convenient to use on the PSV website or develop natively in a separate app instead of the web-views PSV uses.</p>
+                            target audience.</p>
                         </div>
                       </div>
                       <div class="project-h3-content">
@@ -174,9 +159,6 @@
                           <p>To understand the target audience we each searched for PSV fans that fit within the target
                             audience (loyal/more hardcore fans) and interviewed them to gain insight in what their
                             annoyances/struggles/goals/needs are.
-                            Some of the insights are: PSV fans often share their season ticket with family and friends,
-                            PSV fans like to have visual context when they're following a game via the app since they're
-                            often confused about what's happening.
                             The insights from the <a class="txt-link" target="_blank"
                               href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/interviews">interviews</a>
                             were helpful later on when we started working on user stories.</p>
@@ -190,7 +172,7 @@
                 <div class="project-h2-wrapper">
                   <div class="project-h2-content">
                     <h2>Sprint 2 - Ideate & Prototype</h2>
-                    <p>In this sprint we had all the ingredients to start ideating and prototyping. In the
+                    <p>In the
                       previous sprint we focused on a more concrete target audience, and through interviews learned
                       what frustrations/goals/needs they had. Based on this information, user stories were formulated
                       and assigned to each project member.</p>
@@ -202,12 +184,7 @@
                       <div class="project-h3-content">
                         <h3>User Stories</h3>
                         <div class="project-body">
-                          <p>Max formulated most of the user stories. Each project member picked out one or two user
-                            stories that they wanted to work on.</p>
-                          <p>I decided to work on the user stories: "As a user I want to receive notifications on my
-                            phone so that I can get realtime updates from the club" and "As a user I want to assign
-                            tunes to notifications so that I know what kind of notification I received before I have
-                            even seen them". I reformulated these user stories into one since the first one was too
+                          <p>I decided to work on two user stories. I reformulated these user stories into one since the first one was too
                             generic and not
                             concrete while the other was too limited.</p>
                           <p>
@@ -219,18 +196,8 @@
                           <p>
                             In my <a class="txt-link" target="_blank"
                               href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/userstories">plan
-                              of action</a>, I formulated a fitting main research question and design challenge: "How
-                            can I
-                            make the PSV fans feel more immersed through notifications?", "Design a notification system
-                            for PSV
-                            fans that follow games via the PSV app which allows them to get a more clear context of
-                            what's happening in a game so that they become more immersed/invested into the game."
+                              of action</a>, I formulated a fitting main research question and design challenge
                           </p>
-                          <p>The reason I picked up this user story, is because PSV fans I interviewed stated that they
-                            sometimes don't know what's going on when there's a complicated situation in a game and are
-                            relying on textual notifications. They feel like they're missing information and feel the
-                            need for visual context (a video or images). This includes the PSV app, but also other
-                            football score apps.</p>
                         </div>
                       </div>
                       <div class="project-h3-content">
@@ -424,7 +391,9 @@
                       and invited everyone. Unfortunately, the international guest student didn't respond to our emails.
                     </p>
 
-                    <p>In our first meeting we discussed the first assignment which was about
+                    <p>In this week, we studied the metaverse as <a
+                            class="txt-link" target="_blank"
+                            href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/prepweek">preparation</a> for the international week. In our first meeting we discussed the first assignment which was about
                       understanding the metaverse. For the second assignment we each made a metaverse avatar that
                       represents ourselves, and as final assignment we made a group photo of the avatars, discussed
                       how we created our avatars and what our core message is of the metaverse.</p>
@@ -446,21 +415,10 @@
                   <div class="project-h3-wrapper">
                     <div class="project-h3-content">
                       <h3>Context & Concept</h3>
-                      <p>Boymans is a museum in Rotterdam. This means it sells an experience. Visitors can walk around
-                        the museum and
-                        learn about artworks of all kinds. Of course, visitors can't just touch everything and have to
-                        keep their distance to some of the artworks. Especially for kids it can be tempting to touch
-                        everything, run around out of boredom or pure concentration problems.</p>
-
-                      <p>What if the children can run around, get as close to artworks as they want to, touch them, even
-                        throw them around, smash them, getting rid off all their energy and experimenting like
-                        kids love to do. The metaverse makes this possible. Kids can stay home and use their VR system
-                        to visit the Boymans museum virtually. This way Boymans won't have to worry about kids causing
-                        chaos and damage while the kids can do whatever they like in the virtual museum.</p>
-                      <p>Of course the main purpose of a museum is to educate. For this reason we added another element
-                        to the concept; kids get to see information popup about the (hi)story behind artworks by
-                        standing in front of it. The information is followed by 3 interactive props. One of the props is
-                        related to the artwork and if chosen, the kids can destroy the artwork with the prop.</p>
+                      <p>For Boymans museum we came up with a potentially valuable <a class="txt-link" target="_blank"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/metaconcept">metaverse
+                          concept.</a> This was
+                        accomplished by applying group brainstorming as a method.</p>
                     </div>
                   </div>
                 </div>
@@ -469,8 +427,11 @@
                     <div class="project-h3-content">
                       <div class="project-h3-content">
                         <h3>Designs & video prototyping</h3>
-                        <p>After concepting we made visualizations of what we imagine the concept would look like. I made visualizations of the concept with Photoshop that would be used in the <a class="txt-link" target="_blank"
-                              href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/designTesting">video prototype</a>.
+                        <p>After concepting we made visualizations of what we imagine the concept would look like. I
+                          made visualizations of the concept with Photoshop that would be used in the <a
+                            class="txt-link" target="_blank"
+                            href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/metavideo">video
+                            prototype</a>.
                           The video prototype would be perfect as a pitch of our concept.
                         </p>
                       </div>

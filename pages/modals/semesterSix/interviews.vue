@@ -21,11 +21,8 @@
               </div>
               <div class="label-cont">
                 <p>PSV has already conducted many studies into their target group. Now it's important to
-                  understand the user and what their experiences with PSV's media platforms are
-                  like. We are going to conduct interviews with users so that we can approach them from a different
-                  perspective in order to possibly gain new insights and find out what the users still need and which
-                  experiences we can improve. This way we can draw up new personas and empathy mappings from there and
-                  keep them up to date throughout the project.</p>
+                  understand the user, what their experiences with PSV's media platforms are
+                  like and gain new insights on what can be improved.</p>
               </div>
             </div>
             <div class="text">
@@ -80,15 +77,11 @@
             <img src="~/assets/img/school/semester6/target_audience.png" alt="">
 
             <div class="label-cont">
-              <p>I interviewed a person from PSV's biggest target audience and a person from their younger (18-24)
-                target
-                audience. Some of the questions I asked the target audience:</p>
+              <p>Some of the questions I asked the target audience:</p>
               <ul class="list">
                 <li class="list-bullet">Where do you view the results of a football match?</li>
                 <li class="list-bullet">Do you own a PSV season ticket? Are you sharing it with someone?</li>
                 <li class="list-bullet">Which PSV songs/tunes do you know?</li>
-                <li class="list-bullet">What transport do you typically use when going to a PSV (home) match? What are
-                  your experiences?</li>
                 <li class="list-bullet">Do you ever buy food/drinks in the stadium during a match? What do you
                   experience when you do this?</li>
                 <li class="list-bullet">Have you ever bought PSV merchandise? How frequently do you buy PSV merchandise?
@@ -133,22 +126,14 @@
                 </div>
               </div>
               <div class="label-cont">
-                <p>Most interesting information from the interviews:</p>
+                <p>Some interesting information from the interviews:</p>
                 <ul class="list">
                   <li class="list-bullet">It is unclear what exactly the app is for and is therefore downloaded less
                     (many people do not have the app)</li>
-                  <li class="list-bullet">used the app in the past but all the features it needed were better performed
+                  <li class="list-bullet">Target audience used the app in the past, but all the features it needed were better performed
                     elsewhere (score, news, first team info)</li>
                   <li class="list-bullet">Atmosphere is very lacking in app with match visualization, when people follow
                     it via the app there is little experience</li>
-                  <li class="list-bullet">More use of video images within the app (goals, more info rejected goals)</li>
-                  <li class="list-bullet">People only have my PSV account to buy tickets</li>
-                  <li class="list-bullet">There is a demand for a map of the stadium to view everything in detail
-                    (elevators, catering, courses, etc)
-                    For example, take strip card after 10 beer, 2 beers for free</li>
-                  <li class="list-bullet">A common phenomenon is using someone else's season ticket</li>
-                  <li class="list-bullet">Save for free cup tickets or friendlies, or save for loyalty points. (sky
-                    box?)</li>
                 </ul>
               </div>
             </div>

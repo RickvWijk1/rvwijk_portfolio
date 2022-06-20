@@ -62,7 +62,8 @@
                   offer?</li>
                 <li class="list-bullet">What can you turn on notifications for? What notification options are there and
                   what do they look like?</li>
-                <li class="list-bullet">Which notification functionalities, which the PSV app does not have, contribute to
+                <li class="list-bullet">Which notification functionalities, which the PSV app does not have, contribute
+                  to
                   improving the atmosphere/immersion for the fans? Why?</li>
                 <li class="list-bullet">Which of the notification-related functionalities could the PSV app also use?
                 </li>
@@ -91,7 +92,57 @@
               <div class="text">
                 <i>What is the football app trying to achieve?/What services does the football app
                   offer?</i>
-                <img src="~/assets/img/school/semester6/trends1.png" alt="">
+<table>
+              <tr>
+                <th class="col-goals">Name app</th>
+                <th class="col-proof">Description/goal/most important feature of the app</th>
+              </tr>
+              <tr>
+                <td>
+                  <div class="grouped">
+                    <b>Goal Live Scores</b>
+                  <img style="width: 5em;" src="~/assets/img/school/semester6/goalscore.jpg" alt="">
+                  </div>
+                </td>
+                <td>
+                  <p>The 'Goal Live Scores' app focuses on football (fans) and its main functions are to provide live scores, news and statistics.</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="grouped">
+                    <b>LiveScore</b>
+                  <img style="width: 5em;" src="~/assets/img/school/semester6/livescore.png" alt="">
+                  </div>
+                </td>
+                <td>
+                  <p>The 'LiveScore' app focuses on football (fans), but also offers other sports such as tennis, hockey, basketball and cricket. Its main functions are to provide live scores, analysis, statistics and news.</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="grouped">
+                    <b>Feyenoord</b>
+                  <img style="width: 5em;" src="~/assets/img/school/semester6/feyenoord.jpg" alt="">
+                  </div>
+                </td>
+                <td>
+                  <p>The 'Feyenoord' app focuses on Feyenoord's first football team. Key features include Match Center which allows fans to get in the mood for the match by checking out all the latest news and exclusive videos and furthermore fans can follow the matches via push notifications</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="grouped">
+                    <b>Ajax</b>
+                  <img style="width: 5em;" src="~/assets/img/school/semester6/ajax.png" alt="">
+                  </div>
+                </td>
+                <td>
+                  <p>The 'Ajax' app focuses on Ajax's first football team. The main features are statistics, news and ticketing</p>
+                </td>
+              </tr>
+            </table>
+
               </div>
               <div class="text">
                 <i>What can you turn on notifications for? What notification options are there and
@@ -99,15 +150,17 @@
                 <img src="~/assets/img/school/semester6/trends2.png" alt="">
               </div>
               <div class="text">
-                <i>Which notification functionalities, which the PSV app does not have, contribute to
-                  improving the atmosphere/immersion for the fans? Why?</i>
-                <img src="~/assets/img/school/semester6/trends3.png" alt="">
-              </div>
-              <div class="text">
                 <i>Which of the notification-related functionalities could the PSV app also use?</i>
-                <img src="~/assets/img/school/semester6/trends4.png" alt="">
+                <ul class="list">
+                  <li class="list-bullet">Goal tune</li>
+                  <li class="list-bullet">Push notifications with images</li>
+                  <li class="list-bullet">
+                    Line-up/match reminder notification</li>
+                  <li class="list-bullet">
+                    Penalties tracking/notification</li>
+                </ul>
               </div>
-              <div class="text">
+              <!-- <div class="text">
                 <i>Observations</i>
                 <p>For about 3 weeks I received notifications of games. Something valuable I found is that the
                   Feyenoord app was posting realtime photo's of the game and lots of other visuals on a timeline. When
@@ -120,7 +173,7 @@
                   itself can increase the immersion. Most apps also offered notifications about when the match would
                   start, what the squad formation would be and when a penalty was given. Penalties are a great way to
                   build suspense since there's a high chance of a goal being scored.</p>
-              </div>
+              </div> -->
               <a target="_blank" href="./pdf/semester6/trendanalyse_notificaties.pdf"><button
                   class="btnModalClose bntModalClose-bg-color">View notification system research</button></a>
             </div>
@@ -139,10 +192,8 @@
                   <ul class="list">
                     <li class="list-bullet">Goal tune - Sound when a goal is scored</li>
                     <li class="list-bullet">Push notifications with images</li>
-                    <li class="list-bullet">
-                      Line-up/match reminder notification</li>
-                    <li class="list-bullet">
-                      Penalties tracking/notification</li>
+                    <li class="list-bullet">Line-up/match reminder notification</li>
+                    <li class="list-bullet">Penalties tracking/notification</li>
                   </ul>
                 </div>
               </div>
@@ -154,14 +205,15 @@
               </div>
               <div class="label-cont">
                 <p>
-                  After finishing the trend analysis I can definitely say it was useful. The inspiration I took from it
-                  can definitely be used to help improve the atmosphere/immersion of fans.
+                  Looking back at this research, I think I should have reformulated the main question to <i>"What do
+                    existing football apps offer in terms of notifications which the PSV app can also use to improve the
+                    atmosphere/immersion around matches?"</i>, because answering the last sub-question is more useful.
                 </p>
               </div>
             </div>
             <div class="text">
               <h3>What's next?</h3>
-              <p>For the next step, there must investigated how the features (mentioned in the conclusion) can be
+              <p>For the next step, there must be investigated how the features (mentioned in the conclusion) can be
                 applied in an efficient way in the PSV app.</p>
             </div>
           </div>

@@ -22,7 +22,7 @@
               <div class="label-cont">
                 <p>Researching the current notification system of PSV's app helps see what features are already in place
                   and how the user experience currently is. With that information I can look for ways to improve the
-                  current system. On a technical level this is also useful research.</p>
+                  current system.</p>
               </div>
             </div>
             <div class="text">
@@ -105,14 +105,6 @@
               <img src="~/assets/img/school/semester6/notification_swot.png" alt="">
               <a target="_blank" href="./pdf/semester6/PSV_notificatiesysteem.pdf"><button
                   class="btnModalClose bntModalClose-bg-color">View notification system research</button></a>
-            </div>
-            <div class="text">
-              <i>Observations</i>
-              <p>One time during a game, I didn't get any notifications at all from the app despite notifications being
-                enabled. This was solved by reopening the app, but another issue occurred later on when I received a few
-                notifications in the wrong order. Later on when talking to PSV about it, I discovered PSV's notification
-                system can have a delay up till one minute so it is possible multiple notifications get pushed out at
-                once causing the wrong order.</p>
             </div>
             <div class="paddedTextLine"></div>
             <div class="text">

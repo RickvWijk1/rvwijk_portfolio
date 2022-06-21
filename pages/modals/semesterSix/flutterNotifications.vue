@@ -110,7 +110,7 @@
                   <p>Local notifications are useful to apply when the user has opened the app or foreground.
                     Notifications
                     will still arrive in contrast to push notifications (with Cloud Messaging).</p>
-                  <img src="~/assets/img/school/semester6/flutter_notifications1.png" alt="">
+                  <!-- <img src="~/assets/img/school/semester6/flutter_notifications1.png" alt=""> -->
                 </div>
                 <a target="_blank" href="./pdf/semester6/flutter_notifications.pdf"><button
                     class="btnModalClose bntModalClose-bg-color">View notification system research</button></a>
@@ -118,8 +118,8 @@
                   <b>POC results</b>
                   <img src="~/assets/img/school/semester6/flutterPOC.png" alt="">
                 </div>
-                <div class="text centered">
-                  <a target="_blank" href="https://github.com/Semester6-PSV/flutter_notifications">
+                <div class="text">
+                  <a style="width:24em;" target="_blank" href="https://github.com/Semester6-PSV/flutter_notifications">
                     <div class="paddedText">
                       <p>View the repo for more information here</p>
                       <svg-icon class="svg-github" name="github" />
@@ -156,33 +156,14 @@
                     <p>The functionalities below can be used to improve the atmosphere/immersion of PSV fans in regard
                       to matches in the PSV app.</p>
                     <div class="">
-                      <b>Flutterfire (Firebase + Flutter)</b>
+                      <b>Flutterfire & Flutter_local_notifications</b>
                       <ul class="list">
                         <li class="list-bullet">Title</li>
                         <li class="list-bullet">Paragraph</li>
-                        <li class="list-bullet">
-                          Timezone-based notifications</li>
-                        <li class="list-bullet">
-                          Notification schedule; each week, month, year, etc.</li>
-                        <li class="list-bullet">
-                          Play notification sound</li>
-                        <li class="list-bullet">
-                          Images</li>
-                      </ul>
-                    </div>
-                    <div class="">
-                      <b>Flutter_local_notifications (Pubdev package)</b>
-                      <ul class="list">
-                        <li class="list-bullet">Title</li>
-                        <li class="list-bullet">Paragraph</li>
-                        <li class="list-bullet">
-                          Timezone-based notifications</li>
-                        <li class="list-bullet">
-                          Notification schedule; each week, month, year, etc.</li>
-                        <li class="list-bullet">
-                          Play notification sound</li>
-                        <li class="list-bullet">
-                          Images</li>
+                        <li class="list-bullet">Timezone-based notifications</li>
+                        <li class="list-bullet">Notification schedule; each week, month, year, etc.</li>
+                        <li class="list-bullet">Play notification sound</li>
+                        <li class="list-bullet">Images</li>
                       </ul>
                     </div>
                   </div>

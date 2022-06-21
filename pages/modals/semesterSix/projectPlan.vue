@@ -50,12 +50,7 @@
             <p>The research led to the following findings and products:</p>
             </div>
             <div class="text">
-              <h3>Debrief Document</h3>
-              <p>My contribution to this document:</p>
-              <ol class="list">
-                <li>Helped formulate the problem & context</li>
-                <li>Helped formulate the main question and sub questions.</li>
-              </ol>
+
               <a target="_blank" href="./pdf/semester6/debriefing.pdf"><button
                   class="btnModalClose bntModalClose-bg-color">View debriefing in PDF</button></a>
             </div>
@@ -76,24 +71,9 @@
                 content & functions they need.</p>
             </div>
             <div class="text">
-              <h3>Project Plan</h3>
-              <p>My contribution to this document:</p>
-              <ol class="list">
-                <li>Worked on everything that's in the project plan together with Dary van Sleeuwen. The rest of the
-                  team helped formulate the questions and design challenge.</li>
-              </ol>
-              <div class="pdf-btn-cont">
-                <a target="_blank" href="./pdf/semester6/projectplan_v1.pdf"><button
-                    class="btnModalClose bntModalClose-bg-color">View V1 project plan in PDF</button></a>
-                <br>
-                <a target="_blank" href="./pdf/semester6/projectplan_v3.pdf"><button
-                    class="btnModalClose bntModalClose-bg-color">View final project plan in PDF</button></a>
-              </div>
-            </div>
-            <div class="label-cont text spacing">
-
+<p><b>Scoping and formulating</b></p>
               <p>Based on the information from the debriefing, me and Dary, created the first version of the project
-                plan. When we were defining the project plan, we began to doubt whether this assignment was fiting for
+                plan. When we were defining the project plan, we began to doubt whether this assignment was fitting for
                 ICT & Media Design students since the client specifically asked for a cheaper technical solution and
                 nothing that had something to do with users.</p>
               <p>We arranged two more meetings with PSV to see if we could reformulate the assignment and define the
@@ -130,6 +110,14 @@
                 to use the functionalities they need.</i>
               <div class="paddedTextLine-white"></div>
             </div>
+
+            <div class="pdf-btn-cont">
+                <a target="_blank" href="./pdf/semester6/projectplan_v1.pdf"><button
+                    class="btnModalClose bntModalClose-bg-color">View V1 project plan in PDF</button></a>
+                <br>
+                <a target="_blank" href="./pdf/semester6/projectplan_v3.pdf"><button
+                    class="btnModalClose bntModalClose-bg-color">View final project plan in PDF</button></a>
+              </div>
 
             <div class="paddedTextLine"></div>
             <div class="text">

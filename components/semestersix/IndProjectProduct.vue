@@ -45,13 +45,13 @@
       </li>
     </ol>
       <div class="row-grid">
-        <NuxtLink class="modal-link" to="/modals/semesterSix/prepweek" data_category="ind_problem">
-          <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/metaverse1.jpg')`}">
+        <NuxtLink class="modal-link" to="/modals/semesterSix/indProject" data_category="ind_problem">
+          <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/project.jpg')`}">
             <div>
               <a class="a-ghostbtn">
                 <div id="hover-box" class="hover-box">
                   <div class="ghostbutton">
-                    <p>Preparation Week</p>
+                    <p>Project</p>
                     <svg-icon name="external_link" class="svg-external-link" />
                   </div>
                 </div>
@@ -59,13 +59,13 @@
             </div>
           </div>
         </NuxtLink>
-        <NuxtLink class="modal-link" to="/modals/semesterSix/architecture" data_category="ind_leadership">
-          <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/metaverse2.jpeg')`}">
+        <NuxtLink class="modal-link" to="/modals/semesterSix/techResearch" data_category="ind_leadership">
+          <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/ind_tech_research.png')`}">
             <div>
               <a class="a-ghostbtn">
                 <div id="hover-box" class="hover-box">
                   <div class="ghostbutton">
-                    <p>Metaverse Concepting</p>
+                    <p>Technical Research</p>
                     <svg-icon name="external_link" class="svg-external-link" />
                   </div>
                 </div>
@@ -73,13 +73,13 @@
             </div>
           </div>
         </NuxtLink>
-        <NuxtLink class="modal-link" to="/modals/semesterSix/interviews" data_category="ind_leadership">
-          <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/metaverse3.jpg')`}">
+        <NuxtLink class="modal-link" to="/modals/semesterSix/indDesign" data_category="ind_leadership">
+          <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/ind_design.jpg')`}">
             <div>
               <a class="a-ghostbtn">
                 <div id="hover-box" class="hover-box">
                   <div class="ghostbutton">
-                    <p>Metaverse Prototyping</p>
+                    <p>Design & Testing</p>
                     <svg-icon name="external_link" class="svg-external-link" />
                   </div>
                 </div>

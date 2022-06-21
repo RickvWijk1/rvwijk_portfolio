@@ -11,34 +11,7 @@
             <div class="text">
               <div class="collab-cont">
                 <svg-icon class="svg-collab" name="collab" />
-                <i>R. van Wijk</i>
-              </div>
-            </div>
-            <div class="text">
-              <div class="learned-cont">
-                <h3>Context</h3>
-              </div>
-              <div class="label-cont">
-                <p>In</p>
-              </div>
-            </div>
-            <div class="text">
-              <div class="learned-cont">
-                <h3>Approach</h3>
-                <img src="~/assets/img/school/icons/approach.png" alt="">
-              </div>
-              <div class="research-tags-cont">
-                <div class="research-tag research-active research-desktop">
-                  <p>Desktop</p>
-                  <img src="~/assets/img/school/research_strats/library.png" alt="">
-                </div>
-                <div class="research-tag research-active research-workshop">
-                  <p>Workshop</p>
-                  <img src="~/assets/img/school/research_strats/workshop.png" alt="">
-                </div>
-              </div>
-              <div class="research-text label-cont">
-                <p><b>Workshop research was applied,</b> because</p>
+                <i>R. van Wijk, E. Banda, V.I. Petrove, S. Sodermans, V.A. Ivanova</i>
               </div>
             </div>
             <div class="paddedTextLine"></div>
@@ -76,21 +49,10 @@
             </div>
             <div class="text spacing">
               <h3>Assignment 3</h3>
-              <p>D</p>
+              <p>Making a group photo of our avatars and giving it a title and description was the last assignment.</p>
                 <img src="~/assets/img/school/semester6/int_project/team.png" alt="">
             </div>
             <div class="paddedTextLine"></div>
-            <div class="text">
-              <div class="learned-cont">
-                <h3>Evaluation</h3>
-                <img src="~/assets/img/school/icons/evaluation.png" alt="">
-              </div>
-              <div class="label-cont">
-                <p>
-                  It was
-                </p>
-              </div>
-            </div>
           </div>
         </div>
         <div class="modal-footer">

@@ -45,7 +45,7 @@
 <style lang="css" scoped>
 
 .wrapper{
-  gap: 4rem;
+  /* gap: 4rem; */
 }
   .resources-cont {
     display: flex;
@@ -54,6 +54,7 @@
     gap: 1em;
     justify-content: center;
     align-items: center;
+      padding-bottom: 4em;
   }
 
   .tl-row {

@@ -439,6 +439,15 @@
                   </div>
                 </div>
               </div>
+              <div class="project-h2-section">
+                <div class="project-h2-wrapper">
+                  <div class="project-h2-content">
+                    <h2>Evaluation</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error qui omnis dolore hic a? Explicabo reprehenderit unde voluptas sed adipisci.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="paddedTextLine"></div>
             <div class="project-h1-section">
@@ -470,6 +479,15 @@
                         veritatis ipsum nihil suscipit, a culpa aliquid, eveniet quod animi recusandae saepe beatae
                         voluptates sint ullam tempore.</p>
                     </div>
+                  </div>
+                </div>
+              </div>
+              <div class="project-h2-section">
+                <div class="project-h2-wrapper">
+                  <div class="project-h2-content">
+                    <h2>Evaluation</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error qui omnis dolore hic a? Explicabo reprehenderit unde voluptas sed adipisci.
+                    </p>
                   </div>
                 </div>
               </div>

@@ -46,7 +46,7 @@
     </ol>
       <div class="row-grid">
         <NuxtLink class="modal-link" to="/modals/semesterSix/indProject" data_category="ind_problem">
-          <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/project.jpg')`}">
+          <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/project.png')`}">
             <div>
               <a class="a-ghostbtn">
                 <div id="hover-box" class="hover-box">
@@ -80,6 +80,20 @@
                 <div id="hover-box" class="hover-box">
                   <div class="ghostbutton">
                     <p>Design & Testing</p>
+                    <svg-icon name="external_link" class="svg-external-link" />
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </NuxtLink>
+        <NuxtLink class="modal-link" to="/modals/semesterSix/indRecommendations" data_category="ind_leadership">
+          <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/recommendations.png')`}">
+            <div>
+              <a class="a-ghostbtn">
+                <div id="hover-box" class="hover-box">
+                  <div class="ghostbutton">
+                    <p>Recommendations</p>
                     <svg-icon name="external_link" class="svg-external-link" />
                   </div>
                 </div>

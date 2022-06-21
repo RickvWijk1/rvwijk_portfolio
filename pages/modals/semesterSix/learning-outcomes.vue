@@ -269,9 +269,8 @@
                 <td>
                   <div>
                     <p><b>PSV Group Project</b></p>
-                    <a target="_blank"
-                      href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/semesterSix"
-                       class="txt-link">
+                    <a target="_blank" href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/semesterSix"
+                      class="txt-link">
                       Every product
                     </a>
                     <span>-></span>
@@ -284,7 +283,7 @@
                       Reading Guide
                     </a>
                     <span>-></span>
-                    <p>I reflected upon my work and actions during the project.</p>
+                    <p>I reflected upon my work and actions during and after the projects.</p>
                   </div>
                 </td>
               </tr>
@@ -303,7 +302,24 @@
                     cultures.</i>
                 </td>
                 <td>
-
+                  <div>
+                    <p><b>International project</b></p>
+                    <a target="_blank" href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/semesterSix"
+                      class="txt-link">
+                      Preparation Week
+                    </a>,
+                    <a target="_blank" href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/semesterSix"
+                      class="txt-link">
+                      Metaverse concepting
+                    </a>,
+                    <a target="_blank" href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/semesterSix"
+                      class="txt-link">
+                      Metaverse prototyping
+                    </a>
+                    <span>-></span>
+                    <p>I got to know international students and worked together with them when creating a valuable concept for
+                      stakeholder Boymans museum</p>
+                  </div>
                 </td>
               </tr>
             </table>
@@ -326,7 +342,7 @@
 
 <script>
   export default {
-layout: 'noNav',
+    layout: 'noNav',
   }
 
 </script>

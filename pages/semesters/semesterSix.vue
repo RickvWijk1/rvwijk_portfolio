@@ -30,7 +30,7 @@
       </div>
       <div class="resources-cont">
         <div class="tl-row">
-            <h1>METAVERSE - INTERNATIONAL PROJECT</h1>
+            <h1>F1 WIDGET - INDIVIDUAL PROJECT</h1>
           </div>
         <SemestersixIndProjectProduct />
       </div>

@@ -4,7 +4,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <NuxtLink class="modal-close" to="/semesters/semesterSix">×</NuxtLink>
-          <h1>User story - Plan of Action</h1>
+          <h1>Project Plan</h1>
         </div>
         <div class="modalbody-container">
           <div class="col-lg-8 mx-auto">
@@ -20,10 +20,7 @@
                 <img src="~/assets/img/school/icons/motivation.png" alt="">
               </div>
               <div class="label-cont">
-                <p>The target audience has been defined, so now user stories can be formulated. Picking a problem/feature, formulating a user story based on it and
-                  making a Plan
-                  of Action to organize the way the user story will be executed, ensures each project member will produce
-                  high-quality results for PSV.
+                <p>To answer the main question
                 </p>
               </div>
             </div>
@@ -39,23 +36,10 @@
                 </div>
               </div>
               <div class="research-text label-cont text spacing">
-                <p><b>Field research was applied,</b> because by talking to PSV we learned about their long term goals
-                  in regard to the PSV app. This information was used to formulate user stories.</p>
-                <div class="text">
-                  <p>
-                    I worked on the user stories: "As a user I want to receive notifications on my phone so
-                    that I can
-                    get realtime updates from the club" and "As a user I want to assign tunes to notifications so that I
-                    know
-                    what kind of notification I received before I have even seen them". I reformulated these user
-                    stories into
-                    one since they were both too generic or limited.
-                    The new user story became: <i>"As a PSV fan I want to receive notifications that give a more clear
-                      context when
-                      something happens that's related to a (PSV football) game so that I can keep up with what's
-                      happening and be
-                      more invested in the game".</i></p>
-                </div>
+                  <p>To answer the main question I applied triangulation by using the 'Realise as required' research pattern which answers the question:
+                    How can I ensure the product meets the needs of the stakeholders throughout the project?
+                    This was applied, because my stakeholders already know what they would like; an F1 widget. This pattern helps to structurally investigate, realise and test your solution based on the stakeholders’ needs.
+                  </p>
               </div>
             </div>
             <div class="text">

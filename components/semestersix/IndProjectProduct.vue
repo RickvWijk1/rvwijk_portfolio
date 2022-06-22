@@ -51,7 +51,7 @@
               <a class="a-ghostbtn">
                 <div id="hover-box" class="hover-box">
                   <div class="ghostbutton">
-                    <p>Project</p>
+                    <p>Project Plan</p>
                     <svg-icon name="external_link" class="svg-external-link" />
                   </div>
                 </div>

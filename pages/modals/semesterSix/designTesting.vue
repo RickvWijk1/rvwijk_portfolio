@@ -92,9 +92,10 @@
               <p>The research led to the following findings and products:</p>
             </div>
             <div class="text spacing">
-              <p> During the wireframing and high-fidelity process I applied basic design principles/guidelines and the
+              <p>During the wireframing and high-fidelity process I applied basic design principles/guidelines and the
                 branding guidelines of PSV. The basic principles/guidelines were; menu layouts, icons, content alignment
-                and content management. The applied branding guidelines were; typography, color palette, icons. Figma
+                and content management. The applied branding guidelines were; typography, color palette, icons. 
+                These were applied since the current users of PSV are used to the style which is positive for the user experience. Figma
                 was used to create the designs below.</p>
               <b>Wireframes</b>
               <div class="image-grid">

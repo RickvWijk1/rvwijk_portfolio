@@ -1,0 +1,14 @@
+.v-application {
+  color: #fff !important;
+}
+
+.v-application .title {
+  font-size: unset !important;
+  font-weight: unset !important;
+  letter-spacing: unset !important;
+}
+
+.v-application a {
+  color: unset !important;
+}
+/*# sourceMappingURL=global.css.map */

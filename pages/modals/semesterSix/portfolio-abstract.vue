@@ -115,10 +115,11 @@
                         <h3>Researching software architecture</h3>
                         <div class="project-body">
                           <p>While waiting for meetings with PSV to update the project plan, we were doing
-                            research on the current situation. I did literature research on what entities the architecture of PSV's
+                            research on the current situation. I did literature research on what entities the
+                            architecture of PSV's
                             media platforms consisted of. This would help give us an overview on what could be improved
                             while keeping into account the existing software architecture (e.g. API's) and stakeholders.
-                           The knowledge was
+                            The knowledge was
                             used to create a <a class="txt-link" target="_blank"
                               href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/architecture">software
                               architecture diagram</a> using the C4 model. </p>
@@ -142,7 +143,8 @@
                       <div class="project-h3-content">
                         <h3>Target Audience</h3>
                         <div class="project-body">
-                          <p>The current PSV app has lots of features/sections we weren't sure of that they're useful to their target audience. This is
+                          <p>The current PSV app has lots of features/sections we weren't sure of that they're useful to
+                            their target audience. This is
                             why we decided to only work on features that would add real value to PSV fans.
                             A mobile app is most valuable to have when you're not at home behind your desk. For this
                             reason we selected the loyal/more hardcore PSV fans as our <a class="txt-link"
@@ -184,7 +186,8 @@
                       <div class="project-h3-content">
                         <h3>User Stories</h3>
                         <div class="project-body">
-                          <p>I decided to work on two user stories. I reformulated these user stories into one since the first one was too
+                          <p>I decided to work on two user stories. I reformulated these user stories into one since the
+                            first one was too
                             generic and not
                             concrete while the other was too limited.</p>
                           <p>
@@ -203,31 +206,16 @@
                       <div class="project-h3-content">
                         <h3>Researching PSV's notification system</h3>
                         <div class="project-body">
-                          <p>My first research for the user story was <a class="txt-link" target="_blank"
-                              href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/userstories">researching
-                              the current notification system of
-                              PSV's app</a>. The main question was to research what the notifications system looks like,
+                          <p>My first research for the user story was researching
+                            the <a class="txt-link" target="_blank"
+                              href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/userstories">current
+                              notification system </a>of
+                            PSV's app. The main question was to research what the notifications system looks like,
                             meaning how it works on a technical level and what it
                             looks like from the user's perspective. I learned what design was used to display
                             notifications and the notification settings by using the app for several weeks. This gave me
                             a good understanding of the user experience and how much the notification system contributes
-                            to the immersion/game experience. One time
-                            during a game, I didn't get any notifications at all from the app despite notifications
-                            being enabled. This was solved by reopening the app, but another issue occurred later on
-                            when
-                            I received a few
-                            notifications in the wrong order. The issue might have been my phone or network's fault
-                            though since it
-                            never happened again. </p>
-
-                          <p>By talking
-                            to PSV I also discovered that the
-                            Gracenote API checks for a change in the database every minute and if something in the
-                            database updates (for example a goal has been scored) it outputs the data to a
-                            notification.
-                            This means that the delay of notifications can take a whole minute, which is way longer
-                            compared
-                            to football score apps I tried out later on.</p>
+                            to the immersion/game experience.</p>
 
                         </div>
                       </div>
@@ -241,25 +229,10 @@
                             notification
                             systems with PSV's notifications system and see how other apps create immersion/atmosphere
                             through the use of notifications. The goal, therefore, is to understand how other football
-                            apps create more immersion/atmosphere around games for their users with the use of
+                            apps create more immersion/atmosphere around games for their users through the use of
                             notifications.</p>
-                          <p>To start off the research I looked at the notification options for each of the football
-                            score apps and enabled everything match related. During the next few weeks I received
-                            notifications of
-                            games. Something valuable I found is that the Feyenoord app was posting realtime photo's of
-                            the game and lots of other visuals on a timeline. When you would click on a notification it
-                            would bring you to that timeline so I felt like I was getting good context on what was
-                            happening and enjoyed seeing images of the crowd enjoying themselves. Even before and after
-                            the game they would post photos of players, fans, the stadium. If I was a Feyenoord fan I
-                            would have most likely gotten very excited for the game so this could be a good addition for
-                            improving the immersion of the PSV app.</p>
-                          <p>One of the other apps I tested, posted images in notifications which helps give more
-                            context
-                            which on itself can increase the immersion. Most apps also offered notifications about when
-                            the match would start, what the squad formation would be and when a penalty was given.
-                            Penalties are a great way to build suspense since there's a high chance of a goal being
-                            scored.</p>
-                          <p>The trend analysis gave me a lot of inspiration for making a prototype.</p>
+                          <p>I concluded that showing images of the game, sending frequent notifications of events and
+                            adding custom sounds improved the immersion.</p>
                         </div>
                       </div>
                       <div class="project-h3-content">
@@ -270,15 +243,12 @@
                               capabilities of Flutter</a> in
                             regard to notifications. This was needed since PSV wants to keep using notifications in the
                             app. I researched what the functionalities and best practices of Flutter's notification
-                            capabilities are by applying desktop research and the literature study method.
-                            Of course I was primarily working on my user story, so the main question was:</p>
+                            capabilities are by applying desktop research and the literature study method.</p>
                           <b><i>Which Flutter notification functionalities can be used to enhance the immersion of PSV
                               fans
                               around matches in the PSV app?</i></b>
                           <p>From this research I concluded that using the 'flutter_local_notifications' package
-                            combined with the 'FlutterFire' functionalities would be the most useful, since the former
-                            can display notifications while the user is in the app and the latter is for displaying push
-                            notifications when the app is closed. They both offer
+                            combined with the 'FlutterFire' functionalities would be the most useful. Both offer
                             the same notification customizations like giving a notification a title, paragraph, sound,
                             image and a schedule which can potentially help create more immersion.</p>
                         </div>
@@ -387,16 +357,13 @@
                 <div class="project-h2-wrapper">
                   <div class="project-h2-content">
                     <h2>Preparation Week</h2>
-                    <p>Before the project started, I had to contact my project members. In Teams I created a new team
-                      and invited everyone. Unfortunately, the international guest student didn't respond to our emails.
-                    </p>
 
-                    <p>In this week, we studied the metaverse as <a
-                            class="txt-link" target="_blank"
-                            href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/prepweek">preparation</a> for the international week. In our first meeting we discussed the first assignment which was about
+                    <p>In this week, me and other students studied the metaverse as <a class="txt-link" target="_blank"
+                        href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/prepweek">preparation</a>
+                      for the international week. In our first meeting we discussed the first assignment which was about
                       understanding the metaverse. For the second assignment we each made a metaverse avatar that
                       represents ourselves, and as final assignment we made a group photo of the avatars, discussed
-                      how we created our avatars and what our core message is of the metaverse.</p>
+                      how we created our avatars and what our joint opinion of the metaverse is.</p>
                   </div>
                 </div>
               </div>
@@ -404,8 +371,8 @@
                 <div class="project-h2-wrapper">
                   <div class="project-h2-content">
                     <h2>International Week</h2>
-                    <p>This time around, the international guest student did show up so we started brainstorming
-                      metaverse concepts for each client we could choose from. We achieved this by doing desktop
+                    <p>In this week we started brainstorming
+                      metaverse concepts for a selection of clients. We achieved this by doing desktop
                       research on the clients to understand what products/services they offered and then writing down
                       metaverse ideas on a whiteboard that could improve those products/services.
                       After voting, we chose to continue with Boymans.</p>
@@ -443,7 +410,8 @@
                 <div class="project-h2-wrapper">
                   <div class="project-h2-content">
                     <h2>Evaluation</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error qui omnis dolore hic a? Explicabo reprehenderit unde voluptas sed adipisci.
+                    <p>
+
                     </p>
                   </div>
                 </div>
@@ -463,7 +431,7 @@
               <div class="project-h2-section">
                 <div class="project-h2-wrapper">
                   <div class="project-h2-content">
-                    <h2>H2</h2>
+                    <h2>Define</h2>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam cum quia quos fugit provident
                       voluptates facere incidunt? Laboriosam esse, quibusdam optio, tempore, eius deserunt modi ut
                       voluptate sint inventore eum nisi corrupti fugit. Dolores enim, veniam quam impedit quod magnam
@@ -474,7 +442,43 @@
                 <div class="project-h3-section">
                   <div class="project-h3-wrapper">
                     <div class="project-h3-content">
-                      <h3>H3</h3>
+                      <h3>Project Plan</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, veniam odio quasi quaerat
+                        veritatis ipsum nihil suscipit, a culpa aliquid, eveniet quod animi recusandae saepe beatae
+                        voluptates sint ullam tempore.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="project-h2-section">
+                <div class="project-h2-wrapper">
+                  <div class="project-h2-content">
+                    <h2>Empathize</h2>
+                    <p>Lorem</p>
+                  </div>
+                </div>
+                <div class="project-h3-section">
+                  <div class="project-h3-wrapper">
+                    <div class="project-h3-content">
+                      <h3>Target audience & Interviews</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, veniam odio quasi quaerat
+                        veritatis ipsum nihil suscipit, a culpa aliquid, eveniet quod animi recusandae saepe beatae
+                        voluptates sint ullam tempore.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="project-h2-section">
+                <div class="project-h2-wrapper">
+                  <div class="project-h2-content">
+                    <h2>Prototype & Test</h2>
+                    <p>Lorem</p>
+                  </div>
+                </div>
+                <div class="project-h3-section">
+                  <div class="project-h3-wrapper">
+                    <div class="project-h3-content">
+                      <h3>Designing</h3>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, veniam odio quasi quaerat
                         veritatis ipsum nihil suscipit, a culpa aliquid, eveniet quod animi recusandae saepe beatae
                         voluptates sint ullam tempore.</p>
@@ -486,7 +490,8 @@
                 <div class="project-h2-wrapper">
                   <div class="project-h2-content">
                     <h2>Evaluation</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error qui omnis dolore hic a? Explicabo reprehenderit unde voluptas sed adipisci.
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error qui omnis dolore hic a? Explicabo
+                      reprehenderit unde voluptas sed adipisci.
                     </p>
                   </div>
                 </div>

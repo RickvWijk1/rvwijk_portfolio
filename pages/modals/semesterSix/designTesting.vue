@@ -92,11 +92,16 @@
               <p>The research led to the following findings and products:</p>
             </div>
             <div class="text spacing">
+              <h3>Design choices</h3>
               <p>During the wireframing and high-fidelity process I applied basic design principles/guidelines and the
                 branding guidelines of PSV. The basic principles/guidelines were; menu layouts, icons, content alignment
-                and content management. The applied branding guidelines were; typography, color palette, icons. 
-                These were applied since the current users of PSV are used to the style which is positive for the user experience. Figma
+                and content management. The applied branding guidelines were; typography, color palette, icons.
+                These were applied since the current users of PSV are used to the style which is positive for the user
+                experience. Figma
                 was used to create the designs below.</p>
+              <p>The only element that wasn't used in PSV's style guide, is the slider. The slider provides an
+                explanation on how to add custom tunes. This was added, because users have to perform actions outside
+                the app, which means we can't assist the user once they exit the app.</p>
               <b>Wireframes</b>
               <div class="image-grid">
                 <img src="~/assets/img/school/semester6/wireframe1.jpg" alt="">
@@ -133,7 +138,8 @@
                 <p>
                   It was crucial to test the prototype. I feel like I should have made the testing goal/plan smaller. I
                   made a big test plan, because I wanted to see how PSV fans would experience my entire prototype and
-                  not just a very small part. Next time I will make sure to start small or much earlier so that I will have enough time to execute the plan.
+                  not just a very small part. Next time I will make sure to start small or much earlier so that I will
+                  have enough time to execute the plan.
                 </p>
               </div>
             </div>

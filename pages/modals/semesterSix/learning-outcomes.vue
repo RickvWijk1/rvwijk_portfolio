@@ -60,7 +60,20 @@
                         Flutter. This included research into what public libraries/widgets would be usable and in what
                         ways they could be beneficial.</p>
                     </div>
+                    
                     <div>
+                      <p><b>Individual Project</b></p>
+                      <a target="_blank"
+                        href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/portfolio-abstract"
+                        class="txt-link">
+                        Technical Research
+                      </a>
+                      <span>-></span>
+                      <p>I did research into what technologies are most efficient at creating Android widgets.</p>
+                    </div>
+                    
+                      <div>
+                      <p><b>PSV Group Project, Individual project</b></p>
                       <a target="_blank"
                         href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/portfolio-abstract"
                         class="txt-link">
@@ -93,7 +106,9 @@
                   <div class="group-project-proof">
                     <div>
                       <p><b>PSV Group Project</b></p>
-                      <a target="_blank" href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/designTesting" class="txt-link">
+                      <a target="_blank"
+                        href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/designTesting"
+                        class="txt-link">
                         High-fidelity Prototype
                       </a>
                       <span>-></span>
@@ -102,16 +117,18 @@
                       </p>
                     </div>
                     <div>
-                      <a target="_blank" href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/interviews" class="txt-link">
+                      <a target="_blank"
+                        href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/interviews"
+                        class="txt-link">
                         Interviews
                       </a>
                       <span>-></span>
                       <p>I mapped what the user experience is like for the current PSV app users by interviewing them.
                       </p>
                     </div>
+
                     <div>
-                      <div>
-                      <a target="_blank" href="#" class="txt-link">
+                      <a target="_blank" href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/flutterNotifications" class="txt-link">
                         Flutter Notifications
                       </a>
                       <span>-></span>
@@ -119,14 +136,25 @@
                         process of the notification system, but also in relation to how it affects the user experience.
                       </p>
                     </div>
-                      <p><b>Individual Project</b></p>
+                    <div>
                       <a target="_blank" href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/indDesign" class="txt-link">
-                        5 second A/B testing
+                        Design & Testing
+                      </a>
+                      <span>-></span>
+                      <p>I documented why I made certain design choices in relation to the user experience.
+                      </p>
+                    </div>
+                    
+                    <div>
+                      <p><b>Individual Project</b></p>
+                      <a target="_blank" href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/indDesign"
+                        class="txt-link">5 second A/B testing
                       </a>
                       <span>-></span>
                       <p>I mapped what the user experience is like with different kinds of widget designs.
                       </p>
                     </div>
+
                   </div>
                 </td>
               </tr>
@@ -164,22 +192,29 @@
                         diagram.</p>
                     </div>
                     <div>
-                      <a target="_blank" href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/techResearch" class="txt-link">
+                      <a target="_blank"
+                        href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/techResearch"
+                        class="txt-link">
                         Technical Research
                       </a>
                       <span>-></span>
-                      <p>I researched what components were needed based on set criteria, designed the software diagram based on the C4 (level 2) diagram criteria.</p>
+                      <p>I researched what components were needed based on set criteria, designed the software diagram
+                        based on the C4 (level 2) diagram criteria.</p>
                     </div>
-                      <div>
-                        <a target="_blank" href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/notificationSystem" class="txt-link">
-                          Current Notification System
-                        </a>
-                        <span>-></span>
-                        <p>I investigated what the current notification system looks like. I talked to the stakeholders to
-                          get more information about the system and their wishes.</p>
-                      </div>
                     <div>
-                      <a target="_blank" href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/flutterNotifications" class="txt-link">
+                      <a target="_blank"
+                        href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/notificationSystem"
+                        class="txt-link">
+                        Current Notification System
+                      </a>
+                      <span>-></span>
+                      <p>I investigated what the current notification system looks like. I talked to the stakeholders to
+                        get more information about the system and their wishes.</p>
+                    </div>
+                    <div>
+                      <a target="_blank"
+                        href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/flutterNotifications"
+                        class="txt-link">
                         Flutter Notifications
                       </a>
                       <span>-></span>
@@ -216,11 +251,10 @@
                         Project Plan
                       </a>
                       <span>-></span>
-                      <p>The problem was determined by planning multiple debriefing meetings, asking questions and researching the media platforms of PSV. In addition, the primary
+                      <p>The problem was determined by planning multiple debriefing meetings, asking questions and
+                        researching the media platforms of PSV. In addition, the primary
                         question and sub-questions were formulated. A planning was made, risks were noted down, etc.</p>
                     </div>
-                  </div>
-                  <div class="group-project-proof">
                     <div>
                       <p><b>Individual Project</b></p>
                       <a target="_blank"
@@ -289,11 +323,11 @@
                     <span>-></span>
                     <p>I applied multiple research strategies (workshop, lab, field research) and methods (interviews,
                       5-second A/B testing) to discover what type of design the target audience needed.</p>
-                      <p>'Why' I used a specific research pattern is explained in the <a target="_blank"
-                      href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/projectPlan"
-                      class="txt-link">
-                      Project Plan
-                    </a></p>
+                    <p>'Why' I used a specific research pattern is explained in the <a target="_blank"
+                        href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/projectPlan"
+                        class="txt-link">
+                        Project Plan
+                      </a></p>
                   </div>
                 </td>
               </tr>

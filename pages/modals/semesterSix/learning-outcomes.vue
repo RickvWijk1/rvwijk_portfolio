@@ -64,12 +64,31 @@
                     <div>
                       <p><b>Individual Project</b></p>
                       <a target="_blank"
-                        href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/portfolio-abstract"
+                        href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/techResearch"
                         class="txt-link">
-                        Technical Research
+                        Software Architecture
                       </a>
                       <span>-></span>
                       <p>I did research into what technologies are most efficient at creating Android widgets.</p>
+                    </div>
+                    <div>
+                      <a target="_blank"
+                        href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/indInterviews"
+                        class="txt-link">
+                        Target Audience
+                      </a>
+                      <span>-></span>
+                      <p>I did research into the target audience by interviewing and creating a survey.</p>
+                    </div>
+                    <div>
+                      <p><b>International Project</b></p>
+                      <a target="_blank"
+                        href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/prepweek"
+                        class="txt-link">
+                        Preperation Week
+                      </a>
+                      <span>-></span>
+                      <p>I researched the metaverse on a technical and ethical level.</p>
                     </div>
                     
                       <div>
@@ -154,6 +173,15 @@
                       <p>I mapped what the user experience is like with different kinds of widget designs.
                       </p>
                     </div>
+                    <div>
+                      <a target="_blank"
+                        href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/indInterviews"
+                        class="txt-link">
+                        Target Audience
+                      </a>
+                      <span>-></span>
+                      <p>I mapped what the target audience currently experiences (how they currently get info)</p>
+                    </div>
 
                   </div>
                 </td>
@@ -193,16 +221,6 @@
                     </div>
                     <div>
                       <a target="_blank"
-                        href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/techResearch"
-                        class="txt-link">
-                        Technical Research
-                      </a>
-                      <span>-></span>
-                      <p>I researched what components were needed based on set criteria, designed the software diagram
-                        based on the C4 (level 2) diagram criteria.</p>
-                    </div>
-                    <div>
-                      <a target="_blank"
                         href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/notificationSystem"
                         class="txt-link">
                         Current Notification System
@@ -220,6 +238,17 @@
                       <span>-></span>
                       <p>I investigated the possibilities of what public libraries/widgets would be usable and in what
                         ways they could be beneficial.</p>
+                    </div>
+                    <div>
+                      <p><b>Individual Project</b></p>
+                      <a target="_blank"
+                        href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/techResearch"
+                        class="txt-link">
+                        Software Architecture
+                      </a>
+                      <span>-></span>
+                      <p>I researched what components were needed based on set criteria, designed the software diagram
+                        based on the C4 (level 2) diagram criteria.</p>
                     </div>
                   </div>
                 </td>
@@ -353,7 +382,7 @@
                       Products
                     </a>
                     <span>-></span>
-                    <p>I reflected upon each product.</p>
+                    <p>I reflected upon each piece of research.</p>
                   </div>
                   <div>
                     <a target="_blank"
@@ -417,8 +446,8 @@
                       Metaverse prototyping
                     </a>
                     <span>-></span>
-                    <p>I got to know international students and worked together with them when creating a valuable
-                      concept for
+                    <p>I got to know international students and worked together with them when ideating valuable concepts for potential stakeholders and prototyping
+                      a concept for
                       stakeholder Boymans museum</p>
                   </div>
                 </td>

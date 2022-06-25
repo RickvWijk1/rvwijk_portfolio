@@ -20,26 +20,9 @@
                 <img src="~/assets/img/school/icons/motivation.png" alt="">
               </div>
               <div class="label-cont">
-                <p>To answer the main question
+                <p>It's important to define the problem within the context and to define a stakeholder. In addition a
+                  good strategy and planning is needed.
                 </p>
-              </div>
-            </div>
-            <div class="text">
-              <div class="learned-cont">
-                <h3>Approach</h3>
-                <img src="~/assets/img/school/icons/approach.png" alt="">
-              </div>
-              <div class="research-tags-cont">
-                <div class="research-tag research-active research-desktop">
-                  <p>Desktop</p>
-                  <img src="~/assets/img/school/research_strats/library.png" alt="">
-                </div>
-              </div>
-              <div class="research-text label-cont text spacing">
-                  <p>To answer the main question I applied triangulation by using the 'Realise as required' research pattern which answers the question:
-                    How can I ensure the product meets the needs of the stakeholders throughout the project?
-                    This was applied, because my stakeholders already know what they would like; an F1 widget. This pattern helps to structurally investigate, realise and test your solution based on the stakeholders’ needs.
-                  </p>
               </div>
             </div>
             <div class="text">
@@ -49,55 +32,56 @@
               </div>
               <div class="label-cont">
                 <div class="text spacing">
-                  <p>How can I let the PSV fans experience a more 'immersive'/atmospheric match experience via the PSV
-                    app
-                    by means of notifications?
-                  </p>
-                  <p>Design a notification system to provide PSV fans, who follow matches via the PSV app, with more
-                    match
-                    information, so that they get an immersive/atmospheric match experience.</p>
+                  <p>How can I allow F1 fans to view the F1 schedule on their Android smartphones in an efficient/quick
+                    way through the use of widgets?</p>
+                  <p>Design and develop a widget that allows F1 fans to view the F1 schedule on their Android
+                    smartphones so that they can quickly see at what time F1 events are taking place.</p>
                 </div>
               </div>
             </div>
-              <div class="text">
-                <b>Sub questions</b>
-                  <ul class="list">
-                    <li class="list-bullet">What is PSV's current approach in regard to match-related notifications?</li>
-                    <li class="list-bullet">What are other football apps doing regarding notifications to improve the atmosphere/immersion? (is there perhaps an app that offers audio commentary?)</li>
-                    <li class="list-bullet">What does the target audience think about match-related notifications? What are the experiences of the target group with regard to competition-related notifications? (irritations, needs, wishes, etc.)</li>
-                    <li class="list-bullet">What kind of notifications are there?
-                In terms of notifications, what is possible with Flutter?</li>
-                  </ul>
-              </div>
             <div class="text">
-              <div class="learned-cont">
-                <h3>Why this user story?</h3>
-              </div>
-              <div class="label-cont">
-                <p>
-                  The reason I picked up this user story, is because PSV fans I interviewed stated that they sometimes
-                  don't
-                  know what's going on when there's a complicated situation in a game and are relying on textual
-                  notifications. They feel like they're missing information.
-                </p>
-                <p>In addition, PSV marked having a future-proof notification system as one of their main priorities.
-                </p>
-              </div>
+              <b>Sub questions</b>
+              <ul class="list">
+                <li class="list-bullet">What schedule information is the most crucial for F1 fans?</li>
+                <li class="list-bullet">What technologies will be most efficient to use for creating widgets for Android
+                  smartphones?</li>
+                <li class="list-bullet">How do the existing iOS F1 widgets display the schedule information?</li>
+              </ul>
             </div>
             <div class="text">
-              <div class="learned-cont">
-                <h3>Hypothesis</h3>
-                <img src="~/assets/img/school/icons/hypothesis.png" alt="">
-              </div>
-              <div class="label-cont">
-                <p>I expect to be able to improve the immersion for PSV fans by providing them with more visual and
-                  audio information about what's happening before, during and after the game. Using video, gifs or
-                  images in notifications might be an option, but I will have to research if this is possible on a
-                  technical level and whether there's copyright issues.</p>
-              </div>
+              <h3>Stakeholders</h3>
+              <p>The party that has an interest in the project is the Formula 1 Twitter community. The main stakeholder
+                for this project, however, should ideally be an expert on the subject Android widgets and/or data
+                management.</p>
             </div>
-<a target="_blank" href="./pdf/semester6/user_story.pdf"><button
-                  class="btnModalClose bntModalClose-bg-color">View plan of action</button></a>
+            <table>
+              <tr>
+                <th class="col-goals">Inside scope (must have):</th>
+                <th class="col-proof">Outside scope (should, could, won’t have):</th>
+              </tr>
+              <tr>
+                <td>
+                  <div class="grouped">
+                    1. Design an F1 widget app for Android that gives F1 fans the needed schedule information for the
+                    upcoming race weekend.
+                  </div>
+                </td>
+                <td>
+                  <p>2. Develop an F1 widget app for Android that gives F1 fans the needed schedule information for the
+                    upcoming race weekend.</p>
+                </td>
+                <td>
+                  <p>1. Publish the app on the Play Store</p>
+                  <br>
+                  <p>2. Design and develop a widget that shows the current teams championship standings.</p>
+                </td>
+                <td>
+                  <p>3. Design and develop a widget that shows the current drivers championship standings.</p>
+                </td>
+              </tr>
+            </table>
+            <a target="_blank" href="./pdf/semester6/ind_projectplan.pdf"><button
+                class="btnModalClose bntModalClose-bg-color">View project plan</button></a>
             <div class="paddedTextLine"></div>
             <div class="text">
               <div class="learned-cont">
@@ -105,13 +89,16 @@
                 <img src="~/assets/img/school/icons/evaluation.png" alt="">
               </div>
               <div class="label-cont">
-                <p>It took some time before I had my final main question and design challenge formulations. By asking
-                  others to read it I got a good indication on whether they were concrete/clear enough.</p>
+                <p>It took some time before I defined my stakeholders. This is because I was looking for one that also
+                  had knowledge of the subject 'widgets for Android'. Sadly I couldn't find an expert on Android so I
+                  had to do a lot of technical research myself which meant that I didn't have time to develop the app.
+                </p>
               </div>
             </div>
             <div class="text">
               <h3>What's next?</h3>
-              <p>Now that I've my user story plan of action, I will research the formulated sub questions so that I will eventually be able to answer the main question.</p>
+              <p>Now that I've my plan laid out, I will research the formulated sub questions so that I will
+                eventually be able to answer the main question.</p>
             </div>
           </div>
         </div>

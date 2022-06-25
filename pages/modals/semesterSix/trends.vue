@@ -41,7 +41,7 @@
                   for existing football (score) apps that use live
                   match notification functionalities and possibly contribute to the immersion/atmosphere. The apps are
                   tested by downloading them and turning on notifications. Within a few days I gained enough information
-                  to know what functions could be useful to the PSV app.</p>
+                  to know what functions could be useful to the PSV app. (Day in the life method)</p>
               </div>
             </div>
             <div class="text">
@@ -92,56 +92,62 @@
               <div class="text">
                 <i>What is the football app trying to achieve?/What services does the football app
                   offer?</i>
-<table>
-              <tr>
-                <th class="col-goals">Name app</th>
-                <th class="col-proof">Description/goal/most important feature of the app</th>
-              </tr>
-              <tr>
-                <td>
-                  <div class="grouped">
-                    <b>Goal Live Scores</b>
-                  <img style="width: 5em;" src="~/assets/img/school/semester6/goalscore.jpg" alt="">
-                  </div>
-                </td>
-                <td>
-                  <p>The 'Goal Live Scores' app focuses on football (fans) and its main functions are to provide live scores, news and statistics.</p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <div class="grouped">
-                    <b>LiveScore</b>
-                  <img style="width: 5em;" src="~/assets/img/school/semester6/livescore.png" alt="">
-                  </div>
-                </td>
-                <td>
-                  <p>The 'LiveScore' app focuses on football (fans), but also offers other sports such as tennis, hockey, basketball and cricket. Its main functions are to provide live scores, analysis, statistics and news.</p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <div class="grouped">
-                    <b>Feyenoord</b>
-                  <img style="width: 5em;" src="~/assets/img/school/semester6/feyenoord.jpg" alt="">
-                  </div>
-                </td>
-                <td>
-                  <p>The 'Feyenoord' app focuses on Feyenoord's first football team. Key features include Match Center which allows fans to get in the mood for the match by checking out all the latest news and exclusive videos and furthermore fans can follow the matches via push notifications</p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <div class="grouped">
-                    <b>Ajax</b>
-                  <img style="width: 5em;" src="~/assets/img/school/semester6/ajax.png" alt="">
-                  </div>
-                </td>
-                <td>
-                  <p>The 'Ajax' app focuses on Ajax's first football team. The main features are statistics, news and ticketing</p>
-                </td>
-              </tr>
-            </table>
+                <table>
+                  <tr>
+                    <th class="col-goals">Name app</th>
+                    <th class="col-proof">Description/goal/most important feature of the app</th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="grouped">
+                        <b>Goal Live Scores</b>
+                        <img style="width: 5em;" src="~/assets/img/school/semester6/goalscore.jpg" alt="">
+                      </div>
+                    </td>
+                    <td>
+                      <p>The 'Goal Live Scores' app focuses on football (fans) and its main functions are to provide
+                        live scores, news and statistics.</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="grouped">
+                        <b>LiveScore</b>
+                        <img style="width: 5em;" src="~/assets/img/school/semester6/livescore.png" alt="">
+                      </div>
+                    </td>
+                    <td>
+                      <p>The 'LiveScore' app focuses on football (fans), but also offers other sports such as tennis,
+                        hockey, basketball and cricket. Its main functions are to provide live scores, analysis,
+                        statistics and news.</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="grouped">
+                        <b>Feyenoord</b>
+                        <img style="width: 5em;" src="~/assets/img/school/semester6/feyenoord.jpg" alt="">
+                      </div>
+                    </td>
+                    <td>
+                      <p>The 'Feyenoord' app focuses on Feyenoord's first football team. Key features include Match
+                        Center which allows fans to get in the mood for the match by checking out all the latest news
+                        and exclusive videos and furthermore fans can follow the matches via push notifications</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="grouped">
+                        <b>Ajax</b>
+                        <img style="width: 5em;" src="~/assets/img/school/semester6/ajax.png" alt="">
+                      </div>
+                    </td>
+                    <td>
+                      <p>The 'Ajax' app focuses on Ajax's first football team. The main features are statistics, news
+                        and ticketing</p>
+                    </td>
+                  </tr>
+                </table>
 
               </div>
               <div class="text">

@@ -20,10 +20,9 @@
                 <img src="~/assets/img/school/icons/motivation.png" alt="">
               </div>
               <div class="label-cont">
-                <p>In order to be able to give PSV advice, there must first be investigated what the current ICT
-                  architecture system that PSV uses for its media platforms looks like. Making an architecture diagram
-                  will enable us to understand the current architecture better so that we can take it into account when
-                  we design/redesign the app.</p>
+                <p>The widget app will eventually need to be developed, possibly published and expanded. Research into
+                  what technologies are the most effective solution needs to be done. In addition, the software
+                  architecture should be mapped to help maintain the project.</p>
               </div>
             </div>
             <div class="text">
@@ -42,14 +41,10 @@
                 </div>
               </div>
               <div class="research-text label-cont">
-                <p><b>Desktop research was applied,</b> because this way I could get information on how PSV's media
-                  platforms are set-up and maintained. How does the app receive data for example? What journey does an
-                  article have to make to land up in the app viewable for users?</p>
-                <p>I talked to our PSV contacts. They provided me with information about their software architecture.
-                </p>
-                <p><b>Workshop research was applied,</b> because an architecture diagram of PSV's current software
-                  architecture would give a good overview of the situation. From this overview we could potentially
-                  discover how we can improve the app or the system in general.</p>
+                <p><b>Desktop and workshop research were applied.</b> A list of the criteria will be made to judge what
+                  technologies are the most effective/suited to use for developing the widget app. In addition, POC’s
+                  will be made in order to get a better sense of what technologies will be most suited. The criteria
+                  list is based upon the desktop and workshop research findings.</p>
               </div>
             </div>
             <div class="text">
@@ -58,8 +53,17 @@
                 <img src="~/assets/img/school/icons/question.png" alt="">
               </div>
               <div class="label-cont">
-                <p>What does the current IT architecture system of PSV's media platforms look like?</p>
+                <p>What technologies are most effective/suited for developing the F1 Android widget application?</p>
               </div>
+            </div>
+            <div class="text">
+              <b>Sub questions</b>
+              <ul class="list">
+                <li class="list-bullet">What technology allows you to make widgets for Android?</li>
+                <li class="list-bullet">What are the criteria and what are the positives and negatives for each
+                  technology?</li>
+                <li class="list-bullet">What additional/third party technologies are needed?</li>
+              </ul>
             </div>
             <div class="text">
               <div class="learned-cont">
@@ -67,9 +71,9 @@
                 <img src="~/assets/img/school/icons/hypothesis.png" alt="">
               </div>
               <div class="label-cont">
-                <p>With PSV's current IT architecture system, I think they use APIs to load data and they also have a
-                  database to store all the data. I mainly expect PSV to save user data and load data from matches since
-                  I know you can create an account for the PSV app.</p>
+                <p>My expectation is that Android will be the most effective/suited technology, since native platforms
+                  typically offer more support for less significant features compared to hybrid frameworks like Flutter,
+                  which are newer technologies and generally have less support for features like widgets.</p>
               </div>
             </div>
             <div class="paddedTextLine"></div>
@@ -81,57 +85,65 @@
               <p><b>Findings</b></p>
 
               <div class="label-cont">
-                <i>What media platforms does PSV own?</i>
+                <i>What technology allows you to make widgets for Android?</i>
                 <ul class="list">
-                  <li class="list-bullet">iOS native app</li>
-                  <li class="list-bullet">Android native app</li>
-                  <li class="list-bullet">Web app (<a class="txt-link" target="_blank"
-                      href="https://www.psv.nl/">PSV.nl</a>)</li>
+                  <li class="list-bullet">Android</li>
+                  <li class="list-bullet">Hybrid frameworks</li>
                 </ul>
               </div>
               <div class="label-cont">
-                <i>What services/technologies do these media platforms use?</i>
+                <i>What are the criteria and what are the positives and negatives for each technology?</i>
                 <ul class="list">
-                  <li class="list-bullet">RSS feeds; to load in articles, videos and information about matches</li>
-                  <li class="list-bullet">Headless CMS/headless pages; makes it easier to develop pages and makes pages
-                    load faster</li>
-                  <li class="list-bullet">JWPlayer; a video player that can provides video controls
+                  <li class="list-bullet">Widget support</li>
+                  <li class="list-bullet">Design support</li>
+                  <li class="list-bullet">Scalability</li>
+                </ul>
+                <ul class="list">
+                  <b>Flutter</b>
+                  <li class="list-bullet">Flutter has easy to use front-end components</li>
+                  <li class="list-bullet">Google is committed to Flutter so you can expect Flutter to keep up the
+                    support</li>
+                  <li class="list-bullet">Managing a Flutter project is more difficult compared to an Android project,
+                    because there’s a lot of extra files (for iOS for example)
                   </li>
-                  <li class="list-bullet">Gracenote; provides data about the schedule, results and statistics with
-                    regard to matches</li>
-                  <li class="list-bullet">Sports Alliance; provides authentication (SSO and My PSV)</li>
+                </ul>
+                <ul class="list">
+                  <b>Android</b>
+                  <li class="list-bullet">Android Studio has an easy to use drag & drop design interface</li>
+                  <li class="list-bullet">Easier to publish app to the Playstore</li>
+                  <li class="list-bullet">Generating widget files + customizing widget requires Android Studio</li>
                 </ul>
               </div>
               <div class="label-cont">
-                <i>What parties are involved?</i>
+                <i>What additional/third party technologies are needed?</i>
                 <ul class="list">
-                  <li class="list-bullet">PSV uses a CMS that's called XperienCentral (version 10.30.0 R30) of the
-                    company GX Softwaren</li>
-                  <li class="list-bullet">The Simac company is the IT partner of PSV. PSV employees work in an
-                    environment that's facilitated by SImac</li>
-                  <li class="list-bullet">Web app (<a class="txt-link" target="_blank"
-                      href="https://www.psv.nl/">PSV.nl</a>)</li>
+                  <li class="list-bullet">Database</li>
+                  <li class="list-bullet">API</li>
                 </ul>
               </div>
+              <a target="_blank" href="./pdf/semester6/ind_tech.pdf"><button
+                  class="btnModalClose bntModalClose-bg-color">View research in PDF</button></a>
             </div>
-            <a target="_blank" href="./pdf/semester6/architecture.pdf"><button
-                class="btnModalClose bntModalClose-bg-color">View software architecture research in PDF</button></a>
             <div class="text">
-              <p><b>Software Architecture Diagram</b></p>
-              <p>The diagram below shows the flow of updating/maintaining the media platforms and what parties are
-                involved in this process. Visio was used to create the diagram.</p>
-              <p> After I created the diagram I found out about the C4 model. The C4 model is for mapping all kinds of
-                entities that are involved in a software architecture system.
-                My goal was to understand the current PSV software architecture as a whole, not a specific part. In
-                regard to the C4 model, the diagram below shows Level 1 (Context), Level 2 (Containers) and Level 3
-                (Component).
-                For example, the 'PSV redactie' is part of the context, while the PSV app is a container and the Sports
-                Alliance database is a component.
-              </p>
+              <p><b>C4 Diagram</b></p>
+              <p>To map the software architecture I followed the design principles of the C4 Model. This is a level 2-3
+                C4 model, meaning it shows containers like a mobile app, database, but also some components like a
+                widget component.</p>
             </div>
-            <img src="~/assets/img/school/semester6/architecture.webp" alt="">
-            <a target="_blank" href="_nuxt/assets/img/school/semester6/architecture.webp"><button
+            <img src="~/assets/img/school/semester6/ind_project/architecture_diagram.jpg" alt="">
+            <a target="_blank" href="_nuxt/assets/img/school/semester6/ind_project/architecture_diagram.jpg"><button
                 class="btnModalClose bntModalClose-bg-color">View image in new tab</button></a>
+            <div class="text">
+              <p><b>POCS</b></p>
+<div class="text">
+                  <a style="width:24em;" target="_blank" href="https://github.com/RickvWijk1/android_widget_pocs">
+                    <div class="paddedText">
+                      <p>View the repo for the POCS</p>
+                      <svg-icon class="svg-github" name="github" />
+                    </div>
+                  </a>
+                </div>
+            </div>
             <div class="paddedTextLine"></div>
             <div class="text">
               <div class="learned-cont">
@@ -139,16 +151,14 @@
                 <img src="~/assets/img/school/icons/conclusion.png" alt="">
               </div>
               <div class="label-cont">
-                <p>To answer the main question: <span><b>What does the current IT architecture system of PSV's media
-                      platforms look like?</b></span></p>
+                <p>To answer the main question: <span><b>What technologies are most effective/suited for developing the
+                      F1 Android widget application?</b></span></p>
                 <ul class="list">
-                  <li class="list-bullet">The XperienCentral CMS ensures that content is placed on the website.</li>
-                  <li class="list-bullet">The PSV.nl website receives data from JWPlayer, Gracenote and Sports Alliance
-                    in the form of
-                    videos, statistics, and user data.</li>
-                  <li class="list-bullet">The app retrieves this data from the website. Sometimes the app loads a
-                    webview instead of the data
-                    in a native view.</li>
+                  <li class="list-bullet">IDE: Android Studio</li>
+                  <li class="list-bullet">Language: Kotlin/Java</li>
+                  <li class="list-bullet">Additional tools/technologies: No third-party API will be used since there’s
+                    no good option available. Instead, Android's local database with 'The Room' l ibrary will be used.
+                  </li>
                 </ul>
               </div>
             </div>
@@ -159,20 +169,16 @@
               </div>
               <div class="label-cont">
                 <p>
-                  It was quite difficult to get a good overview of all the architecture entities. This is probably
-                  because half the information that was given to me by PSV was through email paragraphs and the other
-                  half was verbally given. Summing everything up with bullet points helped. After that it was a lot
-                  easier to visualize everything into an architecture diagram. I also had to ask PSV some extra
-                  questions. One of them was about the role of Simac since they're PSV's IT partner. Apparently Simac
-                  only provided IT facilities to PSV and had nothing to do with the developing/maintaining of their
-                  media platforms.
+                  During my research I couldn't decide between choosing Kotlin or Java. Kotlin is new and will be more
+                  important in the future, but Java has more community support. Luckily, Android Studio has a language
+                  conversion tool so the Android project can be converted easily in the future.
                 </p>
               </div>
             </div>
             <div class="text">
               <h3>What's next?</h3>
-              <p>After understanding the context of the assignment, it's time to define a target audience and get in
-                touch so that it's clear for who we're designing.</p>
+              <p>More POC”s (e.g. POC of the database) need to be made to check if the software architecture will indeed
+                be effective.</p>
             </div>
           </div>
         </div>

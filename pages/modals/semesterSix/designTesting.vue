@@ -44,11 +44,9 @@
                 <p><b>Workshop and lab research were applied,</b> because by making design iterations I can test what
                   designs are most effective.</p>
                 <p>Wireframes have been be made in order to determine the layout and what information the screens/pages
-                  would need to contain. After this, a high quality prototype has been made based on the wireframes.
-                  This meant adding colors, fonts, effects and interactivity. </p>
+                  would need to contain. After this, a high-fidelity prototype has been made based on the wireframes.</p>
                 <p>The method that will be applied for the testing of the prototypes, is A/B
-                  testing. A/B testing is comparing
-                  two design versions with each other.</p>
+                  testing.</p>
                 <!-- <img src="~/assets/img/school/semester6/test1.png" alt="">
                 <img src="~/assets/img/school/semester6/test2.png" alt=""> -->
 
@@ -81,9 +79,7 @@
                 <p>I expect the new design/notification system to provide more atmosphere/immersion for PSV fans, as the
                   new notification system lets users hear PSV music/tunes when they receive a notification and
                   notifications show images of the match. Fans always hear these music/tunes when they're at the
-                  stadium and the music will therefore evoke certain emotions. The images give the fans more
-                  information about what is happening inside the stadium, such as how the atmosphere is inside the
-                  stadium.</p>
+                  stadium and the music will therefore evoke passionate emotions.</p>
               </div>
             </div>
             <div class="paddedTextLine"></div>

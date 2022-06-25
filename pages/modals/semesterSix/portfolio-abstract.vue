@@ -17,7 +17,7 @@
                     <i>K. Huggers, D. van Sleeuwen, S. Sodermans, M. Kroeze, R. van Wijk</i>
                   </div>
                   <div class="pdf-btn-cont">
-                    <a target="_blank" href=""><button class="btnModalClose bntModalClose-bg-color">View reading guide
+                    <a target="_blank" href="./pdf/semester6/reading_guide2.0.pdf"><button class="btnModalClose bntModalClose-bg-color">View reading guide
                         in
                         PDF</button></a>
                   </div>
@@ -104,11 +104,11 @@
                           <p>In the <a class="txt-link" target="_blank"
                               href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/projectPlan">debriefing</a>
                             meeting we mainly listened to what the client had to say. PSV told us
-                            about their problem.</p>
-                          <p>Based on the information from the debriefing, me and Dary, created the first version of the
+                            about their problem.
+                            Based on the information from the debriefing, the first version of the
                             <a class="txt-link" target="_blank"
                               href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/projectPlan">project
-                              plan</a>.</p>
+                              plan</a> was created.</p>
                         </div>
                       </div>
                       <div class="project-h3-content">
@@ -319,6 +319,15 @@
                           </p>
                         </div>
                       </div>
+                      <div class="project-h3-content">
+                        <h3>Value of the project</h3>
+                        <div class="project-body">
+                          <p>For PSV this project is just the beginning of a bigger project. Our work will serve as
+                            inspiration and push PSV in the right direction. PSV will want to take our advice, research
+                            and designs and continue from there.
+                          </p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -328,16 +337,17 @@
                   <div class="project-h2-content">
                     <h2>Evaluation</h2>
                     <p>Looking back at the project I must say I'm happy about our process as a group. The start was
-                      rough, because
-                      the initial assignment wasn't 100% fit ICT & Media Design students. However, after a lot of
-                      discussing with the client we agreed on a scoping that was a bit different. From then on we
-                      applied our expertise and kept a good communication going with the client. The communication
-                      within the group was good, but could have been better. For example, a few times project members
-                      failed to
-                      show up for the weekly Monday stand-up, because they forgot it was planned (despite it being
-                      scheduled in MS
-                      Teams). Next time I will send reminders on Sunday or advise my project members to set a reminder.
+                      rough, because the initial assignment wasn't 100% fit for ICT & Media Design students. However,
+                      after a lot of discussing with the client we agreed on the scoping. From then on we applied our
+                      expertise and kept a good communication going with the client. The communication within the group
+                      was good, but could have been better. For example, a few times project members failed to show up
+                      for the weekly Monday stand-up, because they forgot it was planned (despite it being scheduled in
+                      MS Teams). Next time I will send reminders on Sunday or advise my project members to set a
+                      reminder.
                     </p>
+                    <p>If I were to describe my role in the project I would say that I was a project member that made
+                      sure the communication was consistent and that others knew what to do. In short, I had a leading
+                      role which I'm pleased about since it's a useful skill to learn in the ICT industry.</p>
                   </div>
                 </div>
               </div>
@@ -411,8 +421,13 @@
                   <div class="project-h2-content">
                     <h2>Evaluation</h2>
                     <p>
-
+                      From this project I learned a lot about the Metaverse which I believe will be the main technology
+                      trend in the future. I expect every business will want to be part of the Metaverse.
+                      For me as ICT & Media Design student and front-end developer, this means learning skills like 3D
+                      modelling and designing in the context of 3D spaces in general will be useful.
                     </p>
+                    <p>In addition, I gained more experience in cooperating with international students and
+                      communicating with international teachers.</p>
                   </div>
                 </div>
               </div>
@@ -432,20 +447,47 @@
                 <div class="project-h2-wrapper">
                   <div class="project-h2-content">
                     <h2>Define</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam cum quia quos fugit provident
-                      voluptates facere incidunt? Laboriosam esse, quibusdam optio, tempore, eius deserunt modi ut
-                      voluptate sint inventore eum nisi corrupti fugit. Dolores enim, veniam quam impedit quod magnam
-                      nesciunt sint repellat fugit corrupti sit dolorem! Qui accusantium odit numquam accusamus quis
-                      assumenda laborum id amet culpa? Exercitationem ipsa neque architecto officia nemo?</p>
+
+                  </div>
+                </div>
+                <div class="project-h3-section">
+                  <div class="project-h3-wrapper">
+                    <div class="project-h3-content">
+                      <h3>Context & Problem/Opportunity</h3>
+                      <p>As a Formula 1 fan I need the race schedule. During each weekend there is a schedule that may
+                        differ in terms of times.
+
+                        Recently I have seen a lot of positive tweets from the F1 Twitter community about F1 widgets.
+                        The widgets allow you to quickly see the schedule of the upcoming race weekend and view the
+                        championship standings between teams and drivers. Widgets can be placed on your phone's home
+                        screen so that you can get the information fast. Opening an app to view the schedule
+                        takes around 5-10 seconds longer and a lot more taps & swiping.</p>
+                      <p>
+                        However, there's currently no app for Android that provides F1 widgets while lots of F1 Twitter
+                        users have an Android.
+                      </p>
+
+                    </div>
                   </div>
                 </div>
                 <div class="project-h3-section">
                   <div class="project-h3-wrapper">
                     <div class="project-h3-content">
                       <h3>Project Plan</h3>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, veniam odio quasi quaerat
-                        veritatis ipsum nihil suscipit, a culpa aliquid, eveniet quod animi recusandae saepe beatae
-                        voluptates sint ullam tempore.</p>
+                      <p>In the <a class="txt-link" target="_blank"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/indProject">project
+                          plan</a> I defined the goal of the project, stakeholders, scope, main question and design
+                        challenge.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="project-h3-section">
+                  <div class="project-h3-wrapper">
+                    <div class="project-h3-content">
+                      <h3>Target audience</h3>
+                      <p>Before I moved on to interviewing, I defined the <a class="txt-link" target="_blank"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/indInterviews">target
+                          audience</a>.</p>
                     </div>
                   </div>
                 </div>
@@ -454,16 +496,16 @@
                 <div class="project-h2-wrapper">
                   <div class="project-h2-content">
                     <h2>Empathize</h2>
-                    <p>Lorem</p>
                   </div>
                 </div>
                 <div class="project-h3-section">
                   <div class="project-h3-wrapper">
                     <div class="project-h3-content">
-                      <h3>Target audience & Interviews</h3>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, veniam odio quasi quaerat
-                        veritatis ipsum nihil suscipit, a culpa aliquid, eveniet quod animi recusandae saepe beatae
-                        voluptates sint ullam tempore.</p>
+                      <h3>Interviews & Survey</h3>
+                      <p>Through <a class="txt-link" target="_blank"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/indInterviews">interviewing</a>
+                        F1 fans and sharing a survey on F1 Twitter, I gained insights on how the F1 community gets the
+                        schedule info currently and what their experiences with widgets are.</p>
                     </div>
                   </div>
                 </div>
@@ -472,16 +514,26 @@
                 <div class="project-h2-wrapper">
                   <div class="project-h2-content">
                     <h2>Prototype & Test</h2>
-                    <p>Lorem</p>
                   </div>
                 </div>
                 <div class="project-h3-section">
                   <div class="project-h3-wrapper">
                     <div class="project-h3-content">
-                      <h3>Designing</h3>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, veniam odio quasi quaerat
-                        veritatis ipsum nihil suscipit, a culpa aliquid, eveniet quod animi recusandae saepe beatae
-                        voluptates sint ullam tempore.</p>
+                      <h3>Software Architecture</h3>
+                      <p>After technical research I <a class="txt-link" target="_blank"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/techResearch">prototyped
+                          POCS</a> to test how efficient it is to develop a widget with some of the researched
+                        technologies.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="project-h3-section">
+                  <div class="project-h3-wrapper">
+                    <div class="project-h3-content">
+                      <h3>Widget Design & Testing</h3>
+                      <p>I've had several <a class="txt-link" target="_blank"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/indDesign">design
+                          iterations</a> and tested some of these through 5 second design testing.</p>
                     </div>
                   </div>
                 </div>
@@ -490,9 +542,14 @@
                 <div class="project-h2-wrapper">
                   <div class="project-h2-content">
                     <h2>Evaluation</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error qui omnis dolore hic a? Explicabo
-                      reprehenderit unde voluptas sed adipisci.
+                    <p>My goal for this project was to learn how to make widgets and how to use an API to transfer data
+                      to a widget since this is useful if you want to become more experienced as a front-end developer.
                     </p>
+                    <p>Because I couldn't find an expert in developing Android widgets I had to spend more time
+                      researching what the most efficient way to make an Android widget is. This meant I had less time
+                      actually implementing my design so I mostly learned about the theoretical aspect of
+                      widgets and only a bit of the practical aspect by making POCS. I would like to continue this
+                      project in my free time, because it feels unfinished.</p>
                   </div>
                 </div>
               </div>

@@ -1,13 +1,13 @@
 <template>
   <section>
-    <input type="radio" id="ind_all" name="semester6" value="ind_all" checked>
-    <input type="radio" id="ind_analyse_advise" name="semester6" value="ind_analyse_advise">
-    <input type="radio" id="ind_exec_validate" name="semester6" value="ind_exec_validate">
-    <input type="radio" id="ind_software" name="semester6" value="ind_software">
-    <input type="radio" id="ind_problem" name="semester6" value="ind_problem">
-    <input type="radio" id="ind_leadership" name="semester6" value="ind_leadership">
-    <input type="radio" id="ind_organisation" name="semester6" value="ind_organisation">
-    <input type="radio" id="ind_oriented" name="semester6" value="ind_oriented">
+    <input type="radio" id="ind_all" name="ind_semester6" value="ind_all" checked>
+    <input type="radio" id="ind_analyse_advise" name="ind_semester6" value="ind_analyse_advise">
+    <input type="radio" id="ind_exec_validate" name="ind_semester6" value="ind_exec_validate">
+    <input type="radio" id="ind_software" name="ind_semester6" value="ind_software">
+    <input type="radio" id="ind_problem" name="ind_semester6" value="ind_problem">
+    <input type="radio" id="ind_leadership" name="ind_semester6" value="ind_leadership">
+    <input type="radio" id="ind_organisation" name="ind_semester6" value="ind_organisation">
+    <input type="radio" id="ind_oriented" name="ind_semester6" value="ind_oriented">
     <ol class="filters">
       <li class="tooltip">
         <img class="info-png" src="~/assets/img/school/icons/info.png" alt="">
@@ -45,7 +45,7 @@
       </li>
     </ol>
       <div class="row-grid">
-        <NuxtLink class="modal-link" to="/modals/semesterSix/indProject" data_category="ind_problem">
+        <NuxtLink class="modal-link" to="/modals/semesterSix/indProject" data_category="ind_problem ind_organisation ind_problem ind_leadership">
           <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/project.png')`}">
             <div>
               <a class="a-ghostbtn">
@@ -59,13 +59,13 @@
             </div>
           </div>
         </NuxtLink>
-        <NuxtLink class="modal-link" to="/modals/semesterSix/techResearch" data_category="ind_leadership">
-          <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/ind_tech_research.png')`}">
+        <NuxtLink class="modal-link" to="/modals/semesterSix/indInterviews" data_category="ind_exec_validate ind_problem">
+          <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/target_audience.png')`}">
             <div>
               <a class="a-ghostbtn">
                 <div id="hover-box" class="hover-box">
                   <div class="ghostbutton">
-                    <p>Technical Research</p>
+                    <p>Target Audience</p>
                     <svg-icon name="external_link" class="svg-external-link" />
                   </div>
                 </div>
@@ -73,7 +73,7 @@
             </div>
           </div>
         </NuxtLink>
-        <NuxtLink class="modal-link" to="/modals/semesterSix/indDesign" data_category="ind_leadership">
+        <NuxtLink class="modal-link" to="/modals/semesterSix/indDesign" data_category="ind_exec_validate ind_problem">
           <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/ind_design.jpg')`}">
             <div>
               <a class="a-ghostbtn">
@@ -87,7 +87,22 @@
             </div>
           </div>
         </NuxtLink>
-        <NuxtLink class="modal-link" to="/modals/semesterSix/indRecommendations" data_category="ind_leadership">
+        <NuxtLink class="modal-link" to="/modals/semesterSix/techResearch" data_category="ind_analyse_advise ind_software">
+          <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/ind_tech_research.png')`}">
+            <div>
+              <a class="a-ghostbtn">
+                <div id="hover-box" class="hover-box">
+                  <div class="ghostbutton">
+                    <p>Software Architecture</p>
+                    <svg-icon name="external_link" class="svg-external-link" />
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </NuxtLink>
+        
+        <!-- <NuxtLink class="modal-link" to="/modals/semesterSix/indRecommendations" data_category="ind_leadership">
           <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/recommendations.png')`}">
             <div>
               <a class="a-ghostbtn">
@@ -100,7 +115,7 @@
               </a>
             </div>
           </div>
-        </NuxtLink>
+        </NuxtLink> -->
       </div>
   </section>
 </template>

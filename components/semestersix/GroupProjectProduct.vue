@@ -1,13 +1,13 @@
 <template>
   <section>
-    <input type="radio" id="grp_all" name="semester6" value="grp_all" checked>
-    <input type="radio" id="grp_analyse_advise" name="semester6" value="grp_analyse_advise">
-    <input type="radio" id="grp_exec_validate" name="semester6" value="grp_exec_validate">
-    <input type="radio" id="grp_software" name="semester6" value="grp_software">
-    <input type="radio" id="grp_organisation" name="semester6" value="grp_organisation">
-    <input type="radio" id="grp_problem" name="semester6" value="grp_problem">
-    <input type="radio" id="grp_leadership" name="semester6" value="grp_leadership">
-    <input type="radio" id="grp_oriented" name="semester6" value="grp_oriented">
+    <input type="radio" id="grp_all" name="grp_semester6" value="grp_all" checked>
+    <input type="radio" id="grp_analyse_advise" name="grp_semester6" value="grp_analyse_advise">
+    <input type="radio" id="grp_exec_validate" name="grp_semester6" value="grp_exec_validate">
+    <input type="radio" id="grp_software" name="grp_semester6" value="grp_software">
+    <input type="radio" id="grp_organisation" name="grp_semester6" value="grp_organisation">
+    <input type="radio" id="grp_problem" name="grp_semester6" value="grp_problem">
+    <input type="radio" id="grp_leadership" name="grp_semester6" value="grp_leadership">
+    <input type="radio" id="grp_oriented" name="grp_semester6" value="grp_oriented">
     <ol class="filters">
       <li class="tooltip">
         <img class="info-png" src="~/assets/img/school/icons/info.png" alt="">
@@ -45,7 +45,7 @@
       </li>
     </ol>
       <div class="row-grid">
-        <NuxtLink class="modal-link" to="/modals/semesterSix/projectPlan" data_category="grp_problem">
+        <NuxtLink class="modal-link" to="/modals/semesterSix/projectPlan" data_category="grp_organisation grp_problem grp_leadership">
           <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/project_plan.jpg')`}">
             <div>
               <a class="a-ghostbtn">
@@ -59,7 +59,7 @@
             </div>
           </div>
         </NuxtLink>
-        <NuxtLink class="modal-link" to="/modals/semesterSix/architecture" data_category="grp_organisation">
+        <NuxtLink class="modal-link" to="/modals/semesterSix/architecture" data_category="grp_analyse_advise grp_software grp_problem grp_leadership">
           <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/architecture.jpg')`}">
             <div>
               <a class="a-ghostbtn">
@@ -73,7 +73,7 @@
             </div>
           </div>
         </NuxtLink>
-        <NuxtLink class="modal-link" to="/modals/semesterSix/interviews" data_category="grp_advise grp_design">
+        <NuxtLink class="modal-link" to="/modals/semesterSix/interviews" data_category="grp_analyse_advise grp_exec_validate grp_problem grp_leadership">
           <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/target_audience.png')`}">
             <div>
               <a class="a-ghostbtn">
@@ -87,7 +87,7 @@
             </div>
           </div>
         </NuxtLink>
-        <NuxtLink class="modal-link" to="/modals/semesterSix/userstories" data_category="grp_analyse">
+        <NuxtLink class="modal-link" to="/modals/semesterSix/userstories" data_category="grp_analyse_advise grp_problem grp_leadership">
           <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/plan_action.jpg')`}">
             <div>
               <a class="a-ghostbtn">
@@ -101,7 +101,7 @@
             </div>
           </div>
         </NuxtLink>
-        <NuxtLink class="modal-link" to="/modals/semesterSix/notificationSystem" data_category="grp_analyse">
+        <NuxtLink class="modal-link" to="/modals/semesterSix/notificationSystem" data_category="grp_analyse_advise grp_software grp_problem grp_leadership">
           <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/notification_system.jpg')`}">
             <div>
               <a class="a-ghostbtn">
@@ -115,7 +115,7 @@
             </div>
           </div>
         </NuxtLink>
-        <NuxtLink class="modal-link" to="/modals/semesterSix/trends" data_category="grp_analyse">
+        <NuxtLink class="modal-link" to="/modals/semesterSix/trends" data_category="grp_analyse_advise grp_problem grp_leadership">
           <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/trends.jpg')`}">
             <div>
               <a class="a-ghostbtn">
@@ -129,7 +129,7 @@
             </div>
           </div>
         </NuxtLink>
-        <NuxtLink class="modal-link" to="/modals/semesterSix/flutterNotifications" data_category="grp_analyse">
+        <NuxtLink class="modal-link" to="/modals/semesterSix/flutterNotifications" data_category="grp_analyse_advise grp_exec_validate grp_software grp_problem grp_leadership">
           <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/notifications.jpg')`}">
             <div>
               <a class="a-ghostbtn">
@@ -143,7 +143,7 @@
             </div>
           </div>
         </NuxtLink>
-        <NuxtLink class="modal-link" to="/modals/semesterSix/designTesting" data_category="grp_analyse">
+        <NuxtLink class="modal-link" to="/modals/semesterSix/designTesting" data_category="grp_exec_validate grp_problem grp_leadership">
           <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/design.jpg')`}">
             <div>
               <a class="a-ghostbtn">
@@ -157,7 +157,7 @@
             </div>
           </div>
         </NuxtLink>
-        <NuxtLink class="modal-link" to="/modals/semesterSix/delivery" data_category="grp_analyse">
+        <NuxtLink class="modal-link" to="/modals/semesterSix/delivery" data_category="grp_problem grp_leadership">
           <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/peerFeedback.jpeg')`}">
             <div>
               <a class="a-ghostbtn">

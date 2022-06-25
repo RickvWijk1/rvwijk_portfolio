@@ -42,7 +42,7 @@
               </div>
               <div class="research-text label-cont">
                 <p><b>Lab research was applied,</b> because by testing the notifications system of PSV I got a good
-                  understanding of what I experience as a PSV fan.</p>
+                  understanding of what I experience as a PSV fan (Day in the Life method).</p>
                 <p>I tested the PSV app by turning on all notifications and experiencing how the system works/makes you
                   feel on match days. The strengths, weaknesses, opportunities and threats were noted down.</p>
               </div>
@@ -81,7 +81,7 @@
                 <p>PSV's app notification system is expected to have standard notification features such as push
                   notifications for when a match starts, ends, when a goal has been scored and when red cards are
                   dropped. It has already become known in a previous study that competition data is retrieved from the
-                  Gracenote database. Visually, I expect a setting page for notifications in the PSV app and I expect
+                  Gracenote database. Visually, I expect a settings page for notifications in the PSV app and I expect
                   notification messages to contain only text.</p>
               </div>
             </div>
@@ -99,10 +99,80 @@
               <div class="text">
                 <i>Which notification functionalities contribute to improving the atmosphere/immersion for the fans
                   around matches?</i>
-                <img src="~/assets/img/school/semester6/notification_functions.png" alt="">
+                <table>
+                  <tr>
+                    <th class="col-goals">Notification</th>
+                    <th class="col-proof">Notification options/functionalities</th>
+                    <th class="col-proof">Can contribute to immersion for fans</th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="grouped">
+                        News updates
+                      </div>
+                    </td>
+                    <td>
+                      <p>When there is PSV news, you will receive notifications:
+                        Transfer news
+                        Ticket news
+                        Giveaways
+                        General PSV news</p>
+                    </td>
+                    <td>
+                      <p>This adds to the atmosphere/immersion, because there may be news about a specific match. A
+                        player who gets injured or is back on the squad can affect the atmosphere around a match for
+                        fans.</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="grouped">
+                        Match updates
+                      </div>
+                    </td>
+                    <td>
+                      <p>When a match is in progress you can receive the following notifications:
+                        kick off
+                        Goals
+                        Red card
+                        Idle position
+                        Var decisions
+                        Final standings</p>
+                    </td>
+                    <td>
+                      <p>This contributes to the atmosphere/immersion, because the PSV fans can (to a certain extent)
+                        see how the match is going by turning on these notifications.</p>
+                    </td>
+                  </tr>
+                </table>
               </div>
               <i>What are the strengths, weaknesses, opportunities and threats of the notification system?</i>
-              <img src="~/assets/img/school/semester6/notification_swot.png" alt="">
+              <table>
+                  <tr>
+                    <th class="col-goals">Strengths</th>
+                    <th class="col-proof">Weaknesses</th>
+                    <th class="col-proof">Opportunities</th>
+                    <th class="col-proof">Threats</th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="grouped">
+                        In-app notification options
+                      </div>
+                    </td>
+                    <td>
+                      <p>Slow notifications</p>
+                    </td>
+                    <td>
+                      <p>Match line-up</p>
+                      <br>
+                      <p>Atmosphere in stadium</p>
+                    </td>
+                    <td>
+                      <p>Slow notifications</p>
+                    </td>
+                  </tr>
+                </table>
               <a target="_blank" href="./pdf/semester6/PSV_notificatiesysteem.pdf"><button
                   class="btnModalClose bntModalClose-bg-color">View notification system research</button></a>
             </div>
@@ -157,9 +227,9 @@
               </div>
               <div class="label-cont">
                 <p>
-                  I gained a lot of new insights that will help me watch out for threats, but keep the strengths when
+                  I gained insights that will help me watch out for threats, but keep the strengths when
                   designing a new notification system.
-                  Testing the current notification system myself was interesting and helped me immerse myself in the
+                  Testing the current notification system myself helped me immerse myself in the
                   experience of a PSV app user. </p>
               </div>
             </div>

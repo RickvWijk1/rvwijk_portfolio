@@ -20,7 +20,7 @@
                 <img src="~/assets/img/school/icons/motivation.png" alt="">
               </div>
               <div class="label-cont">
-                <p>In order to be able to give PSV advice, there must first be investigated what the current ICT
+                <p>In order to be able to give PSV advice, it's necessary to know what the current ICT
                   architecture system that PSV uses for its media platforms looks like. Making an architecture diagram
                   will enable us to understand the current architecture better so that we can take it into account when
                   we design/redesign the app.</p>
@@ -92,21 +92,17 @@
               <div class="label-cont">
                 <i>What services/technologies do these media platforms use?</i>
                 <ul class="list">
-                  <li class="list-bullet">RSS feeds; to load in articles, videos and information about matches</li>
-                  <li class="list-bullet">Headless CMS/headless pages; makes it easier to develop pages and makes pages
-                    load faster</li>
-                  <li class="list-bullet">JWPlayer; a video player that can provides video controls
-                  </li>
-                  <li class="list-bullet">Gracenote; provides data about the schedule, results and statistics with
-                    regard to matches</li>
-                  <li class="list-bullet">Sports Alliance; provides authentication (SSO and My PSV)</li>
+                  <li class="list-bullet">RSS feeds</li>
+                  <li class="list-bullet">Headless CMS/headless pages</li>
+                  <li class="list-bullet">JWPlayer</li>
+                  <li class="list-bullet">Gracenote</li>
+                  <li class="list-bullet">Sports Alliance</li>
                 </ul>
               </div>
               <div class="label-cont">
                 <i>What parties are involved?</i>
                 <ul class="list">
-                  <li class="list-bullet">PSV uses a CMS that's called XperienCentral (version 10.30.0 R30) of the
-                    company GX Softwaren</li>
+                  <li class="list-bullet">PSV uses a CMS that's called XperienCentral</li>
                   <li class="list-bullet">The Simac company is the IT partner of PSV. PSV employees work in an
                     environment that's facilitated by SImac</li>
                   <li class="list-bullet">Web app (<a class="txt-link" target="_blank"
@@ -161,11 +157,7 @@
                 <p>
                   It was quite difficult to get a good overview of all the architecture entities. This is probably
                   because half the information that was given to me by PSV was through email paragraphs and the other
-                  half was verbally given. Summing everything up with bullet points helped. After that it was a lot
-                  easier to visualize everything into an architecture diagram. I also had to ask PSV some extra
-                  questions. One of them was about the role of Simac since they're PSV's IT partner. Apparently Simac
-                  only provided IT facilities to PSV and had nothing to do with the developing/maintaining of their
-                  media platforms.
+                  half was verbally given. I had to ask PSV to elaborate on some information.
                 </p>
               </div>
             </div>

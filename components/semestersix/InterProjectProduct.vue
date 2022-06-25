@@ -1,13 +1,13 @@
 <template>
   <section>
-    <input type="radio" id="int_all" name="semester6" value="int_all" checked>
-    <input type="radio" id="int_analyse_advise" name="semester6" value="int_analyse_advise">
-    <input type="radio" id="int_exec_validate" name="semester6" value="int_exec_validate">
-    <input type="radio" id="int_software" name="semester6" value="int_software">
-    <input type="radio" id="int_problem" name="semester6" value="int_problem">
-    <input type="radio" id="int_leadership" name="semester6" value="int_leadership">
-    <input type="radio" id="int_organisation" name="semester6" value="int_organisation">
-    <input type="radio" id="int_oriented" name="semester6" value="int_oriented">
+    <input type="radio" id="int_all" name="int_semester6" value="int_all" checked>
+    <input type="radio" id="int_analyse_advise" name="int_semester6" value="int_analyse_advise">
+    <input type="radio" id="int_exec_validate" name="int_semester6" value="int_exec_validate">
+    <input type="radio" id="int_software" name="int_semester6" value="int_software">
+    <input type="radio" id="int_problem" name="int_semester6" value="int_problem">
+    <input type="radio" id="int_leadership" name="int_semester6" value="int_leadership">
+    <input type="radio" id="int_organisation" name="int_semester6" value="int_organisation">
+    <input type="radio" id="int_oriented" name="int_semester6" value="int_oriented">
     <ol class="filters">
       <li class="tooltip">
         <img class="info-png" src="~/assets/img/school/icons/info.png" alt="">
@@ -45,7 +45,7 @@
       </li>
     </ol>
       <div class="row-grid">
-        <NuxtLink class="modal-link" to="/modals/semesterSix/prepweek" data_category="int_problem">
+        <NuxtLink class="modal-link" to="/modals/semesterSix/prepweek" data_category="int_analyse_advise int_oriented">
           <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/metaverse1.jpg')`}">
             <div>
               <a class="a-ghostbtn">
@@ -59,7 +59,7 @@
             </div>
           </div>
         </NuxtLink>
-        <NuxtLink class="modal-link" to="/modals/semesterSix/metaconcept" data_category="int_exec_validate">
+        <NuxtLink class="modal-link" to="/modals/semesterSix/metaconcept" data_category="int_oriented">
           <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/metaverse2.jpeg')`}">
             <div>
               <a class="a-ghostbtn">
@@ -73,7 +73,7 @@
             </div>
           </div>
         </NuxtLink>
-        <NuxtLink class="modal-link" to="/modals/semesterSix/metavideo" data_category="int_leadership">
+        <NuxtLink class="modal-link" to="/modals/semesterSix/metavideo" data_category="int_oriented">
           <div class="overview-grid" :style="{ backgroundImage: `url('./img/semester6/metaverse3.jpg')`}">
             <div>
               <a class="a-ghostbtn">

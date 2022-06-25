@@ -128,8 +128,8 @@
               <div class="label-cont">
                 <p>Some interesting information from the interviews:</p>
                 <ul class="list">
-                  <li class="list-bullet">It is unclear what exactly the app is for and is therefore downloaded less
-                    (many people do not have the app)</li>
+                  <li class="list-bullet">It is unclear what value the apps offers
+                    which is why some fans don't have the app (anymore)</li>
                   <li class="list-bullet">Target audience used the app in the past, but all the features it needed were better performed
                     elsewhere (score, news, first team info)</li>
                   <li class="list-bullet">Atmosphere is very lacking in app with match visualization, when people follow
@@ -146,8 +146,7 @@
                 <p>
                   Talking to PSV was essential since they, as experts, have gathered a lot of data about their target
                   audiences. Getting this information was the starting point for picking a target audience for the
-                  design challenge. What also helped was that PSV is looking for future-proof features that mainly
-                  involves the PSV stadium. This made it easier to make the target audience more concrete. Interviewing
+                  design challenge. Interviewing
                   the target audience gave us an understanding of what they
                   need and how the PSV app can help them.
                 </p>

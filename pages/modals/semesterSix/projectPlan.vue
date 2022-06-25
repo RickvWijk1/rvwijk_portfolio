@@ -56,15 +56,11 @@
             </div>
             <div class="text">
               <p><b>Problem/opportunity</b></p>
-              <p>Technological developments are moving fast and there are now countless possibilities for setting up
-                digital platforms. Setting up and maintaining a custom-built app requires a relatively large amount of
-                work and investment, because you have to develop everything separately for android and ios. At the same
-                time, the possibilities of mobile websites are increasing. This all led PSV to wonder how PSV can best
-                organise its digital platforms with regard to what they want to offer fans and followers.</p>
+              <p>PSV is paying a lot to maintain their media platforms, especially their apps. In addition, new technologies like NFC are now well supported and can be useful to PSV's end-users.</p>
             </div>
             <div class="text">
               <p><b>Goals</b></p>
-              <p>In the debriefing meeting we mainly listened to what the client had to say. PSV told us that
+              <p>PSV told us that
                 developing and maintaining their website and apps costs a lot of money. Mainly their iOS and Android
                 apps which are developed by a third party. They would like a cheaper, future-proof solution to bring PSV
                 fans the
@@ -72,16 +68,17 @@
             </div>
             <div class="text">
 <p><b>Scoping and formulating</b></p>
-              <p>Based on the information from the debriefing, me and Dary, created the first version of the project
-                plan. When we were defining the project plan, we began to doubt whether this assignment was fitting for
+              <p>When we were defining the project plan, we began to doubt whether this assignment was fitting for
                 ICT & Media Design students since the client specifically asked for a cheaper technical solution and
                 nothing that had something to do with users.</p>
               <p>We arranged two more meetings with PSV to see if we could reformulate the assignment and define the
-                scope. In this meeting PSV told us that they were busy concepting new features for the app, like being
-                able to scan tickets, order food during a game and more. They didn't want us to work on these
-                features, but we suggested that we would do technical research and also design the features PSV were
-                working on so that they could perhaps draw inspiration from our ideas/designs. PSV agreed and so we
-                adjusted the project plan one last time.</p>
+                scope. 
+                
+                I advised the client to not only look at
+                  the technical aspect, but also to look at how to increase the value of the PSV app by letting us
+                  research what features the target audience (actually) needs. I told the client that this is what
+                  we as ICT & Media Design students excel in and that it's mandatory for us to do more user research.
+                  The client agreed to the scoping.</p>
             </div>
 
             <div class="text">
@@ -127,11 +124,7 @@
               </div>
               <div class="label-cont">
                 <p>It was difficult to get the main question/design challenge/scoping right. After each meeting with the
-                  client, we slowly understood the scoping better and better. I advised the client to not only look at
-                  the technical aspect, but also to look at how to increase the value of the PSV app by letting us
-                  research what features the target audience (actually) needs. I told the client that this is what
-                  we as ICT & Media Design students excel in and that it's mandatory for us to do more user research.
-                  The client understood this and agreed to adding this to the scope.
+                  client, we slowly understood the scoping better and better.
                 </p>
               </div>
             </div>

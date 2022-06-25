@@ -43,14 +43,10 @@
                   in regard to the PSV app. This information was used to formulate user stories.</p>
                 <div class="text">
                   <p>
-                    I worked on the user stories: "As a user I want to receive notifications on my phone so
-                    that I can
-                    get realtime updates from the club" and "As a user I want to assign tunes to notifications so that I
-                    know
-                    what kind of notification I received before I have even seen them". I reformulated these user
+                    I started with two user stories. I reformulated these user
                     stories into
-                    one since they were both too generic or limited.
-                    The new user story became: <i>"As a PSV fan I want to receive notifications that give a more clear
+                    one, since they were both too generic or limited.
+                     <i>"As a PSV fan I want to receive notifications that give a more clear
                       context when
                       something happens that's related to a (PSV football) game so that I can keep up with what's
                       happening and be
@@ -107,9 +103,7 @@
               </div>
               <div class="label-cont">
                 <p>I expect to be able to improve the immersion for PSV fans by providing them with more visual and
-                  audio information about what's happening before, during and after the game. Using video, gifs or
-                  images in notifications might be an option, but I will have to research if this is possible on a
-                  technical level and whether there's copyright issues.</p>
+                  audio information about what's happening before, during and after the game.</p>
               </div>
             </div>
 <a target="_blank" href="./pdf/semester6/user_story.pdf"><button

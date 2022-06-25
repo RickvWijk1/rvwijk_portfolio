@@ -27,8 +27,7 @@
                 </p>
                 <p>Right after the final presentation, it was time to reflect upon the project, as a project group, but
                   also with the client. By reflecting we can see what could have gone better and what went well so that
-                  we can all learn from it. We already performed retrospective in week 7 of the project to improve the
-                  way we worked as a group.</p>
+                  we can all learn from it.</p>
               </div>
             </div>
             <div class="text">
@@ -39,7 +38,7 @@
                 </div>
               </div>
               <div class="research-text label-cont">
-                <p><b>Lab research was applied,</b> because by discussing the delivery with PSV, we understood what they
+                <p><b>Field research was applied,</b> because by discussing the delivery with PSV, we understood what they
                   would like to see delivered and in what way is most convenient for them. PSV wanted to receive the
                   most important research documents, technical advice, and access to the code in GitHub and design
                   (prototypes) in Figma.
@@ -81,7 +80,7 @@
               </div>
             </div>
             <a target="_blank" href="./pdf/semester6/retrospective.pdf"><button
-                class="btnModalClose bntModalClose-bg-color">View peer feedback</button></a>
+                class="btnModalClose bntModalClose-bg-color">View retrospective</button></a>
             <div class="text">
               <h3>Peer feedback</h3>
 
@@ -108,14 +107,9 @@
               </div>
               <div class="label-cont">
                 <p>The delivery of the project was quite straightforward, it wasn't as much of a hassle compared to my past projects. This is probably, because we had a lot of contact with PSV.
-                  I liked doing the retrospective and giving peer feedback to each other, because it only takes a short amount of time to do, but helps improve yourself and the group a lot.
+                  I liked doing the retrospective and giving peer feedback to each other, because it only takes a short amount of time to do, but helps improve yourself and the others.
                 </p>
               </div>
-            </div>
-            <div class="text">
-              <h3>What's next?</h3>
-              <p>The first sub question is answered. Now the rest of the sub questions require research to be answered.
-              </p>
             </div>
           </div>
         </div>

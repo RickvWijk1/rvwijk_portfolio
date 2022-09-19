@@ -32,7 +32,9 @@
           <img :src="img_src">
           <div class="img-overlay"></div>
         </div>
+
       </li>
+      <!-- <img :src="img_src"> -->
     </ul>
   </section>
 

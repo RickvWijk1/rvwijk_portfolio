@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
   <div class="wrapper">
 
     <section class="main-wrapper">

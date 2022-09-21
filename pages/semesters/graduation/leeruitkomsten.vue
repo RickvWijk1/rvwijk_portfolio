@@ -109,6 +109,7 @@
       color: #fff;
     }
   
+
   
     .clouds-cont {
       position: relative;

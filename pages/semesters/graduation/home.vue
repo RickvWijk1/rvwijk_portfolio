@@ -1,14 +1,32 @@
 <template>
   <div class="grad-wrapper">
-    
-    <GraduationHero />
+    <!-- <template>
+  <v-row justify="center">
+    <v-expansion-panels popout>
+      <v-expansion-panel
+        v-for="(item,i) in 5"
+        :key="i"
+      >
+        <v-expansion-panel-header>Item</v-expansion-panel-header>
+        <v-expansion-panel-content>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </v-expansion-panel-content>
+      </v-expansion-panel>
+    </v-expansion-panels>
+  </v-row>
+</template> -->
+    <div class="content-wrapper">
+      <GraduationHero />
+    </div>
+
   </div>
 </template>
 
 <script>
   export default {
-    layout: "noNav",
+    layout: "BottomNav",
   }
+
 </script>
 
 <style lang="css">
@@ -17,17 +35,21 @@
     color: #fff;
   }
 
+
   .grad-wrapper {
     display: flex;
     flex-direction: column;
     justify-self: flex-end;
+    justify-content: space-between;
     align-self: center;
-    max-width: 1536px;
+    max-width: 100%;
     width: 100%;
     height: 100%;
-    padding: 2em 2em 0;
+    /* padding: 2em 2em 0; */
     gap: 2em;
   }
+
+  .content-wrapper {}
 
   @media (max-width: 300px) {}
 

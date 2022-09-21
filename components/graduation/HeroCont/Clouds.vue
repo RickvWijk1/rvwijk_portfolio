@@ -24,7 +24,6 @@ export default {
   }
 
   .cloud {
-    display: none;
     user-select: none;
     width: 100px;
     height: 100px;
@@ -135,9 +134,6 @@ export default {
 @media (min-width: 640px) {}
 
 @media (min-width: 768px) {
-  .cloud{
-    display: block;
-  }
 }
 
 @media (min-width: 1024px) {}

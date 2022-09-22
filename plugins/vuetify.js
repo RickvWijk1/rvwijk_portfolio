@@ -5,4 +5,6 @@ export default defineNuxtPlugin(nuxtApp => {
     const vuetify = createVuetify({
         components
     })
+
+    nuxtApp.vueApp.use(vuetify)
   })

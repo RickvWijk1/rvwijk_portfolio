@@ -42,6 +42,10 @@ export default {
     // ],
   },
 
+  vuetify: {
+    customVariables: ['~/assets/scss/variables.scss'],
+    treeShake: true
+  },
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     '~/assets/css/global.css',
@@ -51,7 +55,6 @@ export default {
   styleResources: {
     scss: [
       '~assets/scss/global.scss',
-      '~assets/scss/modal.scss',
       '~assets/scss/bottomnav.scss',
     ]
   },
@@ -90,12 +93,7 @@ export default {
     '@nuxtjs/style-resources',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/pwa',
-    ['@nuxtjs/vuetify',
-      {
-        treeShake: true,
-        customVariables: ['~/assets/vuetify/variables/index.scss'],     
-      }
-    ],
+    '@nuxtjs/vuetify',
     
   ],
 

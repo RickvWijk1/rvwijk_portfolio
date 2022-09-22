@@ -31,12 +31,15 @@
 </script>
 
 <style>
-  .bottom-nav  >>> .theme--light.v-bottom-navigation {
-    /* display: flex;
+  .bottom-nav{
+    display: flex;
     justify-self: flex-end;
-    background-color: #166ECC !important; */
+    background-color: #166ECC !important;
   }
 
+  .nav-item{
+    background-color: #166ECC !important;
+  }
 
   .bottom-nav a {
     display: flex;
@@ -82,9 +85,5 @@
     transition: all .5s ease;
     background-color: orange;
   } */
-  
-  </style>
-
-<style  lang="sass" scoped>
   
   </style>

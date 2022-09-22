@@ -17,6 +17,7 @@
 </template> -->
     <div class="content-wrapper">
       <GraduationHero />
+      <GraduationBanner />
     </div>
 
   </div>
@@ -35,7 +36,6 @@
     color: #fff;
   }
 
-
   .grad-wrapper {
     display: flex;
     flex-direction: column;
@@ -45,13 +45,20 @@
     max-width: 100%;
     width: 100%;
     height: 100%;
-    /* padding: 2em 2em 0; */
     gap: 2em;
   }
 
-  .content-wrapper {}
+  .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
 
-  @media (max-width: 300px) {}
+  @media (min-width: 300px) {
+    .content-wrapper{
+      padding: 2em 2em 0;
+    }
+  }
 
   @media (min-width: 640px) {}
 

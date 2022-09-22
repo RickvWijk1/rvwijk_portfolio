@@ -32,12 +32,14 @@
 
 <style>
   .bottom-nav{
-    display: flex;
-    justify-self: flex-end;
+    display: flex !important;
+    justify-self: flex-end !important;
     background-color: #166ECC !important;
+    box-shadow: unset !important;
   }
 
   .nav-item{
+    padding: 0 0.5em !important;
     background-color: #166ECC !important;
   }
 
@@ -56,34 +58,25 @@
     width: 100%;
   }
 
+  .nav-item{
+    height: inherit !important;
+  }
+
   .nav-item span {
+    display: flex;
+    flex-direction: column;
+    gap: .25em;
     font-size: .5rem;
     color: #fff !important;
   }
 
-  .nav-item-label::after {
-    height: 2px;
-    width: 100%;
-  }
-
   a.nuxt-link-active {
-    color: #fff;
+    color: #000;
   }
 
   /* exact link will show the primary color for only the exact matching link */
-  a.nuxt-link-exact-active {
-    color: #fff;
+  .bottom-nav .nav-item a span span.nuxt-link-exact-active {
+    color: #000;
   }
-
-  /* .nav-item::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 3.5em;
-    width: 100%;
-    height:1.1rem;
-    transition: all .5s ease;
-    background-color: orange;
-  } */
   
   </style>

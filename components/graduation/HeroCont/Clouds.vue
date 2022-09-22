@@ -1,10 +1,10 @@
 <template>
     <div class="clouds-cont">
-      <div class="cloud cloud-1"><img src="~@/assets/img/school/graduation/cloud.webp" width="200" height="50"></div>
-      <div class="cloud cloud-2"> <img src="~@/assets/img/school/graduation/cloud.webp" width="100" height="20"></div>
-      <div class="cloud cloud-3"> <img src="~@/assets/img/school/graduation/cloud.webp" width="100" height="20"></div>
-      <div class="cloud cloud-4"> <img src="~@/assets/img/school/graduation/cloud.webp" width="100" height="20"></div>
-      <div class="cloud cloud-5"> <img src="~@/assets/img/school/graduation/cloud.webp" width="100" height="20"></div>
+      <div class="cloud cloud-1"><img src="~@/assets/img/school/graduation/home/cloud.webp" width="200" height="50"></div>
+      <div class="cloud cloud-2"> <img src="~@/assets/img/school/graduation/home/cloud.webp" width="100" height="20"></div>
+      <div class="cloud cloud-3"> <img src="~@/assets/img/school/graduation/home/cloud.webp" width="100" height="20"></div>
+      <div class="cloud cloud-4"> <img src="~@/assets/img/school/graduation/home/cloud.webp" width="100" height="20"></div>
+      <div class="cloud cloud-5"> <img src="~@/assets/img/school/graduation/home/cloud.webp" width="100" height="20"></div>
     </div>
 </template>
 

@@ -1,9 +1,10 @@
 <template>
   <div class="hero">
     <div class="hero-title-wrapper">
-      <h1>Rick</h1>
-      <h1>van Wijk</h1>
+      <h1>Rick van Wijk.</h1>
+      <h1></h1>
     </div>
+    <h4 class="hero-subtitle">Afstudeerportfolio</h4>
     <GraduationHeroContClouds class="clouds" />
   </div>
 </template>
@@ -16,7 +17,11 @@
 </script>
 
 <style lang="css" scoped>
-  .hero {}
+  .hero {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 1em 0;
+  }
 
   .hero-title-wrapper {
     display: flex;
@@ -26,14 +31,20 @@
   .hero-title-wrapper h1 {
     font-family: louis_george_cafebold;
     line-height: 1.2;
-    font-size: 3rem;
+    font-size: 2.4rem;
+  }
+
+  .hero-subtitle{
+    font-family: louis_george_cafelight;
   }
 
   .clouds {
     display: none;
   }
 
-  @media (max-width: 300px) {}
+  @media (min-width: 300px) {
+
+  }
 
   @media (min-width: 640px) {
     .clouds {

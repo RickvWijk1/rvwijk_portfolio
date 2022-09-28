@@ -1,8 +1,8 @@
 <template>
   <div class="hero">
     <div class="hero-title-wrapper">
-      <h1>Rick van Wijk.</h1>
-      <h1></h1>
+      <h1>Rick</h1>
+      <h1>van Wijk.</h1>
     </div>
     <h4 class="hero-subtitle">Afstudeerportfolio</h4>
     <GraduationHeroContClouds class="clouds" />
@@ -18,9 +18,11 @@
 
 <style lang="css" scoped>
   .hero {
+    /* flex: 1; */
     display: flex;
     flex-direction: column;
-    padding: 1em 1em 0;
+    /* justify-content: center; */
+    padding: 1em 1em;
   }
 
   .hero-title-wrapper {
@@ -29,13 +31,18 @@
   }
 
   .hero-title-wrapper h1 {
-    font-family: louis_george_cafebold;
+    /* font-family: louis_george_cafebold; */
+    font-family: 'Roboto';
+    font-weight: 900;
     line-height: 1.2;
-    font-size: 2.4rem;
+    letter-spacing: 4px;
+    font-size: 2.3rem;
   }
 
   .hero-subtitle{
-    font-family: louis_george_cafelight;
+    /* font-family: louis_george_cafelight; */
+    font-family: 'Roboto';
+    font-weight: 300;
   }
 
   .clouds {
@@ -43,8 +50,15 @@
   }
 
   @media (min-width: 300px) {
+    .hero{
+      padding: 2em;
+    }
 
+    .hero-title-wrapper h1 {
+    font-size: 2.8rem;
   }
+  }
+
 
   @media (min-width: 640px) {
     .clouds {

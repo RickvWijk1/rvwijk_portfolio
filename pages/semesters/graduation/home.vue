@@ -34,9 +34,12 @@
   body {
     background-color: #166ECC;
     color: #fff;
+    overflow: hidden;
   }
 
+
   .grad-wrapper {
+    flex: 1;
     display: flex;
     flex-direction: column;
     justify-self: flex-end;
@@ -49,16 +52,13 @@
   }
 
   .content-wrapper {
+    flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    height: 100%;
   }
 
-  @media (min-width: 300px) {
-    .content-wrapper{
-      padding: 2em 2em 0;
-    }
-  }
+  @media (max-width: 300px) {}
 
   @media (min-width: 640px) {}
 

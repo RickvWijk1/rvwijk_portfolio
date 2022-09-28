@@ -32,6 +32,7 @@
 
 <style>
   .bottom-nav{
+    flex: 1;
     display: flex !important;
     justify-self: flex-end !important;
     background-color: #166ECC !important;
@@ -70,13 +71,6 @@
     color: #fff !important;
   }
 
-  a.nuxt-link-active {
-    color: #000;
-  }
 
-  /* exact link will show the primary color for only the exact matching link */
-  .bottom-nav .nav-item a span span.nuxt-link-exact-active {
-    color: #000;
-  }
   
   </style>

@@ -44,7 +44,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100%;
     /* gap: 1.5rem; */
     background-color: #fff;
     color: #000;

@@ -3,8 +3,13 @@ import * as components from 'vuetify/components'
 
 export default defineNuxtPlugin(nuxtApp => {
     const vuetify = createVuetify({
-        components
+        components,
+        theme: { 
+            disable: true 
+        }
     })
 
     nuxtApp.vueApp.use(vuetify)
   })
+
+  

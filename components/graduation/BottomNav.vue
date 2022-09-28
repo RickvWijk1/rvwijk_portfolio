@@ -37,6 +37,10 @@
     justify-self: flex-end !important;
     background-color: #166ECC !important;
     box-shadow: unset !important;
+    position: fixed !important;
+   left: 0 !important;
+   bottom: 0 !important;
+   /* z-index: 5; */
   }
 
   .nav-item{

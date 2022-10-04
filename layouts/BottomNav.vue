@@ -1,8 +1,10 @@
 <template>
     <div class="layout-body">
-  
+      <div class="grad-wrapper">
         <Nuxt />
         <GraduationBottomNav />
+      </div>
+        
     </div>
 </template>
 
@@ -13,6 +15,9 @@
 <style scoped>
   @import '~/assets/css/global.css';
   @import '~/assets/css/font.css';
+  html, body{
+    background-color: #fff;
+  }
   .layout-body{
     position: relative;
     gap: unset;

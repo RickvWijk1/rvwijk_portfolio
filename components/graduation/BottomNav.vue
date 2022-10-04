@@ -31,19 +31,19 @@
 </script>
 
 <style>
-  .bottom-nav{
+  .bottom-nav {
     flex: 1;
     display: flex !important;
     justify-self: flex-end !important;
     background-color: #166ECC !important;
     box-shadow: unset !important;
     position: fixed !important;
-   left: 0 !important;
-   bottom: 0 !important;
-   /* z-index: 5; */
+    left: 0 !important;
+    bottom: 0 !important;
+    /* z-index: 5; */
   }
 
-  .nav-item{
+  .nav-item {
     padding: 0 0.5em !important;
     background-color: #166ECC !important;
   }
@@ -63,7 +63,7 @@
     width: 100%;
   }
 
-  .nav-item{
+  .nav-item {
     height: inherit !important;
   }
 
@@ -76,5 +76,16 @@
   }
 
 
-  
-  </style>
+  @media (min-width: 300px) {}
+
+  @media (min-width: 640px) {}
+
+  @media (min-width: 768px) {}
+
+  @media (min-width: 1024px) {}
+
+  @media (min-width: 1280px) {}
+
+  @media (min-width: 1536px) {}
+
+</style>

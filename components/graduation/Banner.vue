@@ -6,7 +6,7 @@
         <div class="quote-statement">
           <svg-icon class="svg-quotes svg-quotes-left" name="quote_left_solid" />
           <div class="quote-text">
-            <p>There is no such thing as ‘away’.
+            <p>There is no such thing as 'away'.
               When we throw anything away it
               must go somewhere.</p>
           </div>

@@ -31,6 +31,9 @@
 </script>
 
 <style lang="css">
+ @import '~/assets/css/graduation.css';
+
+
   body {
     background-color: #166ECC;
     color: #fff;

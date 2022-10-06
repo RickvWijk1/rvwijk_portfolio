@@ -1,22 +1,24 @@
 <template>
   <div class="banner">
     <div class="banner-wrapper">
-      <h2>Hergebruik en beheer van componenten</h2>
-      <div class="quote">
-        <div class="quote-statement">
-          <svg-icon class="svg-quotes svg-quotes-left" name="quote_left_solid" />
-          <div class="quote-text">
-            <p>There is no such thing as ‘away’.
-              When we throw anything away it
-              must go somewhere.</p>
+      <div class="banner-cont">
+        <h2>Hergebruik en beheer van componenten</h2>
+        <div class="quote">
+          <div class="quote-statement">
+            <svg-icon class="svg-quotes svg-quotes-left" name="quote_left_solid" />
+            <div class="quote-text">
+              <p>There is no such thing as ‘away’.
+                When we throw anything away it
+                must go somewhere.</p>
+            </div>
+            <span class="svg-quotes-right">
+              <svg-icon class="svg-quotes" name="quote_right_solid" />
+            </span>
           </div>
-          <span class="svg-quotes-right">
-            <svg-icon class="svg-quotes" name="quote_right_solid" />
-          </span>
-        </div>
-        <div class="quote-quoter">
-          <svg-icon class="svg-quotes svg-quotes-left invisible" name="quote_left_solid" />
-          <i>~ Annie Leonard</i>
+          <div class="quote-quoter">
+            <svg-icon class="svg-quotes svg-quotes-left invisible" name="quote_left_solid" />
+            <i>~ Annie Leonard</i>
+          </div>
         </div>
       </div>
     </div>
@@ -45,7 +47,7 @@
     flex-direction: column;
     justify-content: space-between;
     /* gap: 1.5rem; */
-    background-color: #fff;
+    background-color: #fff !important;
     color: #000;
   }
 
@@ -61,6 +63,12 @@
     font-weight: bold;
     line-height: 1.2;
     padding-bottom: 1em;
+  }
+
+  .banner-cont{
+    display: flex;
+    flex-direction: column;
+    max-width: 40em;
   }
 
   .quote-statement {
@@ -198,12 +206,30 @@
   }
   
   .rick {
+    min-height: 300px;
     height: 100%;
   }
 
   }
 
-  @media (min-width: 640px) {}
+  @media (min-width: 640px) {
+    .banner-wrapper h2 {
+    font-size: 2.2rem;
+  }
+
+  .quote-text{
+    font-size: 1.7rem;
+  }
+  .quote-quoter{
+    font-size: 1.5rem;
+  }
+    .bbd-logo {
+    height: 100px;
+  }
+    .rick {
+    min-height: 700px;
+  }
+  }
 
   @media (min-width: 768px) {}
 

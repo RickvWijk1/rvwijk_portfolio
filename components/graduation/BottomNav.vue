@@ -31,19 +31,19 @@
 </script>
 
 <style>
-  .bottom-nav{
+  .bottom-nav {
     flex: 1;
     display: flex !important;
     justify-self: flex-end !important;
     background-color: #166ECC !important;
     box-shadow: unset !important;
     position: fixed !important;
-   left: 0 !important;
-   bottom: 0 !important;
-   /* z-index: 5; */
+    left: 0 !important;
+    bottom: 0 !important;
+    /* z-index: 5; */
   }
 
-  .nav-item{
+  .nav-item {
     padding: 0 0.5em !important;
     background-color: #166ECC !important;
   }
@@ -63,7 +63,7 @@
     width: 100%;
   }
 
-  .nav-item{
+  .nav-item {
     height: inherit !important;
   }
 
@@ -75,6 +75,30 @@
     color: #fff !important;
   }
 
+  @media (min-width: 300px) {}
 
-  
-  </style>
+  @media (min-width: 640px) {
+    .bottom-nav{
+      height: 65px !important;
+      /* display: none !important; */
+    }
+
+    .bottom-nav a span i{
+      font-size: 2rem !important;
+    }
+
+    .bottom-nav a span{
+      font-size: 0.8rem !important;
+
+    }
+  }
+
+  @media (min-width: 768px) {}
+
+  @media (min-width: 1024px) {}
+
+  @media (min-width: 1280px) {}
+
+  @media (min-width: 1536px) {}
+
+</style>

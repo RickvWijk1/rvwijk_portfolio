@@ -1,6 +1,7 @@
 <template>
   <div class="banner">
     <div class="banner-wrapper">
+<<<<<<< HEAD
       <div class="banner-cont">
         <h2>Hergebruik en beheer van componenten</h2>
         <div class="quote">
@@ -18,6 +19,16 @@
           <div class="quote-quoter">
             <svg-icon class="svg-quotes svg-quotes-left invisible" name="quote_left_solid" />
             <i>~ Annie Leonard</i>
+=======
+      <h2>Hergebruik en beheer van componenten</h2>
+      <div class="quote">
+        <div class="quote-statement">
+          <svg-icon class="svg-quotes svg-quotes-left" name="quote_left_solid" />
+          <div class="quote-text">
+            <p>There is no such thing as 'away'.
+              When we throw anything away it
+              must go somewhere.</p>
+>>>>>>> 3dccebe132c54b9e3773a34868ee17ca8ba46e23
           </div>
         </div>
       </div>

@@ -1,4 +1,11 @@
 html {
+  padding-right: unset;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+@media (min-width: 640px) {
+  html {
     padding-right: unset;
-    overflow-x: hidden;
+  }
 }

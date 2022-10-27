@@ -40,6 +40,7 @@
     position: fixed !important;
     left: 0 !important;
     bottom: 0 !important;
+    z-index: 99;
     /* z-index: 5; */
   }
 
@@ -77,7 +78,6 @@
 
   @media (min-width: 300px) {}
 
-<<<<<<< HEAD
   @media (min-width: 640px) {
     .bottom-nav{
       height: 65px !important;
@@ -93,11 +93,6 @@
 
     }
   }
-=======
-  @media (min-width: 300px) {}
-
-  @media (min-width: 640px) {}
->>>>>>> 3dccebe132c54b9e3773a34868ee17ca8ba46e23
 
   @media (min-width: 768px) {}
 

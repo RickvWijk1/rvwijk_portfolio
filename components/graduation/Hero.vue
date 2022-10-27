@@ -22,6 +22,7 @@
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
+    gap: .5em;
     padding: 1em 1em;
   }
 

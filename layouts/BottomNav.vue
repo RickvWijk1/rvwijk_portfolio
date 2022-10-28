@@ -4,7 +4,7 @@
         <Nuxt />
         <GraduationBottomNav />
       </div>
-        
+
     </div>
 </template>
 
@@ -23,7 +23,7 @@
     gap: unset;
   }
 
-  
+
 
 /* home route and active route will show in bold as it matches / and /about */
 span{

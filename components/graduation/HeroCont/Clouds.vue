@@ -129,7 +129,7 @@ export default {
   }
 
 
-@media (max-width: 300px) {}
+@media (min-width: 300px) {}
 
 @media (min-width: 640px) {}
 

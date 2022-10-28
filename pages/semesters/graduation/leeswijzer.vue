@@ -1,7 +1,7 @@
 <template>
-    <div class="content-wrapper">
-      <GraduationExpansionPanel />
-    </div>
+  <div class="content-wrapper">
+    <GraduationExpansionPanel />
+  </div>
 </template>
 
 <script>
@@ -12,14 +12,16 @@
 </script>
 
 <style lang="css" scoped>
+  @import '~/assets/css/graduation.css';
+
   .content-wrapper {
     background-color: #fff;
     color: #fff;
   }
 
-.content-wrapper{
-  padding: 2em 1em;
-}
+  .content-wrapper {
+    padding: 2em 1em;
+  }
 
   @media (min-width: 300px) {}
 
@@ -49,7 +51,7 @@
 
     .img-overlay-cont img {
       object-fit: cover;
-      max-height: 300px;
+      max-height: 200px;
     }
 
     .about-filter-school {

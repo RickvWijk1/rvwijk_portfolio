@@ -2,7 +2,6 @@
   <div class="content-wrapper">
     <GraduationCardCont />
   </div>
-
 </template>
 
 

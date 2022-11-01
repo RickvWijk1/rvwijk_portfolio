@@ -1,11 +1,11 @@
 <template>
   <div class="main-wrapper">
-    <v-navigation-drawer v-model="drawer" permanent app expand-on-hover class="sidepanel">
+    <v-navigation-drawer v-model="drawer" permanent app expand-on-hover dark color="#166ECC" class="sidepanel">
       <v-list nav dense>
         <v-list-item-group v-model="group">
-          <v-btn @click.stop="drawer = !drawer" icon>
+          <v-list-item @click.stop="drawer = !drawer" icon>
         <v-icon>mdi-chevron-right</v-icon>
-      </v-btn>
+          </v-list-item>
 
           <v-list-item>
             <v-list-item-title>Foo</v-list-item-title>
@@ -41,7 +41,7 @@
   export default {
     layout: 'BottomNav',
     data: () => ({
-      drawer: false,
+      drawer: true,
       group: null,
     }),
 
@@ -65,6 +65,7 @@
 
   .sidepanel {
     position: relative;
+    color: #fff;
   }
 
   .content-cont{

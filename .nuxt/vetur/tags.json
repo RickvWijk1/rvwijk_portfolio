@@ -1,0 +1,62 @@
+{
+  "AboutApproachContainer": {
+    "description": "Auto imported from components/about/ApproachContainer.vue"
+  },
+  "AboutCard": {
+    "description": "Auto imported from components/about/Card.vue"
+  },
+  "AboutFilterSemesters": {
+    "description": "Auto imported from components/about/FilterSemesters.vue"
+  },
+  "AboutSchoolContent": {
+    "description": "Auto imported from components/about/SchoolContent.vue"
+  },
+  "AboutContDropdown": {
+    "description": "Auto imported from components/about/cont/Dropdown.vue"
+  },
+  "UIBorderFullHeight": {
+    "description": "Auto imported from components/ui/BorderFullHeight.vue"
+  },
+  "UIBorderFullWidth": {
+    "description": "Auto imported from components/ui/BorderFullWidth.vue"
+  },
+  "UITopNav": {
+    "description": "Auto imported from components/ui/TopNav.vue"
+  },
+  "GraduationBanner": {
+    "description": "Auto imported from components/graduation/Banner.vue"
+  },
+  "GraduationBottomNav": {
+    "description": "Auto imported from components/graduation/BottomNav.vue"
+  },
+  "GraduationCardCont": {
+    "description": "Auto imported from components/graduation/CardCont.vue"
+  },
+  "GraduationExpansionPanel": {
+    "description": "Auto imported from components/graduation/ExpansionPanel.vue"
+  },
+  "GraduationGallery": {
+    "description": "Auto imported from components/graduation/Gallery.vue"
+  },
+  "GraduationHero": {
+    "description": "Auto imported from components/graduation/Hero.vue"
+  },
+  "InterestsProducts": {
+    "description": "Auto imported from components/interests/Products.vue"
+  },
+  "ProjectsProducts": {
+    "description": "Auto imported from components/projects/Products.vue"
+  },
+  "SemestersixGroupProjectProduct": {
+    "description": "Auto imported from components/semestersix/GroupProjectProduct.vue"
+  },
+  "SemestersixIndProjectProduct": {
+    "description": "Auto imported from components/semestersix/IndProjectProduct.vue"
+  },
+  "SemestersixInterProjectProduct": {
+    "description": "Auto imported from components/semestersix/InterProjectProduct.vue"
+  },
+  "GraduationHeroContClouds": {
+    "description": "Auto imported from components/graduation/HeroCont/Clouds.vue"
+  }
+}

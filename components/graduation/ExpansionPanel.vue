@@ -101,11 +101,12 @@
       .v-expansion-panels{
         align-content: flex-start;
         gap: 1em;
+        border-radius: 0;
       }
       .v-expansion-panel{
         /* max-height: 50px; */
       }
-      
+
       .v-expansion-panels--popout > .v-expansion-panel--active {
     /* max-height: unset; */
 }
@@ -125,5 +126,5 @@
       .v-expansion-panel-header>*:not(.v-expansion-panel-header__icon) {
         flex: unset;
       }
-      
+
     </style>

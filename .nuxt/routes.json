@@ -223,11 +223,11 @@
     "_name": "_5c236770"
   },
   {
-    "name": "semesters-graduation-learningoutcomes-learning-ability",
-    "path": "/semesters/graduation/learningoutcomes/learning-ability",
-    "component": "/Users/rick/Documents/rvwijk_portfolio/pages/semesters/graduation/learningoutcomes/learning-ability.vue",
-    "chunkName": "pages/semesters/graduation/learningoutcomes/learning-ability",
-    "_name": "_787066a9"
+    "name": "semesters-graduation-learningoutcomes-analyseren",
+    "path": "/semesters/graduation/learningoutcomes/analyseren",
+    "component": "/Users/rick/Documents/rvwijk_portfolio/pages/semesters/graduation/learningoutcomes/analyseren.vue",
+    "chunkName": "pages/semesters/graduation/learningoutcomes/analyseren",
+    "_name": "_9e49d314"
   },
   {
     "name": "index",

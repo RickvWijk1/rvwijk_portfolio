@@ -3,15 +3,16 @@
     <div class="card">
       <div class="card-header">
         <div class="card-title">
-          <h2>Analysis</h2>
+          <h2>Analyseren</h2>
         </div>
         <div class="card-description">
-          <p>A clear problem/challenge description with a defined scope</p>
+          <p>Door te luisteren en communiceren zijn in de analysefase de
+            probleemstelling, doelen en scope van de opdracht behandeld.</p>
         </div>
       </div>
       <div class="card-body"></div>
       <div class="card-footer">
-        <NuxtLink to="/semesters/graduation/leeruitkomsten/analysis">
+        <NuxtLink to="/semesters/graduation/learningoutcomes/analyseren">
           <div class="card-btn">
             <button>Bekijk</button>
             <svg-icon class="arrow-svg" name="arrow" />
@@ -23,15 +24,16 @@
     <div class="card">
       <div class="card-header">
         <div class="card-title">
-          <h2>Advise</h2>
+          <h2>Adviseren</h2>
         </div>
         <div class="card-description">
-          <p>Your project plan is often the first advice in which you propose the approach, the scope and the results that you want to achieve with your project</p>
+          <p>Er is een projectplan bedacht waarin een doel, scope, en aanpak voorgesteld en vastgesteld zijn en het
+            bedrijf akkoord mee is gegaan. Er is een adviesrapport opgeleverd.</p>
         </div>
       </div>
       <div class="card-body"></div>
       <div class="card-footer">
-        <NuxtLink to="/semesters/graduation/leeruitkomsten/advise">
+        <NuxtLink to="/semesters/graduation/leeruitkomsten/adviseren">
           <div class="card-btn">
             <button>Bekijk</button>
             <svg-icon class="arrow-svg" name="arrow" />
@@ -43,15 +45,16 @@
     <div class="card">
       <div class="card-header">
         <div class="card-title">
-          <h2>Design</h2>
+          <h2>Ontwerpen</h2>
         </div>
         <div class="card-description">
-          <p>A clear problem/challenge description with a defined scope</p>
+          <p>Er is een software architectuur ontworpen met daarnaast low/mid-fidelity prototypes voor een platform
+            waarop design principles toegepast zijn. Het design is getest met de gebruikers.</p>
         </div>
       </div>
       <div class="card-body"></div>
       <div class="card-footer">
-        <NuxtLink to="/semesters/graduation/leeruitkomsten/design">
+        <NuxtLink to="/semesters/graduation/leeruitkomsten/ontwerpen">
           <div class="card-btn">
             <button>Bekijk</button>
             <svg-icon class="arrow-svg" name="arrow" />
@@ -63,15 +66,16 @@
     <div class="card">
       <div class="card-header">
         <div class="card-title">
-          <h2>Realisation</h2>
+          <h2>Realiseren</h2>
         </div>
         <div class="card-description">
-          <p>A clear problem/challenge description with a defined scope</p>
+          <p>Er zijn POC's gemaakt met als eindproduct een werkend prototype dat voldoet aan de kwaliteitseisen van het
+            bedrijf en dat getest is met de doelgroep.</p>
         </div>
       </div>
       <div class="card-body"></div>
       <div class="card-footer">
-        <NuxtLink to="/semesters/graduation/leeruitkomsten/realisation">
+        <NuxtLink to="/semesters/graduation/leeruitkomsten/realiseren">
           <div class="card-btn">
             <button>Bekijk</button>
             <svg-icon class="arrow-svg" name="arrow" />
@@ -83,15 +87,16 @@
     <div class="card">
       <div class="card-header">
         <div class="card-title">
-          <h2>Manage & Control</h2>
+          <h2>Beheren</h2>
         </div>
         <div class="card-description">
-          <p>A clear problem/challenge description with a defined scope</p>
+          <p>Gedurende het project is nagedacht over hoe het eindproduct beheert kan worden.
+            Bestaande guidelines en bedrijfstools zijn ingezet om het eindproduct overzichtelijk en beheerbaar te maken.</p>
         </div>
       </div>
       <div class="card-body"></div>
       <div class="card-footer">
-        <NuxtLink to="/semesters/graduation/leeruitkomsten/analysis">
+        <NuxtLink to="/semesters/graduation/leeruitkomsten/beheren">
           <div class="card-btn">
             <button>Bekijk</button>
             <svg-icon class="arrow-svg" name="arrow" />
@@ -103,15 +108,16 @@
     <div class="card">
       <div class="card-header">
         <div class="card-title">
-          <h2>Judgement</h2>
+          <h2>Oordeelsvorming</h2>
         </div>
         <div class="card-description">
-          <p>A clear problem/challenge description with a defined scope</p>
+          <p>Gedurende de fases van het project is nagedacht over waarom bepaald onderzoek nodig is en
+            waarom bepaalde onderzoekstrategieen en methodes ingezet moeten worden.</p>
         </div>
       </div>
       <div class="card-body"></div>
       <div class="card-footer">
-        <NuxtLink to="/semesters/graduation/leeruitkomsten/judgement">
+        <NuxtLink to="/semesters/graduation/leeruitkomsten/oordeelsvorming">
           <div class="card-btn">
             <button>Bekijk</button>
             <svg-icon class="arrow-svg" name="arrow" />
@@ -123,15 +129,18 @@
     <div class="card">
       <div class="card-header">
         <div class="card-title">
-          <h2>Communication</h2>
+          <h2>Communicatie</h2>
         </div>
         <div class="card-description">
-          <p>A clear problem/challenge description with a defined scope</p>
+          <p>Door te samen te werken met de doelgroep is
+            de communicatie naar behoren verlopen. Ook het creëren van
+            een portfolio heeft een bijdrage
+            geleverd doordat het een duidelijk te volgen verhaal bevat.</p>
         </div>
       </div>
       <div class="card-body"></div>
       <div class="card-footer">
-        <NuxtLink to="/semesters/graduation/leeruitkomsten/communication">
+        <NuxtLink to="/semesters/graduation/leeruitkomsten/communicatie">
           <div class="card-btn">
             <button>Bekijk</button>
             <svg-icon class="arrow-svg" name="arrow" />
@@ -143,15 +152,16 @@
     <div class="card">
       <div class="card-header">
         <div class="card-title">
-          <h2>Learning Ability</h2>
+          <h2>Leervermogen</h2>
         </div>
         <div class="card-description">
-          <p>A clear problem/challenge description with a defined scope</p>
+          <p>De opgedane kennis en het leervermogen is aangetoond door middel
+            van de zelfreflectie in de leeswijzer. Om de 2-3 weken heb ik gereflecteerd op mijn aanpak en wat ik in de toekomst wil bereiken.</p>
         </div>
       </div>
       <div class="card-body"></div>
       <div class="card-footer">
-        <NuxtLink to="/semesters/graduation/learningoutcomes/learning-ability">
+        <NuxtLink to="/semesters/graduation/learningoutcomes/leervermogen">
           <div class="card-btn">
             <button>Bekijk</button>
             <svg-icon class="arrow-svg" name="arrow" />
@@ -163,79 +173,93 @@
 </template>
 
 <script>
-export default {
+  export default {
 
-}
+  }
+
 </script>
 
 <style lang="css" scoped>
-.grid-wrapper {
-  display: grid;
-  grid-template-columns: repeat(1, minmax(0, 1fr));
-  gap: 1em;
-}
+  .grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 1em;
+  }
 
-.card {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 100%;
-  height: 350px;
-  padding: 1.5em 1em;
-  background: linear-gradient(154.88deg, #166ECC 0%, #95C8FF 100%);
-  letter-spacing: 0.05em;
-  /* background-attachment: fixed; */
-}
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: .5rem;
+    width: 100%;
+    height: 350px;
+    padding: 1.5em 1em;
+    background: linear-gradient(154.88deg, #166ECC 0%, #95C8FF 100%);
+    letter-spacing: 0.05em;
+    /* background-attachment: fixed; */
+  }
 
-.card:hover {
-  background: linear-gradient(154.88deg, #166ECC 0%, #95C8FF 100%);
-}
+  .card:hover {
+    background: linear-gradient(154.88deg, #166ECC 0%, #95C8FF 100%);
+  }
 
 
 
-.card-header {
-  display: flex;
-  flex-direction: column;
-  gap: .5em;
-}
+  .card-header {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+  }
 
-.card-title {
-  display: flex;
-  font-weight: bold;
-  flex-direction: column;
-}
+  .card-title {
+    display: flex;
+    font-weight: bold;
+    flex-direction: column;
+  }
 
-.card-title h2 {
-  font-size: 1.7rem;
-}
+  .card-title h2 {
+    font-size: 1.7rem;
+  }
 
-.card-btn {
-  display: flex;
-  justify-content: space-around;
-  width: 7em;
-  padding: .5em .75em;
-  color: #000;
-  background-image: linear-gradient(100.11deg, #FFFFFF 4.07%, #93C7FF 91.25%);
+  .card-btn {
+    display: flex;
+    justify-content: space-around;
+    width: 7em;
+    padding: .5em .75em;
+    color: #000;
+    background-image: linear-gradient(100.11deg, #FFFFFF 4.07%, #93C7FF 91.25%);
+  }
 
-}
+  .card-btn:hover {
+    background-image: linear-gradient(100.11deg, #FFFFFF 4.07%, #59a7fa 91.25%);
+  }
 
-.card-btn:hover {
-  background-image: linear-gradient(100.11deg, #FFFFFF 4.07%, #59a7fa 91.25%);
-}
+  .card-btn:focus {
+    outline: none;
+  }
 
-.card-btn:focus {
-  outline: none;
-}
+  .card-btn button {
+    font-weight: bolder;
+  }
 
-.card-btn button {
-  font-weight: bolder;
-}
+  .arrow-svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 23px;
+  }
 
-.arrow-svg {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 30px;
-  height: 23px;
-}
+  @media (min-width: 300px) {}
+
+  @media (min-width: 640px) {}
+
+  @media (min-width: 768px) {}
+
+  @media (min-width: 1024px) {}
+
+  @media (min-width: 1280px) {}
+
+  @media (min-width: 1536px) {}
+
 </style>

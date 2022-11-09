@@ -6,6 +6,12 @@
     "_name": "_044e5802"
   },
   {
+    "name": "icons-list",
+    "path": "/_icons",
+    "component": "/Users/rick/Documents/rvwijk_portfolio/node_modules/@nuxtjs/svg-sprite/lib/pages/icons-list.vue",
+    "_name": "_044e5802"
+  },
+  {
     "name": "about",
     "path": "/about",
     "component": "/Users/rick/Documents/rvwijk_portfolio/pages/about.vue",

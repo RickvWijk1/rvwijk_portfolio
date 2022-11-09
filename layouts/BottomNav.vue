@@ -2,7 +2,7 @@
     <div class="layout-body">
       <div class="grad-wrapper">
         <Nuxt />
-        <GraduationBottomNav />
+        <!-- <GraduationBottomNav /> -->
       </div>
 
     </div>

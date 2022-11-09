@@ -3,7 +3,16 @@ export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
   router: {
-    base: '/rvwijk_portfolio/'
+    base: '/rvwijk_portfolio/',
+    scrollBehavior(to) {
+      if (to.hash) {
+        return window.scrollTo({
+          top: document.querySelector(to.hash).offsetTop + window.innerHeight,
+          behavior: 'smooth'
+        })
+      }
+      return window.scrollTo({ top: 0, behavior: 'smooth' })
+    }
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -94,7 +103,7 @@ export default {
     '@nuxtjs/tailwindcss',
     '@nuxtjs/pwa',
     '@nuxtjs/vuetify',
-    
+
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -107,14 +116,14 @@ export default {
   svgSprite: {
     // manipulate module options
   },
-  
-  
+
+
     pwa: {
       icon: {
       },
       meta: {
         /* meta options */
-        
+
       },
       manifest:{
         name: 'Rick van Wijk',

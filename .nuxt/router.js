@@ -55,6 +55,10 @@ export const routerOptions = {
     component: _044e5802,
     name: "icons-list"
   }, {
+    path: "/_icons",
+    component: _044e5802,
+    name: "icons-list"
+  }, {
     path: "/about",
     component: _4cf94632,
     name: "about"

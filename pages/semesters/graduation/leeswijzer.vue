@@ -1,12 +1,15 @@
 <template>
-  <div class="content-wrapper">
-    <GraduationExpansionPanel />
+  <div class="page-wrapper">
+    <div class="content-wrapper">
+      <GraduationExpansionPanel />
+    </div>
+    <GraduationBottomNavWhite />
   </div>
 </template>
 
 <script>
   export default {
-    layout: 'BottomNav',
+    layout: "BottomNav",
   }
 
 </script>
@@ -61,7 +64,11 @@
 
   @media (min-width: 768px) {}
 
-  @media (min-width: 1024px) {}
+  @media (min-width: 1024px) {
+    .nav-wrapper{
+      background-color: #fff !important;
+    }
+  }
 
   @media (min-width: 1280px) {}
 

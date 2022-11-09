@@ -1,6 +1,9 @@
 <template>
-  <div class="content-wrapper">
-    <GraduationCardCont />
+  <div class="page-wrapper">
+    <div class="content-wrapper">
+      <GraduationCardCont />
+    </div>
+    <GraduationBottomNavWhite />
   </div>
 </template>
 

@@ -1,12 +1,12 @@
     <template>
       <v-row justify="center">
-        <v-expansion-panels popout tile="false"  v-model="panel"
+        <v-expansion-panels popout  v-model="panel"
       :disabled="disabled" multiple>
           <v-expansion-panel>
-            <v-expansion-panel-header color="#eee" ripple="true">
+            <v-expansion-panel-header color="#eee" ripple>
               <h3>Bedrijf</h3>
             </v-expansion-panel-header>
-            <v-expansion-panel-content eager="true">
+            <v-expansion-panel-content eager>
               <nuxt-img src="/img/graduation/leeswijzer/logo.png" loading="lazy" />
               <!-- <nuxt-img src="/img/graduation/leeswijzer/handpicked_kantine.jpeg" loading="lazy" /> -->
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -16,7 +16,7 @@
             </v-expansion-panel-content>
           </v-expansion-panel>
           <v-expansion-panel>
-            <v-expansion-panel-header color="#eee" ripple="true">
+            <v-expansion-panel-header color="#eee" ripple>
               <h3>Opdracht</h3>
             </v-expansion-panel-header>
             <v-expansion-panel-content>
@@ -29,7 +29,7 @@
             </v-expansion-panel-content>
           </v-expansion-panel>
           <v-expansion-panel>
-            <v-expansion-panel-header color="#eee" ripple="true">
+            <v-expansion-panel-header color="#eee" ripple>
               <h3>Doel</h3>
             </v-expansion-panel-header>
             <v-expansion-panel-content>
@@ -42,7 +42,7 @@
             </v-expansion-panel-content>
           </v-expansion-panel>
           <v-expansion-panel>
-            <v-expansion-panel-header color="#eee" ripple="true">
+            <v-expansion-panel-header color="#eee" ripple>
               <h3>Aanpak & Uitvoering</h3>
             </v-expansion-panel-header>
             <v-expansion-panel-content>
@@ -55,7 +55,7 @@
             </v-expansion-panel-content>
           </v-expansion-panel>
           <v-expansion-panel>
-            <v-expansion-panel-header color="#eee" ripple="true">
+            <v-expansion-panel-header color="#eee" ripple>
               <h3>Competentiematrix</h3>
             </v-expansion-panel-header>
             <v-expansion-panel-content>
@@ -68,7 +68,7 @@
             </v-expansion-panel-content>
           </v-expansion-panel>
           <v-expansion-panel>
-            <v-expansion-panel-header color="#eee" ripple="true">
+            <v-expansion-panel-header color="#eee" ripple>
               <h3>Reflectie</h3>
             </v-expansion-panel-header>
             <v-expansion-panel-content>

@@ -23,14 +23,14 @@
   "UITopNav": {
     "description": "Auto imported from components/ui/TopNav.vue"
   },
-  "InterestsProducts": {
-    "description": "Auto imported from components/interests/Products.vue"
-  },
   "GraduationBanner": {
     "description": "Auto imported from components/graduation/Banner.vue"
   },
-  "GraduationBottomNav": {
-    "description": "Auto imported from components/graduation/BottomNav.vue"
+  "GraduationBottomNavBlue": {
+    "description": "Auto imported from components/graduation/BottomNavBlue.vue"
+  },
+  "GraduationBottomNavWhite": {
+    "description": "Auto imported from components/graduation/BottomNavWhite.vue"
   },
   "GraduationCardCont": {
     "description": "Auto imported from components/graduation/CardCont.vue"
@@ -43,6 +43,9 @@
   },
   "GraduationHero": {
     "description": "Auto imported from components/graduation/Hero.vue"
+  },
+  "InterestsProducts": {
+    "description": "Auto imported from components/interests/Products.vue"
   },
   "ProjectsProducts": {
     "description": "Auto imported from components/projects/Products.vue"

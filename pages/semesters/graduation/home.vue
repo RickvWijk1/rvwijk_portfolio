@@ -1,9 +1,11 @@
 <template>
-
+  <div class="page-wrapper">
     <div class="content-wrapper">
       <GraduationHero />
       <GraduationBanner />
     </div>
+    <GraduationBottomNavBlue />
+  </div>
 </template>
 
 <script>
@@ -15,7 +17,6 @@
 
 <style lang="css">
  @import '~/assets/css/graduation.css';
-
 
   body {
     background-color: #166ECC;
@@ -32,9 +33,16 @@
     max-width: 100%;
     width: 100%;
     height: 100%;
-    gap: 2em;
+    /* gap: 2em; */
     overflow-y: auto;
-    height: calc(100% - 56px);
+    /* height: calc(100% - 56px); */
+  }
+
+  .page-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: inherit;
   }
 
   .content-wrapper {
@@ -43,6 +51,7 @@
     flex-direction: column;
     height: 100%;
     overflow-y: auto;
+    overflow-x: hidden;
     /* margin: 0 0 56px 0; */
   }
 

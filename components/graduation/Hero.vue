@@ -5,7 +5,9 @@
         <h1>Rick</h1>
         <h1>van Wijk.</h1>
       </div>
-      <h4 class="hero-subtitle">Afstudeerportfolio</h4>
+      <div class="hero-subtitle-wrapper">
+        <h4 class="hero-subtitle">Afstudeerportfolio</h4>
+      </div>
       <!-- <GraduationHeroContClouds class="clouds" /> -->
     </div>
     </div>

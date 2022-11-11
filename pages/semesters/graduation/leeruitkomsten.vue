@@ -3,7 +3,49 @@
     <div class="content-wrapper">
       <GraduationCardCont />
     </div>
-    <GraduationBottomNavWhite />
+    <div class="nav-wrapper">
+    <div class="bottom-nav-mobile">
+      <v-bottom-navigation :value="value" color="green" grow class="bottom-nav">
+        <NuxtLink to="/semesters/graduation/home">
+          <v-btn class="nav-item">
+            <span>HOME</span>
+            <v-icon>mdi-home</v-icon>
+          </v-btn>
+        </NuxtLink>
+        <NuxtLink to="/semesters/graduation/leeswijzer">
+          <v-btn class="nav-item">
+            <span class="nav-item-label">LEESWIJZER</span>
+            <v-icon>mdi-lightbulb</v-icon>
+          </v-btn>
+        </NuxtLink>
+        <NuxtLink to="/semesters/graduation/leeruitkomsten">
+          <v-btn class="nav-item">
+            <span>UITKOMSTEN</span>
+            <v-icon>mdi-school</v-icon>
+          </v-btn>
+        </NuxtLink>
+      </v-bottom-navigation>
+    </div>
+    <div class="bottom-desktop-nav">
+      <div class="desktop-nav-cont">
+        <ul>
+          <li>
+            <NuxtLink to="/semesters/graduation/home" exact>Home</NuxtLink>
+          </li>
+          <li>
+            <NuxtLink to="/semesters/graduation/leeswijzer" exact>Leeswijzer</NuxtLink>
+          </li>
+          <li>
+            <NuxtLink to="/semesters/graduation/leeruitkomsten" exact>Leeruitkomsten</NuxtLink>
+          </li>
+        </ul>
+        <NuxtLink to="/semesters/graduation/analyseren" class="desktop-next-page" exact>
+            <p>Ga naar 'Analyseren'</p>
+              <svg-icon class="svg-arrow-right" name="arrow-right" />
+          </NuxtLink>
+      </div>
+    </div>
+  </div>
   </div>
 </template>
 
@@ -26,128 +68,152 @@
     background-color: #fff;
   }
 
-  .clouds-cont {
+  .nav-wrapper{
+  position: relative;
+  display: flex;
+}
+  .bottom-nav {
+    z-index: 99;
+    flex: 1;
+    display: flex !important;
+    justify-self: flex-end !important;
+    background-color: #166ECC !important;
+    box-shadow: unset !important;
+    position: fixed !important;
+    left: 0 !important;
+    bottom: 0 !important;
+    color: #fff;
+    /* z-index: 5; */
+  }
+
+  .nav-item {
+    padding: 0 0.5em !important;
+    background-color: #166ECC !important;
+  }
+
+  .bottom-nav a {
+    display: flex;
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    flex: 0 1 auto;
+    font-size: 0.75rem;
+    height: inherit;
+    max-width: 168px;
+    min-width: 80px;
     position: relative;
-    height: 30vh;
+    text-transform: none;
+    width: 100%;
   }
 
-  .cloud {
-    user-select: none;
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    animation-direction: alternate;
+  .nav-item {
+    height: inherit !important;
   }
 
-  .cloud-1 {
-    z-index: 10;
-    top: 27%;
-    left: 42%;
-    animation: cloud-1 6s infinite;
+  .nav-item span {
+    display: flex;
+    flex-direction: column;
+    gap: .25em;
+    font-size: .5rem;
+    color: #fff !important;
   }
 
-  @keyframes cloud-1 {
-    0% {
-      left: 43%;
-      top: 27%;
+  .theme--light.v-bottom-navigation .v-btn:not(.v-btn--active) {
+    color: #fff !important;
+  }
+
+  .bottom-desktop-nav {
+    display: none;
+  }
+
+  .desktop-nav-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  ul {
+    display: flex;
+    gap: 2rem;
+  }
+
+  ul li {
+    letter-spacing: .1rem;
+    padding: 1em 0em;
+    font-weight: bold;
+  }
+
+  .desktop-next-page{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: #000;
+    font-weight: bold;
+    letter-spacing: .05rem;
+  }
+
+.svg-arrow-right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 38px;
+  max-height: 2.5rem;
+  fill: #000;
+}
+
+.desktop-next-page
+
+  .nuxt-link-active {
+    position: relative;
+    border-bottom: 6px solid #fff;
+    padding: 0 0 .1em 0;
+    height: 100%;
+  }
+
+  @media (min-width: 300px) {
+    .bottom-nav {
+      height: 65px !important;
+      /* display: none !important; */
     }
 
-    50% {
-      left: 41.5%;
-      top: 27%;
+    .bottom-nav a span i {
+      font-size: 2rem !important;
     }
 
-    100% {
-      top: 27%;
-      left: 43%;
-    }
-  }
+    .bottom-nav a span {
+      font-size: 0.8rem !important;
 
-  .cloud-2 {
-    top: 0;
-    left: 0;
-    animation: cloud-2 90s infinite;
-  }
-
-  @keyframes cloud-2 {
-    0% {
-      left: -7%;
-      top: 55%;
-    }
-
-    100% {
-      left: 107%;
-      top: 50%;
-    }
-  }
-
-  .cloud-3 {
-    top: -22%;
-    left: -40%;
-    animation: cloud-3 70s infinite;
-  }
-
-  @keyframes cloud-3 {
-    100% {
-      left: -7%;
-      top: 22%;
-    }
-
-    0% {
-      left: 107%;
-      top: 20%;
-
-    }
-  }
-
-  .cloud-4 {
-    top: 10%;
-    left: -40%;
-    animation: cloud-4 400s infinite;
-  }
-
-  @keyframes cloud-4 {
-    100% {
-      left: -200%;
-      top: 10%;
-    }
-
-    0% {
-      left: 107%;
-      top: 15%;
     }
   }
 
-  .cloud-5 {
-    top: 62%;
-    left: -400%;
-    animation: cloud-5 300s infinite;
-  }
-
-  @keyframes cloud-5 {
-    100% {
-      left: -500%;
-      top: 62%;
-    }
-
-    0% {
-      left: 107%;
-      top: 62%;
-    }
-  }
-
-  @media (max-width: 300px) {}
-
-  @media (min-width: 640px) {
-
-    .about-filter-school {
-      align-items: center;
-    }
-  }
+  @media (min-width: 640px) {}
 
   @media (min-width: 768px) {}
 
-  @media (min-width: 1024px) {}
+  @media (min-width: 1024px) {
+    .bottom-nav-mobile {
+      display: none;
+    }
+
+    .bottom-desktop-nav {
+      display: flex;
+      width: 100%;
+      padding: 2em 2em;
+      background-color: #fff;
+      color: #000;
+    }
+
+    .nuxt-link-active {
+      position: relative;
+      border-bottom: 6px solid #000;
+      padding: 0 0 .1em 0;
+      height: 100%;
+    }
+  }
 
   @media (min-width: 1280px) {}
 

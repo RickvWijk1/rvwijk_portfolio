@@ -267,7 +267,7 @@
       max-width: 400px;
     }
     .rick-wrapper {
-      max-width: 300px;
+      max-width: 350px;
     }
   }
 

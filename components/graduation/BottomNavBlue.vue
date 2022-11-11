@@ -37,7 +37,10 @@
             <NuxtLink to="/semesters/graduation/leeruitkomsten" exact>Leeruitkomsten</NuxtLink>
           </li>
         </ul>
-
+          <NuxtLink to="/semesters/graduation/leeswijzer" class="desktop-next-page" exact>
+            <p>Ga naar de leeswijzer</p>
+              <svg-icon class="svg-arrow-right" name="arrow-right" />
+          </NuxtLink>
       </div>
     </div>
   </div>
@@ -103,8 +106,20 @@
     color: #fff !important;
   }
 
+  .theme--light.v-bottom-navigation .v-btn:not(.v-btn--active) {
+    color: #fff !important;
+  }
+
   .bottom-desktop-nav {
     display: none;
+  }
+
+  .desktop-nav-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
   }
 
   ul {
@@ -124,6 +139,30 @@
     padding: 0 0 .1em 0;
     height: 100%;
   }
+
+  .desktop-next-page{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: .05rem;
+  }
+
+.svg-arrow-right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 38px;
+  max-height: 2.5rem;
+  fill: #fff;
+}
+
+  /* .theme--light.v-icon{
+    color: #fff;
+  } */
 
   @media (min-width: 300px) {
     .bottom-nav {

@@ -37,7 +37,10 @@
             <NuxtLink to="/semesters/graduation/leeruitkomsten" exact>Leeruitkomsten</NuxtLink>
           </li>
         </ul>
-
+        <NuxtLink to="/semesters/graduation/leeruitkomsten" class="desktop-next-page" exact>
+            <p>Ga naar de leeruitkomsten</p>
+              <svg-icon class="svg-arrow-right" name="arrow-right" />
+          </NuxtLink>
       </div>
     </div>
   </div>
@@ -58,6 +61,7 @@
   display: flex;
 }
   .bottom-nav {
+    z-index: 99;
     flex: 1;
     display: flex !important;
     justify-self: flex-end !important;
@@ -66,7 +70,7 @@
     position: fixed !important;
     left: 0 !important;
     bottom: 0 !important;
-    z-index: 99;
+    color: #fff;
     /* z-index: 5; */
   }
 
@@ -102,8 +106,24 @@
     color: #fff !important;
   }
 
+  .theme--light.v-bottom-navigation .v-btn:not(.v-btn--active) {
+    color: #fff !important;
+  }
+
   .bottom-desktop-nav {
+    z-index: 99;
     display: none;
+    -webkit-box-shadow: 0px -12px 51px -21px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px -12px 51px -21px rgba(0,0,0,0.75);
+box-shadow: 0px -12px 51px -21px rgba(0,0,0,0.75);
+  }
+
+  .desktop-nav-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
   }
 
   ul {
@@ -116,6 +136,26 @@
     padding: 1em 0em;
     font-weight: bold;
   }
+
+  .desktop-next-page{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: #000;
+    font-weight: bold;
+    letter-spacing: .05rem;
+  }
+
+.svg-arrow-right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 38px;
+  max-height: 2.5rem;
+  fill: #000;
+}
 
   .nuxt-link-active {
     position: relative;

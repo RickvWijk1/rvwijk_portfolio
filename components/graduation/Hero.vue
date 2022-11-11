@@ -112,7 +112,11 @@
     }
   }
 
-  @media (min-width: 1280px) {}
+  @media (min-width: 1280px) {
+    .hero{
+      padding: 2em 6em 2em 6em;
+    }
+  }
 
   @media (min-width: 1536px) {}
 

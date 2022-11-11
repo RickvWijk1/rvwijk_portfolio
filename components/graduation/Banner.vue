@@ -308,7 +308,7 @@
       max-width: 373.8px;
       width: auto;
       transform: scale(1.05);
-      transform-origin: 20% 100%;
+      transform-origin: -100% 100%;
     }
 
     .hero-images-wrapper{
@@ -342,7 +342,15 @@
     }
   }
 
-  @media (min-width: 1280px) {}
+  @media (min-width: 1280px) {
+    .rick{
+      transform-origin: -400% 100%;
+    }
+
+    .banner-wrapper{
+      padding: 2em 6em 2em 6em;
+    }
+  }
 
   @media (min-width: 1536px) {}
 

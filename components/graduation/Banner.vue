@@ -298,12 +298,14 @@
       width: 100%;
       max-width: unset;
       z-index: 1;
+      max-width: 500px;
     }
 
     .rick{
       /* height: 682px; */
       /* min-height: unset;
       min-width: unset; */
+      max-width: 373.8px;
       width: auto;
       transform: scale(1.05);
       transform-origin: 20% 100%;

@@ -5,11 +5,11 @@
     </client-only>
     <ul class="gallery-cont">
       <li v-for="(img_src, img_thumbnail_index) in [
-            'img/about/strijpTQ1.jpg',
-            'img/about/strijpTQ2.jpg',
-            'img/about/rachelsmolen1.jpg',
-            'img/about/rachelsmolen2.jpg',
-  
+            'img/graduation/leeswijzer/handpicked_kantine.jpeg',
+            'img/graduation/leeswijzer/bbd_tiger_zoomed_out.jpeg',
+            'img/graduation/leeswijzer/bbd_tiger_zoomed_in.jpeg',
+            'img/graduation/leeswijzer/handpicked_kantine.jpeg',
+
           ]" :key="img_thumbnail_index" @click="index = img_thumbnail_index">
         <div class="img-gallery-grid">
           <div class="img-overlay-cont">
@@ -49,15 +49,15 @@
       return {
         images: [{
             title: `Strijp TQ location`,
-            url: 'img/about/strijpTQ1.jpg'
+            url: 'img/graduation/leeswijzer/handpicked_kantine.jpeg'
           },
           {
             title: 'Strijp TQ study environment',
-            url: 'img/about/strijpTQ2.jpg'
+            url: 'img/graduation/leeswijzer/bbd_tiger_zoomed_out.jpeg',
           },
           {
             title: 'Campus Rachelsmolen location',
-            url: 'img/about/rachelsmolen1.jpg'
+            url: 'img/graduation/leeswijzer/bbd_tiger_zoomed_in.jpeg',
           },
           {
             title: 'Campus Rachelsmolen entrance hall',

@@ -1,18 +1,20 @@
     <template>
       <v-row justify="center">
-        <v-expansion-panels popout  v-model="panel"
-      :disabled="disabled" multiple>
+        <v-expansion-panels popout v-model="panel" :disabled="disabled" multiple>
           <v-expansion-panel>
             <v-expansion-panel-header color="#eee" ripple>
               <h3>Bedrijf</h3>
             </v-expansion-panel-header>
             <v-expansion-panel-content eager>
-              <nuxt-img src="/img/graduation/leeswijzer/logo.png" loading="lazy" />
-              <!-- <nuxt-img src="/img/graduation/leeswijzer/handpicked_kantine.jpeg" loading="lazy" /> -->
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat.</p>
-              <GraduationGallery />
+              <div class="expansion-cont">
+                <nuxt-img class="bbd-logo" src="/img/graduation/leeswijzer/logo.png" loading="lazy" />
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                  et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                  aliquip
+                  ex ea commodo consequat.</p>
+                <GraduationGallery />
+              </div>
             </v-expansion-panel-content>
           </v-expansion-panel>
           <v-expansion-panel>
@@ -83,33 +85,35 @@
         </v-expansion-panels>
       </v-row>
     </template>
-<script>
-  export default {
-    data: () => ({
-      panel: [0],
-      disabled: false,
-      readonly: false,
-    }),
-  }
-</script>
+    <script>
+      export default {
+        data: () => ({
+          panel: [0],
+          disabled: false,
+          readonly: false,
+        }),
+      }
+
+    </script>
 
     <style lang="css" scoped>
       .row {
         margin: 0 -10px;
       }
 
-      .v-expansion-panels{
+      .v-expansion-panels {
         align-content: flex-start;
         gap: 1em;
         border-radius: 0;
       }
-      .v-expansion-panel{
+
+      .v-expansion-panel {
         /* max-height: 50px; */
       }
 
-      .v-expansion-panels--popout > .v-expansion-panel--active {
-    /* max-height: unset; */
-}
+      .v-expansion-panels--popout>.v-expansion-panel--active {
+        /* max-height: unset; */
+      }
 
 
       .v-expansion-panel-header {
@@ -126,5 +130,27 @@
       .v-expansion-panel-header>*:not(.v-expansion-panel-header__icon) {
         flex: unset;
       }
+
+      .expansion-cont {
+        width: 100%;
+      }
+
+
+      @media (min-width: 300px) {
+      .bbd-logo {
+        width: 300px;
+      }
+
+      }
+
+      @media (min-width: 640px) {}
+
+      @media (min-width: 768px) {}
+
+      @media (min-width: 1024px) {}
+
+      @media (min-width: 1280px) {}
+
+      @media (min-width: 1536px) {}
 
     </style>

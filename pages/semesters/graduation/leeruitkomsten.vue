@@ -124,6 +124,7 @@
 
   .bottom-desktop-nav {
     display: none;
+    box-shadow: 0px -12px 51px -21px rgba(0,0,0,0.75);
   }
 
   .desktop-nav-cont {
@@ -175,6 +176,10 @@
   }
 
   @media (min-width: 300px) {
+  .content-wrapper{
+    padding: 2em;
+
+  }
     .bottom-nav {
       height: 65px !important;
       /* display: none !important; */
@@ -192,7 +197,11 @@
 
   @media (min-width: 640px) {}
 
-  @media (min-width: 768px) {}
+  @media (min-width: 768px) {
+    .content-wrapper{
+      padding: 3em 2em;
+    }
+  }
 
   @media (min-width: 1024px) {
     .bottom-nav-mobile {
@@ -215,7 +224,11 @@
     }
   }
 
-  @media (min-width: 1280px) {}
+  @media (min-width: 1280px) {
+    .content-wrapper{
+      padding: 3em 6em;
+    }
+  }
 
   @media (min-width: 1536px) {}
 

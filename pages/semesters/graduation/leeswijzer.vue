@@ -17,16 +17,24 @@
 <style lang="css" scoped>
   @import '~/assets/css/graduation.css';
 
+  body {
+    background-color: #fff;
+  }
+
   .content-wrapper {
     background-color: #fff;
     color: #fff;
   }
 
   .content-wrapper {
-    padding: 2em 1em;
+    padding: 1em 1em;
   }
 
-  @media (min-width: 300px) {}
+  @media (min-width: 300px) {
+    .content-wrapper{
+      padding: 2em;
+    }
+  }
 
   @media (min-width: 640px) {
 
@@ -65,12 +73,19 @@
   @media (min-width: 768px) {}
 
   @media (min-width: 1024px) {
+    .content-wrapper{
+      padding: 3em 2em;
+    }
     .nav-wrapper{
       background-color: #fff !important;
     }
   }
 
-  @media (min-width: 1280px) {}
+  @media (min-width: 1280px) {
+    .content-wrapper{
+      padding: 3em 6em;
+    }
+  }
 
   @media (min-width: 1536px) {}
 

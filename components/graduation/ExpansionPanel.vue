@@ -1,5 +1,4 @@
     <template>
-      <v-row justify="center">
         <v-expansion-panels popout v-model="panel" :disabled="disabled" multiple>
           <v-expansion-panel>
             <v-expansion-panel-header color="#eee" ripple>
@@ -7,13 +6,17 @@
             </v-expansion-panel-header>
             <v-expansion-panel-content eager>
               <div class="expansion-cont">
-                <nuxt-img class="bbd-logo" src="/img/graduation/leeswijzer/logo.png" loading="lazy" />
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                  et
-                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                  aliquip
-                  ex ea commodo consequat.</p>
-                <GraduationGallery />
+                <div class="text-cont">
+                  <nuxt-img class="bbd-logo" src="/img/graduation/leeswijzer/logo.png" loading="lazy" />
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat.</p>
+                </div>
+                <div class="img-cont">
+                  <GraduationGallery />
+                </div>
               </div>
             </v-expansion-panel-content>
           </v-expansion-panel>
@@ -83,12 +86,11 @@
             </v-expansion-panel-content>
           </v-expansion-panel>
         </v-expansion-panels>
-      </v-row>
     </template>
     <script>
       export default {
         data: () => ({
-          panel: [0],
+          panel: [0,1],
           disabled: false,
           readonly: false,
         }),
@@ -97,18 +99,19 @@
     </script>
 
     <style lang="css" scoped>
+
       .row {
         margin: 0 -10px;
       }
 
       .v-expansion-panels {
         align-content: flex-start;
-        gap: 1em;
+        gap: .5em;
         border-radius: 0;
       }
 
       .v-expansion-panel {
-        /* max-height: 50px; */
+        
       }
 
       .v-expansion-panels--popout>.v-expansion-panel--active {
@@ -132,8 +135,15 @@
       }
 
       .expansion-cont {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
         width: 100%;
+        padding: 1em 0em 0em;
       }
+
+      .text-cont{}
+   
 
 
       @media (min-width: 300px) {
@@ -141,13 +151,38 @@
         width: 300px;
       }
 
+      .expansion-cont{
+        /* align-items: center; */
       }
 
-      @media (min-width: 640px) {}
+      .img-cont{
+        max-width: 400px;
+      }
+
+      }
+
+      @media (min-width: 640px) {
+        .v-expansion-panels {
+        max-width: 1000px;
+      }
+        .text-cont, .img-cont{
+        max-width: 600px;
+      }
+
+      .expansion-cont{
+        align-items: flex-start;
+      }
+
+      }
 
       @media (min-width: 768px) {}
 
-      @media (min-width: 1024px) {}
+      @media (min-width: 1024px) {
+        
+        .expansion-cont{
+          flex-direction: row;
+        }
+      }
 
       @media (min-width: 1280px) {}
 

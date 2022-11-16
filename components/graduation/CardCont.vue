@@ -91,7 +91,8 @@
         </div>
         <div class="card-description">
           <p>Gedurende het project is nagedacht over hoe het eindproduct beheert kan worden.
-            Bestaande guidelines en bedrijfstools zijn ingezet om het eindproduct overzichtelijk en beheerbaar te maken.</p>
+            Bestaande guidelines en bedrijfstools zijn ingezet om het eindproduct overzichtelijk en beheerbaar te maken.
+          </p>
         </div>
       </div>
       <div class="card-body"></div>
@@ -156,7 +157,8 @@
         </div>
         <div class="card-description">
           <p>De opgedane kennis en het leervermogen is aangetoond door middel
-            van de zelfreflectie in de leeswijzer. Om de 2-3 weken heb ik gereflecteerd op mijn aanpak en wat ik in de toekomst wil bereiken.</p>
+            van de zelfreflectie in de leeswijzer. Om de 2-3 weken heb ik gereflecteerd op mijn aanpak en wat ik in de
+            toekomst wil bereiken.</p>
         </div>
       </div>
       <div class="card-body"></div>
@@ -250,15 +252,49 @@
     height: 23px;
   }
 
-  @media (min-width: 300px) {}
+  @media (min-width: 300px) {
+    .card {
+      height: 350px;
+      /* width: 300px; */
+    }
+  }
 
-  @media (min-width: 640px) {}
+  @media (min-width: 640px) {
+    .grid-wrapper {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
 
-  @media (min-width: 768px) {}
+    .card {
+      height: 370px;
+      max-width: 300px;
+    }
+  }
 
-  @media (min-width: 1024px) {}
+  @media (min-width: 768px) {
+    .grid-wrapper {
+      /* grid-template-columns: repeat(3, minmax(0, 1fr)); */
+    }
+    .card {
+      /* height: 500px;
+      max-width: 400px; */
+    }
+  }
 
-  @media (min-width: 1280px) {}
+  @media (min-width: 1024px) {
+    .grid-wrapper {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .grid-wrapper {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+    .card {
+      height: 370px;
+      max-width: 300px;
+    }
+  }
 
   @media (min-width: 1536px) {}
 

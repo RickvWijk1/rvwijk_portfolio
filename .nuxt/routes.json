@@ -2,238 +2,198 @@
   {
     "name": "icons-list",
     "path": "/_icons",
-    "component": "/Users/rick/Documents/rvwijk_portfolio/node_modules/@nuxtjs/svg-sprite/lib/pages/icons-list.vue",
-    "_name": "_044e5802"
+    "component": "C:\\Users\\rickvw\\Documents\\nuxt\\rvwijk_portfolio\\node_modules\\@nuxtjs\\svg-sprite\\lib\\pages\\icons-list.vue"
   },
   {
     "name": "about",
     "path": "/about",
-    "component": "/Users/rick/Documents/rvwijk_portfolio/pages/about.vue",
-    "chunkName": "pages/about",
-    "_name": "_4cf94632"
+    "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\about.vue",
+    "chunkName": "pages/about"
   },
   {
     "name": "interests",
     "path": "/interests",
-    "component": "/Users/rick/Documents/rvwijk_portfolio/pages/interests.vue",
-    "chunkName": "pages/interests",
-    "_name": "_033f74ae"
+    "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\interests.vue",
+    "chunkName": "pages/interests"
   },
   {
     "name": "projects",
     "path": "/projects",
-    "component": "/Users/rick/Documents/rvwijk_portfolio/pages/projects.vue",
-    "chunkName": "pages/projects",
-    "_name": "_7e234f36"
+    "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\projects.vue",
+    "chunkName": "pages/projects"
   },
   {
     "name": "semesters-semesterSix",
     "path": "/semesters/semesterSix",
-    "component": "/Users/rick/Documents/rvwijk_portfolio/pages/semesters/semesterSix.vue",
-    "chunkName": "pages/semesters/semesterSix",
-    "_name": "_1ef7a6db"
-  },
-  {
-    "name": "test-testToggle",
-    "path": "/test/testToggle",
-    "component": "/Users/rick/Documents/rvwijk_portfolio/pages/test/testToggle.vue",
-    "chunkName": "pages/test/testToggle",
-    "_name": "_5b77ef88"
+    "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\semesters\\\\semesterSix.vue",
+    "chunkName": "pages/semesters/semesterSix"
   },
   {
     "name": "modals-projects-fect",
     "path": "/modals/projects/fect",
-    "component": "/Users/rick/Documents/rvwijk_portfolio/pages/modals/projects/fect.vue",
-    "chunkName": "pages/modals/projects/fect",
-    "_name": "_40f61967"
+    "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\modals\\\\projects\\\\fect.vue",
+    "chunkName": "pages/modals/projects/fect"
   },
   {
     "name": "modals-projects-mft",
     "path": "/modals/projects/mft",
-    "component": "/Users/rick/Documents/rvwijk_portfolio/pages/modals/projects/mft.vue",
-    "chunkName": "pages/modals/projects/mft",
-    "_name": "_1c1301d4"
+    "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\modals\\\\projects\\\\mft.vue",
+    "chunkName": "pages/modals/projects/mft"
   },
   {
     "name": "modals-projects-quaquiz",
     "path": "/modals/projects/quaquiz",
-    "component": "/Users/rick/Documents/rvwijk_portfolio/pages/modals/projects/quaquiz.vue",
-    "chunkName": "pages/modals/projects/quaquiz",
-    "_name": "_7eef226b"
+    "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\modals\\\\projects\\\\quaquiz.vue",
+    "chunkName": "pages/modals/projects/quaquiz"
   },
   {
     "name": "modals-projects-solid",
     "path": "/modals/projects/solid",
-    "component": "/Users/rick/Documents/rvwijk_portfolio/pages/modals/projects/solid.vue",
-    "chunkName": "pages/modals/projects/solid",
-    "_name": "_403d7e44"
+    "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\modals\\\\projects\\\\solid.vue",
+    "chunkName": "pages/modals/projects/solid"
   },
   {
     "name": "modals-semesterSix-architecture",
     "path": "/modals/semesterSix/architecture",
-    "component": "/Users/rick/Documents/rvwijk_portfolio/pages/modals/semesterSix/architecture.vue",
-    "chunkName": "pages/modals/semesterSix/architecture",
-    "_name": "_0f7f28b4"
+    "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\modals\\\\semesterSix\\\\architecture.vue",
+    "chunkName": "pages/modals/semesterSix/architecture"
   },
   {
     "name": "modals-semesterSix-delivery",
     "path": "/modals/semesterSix/delivery",
-    "component": "/Users/rick/Documents/rvwijk_portfolio/pages/modals/semesterSix/delivery.vue",
-    "chunkName": "pages/modals/semesterSix/delivery",
-    "_name": "_9cb68972"
+    "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\modals\\\\semesterSix\\\\delivery.vue",
+    "chunkName": "pages/modals/semesterSix/delivery"
   },
   {
     "name": "modals-semesterSix-designTesting",
     "path": "/modals/semesterSix/designTesting",
-    "component": "/Users/rick/Documents/rvwijk_portfolio/pages/modals/semesterSix/designTesting.vue",
-    "chunkName": "pages/modals/semesterSix/designTesting",
-    "_name": "_414a562f"
+    "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\modals\\\\semesterSix\\\\designTesting.vue",
+    "chunkName": "pages/modals/semesterSix/designTesting"
   },
   {
     "name": "modals-semesterSix-flutterNotifications",
     "path": "/modals/semesterSix/flutterNotifications",
-    "component": "/Users/rick/Documents/rvwijk_portfolio/pages/modals/semesterSix/flutterNotifications.vue",
-    "chunkName": "pages/modals/semesterSix/flutterNotifications",
-    "_name": "_5911c602"
+    "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\modals\\\\semesterSix\\\\flutterNotifications.vue",
+    "chunkName": "pages/modals/semesterSix/flutterNotifications"
   },
   {
     "name": "modals-semesterSix-indDesign",
     "path": "/modals/semesterSix/indDesign",
-    "component": "/Users/rick/Documents/rvwijk_portfolio/pages/modals/semesterSix/indDesign.vue",
-    "chunkName": "pages/modals/semesterSix/indDesign",
-    "_name": "_59589f3a"
+    "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\modals\\\\semesterSix\\\\indDesign.vue",
+    "chunkName": "pages/modals/semesterSix/indDesign"
   },
   {
     "name": "modals-semesterSix-indInterviews",
     "path": "/modals/semesterSix/indInterviews",
-    "component": "/Users/rick/Documents/rvwijk_portfolio/pages/modals/semesterSix/indInterviews.vue",
-    "chunkName": "pages/modals/semesterSix/indInterviews",
-    "_name": "_77443ee4"
+    "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\modals\\\\semesterSix\\\\indInterviews.vue",
+    "chunkName": "pages/modals/semesterSix/indInterviews"
   },
   {
     "name": "modals-semesterSix-indProject",
     "path": "/modals/semesterSix/indProject",
-    "component": "/Users/rick/Documents/rvwijk_portfolio/pages/modals/semesterSix/indProject.vue",
-    "chunkName": "pages/modals/semesterSix/indProject",
-    "_name": "_5bb46866"
+    "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\modals\\\\semesterSix\\\\indProject.vue",
+    "chunkName": "pages/modals/semesterSix/indProject"
   },
   {
     "name": "modals-semesterSix-indRecommendations",
     "path": "/modals/semesterSix/indRecommendations",
-    "component": "/Users/rick/Documents/rvwijk_portfolio/pages/modals/semesterSix/indRecommendations.vue",
-    "chunkName": "pages/modals/semesterSix/indRecommendations",
-    "_name": "_1f88940e"
+    "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\modals\\\\semesterSix\\\\indRecommendations.vue",
+    "chunkName": "pages/modals/semesterSix/indRecommendations"
   },
   {
     "name": "modals-semesterSix-interviews",
     "path": "/modals/semesterSix/interviews",
-    "component": "/Users/rick/Documents/rvwijk_portfolio/pages/modals/semesterSix/interviews.vue",
-    "chunkName": "pages/modals/semesterSix/interviews",
-    "_name": "_4c137ca5"
+    "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\modals\\\\semesterSix\\\\interviews.vue",
+    "chunkName": "pages/modals/semesterSix/interviews"
   },
   {
     "name": "modals-semesterSix-learning-outcomes",
     "path": "/modals/semesterSix/learning-outcomes",
-    "component": "/Users/rick/Documents/rvwijk_portfolio/pages/modals/semesterSix/learning-outcomes.vue",
-    "chunkName": "pages/modals/semesterSix/learning-outcomes",
-    "_name": "_42398b6d"
+    "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\modals\\\\semesterSix\\\\learning-outcomes.vue",
+    "chunkName": "pages/modals/semesterSix/learning-outcomes"
   },
   {
     "name": "modals-semesterSix-metaconcept",
     "path": "/modals/semesterSix/metaconcept",
-    "component": "/Users/rick/Documents/rvwijk_portfolio/pages/modals/semesterSix/metaconcept.vue",
-    "chunkName": "pages/modals/semesterSix/metaconcept",
-    "_name": "_fa654d80"
+    "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\modals\\\\semesterSix\\\\metaconcept.vue",
+    "chunkName": "pages/modals/semesterSix/metaconcept"
   },
   {
     "name": "modals-semesterSix-metavideo",
     "path": "/modals/semesterSix/metavideo",
-    "component": "/Users/rick/Documents/rvwijk_portfolio/pages/modals/semesterSix/metavideo.vue",
-    "chunkName": "pages/modals/semesterSix/metavideo",
-    "_name": "_f2b07c5a"
+    "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\modals\\\\semesterSix\\\\metavideo.vue",
+    "chunkName": "pages/modals/semesterSix/metavideo"
   },
   {
     "name": "modals-semesterSix-notificationSystem",
     "path": "/modals/semesterSix/notificationSystem",
-    "component": "/Users/rick/Documents/rvwijk_portfolio/pages/modals/semesterSix/notificationSystem.vue",
-    "chunkName": "pages/modals/semesterSix/notificationSystem",
-    "_name": "_1d7bece6"
+    "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\modals\\\\semesterSix\\\\notificationSystem.vue",
+    "chunkName": "pages/modals/semesterSix/notificationSystem"
   },
   {
     "name": "modals-semesterSix-portfolio-abstract",
     "path": "/modals/semesterSix/portfolio-abstract",
-    "component": "/Users/rick/Documents/rvwijk_portfolio/pages/modals/semesterSix/portfolio-abstract.vue",
-    "chunkName": "pages/modals/semesterSix/portfolio-abstract",
-    "_name": "_3bb2cf1a"
+    "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\modals\\\\semesterSix\\\\portfolio-abstract.vue",
+    "chunkName": "pages/modals/semesterSix/portfolio-abstract"
   },
   {
     "name": "modals-semesterSix-prepweek",
     "path": "/modals/semesterSix/prepweek",
-    "component": "/Users/rick/Documents/rvwijk_portfolio/pages/modals/semesterSix/prepweek.vue",
-    "chunkName": "pages/modals/semesterSix/prepweek",
-    "_name": "_4e5f6474"
+    "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\modals\\\\semesterSix\\\\prepweek.vue",
+    "chunkName": "pages/modals/semesterSix/prepweek"
   },
   {
     "name": "modals-semesterSix-projectPlan",
     "path": "/modals/semesterSix/projectPlan",
-    "component": "/Users/rick/Documents/rvwijk_portfolio/pages/modals/semesterSix/projectPlan.vue",
-    "chunkName": "pages/modals/semesterSix/projectPlan",
-    "_name": "_77ed42df"
+    "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\modals\\\\semesterSix\\\\projectPlan.vue",
+    "chunkName": "pages/modals/semesterSix/projectPlan"
   },
   {
     "name": "modals-semesterSix-techResearch",
     "path": "/modals/semesterSix/techResearch",
-    "component": "/Users/rick/Documents/rvwijk_portfolio/pages/modals/semesterSix/techResearch.vue",
-    "chunkName": "pages/modals/semesterSix/techResearch",
-    "_name": "_5b6e74b8"
+    "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\modals\\\\semesterSix\\\\techResearch.vue",
+    "chunkName": "pages/modals/semesterSix/techResearch"
   },
   {
     "name": "modals-semesterSix-trends",
     "path": "/modals/semesterSix/trends",
-    "component": "/Users/rick/Documents/rvwijk_portfolio/pages/modals/semesterSix/trends.vue",
-    "chunkName": "pages/modals/semesterSix/trends",
-    "_name": "_4e4598ee"
+    "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\modals\\\\semesterSix\\\\trends.vue",
+    "chunkName": "pages/modals/semesterSix/trends"
   },
   {
     "name": "modals-semesterSix-userstories",
     "path": "/modals/semesterSix/userstories",
-    "component": "/Users/rick/Documents/rvwijk_portfolio/pages/modals/semesterSix/userstories.vue",
-    "chunkName": "pages/modals/semesterSix/userstories",
-    "_name": "_984377b6"
+    "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\modals\\\\semesterSix\\\\userstories.vue",
+    "chunkName": "pages/modals/semesterSix/userstories"
   },
   {
     "name": "semesters-graduation-home",
     "path": "/semesters/graduation/home",
-    "component": "/Users/rick/Documents/rvwijk_portfolio/pages/semesters/graduation/home.vue",
-    "chunkName": "pages/semesters/graduation/home",
-    "_name": "_1d6d65b1"
+    "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\semesters\\\\graduation\\\\home.vue",
+    "chunkName": "pages/semesters/graduation/home"
   },
   {
     "name": "semesters-graduation-leeruitkomsten",
     "path": "/semesters/graduation/leeruitkomsten",
-    "component": "/Users/rick/Documents/rvwijk_portfolio/pages/semesters/graduation/leeruitkomsten.vue",
-    "chunkName": "pages/semesters/graduation/leeruitkomsten",
-    "_name": "_16f275aa"
+    "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\semesters\\\\graduation\\\\leeruitkomsten.vue",
+    "chunkName": "pages/semesters/graduation/leeruitkomsten"
   },
   {
     "name": "semesters-graduation-leeswijzer",
     "path": "/semesters/graduation/leeswijzer",
-    "component": "/Users/rick/Documents/rvwijk_portfolio/pages/semesters/graduation/leeswijzer.vue",
-    "chunkName": "pages/semesters/graduation/leeswijzer",
-    "_name": "_5c236770"
+    "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\semesters\\\\graduation\\\\leeswijzer.vue",
+    "chunkName": "pages/semesters/graduation/leeswijzer"
   },
   {
     "name": "semesters-graduation-learningoutcomes-analyseren",
     "path": "/semesters/graduation/learningoutcomes/analyseren",
-    "component": "/Users/rick/Documents/rvwijk_portfolio/pages/semesters/graduation/learningoutcomes/analyseren.vue",
-    "chunkName": "pages/semesters/graduation/learningoutcomes/analyseren",
-    "_name": "_9e49d314"
+    "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\semesters\\\\graduation\\\\learningoutcomes\\\\analyseren.vue",
+    "chunkName": "pages/semesters/graduation/learningoutcomes/analyseren"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/Users/rick/Documents/rvwijk_portfolio/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_6cb120f7"
+    "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
   }
 ]

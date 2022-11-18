@@ -21,7 +21,7 @@
 
           </v-list-item-group>
           <v-list-item-group>
-            <div class="pagination">
+            <div class="pagination-mobile pagination">
               <NuxtLink class="pagination-next" to="/semesters/graduation/leeruitkomsten">
                 <v-btn class="prev-chevron-left" icon elevation="6" dark>
                   <v-icon>mdi-chevron-left</v-icon>
@@ -43,6 +43,36 @@
     <div class="page-wrapper">
       <div class="content-cont">
         <h3>Analyseren</h3>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere reprehenderit voluptas vel cupiditate quisquam
+        accusantium numquam, consequuntur expedita labore sint delectus animi sapiente natus maiores possimus
+        perspiciatis aliquam maxime praesentium dolor aliquid saepe laborum quidem? Modi accusantium commodi, et error
+        tenetur maiores nulla repudiandae, labore voluptates molestias ut numquam magni hic repellendus omnis! Numquam
+        illum atque sequi reprehenderit, nobis quia illo cumque at dolorum autem, eius fugiat! Praesentium neque ut quis
+        voluptates, accusamus deserunt accusantium ab eos distinctio perspiciatis. Labore quae non tempore magni
+        officia, dolorum quia iure amet perferendis. Quibusdam aperiam expedita deserunt quia ut facilis suscipit
+        officia est. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa fuga necessitatibus impedit
+        doloribus deleniti! Facilis et, illo corrupti ducimus dignissimos pariatur inventore. Aperiam voluptatum vero
+        alias rerum commodi ad nihil aut delectus earum similique molestiae, praesentium perferendis. Repellat hic
+        perferendis laboriosam asperiores? Deserunt exercitationem dolore blanditiis consectetur, doloremque adipisci
+        corrupti commodi? Ex quidem quos eius iure,
+      </div>
+      <div class="content-cont">
+        <h4>Analyseren</h4>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere reprehenderit voluptas vel cupiditate quisquam
+        accusantium numquam, consequuntur expedita labore sint delectus animi sapiente natus maiores possimus
+        perspiciatis aliquam maxime praesentium dolor aliquid saepe laborum quidem? Modi accusantium commodi, et error
+        tenetur maiores nulla repudiandae, labore voluptates molestias ut numquam magni hic repellendus omnis! Numquam
+        illum atque sequi reprehenderit, nobis quia illo cumque at dolorum autem, eius fugiat! Praesentium neque ut quis
+        voluptates, accusamus deserunt accusantium ab eos distinctio perspiciatis. Labore quae non tempore magni
+        officia, dolorum quia iure amet perferendis. Quibusdam aperiam expedita deserunt quia ut facilis suscipit
+        officia est. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa fuga necessitatibus impedit
+        doloribus deleniti! Facilis et, illo corrupti ducimus dignissimos pariatur inventore. Aperiam voluptatum vero
+        alias rerum commodi ad nihil aut delectus earum similique molestiae, praesentium perferendis. Repellat hic
+        perferendis laboriosam asperiores? Deserunt exercitationem dolore blanditiis consectetur, doloremque adipisci
+        corrupti commodi? Ex quidem quos eius iure,
+      </div>
+      <div class="content-cont">
+        <h4>Analyseren</h4>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere reprehenderit voluptas vel cupiditate quisquam
         accusantium numquam, consequuntur expedita labore sint delectus animi sapiente natus maiores possimus
         perspiciatis aliquam maxime praesentium dolor aliquid saepe laborum quidem? Modi accusantium commodi, et error
@@ -101,6 +131,8 @@
 </script>
 
 <style lang="css" scoped>
+  @import '~/assets/css/graduation.css';
+
   .main-wrapper {
     display: flex;
     flex-direction: row;
@@ -136,6 +168,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 2rem;
     width: 100%;
     height: 100%;
     color: #000;
@@ -173,5 +206,32 @@
   .prev-chevron-right {
     background-color: #166ECC;
   }
+
+
+  @media (min-width: 300px) {
+
+  }
+
+
+  @media (min-width: 640px) {
+    .pagination-mobile {
+      display: none;
+    }
+  }
+
+
+  @media (min-width: 768px) {
+  }
+
+  @media (min-width: 1024px) {
+
+
+  }
+
+  @media (min-width: 1280px) {
+ 
+  }
+
+  @media (min-width: 1536px) {}
 
 </style>

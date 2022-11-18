@@ -27,6 +27,7 @@
     flex-direction: column;
     gap: .5em;
     padding: 1em 1em;
+    background-color: #166ECC;
   }
 
   .hero-cont {
@@ -114,7 +115,7 @@
 
   @media (min-width: 1280px) {
     .hero{
-      padding: 2em 6em 2em 6em;
+      padding: 3em 6em;
     }
   }
 

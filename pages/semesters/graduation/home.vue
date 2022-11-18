@@ -19,7 +19,7 @@
  @import '~/assets/css/graduation.css';
 
   body {
-    background-color: #166ECC;
+    /* background-color: #166ECC; */
     color: #fff;
     margin: 0 auto;
   }

@@ -267,8 +267,10 @@
       max-width: 400px;
     }
     .rick-wrapper {
-      max-width: 350px;
+      max-width: 450px;
     }
+
+
   }
 
   @media (min-width: 1024px) {
@@ -296,7 +298,6 @@
 
     .rick-wrapper{
       width: 100%;
-      max-width: unset;
       z-index: 1;
       max-width: 500px;
     }
@@ -305,7 +306,7 @@
       /* height: 682px; */
       /* min-height: unset;
       min-width: unset; */
-      max-width: 373.8px;
+      /* max-width: 373.8px; */
       width: auto;
       transform: scale(1.05);
       transform-origin: -100% 100%;

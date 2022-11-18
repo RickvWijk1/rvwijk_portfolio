@@ -29,7 +29,6 @@
             <div class="img-overlay"></div>
           </div>
         </div>
-
       </li>
       <!-- <img :src="img_src"> -->
     </ul>

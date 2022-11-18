@@ -38,9 +38,9 @@
           </li>
         </ul>
         <NuxtLink to="/semesters/graduation/leeruitkomsten" class="desktop-next-page" exact>
-            <p>Ga naar de leeruitkomsten</p>
-              <svg-icon class="svg-arrow-right" name="arrow-right" />
-          </NuxtLink>
+          <p>Ga naar de leeruitkomsten</p>
+          <svg-icon class="svg-arrow-right" name="arrow-right" />
+        </NuxtLink>
       </div>
     </div>
   </div>
@@ -56,10 +56,12 @@
 </script>
 
 <style lang="css" scoped>
-.nav-wrapper{
-  position: relative;
-  display: flex;
-}
+  .nav-wrapper {
+    position: relative;
+    display: flex;
+    height: 56px;
+  }
+
   .bottom-nav {
     z-index: 99;
     flex: 1;
@@ -113,9 +115,9 @@
   .bottom-desktop-nav {
     z-index: 99;
     display: none;
-    -webkit-box-shadow: 0px -12px 51px -21px rgba(0,0,0,0.75);
--moz-box-shadow: 0px -12px 51px -21px rgba(0,0,0,0.75);
-box-shadow: 0px -12px 51px -21px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px -12px 51px -21px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px -12px 51px -21px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px -12px 51px -21px rgba(0, 0, 0, 0.75);
   }
 
   .desktop-nav-cont {
@@ -137,7 +139,7 @@ box-shadow: 0px -12px 51px -21px rgba(0,0,0,0.75);
     font-weight: bold;
   }
 
-  .desktop-next-page{
+  .desktop-next-page {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -148,14 +150,14 @@ box-shadow: 0px -12px 51px -21px rgba(0,0,0,0.75);
     letter-spacing: .05rem;
   }
 
-.svg-arrow-right{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 38px;
-  max-height: 2.5rem;
-  fill: #000;
-}
+  .svg-arrow-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 38px;
+    max-height: 2.5rem;
+    fill: #000;
+  }
 
   .nuxt-link-active {
     position: relative;
@@ -186,6 +188,9 @@ box-shadow: 0px -12px 51px -21px rgba(0,0,0,0.75);
   @media (min-width: 768px) {}
 
   @media (min-width: 1024px) {
+    .nav-wrapper{
+      height: unset;
+    }
     .bottom-nav-mobile {
       display: none;
     }
@@ -206,8 +211,16 @@ box-shadow: 0px -12px 51px -21px rgba(0,0,0,0.75);
     }
   }
 
-  @media (min-width: 1280px) {}
+  @media (min-width: 1280px) {
+    .bottom-desktop-nav {
+      padding: 3em 6em;
+    }
+  }
 
-  @media (min-width: 1536px) {}
+  @media (min-width: 1536px) {
+    .bottom-desktop-nav {
+      padding: 3em 16em;
+    }
+  }
 
 </style>

@@ -4,48 +4,48 @@
       <GraduationCardCont />
     </div>
     <div class="nav-wrapper">
-    <div class="bottom-nav-mobile">
-      <v-bottom-navigation :value="value" color="green" grow class="bottom-nav">
-        <NuxtLink to="/semesters/graduation/home">
-          <v-btn class="nav-item">
-            <span>HOME</span>
-            <v-icon>mdi-home</v-icon>
-          </v-btn>
-        </NuxtLink>
-        <NuxtLink to="/semesters/graduation/leeswijzer">
-          <v-btn class="nav-item">
-            <span class="nav-item-label">LEESWIJZER</span>
-            <v-icon>mdi-lightbulb</v-icon>
-          </v-btn>
-        </NuxtLink>
-        <NuxtLink to="/semesters/graduation/leeruitkomsten">
-          <v-btn class="nav-item">
-            <span>UITKOMSTEN</span>
-            <v-icon>mdi-school</v-icon>
-          </v-btn>
-        </NuxtLink>
-      </v-bottom-navigation>
-    </div>
-    <div class="bottom-desktop-nav">
-      <div class="desktop-nav-cont">
-        <ul>
-          <li>
-            <NuxtLink to="/semesters/graduation/home" exact>Home</NuxtLink>
-          </li>
-          <li>
-            <NuxtLink to="/semesters/graduation/leeswijzer" exact>Leeswijzer</NuxtLink>
-          </li>
-          <li>
-            <NuxtLink to="/semesters/graduation/leeruitkomsten" exact>Leeruitkomsten</NuxtLink>
-          </li>
-        </ul>
-        <NuxtLink to="/semesters/graduation/analyseren" class="desktop-next-page" exact>
-            <p>Ga naar 'Analyseren'</p>
-              <svg-icon class="svg-arrow-right" name="arrow-right" />
+      <div class="bottom-nav-mobile">
+        <v-bottom-navigation :value="value" color="green" grow class="bottom-nav">
+          <NuxtLink to="/semesters/graduation/home">
+            <v-btn class="nav-item">
+              <span>HOME</span>
+              <v-icon>mdi-home</v-icon>
+            </v-btn>
           </NuxtLink>
+          <NuxtLink to="/semesters/graduation/leeswijzer">
+            <v-btn class="nav-item">
+              <span class="nav-item-label">LEESWIJZER</span>
+              <v-icon>mdi-lightbulb</v-icon>
+            </v-btn>
+          </NuxtLink>
+          <NuxtLink to="/semesters/graduation/leeruitkomsten">
+            <v-btn class="nav-item">
+              <span>UITKOMSTEN</span>
+              <v-icon>mdi-school</v-icon>
+            </v-btn>
+          </NuxtLink>
+        </v-bottom-navigation>
+      </div>
+      <div class="bottom-desktop-nav">
+        <div class="desktop-nav-cont">
+          <ul>
+            <li>
+              <NuxtLink to="/semesters/graduation/home" exact>Home</NuxtLink>
+            </li>
+            <li>
+              <NuxtLink to="/semesters/graduation/leeswijzer" exact>Leeswijzer</NuxtLink>
+            </li>
+            <li>
+              <NuxtLink to="/semesters/graduation/leeruitkomsten" exact>Leeruitkomsten</NuxtLink>
+            </li>
+          </ul>
+          <NuxtLink to="/semesters/graduation/analyseren" class="desktop-next-page" exact>
+            <p>Ga naar 'Analyseren'</p>
+            <svg-icon class="svg-arrow-right" name="arrow-right" />
+          </NuxtLink>
+        </div>
       </div>
     </div>
-  </div>
   </div>
 </template>
 
@@ -63,15 +63,17 @@
   .content-wrapper {
     display: flex;
     flex-direction: column;
-    align-items: center;
     padding: 2em 1em;
     background-color: #fff;
   }
 
-  .nav-wrapper{
-  position: relative;
-  display: flex;
-}
+  .nav-wrapper {
+    position: relative;
+    display: flex;
+    height: 56px;
+
+  }
+
   .bottom-nav {
     z-index: 99;
     flex: 1;
@@ -124,7 +126,7 @@
 
   .bottom-desktop-nav {
     display: none;
-    box-shadow: 0px -12px 51px -21px rgba(0,0,0,0.75);
+    box-shadow: 0px -12px 51px -21px rgba(0, 0, 0, 0.75);
   }
 
   .desktop-nav-cont {
@@ -146,7 +148,7 @@
     font-weight: bold;
   }
 
-  .desktop-next-page{
+  .desktop-next-page {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -157,18 +159,16 @@
     letter-spacing: .05rem;
   }
 
-.svg-arrow-right{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 38px;
-  max-height: 2.5rem;
-  fill: #000;
-}
+  .svg-arrow-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 38px;
+    max-height: 2.5rem;
+    fill: #000;
+  }
 
-.desktop-next-page
-
-  .nuxt-link-active {
+  .desktop-next-page .nuxt-link-active {
     position: relative;
     border-bottom: 6px solid #fff;
     padding: 0 0 .1em 0;
@@ -176,10 +176,10 @@
   }
 
   @media (min-width: 300px) {
-  .content-wrapper{
-    padding: 2em;
+    .content-wrapper {
+      padding: 2em;
+    }
 
-  }
     .bottom-nav {
       height: 65px !important;
       /* display: none !important; */
@@ -198,12 +198,15 @@
   @media (min-width: 640px) {}
 
   @media (min-width: 768px) {
-    .content-wrapper{
+    .content-wrapper {
       padding: 3em 2em;
     }
   }
 
   @media (min-width: 1024px) {
+    .nav-wrapper{
+      height: unset;
+    }
     .bottom-nav-mobile {
       display: none;
     }
@@ -225,11 +228,23 @@
   }
 
   @media (min-width: 1280px) {
-    .content-wrapper{
+    .content-wrapper {
+      padding: 3em 6em;
+    }
+
+    .bottom-desktop-nav {
       padding: 3em 6em;
     }
   }
 
-  @media (min-width: 1536px) {}
+  @media (min-width: 1536px) {
+    .content-wrapper {
+      padding: 3em 16em;
+    }
+
+    .bottom-desktop-nav {
+      padding: 3em 16em;
+    }
+  }
 
 </style>

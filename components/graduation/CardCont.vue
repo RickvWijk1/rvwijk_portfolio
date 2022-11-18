@@ -205,8 +205,6 @@
     background: linear-gradient(154.88deg, #166ECC 0%, #95C8FF 100%);
   }
 
-
-
   .card-header {
     display: flex;
     flex-direction: column;
@@ -223,10 +221,18 @@
     font-size: 1.7rem;
   }
 
+  .card-footer{
+    display: flex;
+    width: 100%;
+  }
+  .card-footer a{
+    width: 7em;
+
+  }
+
   .card-btn {
     display: flex;
     justify-content: space-around;
-    width: 7em;
     padding: .5em .75em;
     color: #000;
     background-image: linear-gradient(100.11deg, #FFFFFF 4.07%, #93C7FF 91.25%);
@@ -253,15 +259,26 @@
   }
 
   @media (min-width: 300px) {
+    .grid-wrapper{
+      place-content: end end;
+      place-items:  center;
+    }
     .card {
-      height: 350px;
-      /* width: 300px; */
+      height: 370px;
+      width: 300px;
     }
   }
 
   @media (min-width: 640px) {
     .grid-wrapper {
       grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .grid-wrapper .card:nth-child(odd){
+      place-self: end;
+    }
+    .grid-wrapper .card:nth-child(even){
+      place-self: start;
     }
 
     .card {
@@ -272,30 +289,56 @@
 
   @media (min-width: 768px) {
     .grid-wrapper {
-      /* grid-template-columns: repeat(3, minmax(0, 1fr)); */
+      place-content: end space-between;
     }
     .card {
-      /* height: 500px;
-      max-width: 400px; */
     }
   }
 
   @media (min-width: 1024px) {
     .grid-wrapper {
+      gap: 3em;
       grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    .grid-wrapper .card:nth-child(even), .grid-wrapper .card:nth-child(odd) {
+      place-self: unset;
+    }
+
+    .grid-wrapper .card:nth-child(3n + 1){
+      place-self: end;
+    }
+    .grid-wrapper .card:nth-child(3n + 3){
+      place-self: start;
     }
   }
 
   @media (min-width: 1280px) {
-    .grid-wrapper {
-      grid-template-columns: repeat(4, minmax(0, 1fr));
-    }
+
     .card {
       height: 370px;
       max-width: 300px;
     }
   }
 
-  @media (min-width: 1536px) {}
+  @media (min-width: 1536px) {
+    .grid-wrapper {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 4rem 6rem;
+    }
+    .grid-wrapper .card:nth-child(4n + 1){
+      place-self: end;
+    }
+
+    .grid-wrapper .card:nth-child(6){
+      place-self: center;
+    }
+    .grid-wrapper .card:nth-child(7){
+      place-self: start;
+    }
+
+    .grid-wrapper .card:nth-child(4n + 4){
+      place-self: start;
+    }
+  }
 
 </style>

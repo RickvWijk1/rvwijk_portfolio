@@ -218,7 +218,7 @@
     }
 
     .bbd-logo {
-      height: 60px;
+      height: 50px;
     }
 
     .bbd-logo-desktop{
@@ -349,10 +349,17 @@
     }
 
     .banner-wrapper{
-      padding: 2em 6em 2em 6em;
+      padding: 3em 6em;
     }
   }
 
-  @media (min-width: 1536px) {}
+  @media (min-width: 1536px) {
+    .banner-wrapper{
+      padding: 4em 10em 4em 16em;
+    }
+    .rick{
+      /* transform-origin: -1000% 100%; */
+    }
+  }
 
 </style>

@@ -119,6 +119,10 @@
     }
   }
 
-  @media (min-width: 1536px) {}
+  @media (min-width: 1536px) {
+    .hero{
+      padding: 3em 16em;
+    }
+  }
 
 </style>

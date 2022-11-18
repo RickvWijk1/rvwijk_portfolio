@@ -4,39 +4,39 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _d56d31b8 = () => interopDefault(import('..\\node_modules\\@nuxtjs\\svg-sprite\\lib\\pages\\icons-list.vue' /* webpackChunkName: "" */))
-const _3d143d61 = () => interopDefault(import('..\\pages\\about.vue' /* webpackChunkName: "pages/about" */))
-const _1cc58746 = () => interopDefault(import('..\\pages\\interests.vue' /* webpackChunkName: "pages/interests" */))
-const _12f15ed6 = () => interopDefault(import('..\\pages\\projects.vue' /* webpackChunkName: "pages/projects" */))
-const _d9e128ea = () => interopDefault(import('..\\pages\\semesters\\semesterSix.vue' /* webpackChunkName: "pages/semesters/semesterSix" */))
-const _2b9cc52c = () => interopDefault(import('..\\pages\\modals\\projects\\fect.vue' /* webpackChunkName: "pages/modals/projects/fect" */))
-const _65b5496f = () => interopDefault(import('..\\pages\\modals\\projects\\mft.vue' /* webpackChunkName: "pages/modals/projects/mft" */))
-const _189e2486 = () => interopDefault(import('..\\pages\\modals\\projects\\quaquiz.vue' /* webpackChunkName: "pages/modals/projects/quaquiz" */))
-const _ab2769c2 = () => interopDefault(import('..\\pages\\modals\\projects\\solid.vue' /* webpackChunkName: "pages/modals/projects/solid" */))
-const _43c6bfea = () => interopDefault(import('..\\pages\\modals\\semesterSix\\architecture.vue' /* webpackChunkName: "pages/modals/semesterSix/architecture" */))
-const _72a62ba8 = () => interopDefault(import('..\\pages\\modals\\semesterSix\\delivery.vue' /* webpackChunkName: "pages/modals/semesterSix/delivery" */))
-const _16f4ae6a = () => interopDefault(import('..\\pages\\modals\\semesterSix\\designTesting.vue' /* webpackChunkName: "pages/modals/semesterSix/designTesting" */))
-const _fa41c738 = () => interopDefault(import('..\\pages\\modals\\semesterSix\\flutterNotifications.vue' /* webpackChunkName: "pages/modals/semesterSix/flutterNotifications" */))
-const _35536616 = () => interopDefault(import('..\\pages\\modals\\semesterSix\\indDesign.vue' /* webpackChunkName: "pages/modals/semesterSix/indDesign" */))
-const _cbef8e6e = () => interopDefault(import('..\\pages\\modals\\semesterSix\\indInterviews.vue' /* webpackChunkName: "pages/modals/semesterSix/indInterviews" */))
-const _7444551c = () => interopDefault(import('..\\pages\\modals\\semesterSix\\indProject.vue' /* webpackChunkName: "pages/modals/semesterSix/indProject" */))
-const _5979ae9a = () => interopDefault(import('..\\pages\\modals\\semesterSix\\indRecommendations.vue' /* webpackChunkName: "pages/modals/semesterSix/indRecommendations" */))
-const _3fcb864a = () => interopDefault(import('..\\pages\\modals\\semesterSix\\interviews.vue' /* webpackChunkName: "pages/modals/semesterSix/interviews" */))
-const _0e374e28 = () => interopDefault(import('..\\pages\\modals\\semesterSix\\learning-outcomes.vue' /* webpackChunkName: "pages/modals/semesterSix/learning-outcomes" */))
-const _0616843b = () => interopDefault(import('..\\pages\\modals\\semesterSix\\metaconcept.vue' /* webpackChunkName: "pages/modals/semesterSix/metaconcept" */))
-const _12a56f8e = () => interopDefault(import('..\\pages\\modals\\semesterSix\\metavideo.vue' /* webpackChunkName: "pages/modals/semesterSix/metavideo" */))
-const _b606c39c = () => interopDefault(import('..\\pages\\modals\\semesterSix\\notificationSystem.vue' /* webpackChunkName: "pages/modals/semesterSix/notificationSystem" */))
-const _21253882 = () => interopDefault(import('..\\pages\\modals\\semesterSix\\portfolio-abstract.vue' /* webpackChunkName: "pages/modals/semesterSix/portfolio-abstract" */))
-const _63679359 = () => interopDefault(import('..\\pages\\modals\\semesterSix\\prepweek.vue' /* webpackChunkName: "pages/modals/semesterSix/prepweek" */))
-const _0993244c = () => interopDefault(import('..\\pages\\modals\\semesterSix\\projectPlan.vue' /* webpackChunkName: "pages/modals/semesterSix/projectPlan" */))
-const _8fb60bee = () => interopDefault(import('..\\pages\\modals\\semesterSix\\techResearch.vue' /* webpackChunkName: "pages/modals/semesterSix/techResearch" */))
-const _137dd7ae = () => interopDefault(import('..\\pages\\modals\\semesterSix\\trends.vue' /* webpackChunkName: "pages/modals/semesterSix/trends" */))
-const _37276f20 = () => interopDefault(import('..\\pages\\modals\\semesterSix\\userstories.vue' /* webpackChunkName: "pages/modals/semesterSix/userstories" */))
-const _559c019c = () => interopDefault(import('..\\pages\\semesters\\graduation\\home.vue' /* webpackChunkName: "pages/semesters/graduation/home" */))
-const _715fb756 = () => interopDefault(import('..\\pages\\semesters\\graduation\\leeruitkomsten.vue' /* webpackChunkName: "pages/semesters/graduation/leeruitkomsten" */))
-const _b655e81a = () => interopDefault(import('..\\pages\\semesters\\graduation\\leeswijzer.vue' /* webpackChunkName: "pages/semesters/graduation/leeswijzer" */))
-const _30244af8 = () => interopDefault(import('..\\pages\\semesters\\graduation\\learningoutcomes\\analyseren.vue' /* webpackChunkName: "pages/semesters/graduation/learningoutcomes/analyseren" */))
-const _5ccc1826 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _044e5802 = () => interopDefault(import('../node_modules/@nuxtjs/svg-sprite/lib/pages/icons-list.vue' /* webpackChunkName: "" */))
+const _4cf94632 = () => interopDefault(import('../pages/about.vue' /* webpackChunkName: "pages/about" */))
+const _033f74ae = () => interopDefault(import('../pages/interests.vue' /* webpackChunkName: "pages/interests" */))
+const _7e234f36 = () => interopDefault(import('../pages/projects.vue' /* webpackChunkName: "pages/projects" */))
+const _1ef7a6db = () => interopDefault(import('../pages/semesters/semesterSix.vue' /* webpackChunkName: "pages/semesters/semesterSix" */))
+const _40f61967 = () => interopDefault(import('../pages/modals/projects/fect.vue' /* webpackChunkName: "pages/modals/projects/fect" */))
+const _1c1301d4 = () => interopDefault(import('../pages/modals/projects/mft.vue' /* webpackChunkName: "pages/modals/projects/mft" */))
+const _7eef226b = () => interopDefault(import('../pages/modals/projects/quaquiz.vue' /* webpackChunkName: "pages/modals/projects/quaquiz" */))
+const _403d7e44 = () => interopDefault(import('../pages/modals/projects/solid.vue' /* webpackChunkName: "pages/modals/projects/solid" */))
+const _0f7f28b4 = () => interopDefault(import('../pages/modals/semesterSix/architecture.vue' /* webpackChunkName: "pages/modals/semesterSix/architecture" */))
+const _9cb68972 = () => interopDefault(import('../pages/modals/semesterSix/delivery.vue' /* webpackChunkName: "pages/modals/semesterSix/delivery" */))
+const _414a562f = () => interopDefault(import('../pages/modals/semesterSix/designTesting.vue' /* webpackChunkName: "pages/modals/semesterSix/designTesting" */))
+const _5911c602 = () => interopDefault(import('../pages/modals/semesterSix/flutterNotifications.vue' /* webpackChunkName: "pages/modals/semesterSix/flutterNotifications" */))
+const _59589f3a = () => interopDefault(import('../pages/modals/semesterSix/indDesign.vue' /* webpackChunkName: "pages/modals/semesterSix/indDesign" */))
+const _77443ee4 = () => interopDefault(import('../pages/modals/semesterSix/indInterviews.vue' /* webpackChunkName: "pages/modals/semesterSix/indInterviews" */))
+const _5bb46866 = () => interopDefault(import('../pages/modals/semesterSix/indProject.vue' /* webpackChunkName: "pages/modals/semesterSix/indProject" */))
+const _1f88940e = () => interopDefault(import('../pages/modals/semesterSix/indRecommendations.vue' /* webpackChunkName: "pages/modals/semesterSix/indRecommendations" */))
+const _4c137ca5 = () => interopDefault(import('../pages/modals/semesterSix/interviews.vue' /* webpackChunkName: "pages/modals/semesterSix/interviews" */))
+const _42398b6d = () => interopDefault(import('../pages/modals/semesterSix/learning-outcomes.vue' /* webpackChunkName: "pages/modals/semesterSix/learning-outcomes" */))
+const _fa654d80 = () => interopDefault(import('../pages/modals/semesterSix/metaconcept.vue' /* webpackChunkName: "pages/modals/semesterSix/metaconcept" */))
+const _f2b07c5a = () => interopDefault(import('../pages/modals/semesterSix/metavideo.vue' /* webpackChunkName: "pages/modals/semesterSix/metavideo" */))
+const _1d7bece6 = () => interopDefault(import('../pages/modals/semesterSix/notificationSystem.vue' /* webpackChunkName: "pages/modals/semesterSix/notificationSystem" */))
+const _3bb2cf1a = () => interopDefault(import('../pages/modals/semesterSix/portfolio-abstract.vue' /* webpackChunkName: "pages/modals/semesterSix/portfolio-abstract" */))
+const _4e5f6474 = () => interopDefault(import('../pages/modals/semesterSix/prepweek.vue' /* webpackChunkName: "pages/modals/semesterSix/prepweek" */))
+const _77ed42df = () => interopDefault(import('../pages/modals/semesterSix/projectPlan.vue' /* webpackChunkName: "pages/modals/semesterSix/projectPlan" */))
+const _5b6e74b8 = () => interopDefault(import('../pages/modals/semesterSix/techResearch.vue' /* webpackChunkName: "pages/modals/semesterSix/techResearch" */))
+const _4e4598ee = () => interopDefault(import('../pages/modals/semesterSix/trends.vue' /* webpackChunkName: "pages/modals/semesterSix/trends" */))
+const _984377b6 = () => interopDefault(import('../pages/modals/semesterSix/userstories.vue' /* webpackChunkName: "pages/modals/semesterSix/userstories" */))
+const _1d6d65b1 = () => interopDefault(import('../pages/semesters/graduation/home.vue' /* webpackChunkName: "pages/semesters/graduation/home" */))
+const _16f275aa = () => interopDefault(import('../pages/semesters/graduation/leeruitkomsten.vue' /* webpackChunkName: "pages/semesters/graduation/leeruitkomsten" */))
+const _5c236770 = () => interopDefault(import('../pages/semesters/graduation/leeswijzer.vue' /* webpackChunkName: "pages/semesters/graduation/leeswijzer" */))
+const _9e49d314 = () => interopDefault(import('../pages/semesters/graduation/learningoutcomes/analyseren.vue' /* webpackChunkName: "pages/semesters/graduation/learningoutcomes/analyseren" */))
+const _6cb120f7 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -51,135 +51,135 @@ export const routerOptions = {
 
   routes: [{
     path: "/_icons",
-    component: _d56d31b8,
+    component: _044e5802,
     name: "icons-list"
   }, {
     path: "/about",
-    component: _3d143d61,
+    component: _4cf94632,
     name: "about"
   }, {
     path: "/interests",
-    component: _1cc58746,
+    component: _033f74ae,
     name: "interests"
   }, {
     path: "/projects",
-    component: _12f15ed6,
+    component: _7e234f36,
     name: "projects"
   }, {
     path: "/semesters/semesterSix",
-    component: _d9e128ea,
+    component: _1ef7a6db,
     name: "semesters-semesterSix"
   }, {
     path: "/modals/projects/fect",
-    component: _2b9cc52c,
+    component: _40f61967,
     name: "modals-projects-fect"
   }, {
     path: "/modals/projects/mft",
-    component: _65b5496f,
+    component: _1c1301d4,
     name: "modals-projects-mft"
   }, {
     path: "/modals/projects/quaquiz",
-    component: _189e2486,
+    component: _7eef226b,
     name: "modals-projects-quaquiz"
   }, {
     path: "/modals/projects/solid",
-    component: _ab2769c2,
+    component: _403d7e44,
     name: "modals-projects-solid"
   }, {
     path: "/modals/semesterSix/architecture",
-    component: _43c6bfea,
+    component: _0f7f28b4,
     name: "modals-semesterSix-architecture"
   }, {
     path: "/modals/semesterSix/delivery",
-    component: _72a62ba8,
+    component: _9cb68972,
     name: "modals-semesterSix-delivery"
   }, {
     path: "/modals/semesterSix/designTesting",
-    component: _16f4ae6a,
+    component: _414a562f,
     name: "modals-semesterSix-designTesting"
   }, {
     path: "/modals/semesterSix/flutterNotifications",
-    component: _fa41c738,
+    component: _5911c602,
     name: "modals-semesterSix-flutterNotifications"
   }, {
     path: "/modals/semesterSix/indDesign",
-    component: _35536616,
+    component: _59589f3a,
     name: "modals-semesterSix-indDesign"
   }, {
     path: "/modals/semesterSix/indInterviews",
-    component: _cbef8e6e,
+    component: _77443ee4,
     name: "modals-semesterSix-indInterviews"
   }, {
     path: "/modals/semesterSix/indProject",
-    component: _7444551c,
+    component: _5bb46866,
     name: "modals-semesterSix-indProject"
   }, {
     path: "/modals/semesterSix/indRecommendations",
-    component: _5979ae9a,
+    component: _1f88940e,
     name: "modals-semesterSix-indRecommendations"
   }, {
     path: "/modals/semesterSix/interviews",
-    component: _3fcb864a,
+    component: _4c137ca5,
     name: "modals-semesterSix-interviews"
   }, {
     path: "/modals/semesterSix/learning-outcomes",
-    component: _0e374e28,
+    component: _42398b6d,
     name: "modals-semesterSix-learning-outcomes"
   }, {
     path: "/modals/semesterSix/metaconcept",
-    component: _0616843b,
+    component: _fa654d80,
     name: "modals-semesterSix-metaconcept"
   }, {
     path: "/modals/semesterSix/metavideo",
-    component: _12a56f8e,
+    component: _f2b07c5a,
     name: "modals-semesterSix-metavideo"
   }, {
     path: "/modals/semesterSix/notificationSystem",
-    component: _b606c39c,
+    component: _1d7bece6,
     name: "modals-semesterSix-notificationSystem"
   }, {
     path: "/modals/semesterSix/portfolio-abstract",
-    component: _21253882,
+    component: _3bb2cf1a,
     name: "modals-semesterSix-portfolio-abstract"
   }, {
     path: "/modals/semesterSix/prepweek",
-    component: _63679359,
+    component: _4e5f6474,
     name: "modals-semesterSix-prepweek"
   }, {
     path: "/modals/semesterSix/projectPlan",
-    component: _0993244c,
+    component: _77ed42df,
     name: "modals-semesterSix-projectPlan"
   }, {
     path: "/modals/semesterSix/techResearch",
-    component: _8fb60bee,
+    component: _5b6e74b8,
     name: "modals-semesterSix-techResearch"
   }, {
     path: "/modals/semesterSix/trends",
-    component: _137dd7ae,
+    component: _4e4598ee,
     name: "modals-semesterSix-trends"
   }, {
     path: "/modals/semesterSix/userstories",
-    component: _37276f20,
+    component: _984377b6,
     name: "modals-semesterSix-userstories"
   }, {
     path: "/semesters/graduation/home",
-    component: _559c019c,
+    component: _1d6d65b1,
     name: "semesters-graduation-home"
   }, {
     path: "/semesters/graduation/leeruitkomsten",
-    component: _715fb756,
+    component: _16f275aa,
     name: "semesters-graduation-leeruitkomsten"
   }, {
     path: "/semesters/graduation/leeswijzer",
-    component: _b655e81a,
+    component: _5c236770,
     name: "semesters-graduation-leeswijzer"
   }, {
     path: "/semesters/graduation/learningoutcomes/analyseren",
-    component: _30244af8,
+    component: _9e49d314,
     name: "semesters-graduation-learningoutcomes-analyseren"
   }, {
     path: "/",
-    component: _5ccc1826,
+    component: _6cb120f7,
     name: "index"
   }],
 

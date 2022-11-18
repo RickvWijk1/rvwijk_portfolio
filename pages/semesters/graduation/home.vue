@@ -49,7 +49,8 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    height: 100%;
+    /* height: 100%;  */
+    height: calc(100% - 62px);
     overflow-y: auto;
     overflow-x: hidden;
     /* margin: 0 0 56px 0; */

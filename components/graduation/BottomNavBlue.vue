@@ -206,8 +206,17 @@
     }
   }
 
-  @media (min-width: 1280px) {}
+  @media (min-width: 1280px) {
+    .bottom-desktop-nav{
+      padding: 3em 6em;
+    }
+  }
 
-  @media (min-width: 1536px) {}
+  @media (min-width: 1536px) {
+    .bottom-desktop-nav{
+      padding: 3em 16em;
+    }
+
+  }
 
 </style>

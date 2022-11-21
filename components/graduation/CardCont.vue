@@ -227,7 +227,6 @@
   }
   .card-footer a{
     width: 7em;
-
   }
 
   .card-btn {

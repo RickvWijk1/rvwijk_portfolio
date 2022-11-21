@@ -5783,6 +5783,11 @@
     "picocolors" "^1.0.0"
     "shell-quote" "^1.6.1"
 
+"lightgallery@^2.7.0":
+  "integrity" "sha512-iozIJNxKl3wPWcspCmRdaSYpYy3PjloC8BN0PDwaDOoTA1hsu1IhZdWQWI5cGgMJvnksP94/smElMwn2HS5d3Q=="
+  "resolved" "https://registry.npmjs.org/lightgallery/-/lightgallery-2.7.0.tgz"
+  "version" "2.7.0"
+
 "lilconfig@^2.0.4":
   "integrity" "sha512-bfTIN7lEsiooCocSISTWXkiWJkRqtL9wYtYy+8EK3Y41qh3mpwPU0ycTOgjdY9ErwXCc8QyrQp82bdL0Xkm9yA=="
   "resolved" "https://registry.npmjs.org/lilconfig/-/lilconfig-2.0.4.tgz"

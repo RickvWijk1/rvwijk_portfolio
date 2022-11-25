@@ -169,7 +169,9 @@
                     behoeftes en goals van de BBD developers beter begrijpen.
                     De vondsten zijn in beeld gebracht door <a target="__blank"
                       href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren#projectplan"
-                      class="txt-link">empathy mapping</a> toe te passen. Met deze informatie en de eisen vanuit Bluebird Day, kon er een lijst met requirements voor de front-end component library opgesteld worden.
+                      class="txt-link">empathy mapping</a> toe te passen. Met deze informatie en de eisen vanuit Bluebird Day, kon er een lijst met <a target="__blank"
+                      href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren#projectplan"
+                      class="txt-link">requirements</a> voor de front-end component library opgesteld worden.
                   </p>
                 </div>
               </div>

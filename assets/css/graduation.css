@@ -2,6 +2,7 @@ html {
   padding-right: unset;
   overflow-x: hidden;
   overflow-y: hidden;
+  font-family: 'Roboto', sans-serif;
 }
 
 @media (min-width: 640px) {
@@ -13,7 +14,7 @@ html {
 h4{
   font-size: 1.2rem;
   font-weight: bold;
-  font-style: italic;
+  /* font-style: italic; */
 }
 
 .txt-link{

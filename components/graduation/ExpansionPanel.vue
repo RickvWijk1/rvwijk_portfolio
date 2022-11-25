@@ -9,12 +9,19 @@
               <div class="text-cont">
                 <nuxt-img class="bbd-logo" src="/img/graduation/leeswijzer/logo.png" loading="lazy" />
                 <p><a target="__blank" href="https://www.bluebirdday.nl/" class="txt-link">Bluebird Day</a> is de
-                  Nederlandse #1 op het gebied van e-commerce en één van de 9 <a target="__blank"
+                  Nederlandse #1 op het gebied van e-commerce en is één van de 9 <a target="__blank"
                     href="https://www.handpickedagencies.com/nl/" class="txt-link">Handpicked Agencies</a>.
                   Bluebird Day helpt A-merken met strategie, design, development en optimalisatie in e-commerce.
                   Samen met 5 andere Handpicked Agencies bevindt Bluebird Day zich op het hoofdkantoor in Breda, op 20
                   minuten loopafstand vanaf het station.
                 </p>
+                <div class="video-wrapper">
+                  <iframe frameborder="0" allowfullscreen="1"
+                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
+                    title="Bluebird Day Brand Movie" width="440" height="280"
+                    src="https://www.youtube-nocookie.com/embed/twjco4FJHHg"
+                   ></iframe>
+                </div>
               </div>
               <div class="img-cont">
                 <GraduationGallery />
@@ -54,12 +61,13 @@
                   <h4>Probleem</h4>
                 </div>
                 <div class="text-p-cont">
-                  <p>We hebben het binnen Bluebird Day regelmatig over het ‘wow’ effect en ‘award winning cases’. Dit
-                    zijn projecten waarbij we denken, wow dit is tof gemaakt en dit zijn projecten waar klanten en
+                  <p>Binnen Bluebird Day wordt er regelmatig gesproken over het 'wow' effect en 'award winning cases'.
+                    Dit
+                    zijn projecten waarbij je denkt, wow dit is tof gemaakt en dit zijn projecten waar klanten en
                     gebruikers ook happy van worden. In de praktijk blijkt het behalen en creëren van deze cases toch
                     lastig te zijn. Één van de factoren die Bluebird Day vaak terug ziet is tijd en geld. Vaak is er
                     binnen de
-                    offerte niet genoeg ruimte om de puntjes op de i te zetten die voor het wow effect zorgen bij een
+                    offerte niet genoeg ruimte om de puntjes op de i te zetten die voor het 'wow' effect zorgen bij een
                     nieuwe case.
                   </p>
                 </div>
@@ -81,11 +89,10 @@
                   <p>Door het inzetten van een front-end componenten library wordt er
                     verwacht meer tijd te besparen om meer aandacht te kunnen besteden aan het 'wow' effect.
                   </p>
+                  <i>Hoe zorg ik dat BBD front-end developers een middel hebben om hun componenten te kunnen
+                    hergebruiken
+                    zodat de kwaliteit van BBD’s projecten gewaarborgd kan blijven?</i>
                 </div>
-              </div>
-              <div class="text-cont">
-                <i>Hoe zorg ik dat BBD front-end developers een middel hebben om hun componenten te kunnen hergebruiken
-                  zodat de kwaliteit van BBD’s projecten gewaarborgd blijft?</i>
               </div>
               <div class="text-cont">
                 <div class="text-title">
@@ -95,7 +102,7 @@
                   <p>Dit project wordt uitgevoerd, zodat BBD front-end developers in de toekomst hun front-end
                     componenten hergebruiken. Het beoogde resultaat is een platform tot beschikking te hebben waarop
                     front-end developers elkaars componenten kunnen delen en gebruiken.</p>
-                    <p>
+                  <p>
                     De meerwaarde van het gewenste eindproduct, is dat de kwaliteit van de projecten gewaarborgd blijft.
                     Zo is er meer zekerheid dat klanten hun product(en) geleverd krijgen met de hoge kwaliteit die ze
                     gewend zijn van BBD.
@@ -111,14 +118,40 @@
           </v-expansion-panel-header>
           <v-expansion-panel-content>
             <div class="expansion-cont">
+              <div class="aanpak-cont text-cont">
+                    <div class="text-title">
+                  <h4>Aanpak</h4>
+                <div class="text-p-cont">
+                  <p>Gedurende het project is er zoveel mogelijk gewerkt met de tools waarmee Bluebird Day werkt. Jira
+                    is gebruikt om te plannen in combinatie met de Scrum projectmethodiek.
+                    GitLab is gebruikt als version control systeem. De Google suite is gebruikt voor email, agenda,
+                    online meetings en documentatie. Slack is gebruikt als communicatiemiddel om collega's te
+                    bereiken.
+                  </p>
+                  <p>
+                    Het Design Thinking proces is gebruikt om het probleem methodisch op te lossen. Verder zijn er
+                    onderzoekspatronen toegepast om het probleem in stappen op te lossen.
+                  </p>
+                  </div>
+                </div>
+              </div>
+              <div class="text-cont">
+                <img src="~/assets/img/school/graduation/leeswijzer/jira.png" alt="">
+
+              </div>
               <div class="text-cont">
                 <div class="text-title">
                   <h4>Analyseren</h4>
                 </div>
                 <div class="text-p-cont">
                   <p>Gedurende de eerste 3 weken is er een projectplan opgesteld. De informatie die nodig was om het
-                   <a target="__blank" href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren#projectplan" class="txt-link">projectplan</a> op te stellen, is verkregen door het uitvoeren van <a target="__blank" href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren#projectplan" class="txt-link">interviews</a>. De doelgroep, front-end
-                    developers, werden geïnterviewed.
+                    <a target="__blank"
+                      href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren#projectplan"
+                      class="txt-link">projectplan</a> op te stellen, is verkregen door het uitvoeren van <a
+                      target="__blank"
+                      href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren#projectplan"
+                      class="txt-link">interviews</a>. De doelgroep, front-end
+                    developers, werden o.a. geïnterviewed. Door het uitvoeren van een trend-analyse, vond ik bestaande oplossingen voor front-end component libraries.
                   </p>
                 </div>
               </div>
@@ -127,13 +160,16 @@
                   <h4>Empathize/Define</h4>
                 </div>
                 <div class="text-p-cont">
-                  <p>Dit project wordt uitgevoerd, zodat BBD front-end developers in de toekomst hun front-end
-                    componenten hergebruiken. Het beoogde resultaat is een platform tot beschikking te hebben waarop
-                    front-end developers elkaars componenten kunnen delen en gebruiken.
-
-                    De meerwaarde van het gewenste eindproduct, is dat de kwaliteit van de projecten gewaarborgd blijft.
-                    Zo is er meer zekerheid dat klanten hun product(en) geleverd krijgen met de hoge kwaliteit die ze
-                    gewend zijn van BBD.
+                  <p>Na het opstellen van het projectplan is er m.b.v. meer <a target="__blank"
+                      href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren#projectplan"
+                      class="txt-link">interviews</a> en de <a target="__blank"
+                      href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren#projectplan"
+                      class="txt-link">immersion</a> methode een beter beeld van de doelgroep ontstaan. Door deel te
+                    nemen aan het 'Boerschappen' project als front-end developer, kon ik de dagelijkse irritaties,
+                    behoeftes en goals van de BBD developers beter begrijpen.
+                    De vondsten zijn in beeld gebracht door <a target="__blank"
+                      href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren#projectplan"
+                      class="txt-link">empathy mapping</a> toe te passen. Met deze informatie en de eisen vanuit Bluebird Day, kon er een lijst met requirements voor de front-end component library opgesteld worden.
                   </p>
                 </div>
               </div>
@@ -142,13 +178,12 @@
                   <h4>Ideate/Prototype/Testen</h4>
                 </div>
                 <div class="text-p-cont">
-                  <p>Dit project wordt uitgevoerd, zodat BBD front-end developers in de toekomst hun front-end
-                    componenten hergebruiken. Het beoogde resultaat is een platform tot beschikking te hebben waarop
-                    front-end developers elkaars componenten kunnen delen en gebruiken.
-
-                    De meerwaarde van het gewenste eindproduct, is dat de kwaliteit van de projecten gewaarborgd blijft.
-                    Zo is er meer zekerheid dat klanten hun product(en) geleverd krijgen met de hoge kwaliteit die ze
-                    gewend zijn van BBD.
+                  <p>
+                    In de orienterende fase wilde ik weten of wat ik in gedachten had overeenkwam met de gedachtengang
+                    van het bedrijf/de bedrijfsbegeleider en wat de doelgroep van mijn ideeën zou vinden. Daarom heb ik een aantal <a target="__blank"
+                      href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren#projectplan"
+                      class="txt-link">schetsen/low-fidelity
+                    prototypes</a> gemaakt. Daarnaast ben ik de bestaande platformen verder gaan verkennen d.m.v. literatuuronderzoek en het maken van POC's.
                   </p>
                 </div>
               </div>
@@ -682,7 +717,7 @@
 
       .v-expansion-panels {
         align-content: flex-start;
-        gap: .5em;
+        gap: 1em;
         border-radius: 0;
       }
 
@@ -691,7 +726,6 @@
       .v-expansion-panels--popout>.v-expansion-panel--active {
         /* max-height: unset; */
       }
-
 
       .v-expansion-panel-header {
         justify-content: space-between;
@@ -743,10 +777,6 @@
         vertical-align: top
       }
 
-      .pdf-padding {
-        padding-bottom: 4em;
-      }
-
       .col-goals {
         width: 50%;
       }
@@ -778,7 +808,6 @@
         gap: 1rem;
       }
 
-
       .text-title {}
 
       .text-p-cont {
@@ -787,16 +816,26 @@
         gap: 1rem;
       }
 
+      .video-wrapper {
+        position: relative;
+        height: 0;
+        padding-top: calc(var(--aspect-ratio, .5625)*100%);
+      }
 
+      .video-wrapper iframe{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
 
       @media (min-width: 300px) {
         .bbd-logo {
           width: 300px;
         }
 
-        .expansion-cont {
-          /* align-items: center; */
-        }
+        .expansion-cont {}
 
         .img-cont {
           max-width: 400px;
@@ -806,7 +845,12 @@
 
       @media (min-width: 640px) {
         .v-expansion-panels {
-          max-width: 1000px;
+          /* max-width: 1200px; */
+        }
+
+        .text-cont {
+        gap: 2rem;
+
         }
 
         .text-cont,
@@ -823,10 +867,20 @@
       @media (min-width: 768px) {}
 
       @media (min-width: 1024px) {
-
         .expansion-cont {
-          /* flex-direction: row; */
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 4rem;
+          padding: 3em 1em;
 
+        }
+
+        .expansion-cont table,
+        .expansion-cont .aanpak-cont {
+          display: flex;
+          width: 100%;
+          /* grid-column: 1 / 3; */
+          flex-direction: row;
         }
 
       }

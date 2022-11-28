@@ -5,7 +5,7 @@
     </div>
     <div class="nav-wrapper">
       <div class="bottom-nav-mobile">
-        <v-bottom-navigation :value="value" color="green" grow class="bottom-nav">
+        <v-bottom-navigation grow class="bottom-nav">
           <NuxtLink to="/semesters/graduation/home">
             <v-btn class="nav-item">
               <span>HOME</span>
@@ -71,7 +71,6 @@
     position: relative;
     display: flex;
     height: 56px;
-
   }
 
   .bottom-nav {

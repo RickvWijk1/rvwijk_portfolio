@@ -72,8 +72,8 @@
                 ICT & Media Design students since the client specifically asked for a cheaper technical solution and
                 nothing that had something to do with users.</p>
               <p>We arranged two more meetings with PSV to see if we could reformulate the assignment and define the
-                scope. 
-                
+                scope.
+
                 I advised the client to not only look at
                   the technical aspect, but also to look at how to increase the value of the PSV app by letting us
                   research what features the target audience (actually) needs. I told the client that this is what

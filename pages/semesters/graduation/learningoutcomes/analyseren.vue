@@ -11,16 +11,23 @@
         <v-navigation-drawer v-model="drawer" app light temporary class="sidepanel">
           <v-list class="v-list-cont" nav dense>
             <v-list-item-group>
+              <div class="sidepanel-item-cont">
+                <v-list-item>
+                  <h2>Analyseren</h2>
+                </v-list-item>
+              </div>
+            <div class="sidepanel-item-cont">
               <a class="pagination-next" href="semesters/graduation/learningoutcomes/analyseren#projectplan">
                 <v-list-item>
-                  <v-list-item-title>Projectplan</v-list-item-title>
+                  <v-list-item-title class="v-list-item-title"><p>Projectplan</p></v-list-item-title>
                 </v-list-item>
               </a>
-
-              <v-list-item>
-                <v-list-item-title>Trend-analyse</v-list-item-title>
-              </v-list-item>
-
+              <a class="pagination-next" href="semesters/graduation/learningoutcomes/analyseren#projectplan">
+                <v-list-item>
+                  <v-list-item-title class="v-list-item-title"><p>Trend-analyse</p></v-list-item-title>
+                </v-list-item>
+              </a>
+              </div>
             </v-list-item-group>
             <v-list-item-group>
               <div class="pagination-mobile pagination">
@@ -43,90 +50,92 @@
       </nav>
 
       <div class="page-wrapper">
-        <div class="content-cont">
-          <h3>Analyseren</h3>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere reprehenderit voluptas vel cupiditate quisquam
-          accusantium numquam, consequuntur expedita labore sint delectus animi sapiente natus maiores possimus
-          perspiciatis aliquam maxime praesentium dolor aliquid saepe laborum quidem? Modi accusantium commodi, et error
-          tenetur maiores nulla repudiandae, labore voluptates molestias ut numquam magni hic repellendus omnis! Numquam
-          illum atque sequi reprehenderit, nobis quia illo cumque at dolorum autem, eius fugiat! Praesentium neque ut quis
-          voluptates, accusamus deserunt accusantium ab eos distinctio perspiciatis. Labore quae non tempore magni
-          officia, dolorum quia iure amet perferendis. Quibusdam aperiam expedita deserunt quia ut facilis suscipit
-          officia est. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa fuga necessitatibus impedit
-          doloribus deleniti! Facilis et, illo corrupti ducimus dignissimos pariatur inventore. Aperiam voluptatum vero
-          alias rerum commodi ad nihil aut delectus earum similique molestiae, praesentium perferendis. Repellat hic
-          perferendis laboriosam asperiores? Deserunt exercitationem dolore blanditiis consectetur, doloremque adipisci
-          corrupti commodi? Ex quidem quos eius iure,
+        <div class="leer-content-wrapper">
+          <div class="content-cont">
+            <h3 id="projectplan">Projectplan</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum debitis eos ut quos voluptas amet, aut
+              incidunt! Consequuntur, eveniet nostrum!</p>
+          </div>
+          <div class="content-cont">
+            <div class="learned-cont">
+              <h4>Aanpak</h4>
+              <img src="~/assets/img/school/icons/approach.png" alt="">
+            </div>
+            <div class="research-tags-cont">
+              <div class="research-tag research-active research-desktop">
+                <p>Desktop</p>
+                <img src="~/assets/img/school/research_strats/library.png" alt="">
+              </div>
+            </div>
+            <div class="research-text label-cont">
+              <p><b>Desktop research was applied,</b> because the current situation of PSV's problem/opportunity had
+                to
+                be analysed in order to understand the assignment. By talking to PSV's representatives we gained
+                insight
+                of what PSV was working on and what stakeholders were involved.</p>
+            </div>
+          </div>
+          <div class="content-cont">
+            <h4>Conclusie</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit cupiditate eum et laboriosam fuga quidem
+              molestiae pariatur, amet temporibus laudantium.</p>
+          </div>
+          <div class="content-cont">
+            <h4>Wat heb ik geleerd?</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit dolor consectetur consequuntur
+              aspernatur molestias a deleniti voluptatem beatae assumenda minus.</p>
+          </div>
         </div>
-        <div class="content-cont">
-          <h4>Analyseren</h4>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere reprehenderit voluptas vel cupiditate quisquam
-          accusantium numquam, consequuntur expedita labore sint delectus animi sapiente natus maiores possimus
-          perspiciatis aliquam maxime praesentium dolor aliquid saepe laborum quidem? Modi accusantium commodi, et error
-          tenetur maiores nulla repudiandae, labore voluptates molestias ut numquam magni hic repellendus omnis! Numquam
-          illum atque sequi reprehenderit, nobis quia illo cumque at dolorum autem, eius fugiat! Praesentium neque ut quis
-          voluptates, accusamus deserunt accusantium ab eos distinctio perspiciatis. Labore quae non tempore magni
-          officia, dolorum quia iure amet perferendis. Quibusdam aperiam expedita deserunt quia ut facilis suscipit
-          officia est. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa fuga necessitatibus impedit
-          doloribus deleniti! Facilis et, illo corrupti ducimus dignissimos pariatur inventore. Aperiam voluptatum vero
-          alias rerum commodi ad nihil aut delectus earum similique molestiae, praesentium perferendis. Repellat hic
-          perferendis laboriosam asperiores? Deserunt exercitationem dolore blanditiis consectetur, doloremque adipisci
-          corrupti commodi? Ex quidem quos eius iure,
+        <div class="leer-content-wrapper">
+          <div class="content-cont">
+            <embed src="pdf/graduation/projectplanV3.pdf" width="100%" height="1000" type="application/pdf">
+            <a target="_blank" href="./pdf/graduation/projectplanV3.pdf"><button
+                class="bbd-btn">View debriefing in PDF</button></a>
+          </div>
         </div>
-        <div class="content-cont">
-          <h4>Analyseren</h4>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere reprehenderit voluptas vel cupiditate quisquam
-          accusantium numquam, consequuntur expedita labore sint delectus animi sapiente natus maiores possimus
-          perspiciatis aliquam maxime praesentium dolor aliquid saepe laborum quidem? Modi accusantium commodi, et error
-          tenetur maiores nulla repudiandae, labore voluptates molestias ut numquam magni hic repellendus omnis! Numquam
-          illum atque sequi reprehenderit, nobis quia illo cumque at dolorum autem, eius fugiat! Praesentium neque ut quis
-          voluptates, accusamus deserunt accusantium ab eos distinctio perspiciatis. Labore quae non tempore magni
-          officia, dolorum quia iure amet perferendis. Quibusdam aperiam expedita deserunt quia ut facilis suscipit
-          officia est. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa fuga necessitatibus impedit
-          doloribus deleniti! Facilis et, illo corrupti ducimus dignissimos pariatur inventore. Aperiam voluptatum vero
-          alias rerum commodi ad nihil aut delectus earum similique molestiae, praesentium perferendis. Repellat hic
-          perferendis laboriosam asperiores? Deserunt exercitationem dolore blanditiis consectetur, doloremque adipisci
-          corrupti commodi? Ex quidem quos eius iure,
-          <h4 id="projectplan">Projectplan</h4>
+        <div class="leer-content-wrapper">
+          <div class="content-cont">
+            <h3 id="projectplan">Projectplan</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum debitis eos ut quos voluptas amet, aut
+              incidunt! Consequuntur, eveniet nostrum!</p>
+          </div>
+          <div class="content-cont">
+            <div class="learned-cont">
+              <h3>Approach</h3>
+              <img src="~/assets/img/school/icons/approach.png" alt="">
+            </div>
+            <div class="research-tags-cont">
+              <div class="research-tag research-active research-desktop">
+                <p>Desktop</p>
+                <img src="~/assets/img/school/research_strats/library.png" alt="">
+              </div>
+            </div>
+            <div class="research-text label-cont">
+              <p><b>Desktop research was applied,</b> because the current situation of PSV's problem/opportunity had
+                to
+                be analysed in order to understand the assignment. By talking to PSV's representatives we gained
+                insight
+                of what PSV was working on and what stakeholders were involved.</p>
+            </div>
+          </div>
+          <div class="content-cont">
+            <h4>Conclusie</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit cupiditate eum et laboriosam fuga quidem
+              molestiae pariatur, amet temporibus laudantium.</p>
+          </div>
+          <div class="content-cont">
+            <h4>Wat heb ik geleerd?</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit dolor consectetur consequuntur
+              aspernatur molestias a deleniti voluptatem beatae assumenda minus.</p>
+          </div>
         </div>
-        <div class="content-cont">
-          <h4>Analyseren</h4>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere reprehenderit voluptas vel cupiditate quisquam
-          accusantium numquam, consequuntur expedita labore sint delectus animi sapiente natus maiores possimus
-          perspiciatis aliquam maxime praesentium dolor aliquid saepe laborum quidem? Modi accusantium commodi, et error
-          tenetur maiores nulla repudiandae, labore voluptates molestias ut numquam magni hic repellendus omnis! Numquam
-          illum atque sequi reprehenderit, nobis quia illo cumque at dolorum autem, eius fugiat! Praesentium neque ut quis
-          voluptates, accusamus deserunt accusantium ab eos distinctio perspiciatis. Labore quae non tempore magni
-          officia, dolorum quia iure amet perferendis. Quibusdam aperiam expedita deserunt quia ut facilis suscipit
-          officia est. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa fuga necessitatibus impedit
-          doloribus deleniti! Facilis et, illo corrupti ducimus dignissimos pariatur inventore. Aperiam voluptatum vero
-          alias rerum commodi ad nihil aut delectus earum similique molestiae, praesentium perferendis. Repellat hic
-          perferendis laboriosam asperiores? Deserunt exercitationem dolore blanditiis consectetur, doloremque adipisci
-          corrupti commodi? Ex quidem quos eius iure,
-          <h4 id="projectplan">Projectplan</h4>
-        </div>
-        <div class="content-cont">
-          <h4>Analyseren</h4>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere reprehenderit voluptas vel cupiditate quisquam
-          accusantium numquam, consequuntur expedita labore sint delectus animi sapiente natus maiores possimus
-          perspiciatis aliquam maxime praesentium dolor aliquid saepe laborum quidem? Modi accusantium commodi, et error
-          tenetur maiores nulla repudiandae, labore voluptates molestias ut numquam magni hic repellendus omnis! Numquam
-          illum atque sequi reprehenderit, nobis quia illo cumque at dolorum autem, eius fugiat! Praesentium neque ut quis
-          voluptates, accusamus deserunt accusantium ab eos distinctio perspiciatis. Labore quae non tempore magni
-          officia, dolorum quia iure amet perferendis. Quibusdam aperiam expedita deserunt quia ut facilis suscipit
-          officia est. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa fuga necessitatibus impedit
-          doloribus deleniti! Facilis et, illo corrupti ducimus dignissimos pariatur inventore. Aperiam voluptatum vero
-          alias rerum commodi ad nihil aut delectus earum similique molestiae, praesentium perferendis. Repellat hic
-          perferendis laboriosam asperiores? Deserunt exercitationem dolore blanditiis consectetur, doloremque adipisci
-          corrupti commodi? Ex quidem quos eius iure,
-          <h4 id="projectplan">Projectplan</h4>
-        </div>
-        <div class="pagination">
+
+        <!-- <div class="pagination">
           <NuxtLink class="pagination-next" to="/semesters/graduation/leeruitkomsten">
             <v-btn class="prev-chevron-left" icon elevation="6" dark>
               <v-icon>mdi-chevron-left</v-icon>
             </v-btn>
-            <p>Vorige</p>
+            <p>Terug</p>
           </NuxtLink>
           <NuxtLink class="pagination-next" to="/semesters/graduation/learningoutcomes/adviseren">
             <p>Volgende</p>
@@ -134,12 +143,58 @@
               <v-icon>mdi-chevron-right</v-icon>
             </v-btn>
           </NuxtLink>
-        </div>
+        </div> -->
 
         <!-- <v-pagination v-model="page" :length="2" light color="#166ECC"></v-pagination> -->
       </div>
     </div>
-    <GraduationBottomNavWhite />
+    <div class="nav-wrapper">
+      <div class="bottom-nav-mobile">
+        <v-bottom-navigation grow class="bottom-nav">
+          <NuxtLink to="/semesters/graduation/home">
+            <v-btn class="nav-item">
+              <span>HOME</span>
+              <v-icon>mdi-home</v-icon>
+            </v-btn>
+          </NuxtLink>
+          <NuxtLink to="/semesters/graduation/leeswijzer">
+            <v-btn class="nav-item">
+              <span class="nav-item-label">LEESWIJZER</span>
+              <v-icon>mdi-lightbulb</v-icon>
+            </v-btn>
+          </NuxtLink>
+          <NuxtLink to="/semesters/graduation/leeruitkomsten">
+            <v-btn class="nav-item">
+              <span>UITKOMSTEN</span>
+              <v-icon>mdi-school</v-icon>
+            </v-btn>
+          </NuxtLink>
+        </v-bottom-navigation>
+      </div>
+      <div class="bottom-desktop-nav">
+        <div class="desktop-nav-cont">
+          <NuxtLink to="/semesters/graduation/leeruitkomsten" class="desktop-next-page" exact>
+            <svg-icon class="svg-arrow-right" name="arrow-left" />
+            <p>Ga naar 'Adviseren'</p>
+          </NuxtLink>
+          <ul>
+            <li>
+              <NuxtLink to="/semesters/graduation/home" exact>Home</NuxtLink>
+            </li>
+            <li>
+              <NuxtLink to="/semesters/graduation/leeswijzer" exact>Leeswijzer</NuxtLink>
+            </li>
+            <li>
+              <NuxtLink to="/semesters/graduation/leeruitkomsten" exact>Leeruitkomsten</NuxtLink>
+            </li>
+          </ul>
+          <NuxtLink to="/semesters/graduation/leeruitkomsten" class="desktop-next-page" exact>
+            <p>Ga naar 'Adviseren'</p>
+            <svg-icon class="svg-arrow-right" name="arrow-right" />
+          </NuxtLink>
+        </div>
+      </div>
+    </div>
 
   </div>
   <!-- <v-app-bar class="" dense min-height="100vh" width="100px">
@@ -168,103 +223,7 @@
 
 <style lang="css" scoped>
   @import '~/assets/css/graduation.css';
-
-  .main-wrapper {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    background-color: #fff;
-  }
-
-  .main-nav-wrapper{
-    display: flex;
-    justify-content: row;
-  }
-
-  .nav-app-bar {
-    display: flex;
-    justify-content: center;
-    width: 30px;
-    height: 100% !important;
-  }
-
-  .sidepanel {
-    position: absolute;
-    width: 200px !important;
-    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%) !important;
-    color: #fff;
-  }
-
-  .v-list-cont {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: -moz-calc(100% - 56px);
-    height: -webkit-calc(100% - 56px);
-    height: calc(100% - 56px);
-  }
-
-  .page-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 2rem;
-    width: 100%;
-    height: 100%;
-    color: #000;
-    padding: 2em 1em;
-  }
-
-  .content-cont {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .pagination {
-    z-index: 1;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .pagination p {
-    font-size: .8rem;
-  }
-
-  .pagination-prev,
-  .pagination-next {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: .5rem;
-  }
-
-  .pagination-prev {}
-
-  .pagination-next {}
-
-  .prev-chevron-left,
-  .prev-chevron-right {
-    background-color: #166ECC;
-  }
-
-
-  @media (min-width: 300px) {}
-
-
-  @media (min-width: 640px) {
-    .pagination-mobile {
-      display: none;
-    }
-  }
-
-
-  @media (min-width: 768px) {}
-
-  @media (min-width: 1024px) {}
-
-  @media (min-width: 1280px) {}
-
-  @media (min-width: 1536px) {}
+  @import '~/assets/css/graduationNav.css';
+  @import '~/assets/css/modal.css';
 
 </style>

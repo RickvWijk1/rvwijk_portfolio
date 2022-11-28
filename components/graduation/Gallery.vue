@@ -14,7 +14,7 @@
           ]" :key="img_thumbnail_index" @click="index = img_thumbnail_index">
 
         <div class="img-overlay-cont">
-          <img :src="img_src">
+          <img loading="lazy" :src="img_src">
           <div class="img-overlay"></div>
         </div>
 

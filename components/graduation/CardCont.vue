@@ -6,7 +6,7 @@
           <h2>Analyseren</h2>
         </div>
         <div class="card-description">
-          <p>Door te luisteren en communiceren zijn in de analysefase de
+          <p>Door te luisteren en te communiceren zijn in de analysefase de
             probleemstelling, doelen en scope van de opdracht behandeld.</p>
         </div>
       </div>
@@ -133,7 +133,7 @@
           <h2>Communicatie</h2>
         </div>
         <div class="card-description">
-          <p>Door te samen te werken met de doelgroep is
+          <p>Door samen te werken met de doelgroep is
             de communicatie naar behoren verlopen. Ook het creëren van
             een portfolio heeft een bijdrage
             geleverd doordat het een duidelijk te volgen verhaal bevat.</p>
@@ -284,6 +284,7 @@
       height: 370px;
       max-width: 300px;
     }
+
   }
 
   @media (min-width: 768px) {

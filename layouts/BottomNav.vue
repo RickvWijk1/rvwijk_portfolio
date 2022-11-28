@@ -17,6 +17,7 @@
   @import '~/assets/css/font.css';
   html, body{
     background-color: #fff;
+    /* overflow-y: scroll; */
   }
   .layout-body{
     position: relative;

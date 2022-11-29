@@ -68,11 +68,7 @@
               </div>
             </div>
             <div class="research-text label-cont">
-              <p><b>Desktop research was applied,</b> because the current situation of PSV's problem/opportunity had
-                to
-                be analysed in order to understand the assignment. By talking to PSV's representatives we gained
-                insight
-                of what PSV was working on and what stakeholders were involved.</p>
+              <p><b>Desktop research is toegepast,</b> omdat ...</p>
             </div>
           </div>
           <div class="content-cont">
@@ -88,9 +84,11 @@
         </div>
         <div class="leer-content-wrapper">
           <div class="content-cont">
-            <embed src="pdf/graduation/projectplanV3.pdf" width="100%" height="1000" type="application/pdf">
-            <a target="_blank" href="./pdf/graduation/projectplanV3.pdf"><button
-                class="bbd-btn">View debriefing in PDF</button></a>
+            <div class="pdf-cont">
+              <embed src="pdf/graduation/projectplanV3.pdf" width="100%" height="1000" type="application/pdf">
+              <a target="_blank" href="./pdf/graduation/projectplanV3.pdf"><button
+                  class="bbd-btn">View debriefing in PDF</button></a>
+            </div>
           </div>
         </div>
         <div class="leer-content-wrapper">
@@ -111,11 +109,7 @@
               </div>
             </div>
             <div class="research-text label-cont">
-              <p><b>Desktop research was applied,</b> because the current situation of PSV's problem/opportunity had
-                to
-                be analysed in order to understand the assignment. By talking to PSV's representatives we gained
-                insight
-                of what PSV was working on and what stakeholders were involved.</p>
+              <p><b>Desktop research is toegepast,</b> omdat ...</p>
             </div>
           </div>
           <div class="content-cont">
@@ -175,7 +169,7 @@
         <div class="desktop-nav-cont">
           <NuxtLink to="/semesters/graduation/leeruitkomsten" class="desktop-next-page" exact>
             <svg-icon class="svg-arrow-right" name="arrow-left" />
-            <p>Ga naar 'Adviseren'</p>
+            <p>Ga naar de leeruitkomsten</p>
           </NuxtLink>
           <ul>
             <li>

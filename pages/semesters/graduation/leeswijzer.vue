@@ -43,12 +43,10 @@
     padding: 20px 28px;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
-
     border-radius: 50px;
     border: none;
     color: #FFFFFF;
     background-color: #166ECC;
-
     -webkit-box-shadow: 0 2px 2px 0 #10100e2e;
     box-shadow: 0 2px 2px 0 #10100e2e;
   }

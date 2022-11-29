@@ -56,7 +56,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum debitis eos ut quos voluptas amet, aut
               incidunt! Consequuntur, eveniet nostrum!</p>
           </div>
-          <div class="content-cont">
+          <div class="marked content-cont">
             <div class="learned-cont">
               <h4>Aanpak</h4>
               <img src="~/assets/img/school/icons/approach.png" alt="">

@@ -939,12 +939,18 @@
 
         }
 
-        .expansion-cont table,
+
         .expansion-cont .aanpak-cont {
           display: flex;
           width: 100%;
-          /* grid-column: 1 / 3; */
-          flex-direction: row;
+
+          flex-direction: column;
+        }
+        .expansion-cont table {
+          display: flex;
+          width: 100%;
+          grid-column: 1 / 3;
+          flex-direction: column;
         }
 
       }

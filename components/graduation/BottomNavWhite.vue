@@ -112,6 +112,8 @@
   }
 
   .bottom-desktop-nav {
+    position: fixed;
+    bottom: 0;
     display: none;
     -webkit-box-shadow: 0px -12px 51px -21px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px -12px 51px -21px rgba(0, 0, 0, 0.75);

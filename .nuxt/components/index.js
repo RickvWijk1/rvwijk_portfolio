@@ -13,11 +13,11 @@ export { default as GraduationCardCont } from '../..\\components\\graduation\\Ca
 export { default as GraduationExpansionPanel } from '../..\\components\\graduation\\ExpansionPanel.vue'
 export { default as GraduationGallery } from '../..\\components\\graduation\\Gallery.vue'
 export { default as GraduationHero } from '../..\\components\\graduation\\Hero.vue'
+export { default as InterestsProducts } from '../..\\components\\interests\\Products.vue'
 export { default as ProjectsProducts } from '../..\\components\\projects\\Products.vue'
 export { default as SemestersixGroupProjectProduct } from '../..\\components\\semestersix\\GroupProjectProduct.vue'
 export { default as SemestersixIndProjectProduct } from '../..\\components\\semestersix\\IndProjectProduct.vue'
 export { default as SemestersixInterProjectProduct } from '../..\\components\\semestersix\\InterProjectProduct.vue'
-export { default as InterestsProducts } from '../..\\components\\interests\\Products.vue'
 export { default as GraduationHeroContClouds } from '../..\\components\\graduation\\HeroCont\\Clouds.vue'
 
 // nuxt/nuxt.js#8607

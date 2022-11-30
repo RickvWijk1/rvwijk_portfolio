@@ -6,16 +6,16 @@ import NuxtError from './components/nuxt-error.vue'
 import NuxtLoading from './components/nuxt-loading.vue'
 import NuxtBuildIndicator from './components/nuxt-build-indicator'
 
-import '../node_modules/@nuxtjs/tailwindcss/dist/runtime/tailwind.css'
+import '..\\node_modules\\@nuxtjs\\tailwindcss\\dist\\runtime\\tailwind.css'
 
-import '../assets/css/global.css'
+import '..\\assets\\css\\global.css'
 
-import '../assets/css/font.css'
+import '..\\assets\\css\\font.css'
 
-import _1c3006c4 from './layouts.svg-sprite.1cae3037.vue'
-import _b218e8bc from '../layouts/BottomNav.vue'
-import _6f6c098b from '../layouts/default.vue'
-import _77c23d6c from '../layouts/noNav.vue'
+import _1c3006c4 from './layouts.svg-sprite.37fc355c.vue'
+import _b218e8bc from '..\\layouts\\BottomNav.vue'
+import _6f6c098b from '..\\layouts\\default.vue'
+import _77c23d6c from '..\\layouts\\noNav.vue'
 
 const layouts = { "_svg-sprite": sanitizeComponent(_1c3006c4),"_BottomNav": sanitizeComponent(_b218e8bc),"_default": sanitizeComponent(_6f6c098b),"_noNav": sanitizeComponent(_77c23d6c) }
 

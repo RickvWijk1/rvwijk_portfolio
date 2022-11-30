@@ -70,7 +70,7 @@
     position: fixed !important;
     left: 0 !important;
     bottom: 0 !important;
-    z-index: 99;
+    z-index: 1;
     /* z-index: 5; */
   }
 

@@ -19,8 +19,7 @@
                   <iframe frameborder="0" allowfullscreen="1"
                     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
                     title="Bluebird Day Brand Movie" width="440" height="280"
-                    src="https://www.youtube-nocookie.com/embed/twjco4FJHHg"
-                   ></iframe>
+                    src="https://www.youtube-nocookie.com/embed/twjco4FJHHg"></iframe>
                 </div>
               </div>
               <div class="img-cont">
@@ -95,6 +94,9 @@
                 </div>
               </div>
               <div class="text-cont">
+                <img src="~/assets/img/school/graduation/leeswijzer/jira.png" alt="">
+              </div>
+              <div class="text-cont">
                 <div class="text-title">
                   <h4>Doel</h4>
                 </div>
@@ -109,6 +111,9 @@
                   </p>
                 </div>
               </div>
+              <div class="text-cont">
+                <img src="~/assets/img/school/graduation/leeswijzer/jira.png" alt="">
+              </div>
             </div>
           </v-expansion-panel-content>
         </v-expansion-panel>
@@ -119,25 +124,24 @@
           <v-expansion-panel-content>
             <div class="expansion-cont">
               <div class="aanpak-cont text-cont">
-                    <div class="text-title">
+                <div class="text-title">
                   <h4>Aanpak</h4>
-                <div class="text-p-cont">
-                  <p>Gedurende het project is er zoveel mogelijk gewerkt met de tools waarmee Bluebird Day werkt. Jira
-                    is gebruikt om te plannen in combinatie met de Scrum projectmethodiek.
-                    GitLab is gebruikt als version control systeem. De Google suite is gebruikt voor email, agenda,
-                    online meetings en documentatie. Slack is gebruikt als communicatiemiddel om collega's te
-                    bereiken.
-                  </p>
-                  <p>
-                    Het Design Thinking proces is gebruikt om het probleem methodisch op te lossen. Verder zijn er
-                    onderzoekspatronen toegepast om het probleem in stappen op te lossen.
-                  </p>
+                  <div class="text-p-cont">
+                    <p>Gedurende het project is er zoveel mogelijk gewerkt met de tools waarmee Bluebird Day werkt. Jira
+                      is gebruikt om te plannen in combinatie met de Scrum projectmethodiek.
+                      GitLab is gebruikt als version control systeem. De Google suite is gebruikt voor email, agenda,
+                      online meetings en documentatie. Slack is gebruikt als communicatiemiddel om collega's te
+                      bereiken.
+                    </p>
+                    <p>
+                      Het Design Thinking proces is gebruikt om het probleem methodisch op te lossen. Verder zijn er
+                      onderzoekspatronen toegepast om het probleem in stappen op te lossen.
+                    </p>
                   </div>
                 </div>
               </div>
               <div class="text-cont">
                 <img src="~/assets/img/school/graduation/leeswijzer/jira.png" alt="">
-
               </div>
               <div class="text-cont">
                 <div class="text-title">
@@ -151,7 +155,10 @@
                       target="__blank"
                       href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren#projectplan"
                       class="txt-link">interviews</a>. De doelgroep, front-end
-                    developers, werden o.a. geïnterviewed. Door het uitvoeren van een trend-analyse, vond ik bestaande oplossingen voor front-end component libraries.
+                    developers, werden o.a. geïnterviewed. Door het uitvoeren van een <a target="__blank"
+                      href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren#projectplan"
+                      class="txt-link">trendanalyse</a>, vond ik bestaande oplossingen voor front-end component
+                    libraries.
                   </p>
                 </div>
               </div>
@@ -169,7 +176,8 @@
                     behoeftes en goals van de BBD developers beter begrijpen.
                     De vondsten zijn in beeld gebracht door <a target="__blank"
                       href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren#projectplan"
-                      class="txt-link">empathy mapping</a> toe te passen. Met deze informatie en de eisen vanuit Bluebird Day, kon er een lijst met <a target="__blank"
+                      class="txt-link">empathy mapping</a> toe te passen. Met deze informatie en de eisen vanuit
+                    Bluebird Day, kon er een lijst met <a target="__blank"
                       href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren#projectplan"
                       class="txt-link">requirements</a> voor de front-end component library opgesteld worden.
                   </p>
@@ -182,10 +190,19 @@
                 <div class="text-p-cont">
                   <p>
                     In de orienterende fase wilde ik weten of wat ik in gedachten had overeenkwam met de gedachtengang
-                    van het bedrijf/de bedrijfsbegeleider en wat de doelgroep van mijn ideeën zou vinden. Daarom heb ik een aantal <a target="__blank"
+                    van het bedrijf/de bedrijfsbegeleider en wat de doelgroep van mijn ideeën zou vinden. Daarom heb ik
+                    een aantal <a target="__blank"
                       href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren#projectplan"
                       class="txt-link">schetsen/low-fidelity
-                    prototypes</a> gemaakt. Daarnaast ben ik de bestaande platformen verder gaan verkennen d.m.v. literatuuronderzoek en het maken van POC's.
+                      prototypes</a> gemaakt. Daarnaast ben ik de bestaande front-end component library oplossingen
+                    verder gaan verkennen d.m.v. <a target="__blank"
+                      href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren#projectplan"
+                      class="txt-link">literatuuronderzoek en POC's</a>. Hieruit bleek dat GitLab's Package Registry
+                    voldoet aan de opgestelde requirements om te gebruiken als frontend component library voor Bluebird
+                    Day. Daarnaast is er
+                    onderzocht welke documentatie/guidelines er nodig zijn zodat de front-end developers de library
+                    kunnen onderhouden. Hieruit bleek dat het inzetten van MkDocs om documentatie te genereren en
+                    makkelijker te schrijven zou helpen de libary te onderhouden.
                   </p>
                 </div>
               </div>
@@ -194,13 +211,23 @@
                   <h4>Realiseren/Testen</h4>
                 </div>
                 <div class="text-p-cont">
-                  <p>Dit project wordt uitgevoerd, zodat BBD front-end developers in de toekomst hun front-end
-                    componenten hergebruiken. Het beoogde resultaat is een platform tot beschikking te hebben waarop
-                    front-end developers elkaars componenten kunnen delen en gebruiken.
-
-                    De meerwaarde van het gewenste eindproduct, is dat de kwaliteit van de projecten gewaarborgd blijft.
-                    Zo is er meer zekerheid dat klanten hun product(en) geleverd krijgen met de hoge kwaliteit die ze
-                    gewend zijn van BBD.
+                  <p>Om een eerste versie van de library op te leveren als eindproduct, ben ik aan de slag gegaan met
+                    het optimaliseren van de library. Dit houdt in dat ik bepaalde settings heb ingesteld en
+                    features heb gebruikt om het onderhouden van de library makkelijker te maken.
+                    Voorbeelden hiervan zijn het inzetten van GitLab Pages om de documentatie te hosten, het neerzetten
+                    van een logische repo structuur en het opzetten van de documentatie structuur en features met
+                    MkDocs.
+                  </p>
+                  <p>Toen de eerste versie er stond, was het tijd om de oplossing te verfijnen. Er stond namelijk wel
+                    een library klaar, maar deze was helemaal leeg en dus niet nuttig voor de BBD front-end developers.
+                    Dit werd gedaan door een <a target="__blank"
+                      href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren#projectplan"
+                      class="txt-link">co-creation meeting</a> op te zetten waarin ik aan een aantal front-end developers uitlegde
+                    hoe de oplossing in elkaar zit en werd er gediscussieerd wat voor componenten er nodig zijn om het
+                    werk van de front-end developers op de lange termijn efficiënter te kunnen maken. Vervolgens zijn er
+                    componenten ontwikkeld en geupload naar de library door de front-end developers. Hierdoor werd er
+                    meteen getest of de documentatie duidelijk genoeg was en is er een begin gemaakt aan het vullen van
+                    de library.
                   </p>
                 </div>
               </div>
@@ -209,14 +236,14 @@
                   <h4>Afronden/Opleveren/Evalueren</h4>
                 </div>
                 <div class="text-p-cont">
-                  <p>Dit project wordt uitgevoerd, zodat BBD front-end developers in de toekomst hun front-end
-                    componenten hergebruiken. Het beoogde resultaat is een platform tot beschikking te hebben waarop
-                    front-end developers elkaars componenten kunnen delen en gebruiken.
-
-                    De meerwaarde van het gewenste eindproduct, is dat de kwaliteit van de projecten gewaarborgd blijft.
-                    Zo is er meer zekerheid dat klanten hun product(en) geleverd krijgen met de hoge kwaliteit die ze
-                    gewend zijn van BBD.
+                  <p>Om de kennis niet alleen op papier over te dragen, heb ik een kennissessie gehouden tijdens de
+                    'Front-end Monthly'. Dit is een online
+                    meeting die maandelijks plaatsvindt en dient als update/nieuws moment en als moment om nieuwe
+                    frontend kennis te delen met elkaar. In de kennissessie heb ik uitgelegd hoe de library op technisch
+                    vlak in elkaar steekt, hoe de front-end developers hun eigen packages/componenten kunnen uploaden en
+                    gebruiken, en welke guidelines gevolgd moeten worden om de library te onderhouden.
                   </p>
+                  <p>Deze informatie is digitaal terug te vinden in de documentatie die in de repo overgedragen is. Mijn onderzoeken zijn in de Google Drive van Bluebird Day overgedragen.</p>
                 </div>
               </div>
             </div>
@@ -691,12 +718,47 @@
             <h3>Reflectie</h3>
           </v-expansion-panel-header>
           <v-expansion-panel-content>
-            <nuxt-img src="/img/graduation/leeswijzer/logo.png" loading="lazy" />
-            <!-- <nuxt-img src="/img/graduation/leeswijzer/handpicked_kantine.jpeg" loading="lazy" /> -->
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-              ex ea commodo consequat.</p>
-            <GraduationGallery />
+            <div class="expansion-cont">
+              <div class="aanpak-cont text-cont">
+                <div class="text-title">
+                  <h4>Aanpak</h4>
+                  <div class="text-p-cont">
+                    <p>Gedurende het project is er zoveel mogelijk gewerkt met de tools waarmee Bluebird Day werkt. Jira
+                      is gebruikt om te plannen in combinatie met de Scrum projectmethodiek.
+                      GitLab is gebruikt als version control systeem. De Google suite is gebruikt voor email, agenda,
+                      online meetings en documentatie. Slack is gebruikt als communicatiemiddel om collega's te
+                      bereiken.
+                    </p>
+                    <p>
+                      Het Design Thinking proces is gebruikt om het probleem methodisch op te lossen. Verder zijn er
+                      onderzoekspatronen toegepast om het probleem in stappen op te lossen.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="text-cont">
+                <img src="~/assets/img/school/graduation/leeswijzer/jira.png" alt="">
+              </div>
+              <div class="text-cont">
+                <div class="text-title">
+                  <h4>Analyseren</h4>
+                </div>
+                <div class="text-p-cont">
+                  <p>Gedurende de eerste 3 weken is er een projectplan opgesteld. De informatie die nodig was om het
+                    <a target="__blank"
+                      href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren#projectplan"
+                      class="txt-link">projectplan</a> op te stellen, is verkregen door het uitvoeren van <a
+                      target="__blank"
+                      href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren#projectplan"
+                      class="txt-link">interviews</a>. De doelgroep, front-end
+                    developers, werden o.a. geïnterviewed. Door het uitvoeren van een <a target="__blank"
+                      href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren#projectplan"
+                      class="txt-link">trendanalyse</a>, vond ik bestaande oplossingen voor front-end component
+                    libraries.
+                  </p>
+                </div>
+              </div>
+            </div>
           </v-expansion-panel-content>
         </v-expansion-panel>
       </v-expansion-panels>
@@ -824,7 +886,7 @@
         padding-top: calc(var(--aspect-ratio, .5625)*100%);
       }
 
-      .video-wrapper iframe{
+      .video-wrapper iframe {
         position: absolute;
         top: 0;
         left: 0;
@@ -851,7 +913,7 @@
         }
 
         .text-cont {
-        gap: 2rem;
+          gap: 2rem;
 
         }
 
@@ -887,8 +949,19 @@
 
       }
 
-      @media (min-width: 1280px) {}
+      @media (min-width: 1280px) {
+       
+      }
 
       @media (min-width: 1536px) {}
+      @media (min-width: 2100px) {
+        .expansion-cont{
+          /* display: flex;
+          flex-direction: row;
+          justify-content: space-around; */
+          place-items: flex-start center;
+        }
+      }
+
 
     </style>

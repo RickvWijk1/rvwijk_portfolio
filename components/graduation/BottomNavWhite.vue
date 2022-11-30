@@ -63,7 +63,6 @@
   }
 
   .bottom-nav {
-    z-index: 99;
     flex: 1;
     display: flex !important;
     justify-self: flex-end !important;
@@ -113,7 +112,6 @@
   }
 
   .bottom-desktop-nav {
-    z-index: 99;
     display: none;
     -webkit-box-shadow: 0px -12px 51px -21px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px -12px 51px -21px rgba(0, 0, 0, 0.75);

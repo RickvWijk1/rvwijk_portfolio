@@ -75,7 +75,7 @@
   }
 
   .bottom-nav {
-    z-index: 99;
+    z-index: 1;
     flex: 1;
     display: flex !important;
     justify-self: flex-end !important;

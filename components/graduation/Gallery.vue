@@ -145,6 +145,10 @@
       max-height: 300px;
     }
 
+    .light-gallery__image img{
+      max-height: 800px !important;
+    }
+
     .gallery-cont li:nth-child(3) {
       grid-column: 2 span;
       object-fit: contain;

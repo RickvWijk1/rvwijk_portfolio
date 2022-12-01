@@ -57,6 +57,11 @@
               incidunt! Consequuntur, eveniet nostrum!</p>
           </div>
           <div class="marked content-cont">
+            <h4>Hoofdvraag</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit cupiditate eum et laboriosam fuga quidem
+              molestiae pariatur, amet temporibus laudantium.</p>
+          </div>
+          <div class="marked content-cont">
             <div class="learned-cont">
               <h4>Aanpak</h4>
               <img src="~/assets/img/school/icons/approach.png" alt="">

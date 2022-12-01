@@ -321,9 +321,14 @@
   }
 
   @media (min-width: 1536px) {
+
+  }
+
+  @media (min-width: 2000px) {
     .grid-wrapper {
       grid-template-columns: repeat(4, minmax(0, 1fr));
       gap: 4rem 6rem;
+      max-width: 93em;
     }
     .grid-wrapper .card:nth-child(4n + 1){
       place-self: end;
@@ -340,5 +345,7 @@
       place-self: start;
     }
   }
+
+  
 
 </style>

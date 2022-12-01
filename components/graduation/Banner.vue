@@ -289,6 +289,9 @@
     .banner-wrapper{
       position: relative;
       padding: 2em 0 2em 2em;
+      justify-content: space-around;
+      align-items: center;
+      /* gap: 5rem; */
     }
 
     .hero-images-wrapper{
@@ -296,10 +299,15 @@
       height: 100%;
     }
 
+.bbd-wrapper{
+  height: unset;
+
+}
+
     .rick-wrapper{
       width: 100%;
       z-index: 1;
-      max-width: 500px;
+      max-width: 646px;
     }
 
     .rick{

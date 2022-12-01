@@ -94,7 +94,7 @@
                 </div>
               </div>
               <div class="text-cont">
-                <img src="~/assets/img/school/graduation/leeswijzer/jira.png" alt="">
+                <img src="~/assets/img/school/graduation/leeswijzer/library.png" alt="">
               </div>
               <div class="text-cont">
                 <div class="text-title">
@@ -112,7 +112,7 @@
                 </div>
               </div>
               <div class="text-cont">
-                <img src="~/assets/img/school/graduation/leeswijzer/jira.png" alt="">
+                <img src="~/assets/img/school/graduation/leeswijzer/boerschappen.gif" alt="">
               </div>
             </div>
           </v-expansion-panel-content>
@@ -205,6 +205,9 @@
                     makkelijker te schrijven zou helpen de libary te onderhouden.
                   </p>
                 </div>
+              </div>
+              <div class="text-cont">
+                <img loading="lazy" src="~/assets/img/school/graduation/leeswijzer/sketch.jpg" alt="" class="image-zoom">
               </div>
               <div class="text-cont">
                 <div class="text-title">
@@ -764,6 +767,7 @@
       </v-expansion-panels>
     </template>
     <script>
+
       export default {
         data: () => ({
           panel: [0, 1],
@@ -951,6 +955,7 @@
           width: 100%;
           grid-column: 1 / 3;
           flex-direction: column;
+          max-width: 1000px;
         }
 
       }
@@ -966,6 +971,9 @@
           flex-direction: row;
           justify-content: space-around; */
           place-items: flex-start center;
+        }
+        .expansion-cont table {
+          place-self: flex-start;
         }
       }
 

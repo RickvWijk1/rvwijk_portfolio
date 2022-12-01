@@ -63,6 +63,7 @@
   .content-wrapper {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     padding: 2em 1em;
     background-color: #fff;
   }

@@ -14,12 +14,14 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 import nuxt_plugin_plugin_2c3cadc9 from 'nuxt_plugin_plugin_2c3cadc9' // Source: .\\components\\plugin.js (mode: 'all')
 import nuxt_plugin_plugin_63e20acb from 'nuxt_plugin_plugin_63e20acb' // Source: .\\vuetify\\plugin.js (mode: 'all')
+import nuxt_plugin_vuescrollto_65e84d1d from 'nuxt_plugin_vuescrollto_65e84d1d' // Source: .\\vue-scrollto.js (mode: 'client')
 import nuxt_plugin_image_2b02c467 from 'nuxt_plugin_image_2b02c467' // Source: .\\image.js (mode: 'all')
 import nuxt_plugin_nuxtsvgsprite_eabf68ec from 'nuxt_plugin_nuxtsvgsprite_eabf68ec' // Source: .\\nuxt-svg-sprite.js (mode: 'all')
 import nuxt_plugin_workbox_9c0fdcf0 from 'nuxt_plugin_workbox_9c0fdcf0' // Source: .\\workbox.js (mode: 'client')
 import nuxt_plugin_metaplugin_169cfe08 from 'nuxt_plugin_metaplugin_169cfe08' // Source: .\\pwa\\meta.plugin.js (mode: 'all')
 import nuxt_plugin_iconplugin_1b44a37c from 'nuxt_plugin_iconplugin_1b44a37c' // Source: .\\pwa\\icon.plugin.js (mode: 'all')
 import nuxt_plugin_lightbox_449b2fac from 'nuxt_plugin_lightbox_449b2fac' // Source: ..\\plugins\\lightbox.js (mode: 'all')
+import nuxt_plugin_vuescrollto_44ce9a1c from 'nuxt_plugin_vuescrollto_44ce9a1c' // Source: ..\\plugins\\vue-scrollto.js (mode: 'all')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -191,6 +193,10 @@ async function createApp(ssrContext, config = {}) {
     await nuxt_plugin_plugin_63e20acb(app.context, inject)
   }
 
+  if (process.client && typeof nuxt_plugin_vuescrollto_65e84d1d === 'function') {
+    await nuxt_plugin_vuescrollto_65e84d1d(app.context, inject)
+  }
+
   if (typeof nuxt_plugin_image_2b02c467 === 'function') {
     await nuxt_plugin_image_2b02c467(app.context, inject)
   }
@@ -213,6 +219,10 @@ async function createApp(ssrContext, config = {}) {
 
   if (typeof nuxt_plugin_lightbox_449b2fac === 'function') {
     await nuxt_plugin_lightbox_449b2fac(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_vuescrollto_44ce9a1c === 'function') {
+    await nuxt_plugin_vuescrollto_44ce9a1c(app.context, inject)
   }
 
   // Lock enablePreview in context

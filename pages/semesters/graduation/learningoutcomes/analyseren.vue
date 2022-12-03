@@ -17,21 +17,21 @@
                 </v-list-item>
               </div>
               <div class="sidepanel-item-cont">
-                <a class="pagination-next" href="semesters/graduation/learningoutcomes/analyseren#projectplan">
+                <a class="pagination-next" href="#" v-scroll-to="'#projectplan'">
                   <v-list-item>
                     <v-list-item-title class="v-list-item-title">
                       <p>Projectplan</p>
                     </v-list-item-title>
                   </v-list-item>
                 </a>
-                <a class="pagination-next" href="semesters/graduation/learningoutcomes/analyseren#interviews">
+                <a class="pagination-next" href="semesters/graduation/learningoutcomes/analyseren/#interviews">
                   <v-list-item>
                     <v-list-item-title class="v-list-item-title">
                       <p>Interviews</p>
                     </v-list-item-title>
                   </v-list-item>
                 </a>
-                <a class="pagination-next" href="semesters/graduation/learningoutcomes/analyseren#trendanalyse">
+                <a class="pagination-next" href="semesters/graduation/learningoutcomes/analyseren/#trendanalyse">
                   <v-list-item>
                     <v-list-item-title class="v-list-item-title">
                       <p>Trend-analyse</p>
@@ -63,6 +63,7 @@
       <div class="page-wrapper">
         <div class="leer-content-wrapper">
           <div class="content-cont">
+            <button v-scroll-to="{ element: '#interviews' }">j</button>
             <h3 id="projectplan">Projectplan</h3>
             <p>Een projectplan is opgesteld om alles van de huidige situatie tot de scoping vast te stellen en een plan
               te creëren om het einddoel te bereiken. Het projectplan is gebruikt als middel om mijn blik op de opdracht

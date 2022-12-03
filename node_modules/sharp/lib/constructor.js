@@ -13,7 +13,7 @@ const debuglog = util.debuglog('sharp');
 /**
  * Constructor factory to create an instance of `sharp`, to which further methods are chained.
  *
- * JPEG, PNG, WebP, AVIF or TIFF format image data can be streamed out from this object.
+ * JPEG, PNG, WebP, GIF, AVIF or TIFF format image data can be streamed out from this object.
  * When using Stream based output, derived attributes are available from the `info` event.
  *
  * Non-critical problems encountered during processing are emitted as `warning` events.
@@ -98,11 +98,11 @@ const debuglog = util.debuglog('sharp');
  *  a String containing the filesystem path to an JPEG, PNG, WebP, AVIF, GIF, SVG or TIFF image file.
  *  JPEG, PNG, WebP, AVIF, GIF, SVG, TIFF or raw pixel image data can be streamed into the object when not present.
  * @param {Object} [options] - if present, is an Object with optional attributes.
- * @param {boolean} [options.failOnError=true] - by default halt processing and raise an error when loading invalid images.
- *  Set this flag to `false` if you'd rather apply a "best effort" to decode images, even if the data is corrupt or invalid.
+ * @param {string} [options.failOn='warning'] - level of sensitivity to invalid images, one of (in order of sensitivity): 'none' (least), 'truncated', 'error' or 'warning' (most), highers level imply lower levels.
  * @param {number|boolean} [options.limitInputPixels=268402689] - Do not process input images where the number of pixels
  *  (width x height) exceeds this limit. Assumes image dimensions contained in the input metadata can be trusted.
  *  An integral Number of pixels, zero or false to remove limit, true to use default limit of 268402689 (0x3FFF x 0x3FFF).
+ * @param {boolean} [options.unlimited=false] - Set this to `true` to remove safety features that help prevent memory exhaustion (SVG, PNG).
  * @param {boolean} [options.sequentialRead=false] - Set this to `true` to use sequential rather than random access where possible.
  *  This can reduce memory usage and might improve performance on some systems.
  * @param {number} [options.density=72] - number representing the DPI for vector images in the range 1 to 100000.
@@ -165,6 +165,7 @@ const Sharp = function (input, options) {
     extendRight: 0,
     extendBackground: [0, 0, 0, 255],
     withoutEnlargement: false,
+    withoutReduction: false,
     affineMatrix: [],
     affineBackground: [0, 0, 0, 255],
     affineIdx: 0,
@@ -184,8 +185,11 @@ const Sharp = function (input, options) {
     medianSize: 0,
     blurSigma: 0,
     sharpenSigma: 0,
-    sharpenFlat: 1,
-    sharpenJagged: 2,
+    sharpenM1: 1,
+    sharpenM2: 2,
+    sharpenX1: 2,
+    sharpenY2: 10,
+    sharpenY3: 20,
     threshold: 0,
     thresholdGrayscale: true,
     trimThreshold: 0,
@@ -233,6 +237,7 @@ const Sharp = function (input, options) {
     pngAdaptiveFiltering: false,
     pngPalette: false,
     pngQuality: 100,
+    pngEffort: 7,
     pngBitdepth: 8,
     pngDither: 1,
     jp2Quality: 80,
@@ -245,7 +250,10 @@ const Sharp = function (input, options) {
     webpLossless: false,
     webpNearLossless: false,
     webpSmartSubsample: false,
-    webpReductionEffort: 4,
+    webpEffort: 4,
+    gifBitdepth: 8,
+    gifEffort: 7,
+    gifDither: 1,
     tiffQuality: 80,
     tiffCompression: 'jpeg',
     tiffPredictor: 'horizontal',
@@ -256,10 +264,11 @@ const Sharp = function (input, options) {
     tiffTileWidth: 256,
     tiffXres: 1.0,
     tiffYres: 1.0,
+    tiffResolutionUnit: 'inch',
     heifQuality: 50,
     heifLossless: false,
     heifCompression: 'av1',
-    heifSpeed: 5,
+    heifEffort: 4,
     heifChromaSubsampling: '4:4:4',
     rawDepth: 'uchar',
     tileSize: 256,
@@ -310,9 +319,7 @@ Object.setPrototypeOf(Sharp, stream.Duplex);
  * // Using Promises to know when the pipeline is complete
  * const fs = require("fs");
  * const got = require("got");
- * const sharpStream = sharp({
- *   failOnError: false
- * });
+ * const sharpStream = sharp({ failOn: 'none' });
  *
  * const promises = [];
  *

@@ -28134,12 +28134,12 @@ html.overflow-y-hidden {
   font-size: 1.5rem;
   color: inherit;
 }
-.v-stepper__step.v-stepper__step--error .v-stepper__label {
+.v-stepper .v-stepper__step.v-stepper__step--error .v-stepper__label {
   color: inherit;
   text-shadow: none;
   font-weight: 500;
 }
-.v-stepper__step.v-stepper__step--error .v-stepper__label small {
+.v-stepper .v-stepper__step.v-stepper__step--error .v-stepper__label small {
   color: inherit;
 }
 .v-stepper__label {

@@ -4,7 +4,6 @@ export default {
   ssr: false,
   router: {
     base: '/rvwijk_portfolio/',
-
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -68,6 +67,7 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     { src: '~/plugins/lightbox.js' },
+    { src: '~/plugins/vue-scrollto.js' },
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -106,6 +106,7 @@ export default {
     '@nuxtjs/svg-sprite',
     '@nuxt/image',
     '@nuxtjs/pwa',
+    'vue-scrollto/nuxt',
   ],
   svgSprite: {
     // manipulate module options

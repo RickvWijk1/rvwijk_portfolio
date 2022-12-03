@@ -2,7 +2,7 @@
     <div class="layout-body">
           <UITopNav />
   
-        <Nuxt />
+        <nuxt />
       
     </div>
 </template>

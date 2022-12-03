@@ -38,6 +38,13 @@
                     </v-list-item-title>
                   </v-list-item>
                 </a>
+                <router-link class="pagination-next" :to="{ path: '/semesters/graduation/learningoutcomes/analyseren#trendanalyse' }">
+                  <v-list-item>
+                    <v-list-item-title class="v-list-item-title">
+                      <p>Test</p>
+                    </v-list-item-title>
+                  </v-list-item>
+                </router-link>
               </div>
             </v-list-item-group>
             <v-list-item-group>

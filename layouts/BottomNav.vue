@@ -1,7 +1,7 @@
 <template>
     <div class="layout-body">
       <div class="grad-wrapper">
-        <Nuxt />
+        <nuxt />
         <!-- <GraduationBottomNav /> -->
       </div>
 

@@ -13,25 +13,25 @@
             <v-list-item-group>
               <div class="sidepanel-item-cont">
                 <v-list-item>
-                  <h2>Analyseren</h2>
+                  <h2>Adviseren</h2>
                 </v-list-item>
               </div>
               <div class="sidepanel-item-cont">
-                <a class="pagination-next" href="semesters/graduation/learningoutcomes/analyseren#projectplan">
+                <a class="pagination-next" href="semesters/graduation/learningoutcomes/analyseren/#projectplan">
                   <v-list-item>
                     <v-list-item-title class="v-list-item-title">
                       <p>Projectplan</p>
                     </v-list-item-title>
                   </v-list-item>
                 </a>
-                <a class="pagination-next" href="semesters/graduation/learningoutcomes/analyseren#interviews">
+                <a class="pagination-next" href="semesters/graduation/learningoutcomes/analyseren/#interviews">
                   <v-list-item>
                     <v-list-item-title class="v-list-item-title">
-                      <p>Interviews</p>
+                      <p>Adviesrapport</p>
                     </v-list-item-title>
                   </v-list-item>
                 </a>
-                <a class="pagination-next" href="semesters/graduation/learningoutcomes/analyseren#trendanalyse">
+                <a class="pagination-next" href="semesters/graduation/learningoutcomes/analyseren/#trendanalyse">
                   <v-list-item>
                     <v-list-item-title class="v-list-item-title">
                       <p>Trend-analyse</p>
@@ -323,7 +323,7 @@
               <NuxtLink to="/semesters/graduation/leeruitkomsten" exact>Leeruitkomsten</NuxtLink>
             </li>
           </ul>
-          <NuxtLink to="/semesters/graduation/learningoutcomes/adviseren" class="desktop-next-page" exact>
+          <NuxtLink to="/semesters/graduation/leeruitkomsten" class="desktop-next-page" exact>
             <p>Ga naar 'Adviseren'</p>
             <svg-icon class="svg-arrow-right" name="arrow-right" />
           </NuxtLink>

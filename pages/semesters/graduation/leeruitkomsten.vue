@@ -39,7 +39,7 @@
               <NuxtLink to="/semesters/graduation/leeruitkomsten" exact>Leeruitkomsten</NuxtLink>
             </li>
           </ul>
-          <NuxtLink to="/semesters/graduation/analyseren" class="desktop-next-page" exact>
+          <NuxtLink to="/semesters/graduation/learningoutcomes/analyseren" class="desktop-next-page" exact>
             <p>Ga naar 'Analyseren'</p>
             <svg-icon class="svg-arrow-right" name="arrow-right" />
           </NuxtLink>

@@ -51,14 +51,6 @@
     box-shadow: 0 2px 2px 0 #10100e2e;
   }
 
-  .svg-external-link {
-    display: flex;
-    width: 19px;
-    height: 19px;
-    cursor: pointer;
-    fill: #fff;
-  }
-
   @media (min-width: 300px) {}
 
   @media (min-width: 640px) {

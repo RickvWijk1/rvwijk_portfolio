@@ -35,6 +35,7 @@ const _37276f20 = () => interopDefault(import('..\\pages\\modals\\semesterSix\\u
 const _559c019c = () => interopDefault(import('..\\pages\\semesters\\graduation\\home.vue' /* webpackChunkName: "pages/semesters/graduation/home" */))
 const _715fb756 = () => interopDefault(import('..\\pages\\semesters\\graduation\\leeruitkomsten.vue' /* webpackChunkName: "pages/semesters/graduation/leeruitkomsten" */))
 const _b655e81a = () => interopDefault(import('..\\pages\\semesters\\graduation\\leeswijzer.vue' /* webpackChunkName: "pages/semesters/graduation/leeswijzer" */))
+const _54de84a7 = () => interopDefault(import('..\\pages\\semesters\\graduation\\learningoutcomes\\adviseren.vue' /* webpackChunkName: "pages/semesters/graduation/learningoutcomes/adviseren" */))
 const _30244af8 = () => interopDefault(import('..\\pages\\semesters\\graduation\\learningoutcomes\\analyseren.vue' /* webpackChunkName: "pages/semesters/graduation/learningoutcomes/analyseren" */))
 const _5ccc1826 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
@@ -173,6 +174,10 @@ export const routerOptions = {
     path: "/semesters/graduation/leeswijzer",
     component: _b655e81a,
     name: "semesters-graduation-leeswijzer"
+  }, {
+    path: "/semesters/graduation/learningoutcomes/adviseren",
+    component: _54de84a7,
+    name: "semesters-graduation-learningoutcomes-adviseren"
   }, {
     path: "/semesters/graduation/learningoutcomes/analyseren",
     component: _30244af8,

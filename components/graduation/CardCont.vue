@@ -33,7 +33,7 @@
       </div>
       <div class="card-body"></div>
       <div class="card-footer">
-        <NuxtLink to="/semesters/graduation/leeruitkomsten/adviseren">
+        <NuxtLink to="/semesters/graduation/learningoutcomes/adviseren">
           <div class="card-btn">
             <button>Bekijk</button>
             <svg-icon class="arrow-svg" name="arrow" />
@@ -54,7 +54,7 @@
       </div>
       <div class="card-body"></div>
       <div class="card-footer">
-        <NuxtLink to="/semesters/graduation/leeruitkomsten/ontwerpen">
+        <NuxtLink to="/semesters/graduation/learningoutcomes/ontwerpen">
           <div class="card-btn">
             <button>Bekijk</button>
             <svg-icon class="arrow-svg" name="arrow" />
@@ -75,7 +75,7 @@
       </div>
       <div class="card-body"></div>
       <div class="card-footer">
-        <NuxtLink to="/semesters/graduation/leeruitkomsten/realiseren">
+        <NuxtLink to="/semesters/graduation/learningoutcomes/realiseren">
           <div class="card-btn">
             <button>Bekijk</button>
             <svg-icon class="arrow-svg" name="arrow" />
@@ -97,7 +97,7 @@
       </div>
       <div class="card-body"></div>
       <div class="card-footer">
-        <NuxtLink to="/semesters/graduation/leeruitkomsten/beheren">
+        <NuxtLink to="/semesters/graduation/learningoutcomes/beheren">
           <div class="card-btn">
             <button>Bekijk</button>
             <svg-icon class="arrow-svg" name="arrow" />
@@ -118,7 +118,7 @@
       </div>
       <div class="card-body"></div>
       <div class="card-footer">
-        <NuxtLink to="/semesters/graduation/leeruitkomsten/oordeelsvorming">
+        <NuxtLink to="/semesters/graduation/learningoutcomes/oordeelsvorming">
           <div class="card-btn">
             <button>Bekijk</button>
             <svg-icon class="arrow-svg" name="arrow" />
@@ -141,7 +141,7 @@
       </div>
       <div class="card-body"></div>
       <div class="card-footer">
-        <NuxtLink to="/semesters/graduation/leeruitkomsten/communicatie">
+        <NuxtLink to="/semesters/graduation/learningoutcomes/communicatie">
           <div class="card-btn">
             <button>Bekijk</button>
             <svg-icon class="arrow-svg" name="arrow" />

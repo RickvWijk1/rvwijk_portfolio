@@ -31,6 +31,14 @@ h4{
   border-radius: 2px;
 }
 
+.svg-external-link {
+  display: flex;
+  width: 19px;
+  height: 19px;
+  cursor: pointer;
+  fill: #fff;
+}
+
 /* #lightbox {
   position: fixed;
   z-index: 1000;

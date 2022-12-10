@@ -135,6 +135,15 @@
   background-color: #166ECC;
 }
 
+.main-nav-wrapper nav {
+  position: fixed !important;
+  height: 100%;
+}
+
+.page-wrapper{
+  margin-left: 1em;
+}
+
 .nav-wrapper {
   position: relative;
   display: flex;
@@ -312,7 +321,8 @@ ul li {
   }
 
   .main-nav-wrapper nav {
-    /* position: relative; */
+    position: relative !important;
+    height: unset;
     width: 200px;
     justify-content: flex-start;
   }
@@ -322,6 +332,7 @@ ul li {
     padding: 3em 3em;
     height: calc(100% - 152px);
     margin-bottom: 120px;
+    margin-left: 0;
   }
 
   .nav-wrapper {

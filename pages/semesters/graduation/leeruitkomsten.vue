@@ -59,17 +59,19 @@
 
 <style lang="css" scoped>
   @import '~/assets/css/graduation.css';
-
+  .page-wrapper {
+    height: inherit;
+  }
   .content-wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     padding: 2em 1em;
     background-color: #fff;
   }
 
   .nav-wrapper {
-    position: relative;
+    /* position: relative; */
     display: flex;
     height: 56px;
   }
@@ -125,6 +127,8 @@
   }
 
   .bottom-desktop-nav {
+    position: fixed;
+    bottom: 0;
     display: none;
     box-shadow: 0px -12px 51px -21px rgba(0, 0, 0, 0.75);
   }
@@ -205,7 +209,7 @@
 
   @media (min-width: 1024px) {
     .nav-wrapper{
-      height: unset;
+      height: 120px;
     }
     .bottom-nav-mobile {
       display: none;
@@ -228,8 +232,13 @@
   }
 
   @media (min-width: 1280px) {
+    .nav-wrapper{
+      height: 152px;
+    }
     .content-wrapper {
       padding: 3em 6em;
+      height: calc(100% - 152px);
+      
     }
 
     .bottom-desktop-nav {
@@ -238,6 +247,9 @@
   }
 
   @media (min-width: 1536px) {
+    .page-wrapper {
+    height: 100%;
+  }
     .content-wrapper {
       padding: 3em 16em;
     }

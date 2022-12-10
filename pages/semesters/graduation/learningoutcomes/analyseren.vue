@@ -17,7 +17,7 @@
                 </v-list-item>
               </div>
               <div class="sidepanel-item-cont">
-                <a class="pagination-next" href="#" v-scroll-to="'#projectplan'">
+                <a class="pagination-next" href="semesters/graduation/learningoutcomes/analyseren/#projectplan">
                   <v-list-item>
                     <v-list-item-title class="v-list-item-title">
                       <p>Projectplan</p>
@@ -63,7 +63,6 @@
       <div class="page-wrapper">
         <div class="leer-content-wrapper">
           <div class="content-cont">
-            <button v-scroll-to="{ element: '#interviews' }">j</button>
             <h3 id="projectplan">Projectplan</h3>
             <p>Een projectplan is opgesteld om alles van de huidige situatie tot de scoping vast te stellen en een plan
               te creëren om het einddoel te bereiken. Het projectplan is gebruikt als middel om mijn blik op de opdracht

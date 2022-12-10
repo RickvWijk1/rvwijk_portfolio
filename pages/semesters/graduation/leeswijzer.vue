@@ -20,6 +20,7 @@
 <style lang="css" scoped>
   @import '~/assets/css/graduation.css';
 
+
   body {
     background-color: #fff;
   }
@@ -27,6 +28,10 @@
   .content-wrapper {
     background-color: #fff;
     color: #fff;
+  }
+
+  .page-wrapper {
+    height: unset;
   }
 
   .content-wrapper {
@@ -85,8 +90,13 @@
   @media (min-width: 768px) {}
 
   @media (min-width: 1024px) {
+    .page-wrapper {
+      margin-bottom: 120px;
+    }
+
     .content-wrapper {
       padding: 2em 1em;
+      height: calc(100% - 120px);
     }
 
     .nav-wrapper {
@@ -95,13 +105,19 @@
   }
 
   @media (min-width: 1280px) {
+
     .content-wrapper {
       padding: 3em 6em;
+      height: calc(100% - 152px);
     }
 
   }
 
   @media (min-width: 1536px) {
+    .page-wrapper {
+      margin-bottom: 152px;
+    }
+
     .content-wrapper {
       padding: 3em 16em;
     }

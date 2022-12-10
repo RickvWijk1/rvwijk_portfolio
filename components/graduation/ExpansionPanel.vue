@@ -779,6 +779,8 @@
     </script>
 
     <style lang="css" scoped>
+  @import '~/assets/css/graduation.css';
+
       .row {
         margin: 0 -10px;
       }

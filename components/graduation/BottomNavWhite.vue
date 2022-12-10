@@ -57,6 +57,7 @@
 
 <style lang="css" scoped>
   .nav-wrapper {
+    z-index: 1;
     position: relative;
     display: flex;
     height: 56px;
@@ -197,7 +198,6 @@
 
     .bottom-desktop-nav {
       z-index: 1;
-
       display: flex;
       width: 100%;
       padding: 2em 2em;
@@ -221,7 +221,7 @@
 
   @media (min-width: 1536px) {
     .bottom-desktop-nav {
-    position: relative;
+    /* position: relative; */
       padding: 3em 16em;
     }
   }

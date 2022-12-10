@@ -13,7 +13,7 @@
             <v-list-item-group>
               <div class="sidepanel-item-cont">
                 <v-list-item>
-                  <h2>Adviseren</h2>
+                  <h2>Leervermogen</h2>
                 </v-list-item>
               </div>
               <div class="sidepanel-item-cont">
@@ -21,13 +21,6 @@
                   <v-list-item>
                     <v-list-item-title class="v-list-item-title">
                       <p>Projectplan</p>
-                    </v-list-item-title>
-                  </v-list-item>
-                </a>
-                <a class="pagination-next" href="semesters/graduation/learningoutcomes/adviseren/#projectplan">
-                  <v-list-item>
-                    <v-list-item-title class="v-list-item-title">
-                      <p>Kennissessie</p>
                     </v-list-item-title>
                   </v-list-item>
                 </a>
@@ -308,9 +301,9 @@
       </div>
       <div class="bottom-desktop-nav">
         <div class="desktop-nav-cont">
-          <NuxtLink to="/semesters/graduation/learningoutcomes/analyseren" class="desktop-next-page" exact>
+          <NuxtLink to="/semesters/graduation/learningoutcomes/communicatie" class="desktop-next-page" exact>
             <svg-icon class="svg-arrow-right" name="arrow-left" />
-            <p>Ga naar 'Analyseren'</p>
+            <p>Ga naar 'Communicatie'</p>
           </NuxtLink>
           <ul>
             <li>
@@ -323,10 +316,7 @@
               <NuxtLink to="/semesters/graduation/leeruitkomsten" exact>Leeruitkomsten</NuxtLink>
             </li>
           </ul>
-          <NuxtLink to="/semesters/graduation/learningoutcomes/ontwerpen" class="desktop-next-page" exact>
-            <p>Ga naar 'Ontwerpen'</p>
-            <svg-icon class="svg-arrow-right" name="arrow-right" />
-          </NuxtLink>
+          <div></div>
         </div>
       </div>
     </div>
@@ -361,4 +351,17 @@
   @import '~/assets/css/graduationNav.css';
   @import '~/assets/css/modal.css';
 
+.desktop-nav-cont{
+  /* justify-content: start;
+  gap: 1rem; */
+}
+.desktop-nav-cont ul{
+  justify-self: center;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+.desktop-next-page {
+  justify-self: flex-start;
+}
 </style>

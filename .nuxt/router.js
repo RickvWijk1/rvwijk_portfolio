@@ -37,6 +37,12 @@ const _715fb756 = () => interopDefault(import('..\\pages\\semesters\\graduation\
 const _b655e81a = () => interopDefault(import('..\\pages\\semesters\\graduation\\leeswijzer.vue' /* webpackChunkName: "pages/semesters/graduation/leeswijzer" */))
 const _54de84a7 = () => interopDefault(import('..\\pages\\semesters\\graduation\\learningoutcomes\\adviseren.vue' /* webpackChunkName: "pages/semesters/graduation/learningoutcomes/adviseren" */))
 const _30244af8 = () => interopDefault(import('..\\pages\\semesters\\graduation\\learningoutcomes\\analyseren.vue' /* webpackChunkName: "pages/semesters/graduation/learningoutcomes/analyseren" */))
+const _8bd209e2 = () => interopDefault(import('..\\pages\\semesters\\graduation\\learningoutcomes\\beheren.vue' /* webpackChunkName: "pages/semesters/graduation/learningoutcomes/beheren" */))
+const _612d2eca = () => interopDefault(import('..\\pages\\semesters\\graduation\\learningoutcomes\\communicatie.vue' /* webpackChunkName: "pages/semesters/graduation/learningoutcomes/communicatie" */))
+const _e8df8f66 = () => interopDefault(import('..\\pages\\semesters\\graduation\\learningoutcomes\\leervermogen.vue' /* webpackChunkName: "pages/semesters/graduation/learningoutcomes/leervermogen" */))
+const _bfce4344 = () => interopDefault(import('..\\pages\\semesters\\graduation\\learningoutcomes\\ontwerpen.vue' /* webpackChunkName: "pages/semesters/graduation/learningoutcomes/ontwerpen" */))
+const _d8d2516e = () => interopDefault(import('..\\pages\\semesters\\graduation\\learningoutcomes\\oordeelsvorming.vue' /* webpackChunkName: "pages/semesters/graduation/learningoutcomes/oordeelsvorming" */))
+const _4075f19a = () => interopDefault(import('..\\pages\\semesters\\graduation\\learningoutcomes\\realiseren.vue' /* webpackChunkName: "pages/semesters/graduation/learningoutcomes/realiseren" */))
 const _5ccc1826 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
@@ -182,6 +188,30 @@ export const routerOptions = {
     path: "/semesters/graduation/learningoutcomes/analyseren",
     component: _30244af8,
     name: "semesters-graduation-learningoutcomes-analyseren"
+  }, {
+    path: "/semesters/graduation/learningoutcomes/beheren",
+    component: _8bd209e2,
+    name: "semesters-graduation-learningoutcomes-beheren"
+  }, {
+    path: "/semesters/graduation/learningoutcomes/communicatie",
+    component: _612d2eca,
+    name: "semesters-graduation-learningoutcomes-communicatie"
+  }, {
+    path: "/semesters/graduation/learningoutcomes/leervermogen",
+    component: _e8df8f66,
+    name: "semesters-graduation-learningoutcomes-leervermogen"
+  }, {
+    path: "/semesters/graduation/learningoutcomes/ontwerpen",
+    component: _bfce4344,
+    name: "semesters-graduation-learningoutcomes-ontwerpen"
+  }, {
+    path: "/semesters/graduation/learningoutcomes/oordeelsvorming",
+    component: _d8d2516e,
+    name: "semesters-graduation-learningoutcomes-oordeelsvorming"
+  }, {
+    path: "/semesters/graduation/learningoutcomes/realiseren",
+    component: _4075f19a,
+    name: "semesters-graduation-learningoutcomes-realiseren"
   }, {
     path: "/",
     component: _5ccc1826,

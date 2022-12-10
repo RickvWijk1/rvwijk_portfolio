@@ -13,7 +13,7 @@
             <v-list-item-group>
               <div class="sidepanel-item-cont">
                 <v-list-item>
-                  <h2>Adviseren</h2>
+                  <h2>Ontwerpen</h2>
                 </v-list-item>
               </div>
               <div class="sidepanel-item-cont">
@@ -21,13 +21,6 @@
                   <v-list-item>
                     <v-list-item-title class="v-list-item-title">
                       <p>Projectplan</p>
-                    </v-list-item-title>
-                  </v-list-item>
-                </a>
-                <a class="pagination-next" href="semesters/graduation/learningoutcomes/adviseren/#projectplan">
-                  <v-list-item>
-                    <v-list-item-title class="v-list-item-title">
-                      <p>Kennissessie</p>
                     </v-list-item-title>
                   </v-list-item>
                 </a>
@@ -308,9 +301,9 @@
       </div>
       <div class="bottom-desktop-nav">
         <div class="desktop-nav-cont">
-          <NuxtLink to="/semesters/graduation/learningoutcomes/analyseren" class="desktop-next-page" exact>
+          <NuxtLink to="/semesters/graduation/learningoutcomes/adviseren" class="desktop-next-page" exact>
             <svg-icon class="svg-arrow-right" name="arrow-left" />
-            <p>Ga naar 'Analyseren'</p>
+            <p>Ga naar 'Adviseren'</p>
           </NuxtLink>
           <ul>
             <li>
@@ -323,8 +316,8 @@
               <NuxtLink to="/semesters/graduation/leeruitkomsten" exact>Leeruitkomsten</NuxtLink>
             </li>
           </ul>
-          <NuxtLink to="/semesters/graduation/learningoutcomes/ontwerpen" class="desktop-next-page" exact>
-            <p>Ga naar 'Ontwerpen'</p>
+          <NuxtLink to="/semesters/graduation/learningoutcomes/realiseren" class="desktop-next-page" exact>
+            <p>Ga naar 'Realiseren'</p>
             <svg-icon class="svg-arrow-right" name="arrow-right" />
           </NuxtLink>
         </div>

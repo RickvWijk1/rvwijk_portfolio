@@ -64,11 +64,20 @@
         <div class="leer-content-wrapper">
           <div class="content-cont">
             <h3 id="projectplan">Projectplan</h3>
-            <p>Een projectplan is opgesteld om alles van de huidige situatie tot de scoping vast te stellen en een plan
+          </div>
+
+          <div class="marked content-cont">
+            <div class="proof-icon">
+              <svg-icon class="svg-checkmark" name="checkmark_filled"></svg-icon>
+              <b>Bewijs uitleg</b>
+            </div>
+            <div class="content-proof-explained">
+              <p>Een projectplan is opgesteld om alles van de huidige situatie tot de scoping vast te stellen en een plan
               te creëren om het einddoel te bereiken. Het projectplan is gebruikt als middel om mijn blik op de opdracht
               over te brengen op de bedrijfsbegeleider. Hierdoor ontstond een discussie over de opdracht zodat het voor
               beide partijen duidelijker werd wat het doel en de scoping moest zijn. Na meerdere versies is er een
               akkoord bereikt.</p>
+            </div>
           </div>
           <div class="content-cont">
             <div class="learned-cont">
@@ -86,20 +95,16 @@
                 bedrijf,
                 er een duidelijker beeld kan worden geschetst van de huidige situatie en de verwachtingen/het doel van
                 het bedrijf.</p>
-              <p>Minimaal 3 front-end en 3 back-end developers worden geïnterviewd. Een lijst met namen
-                van de meest geschikte developers (opgesteld door de bedrijfsbegeleider) om te interviewen
-                wordt opgesteld. De developers worden uitgenodigd voor het interview door ze een berichtje
-                via Slack te sturen of te benaderen op kantoor. De resultaten worden genoteerd en op basis
-                daarvan wordt er een conclusie geschreven.</p>
+                <p>Allereerst heb ik vragen gesteld aan mijn bedrijfgsbegeleider over de huidige situatie en het doel. Om meer informatie te krijgen heb ik hierna interviews gehouden.</p>
             </div>
           </div>
-          <div class="marked content-cont">
+          <div class="content-cont">
             <h4>Hoofdvraag</h4>
             <p>Hoe zorg ik dat BBD front-end developers een middel hebben om hun componenten te kunnen hergebruiken
               zodat de kwaliteit van BBD’s projecten gewaarborgd kan blijven?</p>
           </div>
           <div class="content-cont">
-            <h4>Conclusie</h4>
+            <h4>Conclusie & Vervolgstappen</h4>
             <div class="text-columns">
               <p>Het doel van het bedrijf is om meer componenten te gaan hergebruiken zodat de front-end developers van
                 BBD meer tijd over hebben om te kunnen werken aan het creëren van het 'Wow!' effect voor projecten.</p>
@@ -128,11 +133,19 @@
         <div class="leer-content-wrapper">
           <div class="content-cont">
             <h3 id="interviews">Interviews - Huidige Situatie</h3>
-            <p>Van de bedrijfsbegeleider heb ik gehoord dat er momenteel nauwelijks componenten hergebruikt worden.
+          </div>
+          <div class="marked content-cont">
+            <div class="proof-icon">
+              <svg-icon class="svg-checkmark" name="checkmark_filled"></svg-icon>
+              <b>Bewijs uitleg</b>
+            </div>
+            <div class="content-proof-explained">
+              <p>Van de bedrijfsbegeleider heb ik gehoord dat er momenteel nauwelijks componenten hergebruikt worden.
               Echter, wil ik dit bevestigen en hierover meer details krijgen door het gesprek aan te gaan met de
               doelgroep, de front-end developers van BBD.
               Interviews zijn nuttig om kennis te maken met de doelgroep en poolshoogte te nemen.
             </p>
+            </div>
           </div>
           <div class="content-cont">
             <div class="learned-cont">
@@ -149,9 +162,14 @@
               <p><b>Field research is toegepast,</b> omdat het kennismaken met de doelgroep ervoor zorgt dat ik weet hoe
                 de doelgroep de huidige situatie ziet en zij mij meer details kunnen geven over de manier waarop zij
                 momenteel werken.</p>
+                <p>Minimaal 3 front-end en 3 back-end developers worden geïnterviewd. Een lijst met namen
+                van de meest geschikte developers (opgesteld door de bedrijfsbegeleider) om te interviewen
+                wordt opgesteld. De developers worden uitgenodigd voor het interview door ze een berichtje
+                via Slack te sturen of te benaderen op kantoor. De resultaten worden genoteerd en op basis
+                daarvan wordt er een conclusie geschreven.</p>
             </div>
           </div>
-          <div class="marked content-cont">
+          <div class="content-cont">
             <h4>Onderzoeksvraag</h4>
             <p>Hoe worden componenten momenteel hergebruikt door developers van BBD?</p>
           </div>
@@ -195,13 +213,20 @@
         <div class="leer-content-wrapper">
           <div class="content-cont">
             <h3 id="trendanalyse">Trendanalyse</h3>
-            <p>Het hoofddoel is om een platform te vinden dat er mogelijk voor kan zorgen dat BBD Day front-end
+          </div>
+          <div class="marked content-cont">
+            <div class="proof-icon">
+              <svg-icon class="svg-checkmark" name="checkmark_filled"></svg-icon>
+              <b>Bewijs uitleg</b>
+            </div>
+            <div class="content-proof-explained">
+              <p>Het hoofddoel is om een platform te vinden dat er mogelijk voor kan zorgen dat BBD Day front-end
               developers componenten vaker hergebruiken. Als een dergelijk platform bestaat, kan BBD dit platform
               gebruiken in plaats van het
               ontwerpen en ontwikkelen van een eigen platform.
               Als zo’n platform niet bestaat, kan de inspiratie gebruikt worden om een eigen platform te
-              ontwerpen die de benodigde functionaliteiten bevat.
-            </p>
+              ontwerpen die de benodigde functionaliteiten bevat.</p>
+            </div>
           </div>
           <div class="content-cont">
             <div class="learned-cont">
@@ -231,13 +256,13 @@
                 een component te uploaden en/of te installeren.</p>
             </div>
           </div>
-          <div class="marked content-cont">
+          <div class="content-cont">
             <h4>Onderzoeksvraag</h4>
             <p>Bestaat er een platform dat er mogelijk voor kan zorgen dat front-end componenten
               hergebruikt kunnen worden door BBD front-end developers?</p>
           </div>
           <div class="content-cont">
-            <h4>Conclusie</h4>
+            <h4>Conclusie & Vervolgstappen</h4>
             <div class="text-columns">
               <p>Package manager NPM is een platform dat er mogelijk voor kan zorgen dat front-end
                 componenten van BBD vaker hergebruikt worden dan in de huidige situatie het geval is. Het
@@ -259,7 +284,7 @@
           <div class="content-cont">
             <div class="pdf-cont">
               <embed src="pdf/graduation/trendanalyse.pdf" width="100%" height="1000" type="application/pdf">
-              <a target="_blank" href="./pdf/graduation/trendanalyse.pdf" class="bbd-btn"><button>Bekijk interviews
+              <a target="_blank" href="./pdf/graduation/trendanalyse.pdf" class="bbd-btn"><button>Bekijk trendanalyse
                   in
                   PDF</button>
                 <svg-icon class="svg-external-link" name="external_link" /></a>

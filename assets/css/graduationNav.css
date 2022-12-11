@@ -8,7 +8,7 @@
 
 .main-nav-wrapper {
   display: flex;
-  justify-content: row;
+  flex-direction: row;
 }
 
 .nav-app-bar {
@@ -104,6 +104,31 @@
 }
 
 .marked {
+  display: flex;
+  flex-direction: row;
+  /* gap: 2em; */
+
+}
+.proof-icon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #000;
+  padding: 2em;
+  text-align: center;
+  background-color: #e3e8ecff;
+}
+.svg-checkmark{
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  height: 54px;
+  width: 54px;
+  fill: #00c853;
+}
+
+.content-proof-explained{
   padding: 2em;
   background-color: #e3e8ecff;
 }
@@ -317,11 +342,11 @@ ul li {
   }
 
   .main-nav-wrapper {
-    /* justify-content: flex-end; */
+    justify-content: flex-end;
   }
 
   .main-nav-wrapper nav {
-    position: relative !important;
+    /* position: relative !important; */
     height: unset;
     width: 200px;
     justify-content: flex-start;
@@ -360,6 +385,9 @@ ul li {
 }
 
 @media (min-width: 1280px) {
+  .main-nav-wrapper {
+    justify-content: center;
+  }
   .bottom-desktop-nav {
     padding: 3em 6em;
   }
@@ -370,7 +398,9 @@ ul li {
 }
 
 @media (min-width: 1536px) {
-
+  .main-nav-wrapper {
+    justify-content: flex-end;
+  }
   .page-wrapper {
     max-width: unset;
     display: grid;

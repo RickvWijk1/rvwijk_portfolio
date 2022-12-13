@@ -102,13 +102,13 @@ function offlinePage(workbox, options) {
 }
 
 function workboxExtensions(workbox, options) {
-  
+
 }
 
 function cachingExtensions(workbox, options) {
-  
+
 }
 
 function routingExtensions(workbox, options) {
-  
+
 }

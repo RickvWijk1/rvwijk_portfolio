@@ -24,7 +24,8 @@
                     </v-list-item-title>
                   </v-list-item>
                 </a>
-                <a class="pagination-next" href="semesters/graduation/learningoutcomes/ontwerpen/#architectuursdiagram ">
+                <a class="pagination-next"
+                  href="semesters/graduation/learningoutcomes/ontwerpen/#architectuursdiagram ">
                   <v-list-item>
                     <v-list-item-title class="v-list-item-title">
                       <p>Architectuursdiagram </p>
@@ -64,10 +65,10 @@
               <b>Bewijs uitleg</b>
             </div>
             <div class="content-proof-explained">
-              <p>Een projectplan is opgesteld om alles van de huidige situatie tot de scoping vast te stellen en een plan
-                te creëren om het einddoel te bereiken. Het projectplan is gebruikt als middel om mijn blik op de opdracht
-                over te brengen op de bedrijfsbegeleider. Zo heb ik o.a. advies gegeven over hoe we het beste (welke
-                strategieën & methoden) de opdracht kunnen aanpakken.</p>
+              <p>In de oriënterende fase was het belangrijk te begrijpen wat het bedrijf wilde/in gedachten had. Door
+                het maken van ontwerpen en deze te discussiëren met de bedrijfsbegeleider kreeg ik een beter beeld van
+                waar het bedrijf heen wilde. Daarnaast konden de ontwerpen getoond worden aan de doelgroep zodat er voor
+                hun ook een beter beeld ontstond.</p>
             </div>
           </div>
           <div class="content-cont">
@@ -76,36 +77,25 @@
               <img src="~/assets/img/school/icons/approach.png" alt="">
             </div>
             <div class="research-tags-cont">
-              <div class="research-tag research-active research-field">
-                <p>Field</p>
-                <img src="~/assets/img/school/research_strats/field.png" alt="">
+              <div class="research-tag research-active research-workshop">
+                <p>Workshop</p>
+                <img src="~/assets/img/school/research_strats/workshop.png" alt="">
               </div>
             </div>
             <div class="research-text label-cont">
-              <p><b>Field research is toegepast,</b> omdat door het aangaan van het gesprek met de doelgroep en het
-                bedrijf,
-                er een duidelijker beeld kan worden geschetst van de huidige situatie en de verwachtingen/het doel van
-                het bedrijf.</p> <p>Allereerst heb ik vragen gesteld aan mijn bedrijfgsbegeleider over de huidige situatie en het doel. Om meer informatie te krijgen heb ik hierna interviews gehouden.</p>
+              <p><b>Workshop research is toegepast,</b> omdat door het maken en tonen van low-fidelity ontwerpen, de
+                visie, verwachtingen en wensen van het bedrijf duidelijker worden.</p>
             </div>
-          </div>
-          <div class=" content-cont">
-            <h4>Hoofdvraag</h4>
-            <p>Hoe zorg ik dat BBD front-end developers een middel hebben om hun componenten te kunnen hergebruiken
-              zodat de kwaliteit van BBD’s projecten gewaarborgd kan blijven?</p>
           </div>
           <div class="content-cont">
             <h4>Conclusie</h4>
             <div class="text-columns">
-              <p>Het doel van het bedrijf is om meer componenten te gaan hergebruiken zodat de front-end developers van
-                BBD meer tijd over hebben om te kunnen werken aan het creëren van het 'Wow!' effect voor projecten.</p>
-              <p>In de huidige situatie is er vaak te weinig tijd om voor dit effect te kunnen zorgen. Het hergebruiken
-                van componenten wordt zelden gedaan en als het gebeurt, niet efficiënt genoeg. Daarom is het aan mij om
-                de BBD front-end developers te voorzien van een middel waarmee zij hun
-                componenten kunnen hergebruiken.</p>
+              <p>Tijdens het bespreken van de ontwerpen met de stakeholders, werd het duidelijk dat het bedrijf in de
+                toekomst eventueel de componenten library open-source/deelbaar zou gaan maken. Verder werd duidelijk dat
+                er onderscheid moest worden gemaakt tussen 3 typen componenten; Magento, Shopware en Vue Storefront.</p>
               <div class="vervolg-cont">
                 <b>Wat nu?</b>
-                <p>Nu het plan is vastgesteld, kan er gefocust worden op het uitvoeren van onderzoek/het
-                  toepassen van methoden om tot een passende oplossing te komen.</p>
+                <p>Nu bekend is wat het bedrijf wil, kan er onderzoek gedaan worden naar manieren om dit technisch mogelijk te maken en te onderzoeken wat de doelgroep nodig heeft.</p>
               </div>
             </div>
           </div>
@@ -113,25 +103,27 @@
         <div class="leer-content-wrapper">
           <div class="content-cont">
             <div class="pdf-cont">
-              <embed src="pdf/graduation/projectplanV3.pdf" width="100%" height="1000" type="application/pdf">
-              <a target="_blank" href="./pdf/graduation/projectplanV3.pdf" class="bbd-btn"><button>Bekijk projectplan in
-                  PDF</button>
-                <svg-icon class="svg-external-link" name="external_link" /></a>
+              <img loading="lazy" src="~/assets/img/school/graduation/leeswijzer/sketch.jpg" alt="" class="image-zoom">
+              <img loading="lazy" src="~/assets/img/school/graduation/leeruitkomsten/CardComponent.jpg" alt="" class="image-zoom">
+              <img loading="lazy" src="~/assets/img/school/graduation/leeruitkomsten/StyleGuidesVB1.jpg" alt="" class="image-zoom">
+              <img loading="lazy" src="~/assets/img/school/graduation/leeruitkomsten/StyleGuidesVB2.jpg" alt="" class="image-zoom">
             </div>
           </div>
         </div>
         <div class="leer-content-wrapper">
           <div class="content-cont">
             <h3 id="interviews">Architectuursdiagram</h3>
-            </div>
+          </div>
           <div class="marked content-cont">
             <div class="proof-icon">
               <svg-icon class="svg-checkmark" name="checkmark_filled"></svg-icon>
               <b>Bewijs uitleg</b>
             </div>
             <div class="content-proof-explained">
-              <p>Een projectplan is opgesteld om alles van de huidige situatie tot de scoping vast te stellen en een plan
-                te creëren om het einddoel te bereiken. Het projectplan is gebruikt als middel om mijn blik op de opdracht
+              <p>Een projectplan is opgesteld om alles van de huidige situatie tot de scoping vast te stellen en een
+                plan
+                te creëren om het einddoel te bereiken. Het projectplan is gebruikt als middel om mijn blik op de
+                opdracht
                 over te brengen op de bedrijfsbegeleider. Zo heb ik o.a. advies gegeven over hoe we het beste (welke
                 strategieën & methoden) de opdracht kunnen aanpakken.</p>
             </div>

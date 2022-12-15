@@ -59,6 +59,9 @@
 
 <style lang="css" scoped>
   @import '~/assets/css/graduation.css';
+  .grad-wrapper{
+    background-color: #fff;
+  }
   .page-wrapper {
     height: inherit;
   }

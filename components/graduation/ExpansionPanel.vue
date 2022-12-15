@@ -789,6 +789,7 @@
         align-content: flex-start;
         gap: 1em;
         border-radius: 0;
+        z-index: unset;
       }
 
       .v-expansion-panel {}

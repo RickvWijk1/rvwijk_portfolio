@@ -197,7 +197,6 @@
     }
 
     .bottom-desktop-nav {
-      z-index: 1;
       display: flex;
       width: 100%;
       padding: 2em 2em;

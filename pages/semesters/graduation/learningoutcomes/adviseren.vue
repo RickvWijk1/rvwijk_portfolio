@@ -240,7 +240,7 @@
             <div class="research-text label-cont">
               <p><b>Showroom researchh is toegepast,</b> wordt toegepast. De
                 ‘Co-reflection’ methode wordt ingezet. Samen met de front-end lead developer en bedrijfsbegeleider wordt
-                er gediscussieerd over waaraan het platform moet voldoen. Resources die gebruikt zullen worden om
+                er gediscussieerd waaraan het platform moet voldoen. Resources die gebruikt zullen worden om
                 requirements op te stellen zijn het BBD beleid (bijv. beveiliging en coding standaard regels) en de
                 conclusies uit de eerdere onderzoeksresultaten.</p>
             </div>
@@ -284,12 +284,13 @@
               <b>Bewijs uitleg</b>
             </div>
             <div class="content-proof-explained">
-              <p>Een projectplan is opgesteld om alles van de huidige situatie tot de scoping vast te stellen en een
-                plan
-                te creëren om het einddoel te bereiken. Het projectplan is gebruikt als middel om mijn blik op de
-                opdracht
-                over te brengen op de bedrijfsbegeleider. Zo heb ik o.a. advies gegeven over hoe we het beste (welke
-                strategieën & methoden) de opdracht kunnen aanpakken.</p>
+              <p>Door het betrekken van stakeholders in het design proces kan er achterhaald worden welke richting het
+                project op kan gaan en welke oplossing hier mogelijk bij past. Aan mijn bedrijfgsbegeleider heb ik
+                daarom geadviseerd een Co-reflection/Co-creation meeting te organiseren. Dit was voor mij een manier om
+                de
+                oplossing die ik had te delen met de doelgroep, te testen en vervolgens te verbeteren na aanleiding van
+                de feedback.
+              </p>
             </div>
           </div>
           <div class="content-cont">
@@ -298,13 +299,9 @@
               <img src="~/assets/img/school/icons/approach.png" alt="">
             </div>
             <div class="research-tags-cont">
-              <div class="research-tag research-active research-desktop">
-                <p>Desktop</p>
-                <img src="~/assets/img/school/research_strats/library.png" alt="">
-              </div>
-              <div class="research-tag research-active research-field">
-                <p>Field</p>
-                <img src="~/assets/img/school/research_strats/field.png" alt="">
+              <div class="research-tag research-active research-showroom">
+                <p>Showroom</p>
+                <img src="~/assets/img/school/research_strats/showroom.png" alt="">
               </div>
               <div class="research-tag research-active research-workshop">
                 <p>Workshop</p>
@@ -312,34 +309,42 @@
               </div>
             </div>
             <div class="research-text label-cont">
-              <p><b>Desktop, field en workshop research is toegepast,</b> omdat er gezocht wordt naar bestaande
-                platformen. Aangezien er veel developers werken bij BBD, is er een grote kans dat zij al een paar
-                platformen kunnen aanwijzen als inspiratiebron.
-                Er wordt een lijst met inspirationele platformen opgesteld inclusief een beschrijving van de
-                aangeboden functies per platform. De platformen worden uitgeprobeerd door bijvoorbeeld
-                een component te uploaden en/of te installeren.</p>
+              <p><b>Showroom en workshop research is toegepast,</b> omdat er input nodig is van de stakeholders en er
+                getest moet worden hoe de doelgroep de voorgestelde oplossing ervaart.</p>
+              <p>
+                Het plan is om samen met de front-end developers van BBD een aantal uur in een ruimte te zitten om te
+                brainstormen hoe de front-end componenten gebruikt moet worden. Dit wordt bereikt door een korte uitleg
+                d.m.v. een Use Case demo te geven om vervolgens te discussiëren wat de front-end developers hiervan
+                vinden. Op basis van de feedback gaan de front-end developers componenten ontwikkelen op de manier die
+                zij het beste lijken en deze uploaden naar de library met de bijbehorende documentatie.
+              </p>
             </div>
           </div>
           <div class="content-cont">
             <h4>Onderzoeksvraag</h4>
-            <p>Bestaat er een platform dat er mogelijk voor kan zorgen dat front-end componenten
-              hergebruikt kunnen worden door BBD front-end developers?</p>
+            <p>Welke mogelijkheden zien de BBD front-end developers bij het gebruiken van de front-end componenten
+              library?</p>
           </div>
           <div class="content-cont">
             <h4>Conclusie</h4>
             <div class="text-columns">
-              <p>Package manager NPM is een platform dat er mogelijk voor kan zorgen dat front-end
-                componenten van BBD vaker hergebruikt worden dan in de huidige situatie het geval is. Het
-                platform zorgt er o.a. voor dat developers componenten gebouwd met allerlei
-                programmeertalen in een privé omgeving kunnen uploaden. Aangezien BBD werkt met veel
-                verschillende programmeertalen/frameworks en eist dat componenten privé opgeslagen
-                kunnen worden, is NPM mogelijk een platform om te gebruiken voor BBD.</p>
+              <p>De developers vinden de basis van de oplossing goed. Echter zien zij mogelijkheden om de oplossing te
+                verbeteren door een design system toe te passen op de omgeving om te zorgen voor een betere structuur.
+                Ook voor het managen van versies is een oplossing nodig om versie problemen tussen de componenten te
+                voorkomen.
+                Tijdens de meeting bleek ook dat de developers in de huidige situatie niet geheel tevreden zijn over het
+                gebruik van Confluence vanwege het gebrek aan technische documentatie support. Er kan dus ook
+                geconcludeerd worden dat Confluence geen geschikte plaats is voor de documentatie van de componenten
+                library. Tijdens mijn onderzoek naar MkDocs, ondervond ik dat MkDocs ook niet ideaal is om te gebruiken
+                als documentatie platform en de developers waren het hier mee eens.
+              </p>
 
               <div class="vervolg-cont">
                 <b>Wat nu?</b>
-                <p>Nu er inspiratie opgedaan is, kunnen er schetsen gemaakt worden voor een eerste iteratie. Daarnaast
-                  moet er
-                  ook ingeleefd worden in de doelgroep om eisen voor het platform op te kunnen stellen.</p>
+                <p>Er moet onderzoek verricht worden naar geschikte design systemen voor de oplossing.
+                  Daarnaast moet onderzocht worden welke documentatie platform hierbij past.
+                  Verder moet er onderzocht worden hoe de versies van nested components gemanaged kunnen worden.
+                </p>
               </div>
             </div>
           </div>
@@ -347,8 +352,8 @@
         <div class="leer-content-wrapper">
           <div class="content-cont">
             <div class="pdf-cont">
-              <embed src="pdf/graduation/requirements.pdf" width="100%" height="1000" type="application/pdf">
-              <a target="_blank" href="./pdf/graduation/trendanalyse.pdf" class="bbd-btn"><button>Bekijk
+              <embed src="pdf/graduation/co-reflection_creation.pdf" width="100%" height="1000" type="application/pdf">
+              <a target="_blank" href="./pdf/graduation/co-reflection_creation.pdf" class="bbd-btn"><button>Bekijk
                   co-reflection/creation
                   in
                   PDF</button>
@@ -366,12 +371,10 @@
               <b>Bewijs uitleg</b>
             </div>
             <div class="content-proof-explained">
-              <p>Een projectplan is opgesteld om alles van de huidige situatie tot de scoping vast te stellen en een
-                plan
-                te creëren om het einddoel te bereiken. Het projectplan is gebruikt als middel om mijn blik op de
-                opdracht
-                over te brengen op de bedrijfsbegeleider. Zo heb ik o.a. advies gegeven over hoe we het beste (welke
-                strategieën & methoden) de opdracht kunnen aanpakken.</p>
+              <p>Elke maand is er een meeting voor front-end developers waarin front-end kennis wordt gedeeld met
+                elkaar. Hier heb ik aan deelgenomen door een kennissessie te geven over hoe je componenten kunt managen
+                met mijn voorgestelde oplossing, hoe dit op een technisch niveau werkt en waarom het voordelig is om te
+                gebruiken.</p>
             </div>
           </div>
           <div class="content-cont">
@@ -380,59 +383,37 @@
               <img src="~/assets/img/school/icons/approach.png" alt="">
             </div>
             <div class="research-tags-cont">
-              <div class="research-tag research-active research-desktop">
-                <p>Desktop</p>
-                <img src="~/assets/img/school/research_strats/library.png" alt="">
+              <div class="research-tag research-active research-showroom">
+                <p>Showroom</p>
+                <img src="~/assets/img/school/research_strats/showroom.png" alt="">
               </div>
-              <div class="research-tag research-active research-field">
-                <p>Field</p>
-                <img src="~/assets/img/school/research_strats/field.png" alt="">
-              </div>
-              <div class="research-tag research-active research-workshop">
-                <p>Workshop</p>
-                <img src="~/assets/img/school/research_strats/workshop.png" alt="">
-              </div>
+
             </div>
             <div class="research-text label-cont">
-              <p><b>Desktop, field en workshop research is toegepast,</b> omdat er gezocht wordt naar bestaande
-                platformen. Aangezien er veel developers werken bij BBD, is er een grote kans dat zij al een paar
-                platformen kunnen aanwijzen als inspiratiebron.
-                Er wordt een lijst met inspirationele platformen opgesteld inclusief een beschrijving van de
-                aangeboden functies per platform. De platformen worden uitgeprobeerd door bijvoorbeeld
-                een component te uploaden en/of te installeren.</p>
+              <p><b>Showroom research is toegepast,</b> mijn voorgestelde oplossing wordt gedeeld met experts op het
+                gebied van front-end development. Zij kunnen feedback geven op de voorgestelde oplossing.</p>
             </div>
           </div>
           <div class="content-cont">
-            <h4>Onderzoeksvraag</h4>
-            <p>Bestaat er een platform dat er mogelijk voor kan zorgen dat front-end componenten
-              hergebruikt kunnen worden door BBD front-end developers?</p>
-          </div>
-          <div class="content-cont">
-            <h4>Conclusie</h4>
+            <h4>Feedback</h4>
             <div class="text-columns">
-              <p>Package manager NPM is een platform dat er mogelijk voor kan zorgen dat front-end
-                componenten van BBD vaker hergebruikt worden dan in de huidige situatie het geval is. Het
-                platform zorgt er o.a. voor dat developers componenten gebouwd met allerlei
-                programmeertalen in een privé omgeving kunnen uploaden. Aangezien BBD werkt met veel
-                verschillende programmeertalen/frameworks en eist dat componenten privé opgeslagen
-                kunnen worden, is NPM mogelijk een platform om te gebruiken voor BBD.</p>
-
-              <div class="vervolg-cont">
-                <b>Wat nu?</b>
-                <p>Nu er inspiratie opgedaan is, kunnen er schetsen gemaakt worden voor een eerste iteratie. Daarnaast
-                  moet er
-                  ook ingeleefd worden in de doelgroep om eisen voor het platform op te kunnen stellen.</p>
-              </div>
+              <p>-</p>
             </div>
           </div>
         </div>
         <div class="leer-content-wrapper">
           <div class="content-cont">
             <div class="pdf-cont">
-              <embed src="pdf/graduation/requirements.pdf" width="100%" height="1000" type="application/pdf">
-              <a target="_blank" href="./pdf/graduation/trendanalyse.pdf" class="bbd-btn"><button>Bekijk kennissessie
-                  in
-                  PDF</button>
+              <div class="video-wrapper">
+                <iframe
+                  src="https://docs.google.com/presentation/d/e/2PACX-1vRZgDzHvum0UNPH5y4avMZ7Q2cUdCfyIHtlzp18QXgTXB4HDvgKYG-nf7a5dhcU2Ca6TKjBTD4GeARI/embed?start=true&loop=true&delayms=3000"
+                  frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true"
+                  webkitallowfullscreen="true"></iframe>
+              </div>
+
+              <a target="_blank"
+                href="https://docs.google.com/presentation/d/e/2PACX-1vRZgDzHvum0UNPH5y4avMZ7Q2cUdCfyIHtlzp18QXgTXB4HDvgKYG-nf7a5dhcU2Ca6TKjBTD4GeARI/pub?start=false&loop=false&delayms=3000"
+                class="bbd-btn"><button>Bekijk kennissessie slides</button>
                 <svg-icon class="svg-external-link" name="external_link" /></a>
             </div>
           </div>
@@ -447,71 +428,23 @@
               <b>Bewijs uitleg</b>
             </div>
             <div class="content-proof-explained">
-              <p>Een projectplan is opgesteld om alles van de huidige situatie tot de scoping vast te stellen en een
-                plan
-                te creëren om het einddoel te bereiken. Het projectplan is gebruikt als middel om mijn blik op de
-                opdracht
-                over te brengen op de bedrijfsbegeleider. Zo heb ik o.a. advies gegeven over hoe we het beste (welke
-                strategieën & methoden) de opdracht kunnen aanpakken.</p>
+              <p>Om het bedrijf te adviseren is een adviesrapport opgesteld. In dit rapport wordt uitgelegd wat er
+                bekend is geworden uit mijn onderzoek en geadviseerd wat er nog meer onderzocht moet worden om tot een
+                definitieve oplossing te komen. In het adviesrapport wordt rekening gehouden met de toekomst.</p>
             </div>
           </div>
           <div class="content-cont">
-            <div class="learned-cont">
-              <h4>Aanpak</h4>
-              <img src="~/assets/img/school/icons/approach.png" alt="">
-            </div>
-            <div class="research-tags-cont">
-              <div class="research-tag research-active research-desktop">
-                <p>Desktop</p>
-                <img src="~/assets/img/school/research_strats/library.png" alt="">
-              </div>
-              <div class="research-tag research-active research-field">
-                <p>Field</p>
-                <img src="~/assets/img/school/research_strats/field.png" alt="">
-              </div>
-              <div class="research-tag research-active research-workshop">
-                <p>Workshop</p>
-                <img src="~/assets/img/school/research_strats/workshop.png" alt="">
-              </div>
-            </div>
-            <div class="research-text label-cont">
-              <p><b>Desktop, field en workshop research is toegepast,</b> omdat er gezocht wordt naar bestaande
-                platformen. Aangezien er veel developers werken bij BBD, is er een grote kans dat zij al een paar
-                platformen kunnen aanwijzen als inspiratiebron.
-                Er wordt een lijst met inspirationele platformen opgesteld inclusief een beschrijving van de
-                aangeboden functies per platform. De platformen worden uitgeprobeerd door bijvoorbeeld
-                een component te uploaden en/of te installeren.</p>
-            </div>
-          </div>
-          <div class="content-cont">
-            <h4>Onderzoeksvraag</h4>
-            <p>Bestaat er een platform dat er mogelijk voor kan zorgen dat front-end componenten
-              hergebruikt kunnen worden door BBD front-end developers?</p>
-          </div>
-          <div class="content-cont">
-            <h4>Conclusie</h4>
+            <h4>Advies</h4>
             <div class="text-columns">
-              <p>Package manager NPM is een platform dat er mogelijk voor kan zorgen dat front-end
-                componenten van BBD vaker hergebruikt worden dan in de huidige situatie het geval is. Het
-                platform zorgt er o.a. voor dat developers componenten gebouwd met allerlei
-                programmeertalen in een privé omgeving kunnen uploaden. Aangezien BBD werkt met veel
-                verschillende programmeertalen/frameworks en eist dat componenten privé opgeslagen
-                kunnen worden, is NPM mogelijk een platform om te gebruiken voor BBD.</p>
-
-              <div class="vervolg-cont">
-                <b>Wat nu?</b>
-                <p>Nu er inspiratie opgedaan is, kunnen er schetsen gemaakt worden voor een eerste iteratie. Daarnaast
-                  moet er
-                  ook ingeleefd worden in de doelgroep om eisen voor het platform op te kunnen stellen.</p>
-              </div>
+              <p>-</p>
             </div>
           </div>
         </div>
         <div class="leer-content-wrapper">
           <div class="content-cont">
             <div class="pdf-cont">
-              <embed src="pdf/graduation/requirements.pdf" width="100%" height="1000" type="application/pdf">
-              <a target="_blank" href="./pdf/graduation/trendanalyse.pdf" class="bbd-btn"><button>Bekijk adviesrapport
+              <embed src="pdf/graduation/advies.pdf" width="100%" height="1000" type="application/pdf">
+              <a target="_blank" href="./pdf/graduation/advies.pdf" class="bbd-btn"><button>Bekijk adviesrapport
                   in
                   PDF</button>
                 <svg-icon class="svg-external-link" name="external_link" /></a>

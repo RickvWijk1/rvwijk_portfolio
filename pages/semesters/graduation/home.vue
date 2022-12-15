@@ -33,6 +33,7 @@
     max-width: 100%;
     width: 100%;
     height: 100%;
+    background: #fff;
     /* gap: 2em; */
     overflow-y: auto;
     /* height: calc(100% - 56px); */

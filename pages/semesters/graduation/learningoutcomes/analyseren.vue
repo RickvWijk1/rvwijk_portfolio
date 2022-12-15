@@ -24,10 +24,10 @@
                     </v-list-item-title>
                   </v-list-item>
                 </a>
-                <a class="pagination-next" href="semesters/graduation/learningoutcomes/analyseren/#interviews">
+                <a class="pagination-next" href="semesters/graduation/learningoutcomes/analyseren/#interviews1">
                   <v-list-item>
                     <v-list-item-title class="v-list-item-title">
-                      <p>Interviews</p>
+                      <p>Interviews 1</p>
                     </v-list-item-title>
                   </v-list-item>
                 </a>
@@ -35,6 +35,20 @@
                   <v-list-item>
                     <v-list-item-title class="v-list-item-title">
                       <p>Trend-analyse</p>
+                    </v-list-item-title>
+                  </v-list-item>
+                </a>
+                <a class="pagination-next" href="semesters/graduation/learningoutcomes/analyseren/#immersion">
+                  <v-list-item>
+                    <v-list-item-title class="v-list-item-title">
+                      <p>Immersion</p>
+                    </v-list-item-title>
+                  </v-list-item>
+                </a>
+                <a class="pagination-next" href="semesters/graduation/learningoutcomes/analyseren/#interviews2">
+                  <v-list-item>
+                    <v-list-item-title class="v-list-item-title">
+                      <p>Interviews 2</p>
                     </v-list-item-title>
                   </v-list-item>
                 </a>
@@ -72,11 +86,14 @@
               <b>Bewijs uitleg</b>
             </div>
             <div class="content-proof-explained">
-              <p>Een projectplan is opgesteld om alles van de huidige situatie tot de scoping vast te stellen en een plan
-              te creëren om het einddoel te bereiken. Het projectplan is gebruikt als middel om mijn blik op de opdracht
-              over te brengen op de bedrijfsbegeleider. Hierdoor ontstond een discussie over de opdracht zodat het voor
-              beide partijen duidelijker werd wat het doel en de scoping moest zijn. Na meerdere versies is er een
-              akkoord bereikt.</p>
+              <p>Een projectplan is opgesteld om alles van de huidige situatie tot de scoping vast te stellen en een
+                plan
+                te creëren om het einddoel te bereiken. Het projectplan is gebruikt als middel om mijn blik op de
+                opdracht
+                over te brengen op de bedrijfsbegeleider. Hierdoor ontstond een discussie over de opdracht zodat het
+                voor
+                beide partijen duidelijker werd wat het doel en de scoping moest zijn. Na meerdere versies is er een
+                akkoord bereikt.</p>
             </div>
           </div>
           <div class="content-cont">
@@ -95,7 +112,8 @@
                 bedrijf,
                 er een duidelijker beeld kan worden geschetst van de huidige situatie en de verwachtingen/het doel van
                 het bedrijf.</p>
-                <p>Allereerst heb ik vragen gesteld aan mijn bedrijfgsbegeleider over de huidige situatie en het doel. Om meer informatie te krijgen heb ik hierna interviews gehouden.</p>
+              <p>Allereerst heb ik vragen gesteld aan mijn bedrijfgsbegeleider over de huidige situatie en het doel. Om
+                meer informatie te krijgen heb ik hierna interviews gehouden.</p>
             </div>
           </div>
           <div class="content-cont">
@@ -132,7 +150,7 @@
         </div>
         <div class="leer-content-wrapper">
           <div class="content-cont">
-            <h3 id="interviews">Interviews - Huidige Situatie</h3>
+            <h3 id="interviews1">Interviews - Huidige Situatie</h3>
           </div>
           <div class="marked content-cont">
             <div class="proof-icon">
@@ -141,10 +159,10 @@
             </div>
             <div class="content-proof-explained">
               <p>Van de bedrijfsbegeleider heb ik gehoord dat er momenteel nauwelijks componenten hergebruikt worden.
-              Echter, wil ik dit bevestigen en hierover meer details krijgen door het gesprek aan te gaan met de
-              doelgroep, de front-end developers van BBD.
-              Interviews zijn nuttig om kennis te maken met de doelgroep en poolshoogte te nemen.
-            </p>
+                Echter, wil ik dit bevestigen en hierover meer details krijgen door het gesprek aan te gaan met de
+                doelgroep, de front-end developers van BBD.
+                Interviews zijn nuttig om kennis te maken met de doelgroep en poolshoogte te nemen.
+              </p>
             </div>
           </div>
           <div class="content-cont">
@@ -162,7 +180,7 @@
               <p><b>Field research is toegepast,</b> omdat het kennismaken met de doelgroep ervoor zorgt dat ik weet hoe
                 de doelgroep de huidige situatie ziet en zij mij meer details kunnen geven over de manier waarop zij
                 momenteel werken.</p>
-                <p>Minimaal 3 front-end en 3 back-end developers worden geïnterviewd. Een lijst met namen
+              <p>Minimaal 3 front-end en 3 back-end developers worden geïnterviewd. Een lijst met namen
                 van de meest geschikte developers (opgesteld door de bedrijfsbegeleider) om te interviewen
                 wordt opgesteld. De developers worden uitgenodigd voor het interview door ze een berichtje
                 via Slack te sturen of te benaderen op kantoor. De resultaten worden genoteerd en op basis
@@ -221,11 +239,171 @@
             </div>
             <div class="content-proof-explained">
               <p>Het hoofddoel is om een platform te vinden dat er mogelijk voor kan zorgen dat BBD Day front-end
-              developers componenten vaker hergebruiken. Als een dergelijk platform bestaat, kan BBD dit platform
-              gebruiken in plaats van het
-              ontwerpen en ontwikkelen van een eigen platform.
-              Als zo’n platform niet bestaat, kan de inspiratie gebruikt worden om een eigen platform te
-              ontwerpen die de benodigde functionaliteiten bevat.</p>
+                developers componenten vaker hergebruiken. Als een dergelijk platform bestaat, kan BBD dit platform
+                gebruiken in plaats van het
+                ontwerpen en ontwikkelen van een eigen platform.
+                Als zo’n platform niet bestaat, kan de inspiratie gebruikt worden om een eigen platform te
+                ontwerpen die de benodigde functionaliteiten bevat.</p>
+            </div>
+          </div>
+          <div class="content-cont">
+            <div class="learned-cont">
+              <h4>Aanpak</h4>
+              <img src="~/assets/img/school/icons/approach.png" alt="">
+            </div>
+            <div class="research-tags-cont">
+              <div class="research-tag research-active research-desktop">
+                <p>Desktop</p>
+                <img src="~/assets/img/school/research_strats/library.png" alt="">
+              </div>
+              <div class="research-tag research-active research-field">
+                <p>Field</p>
+                <img src="~/assets/img/school/research_strats/field.png" alt="">
+              </div>
+              <div class="research-tag research-active research-workshop">
+                <p>Workshop</p>
+                <img src="~/assets/img/school/research_strats/workshop.png" alt="">
+              </div>
+            </div>
+            <div class="research-text label-cont">
+              <p><b>Desktop, field en workshop research is toegepast,</b> omdat er gezocht wordt naar bestaande
+                platformen. Aangezien er veel developers werken bij BBD, is er een grote kans dat zij al een paar
+                platformen kunnen aanwijzen als inspiratiebron.
+                Er wordt een lijst met inspirationele platformen opgesteld inclusief een beschrijving van de
+                aangeboden functies per platform. De platformen worden uitgeprobeerd door bijvoorbeeld
+                een component te uploaden en/of te installeren.</p>
+            </div>
+          </div>
+          <div class="content-cont">
+            <h4>Onderzoeksvraag</h4>
+            <p>Bestaat er een platform dat er mogelijk voor kan zorgen dat front-end componenten
+              hergebruikt kunnen worden door BBD front-end developers?</p>
+          </div>
+          <div class="content-cont">
+            <h4>Conclusie & Vervolgstappen</h4>
+            <div class="text-columns">
+              <p>Package manager NPM is een platform dat er mogelijk voor kan zorgen dat front-end
+                componenten van BBD vaker hergebruikt worden dan in de huidige situatie het geval is. Het
+                platform zorgt er o.a. voor dat developers componenten gebouwd met allerlei
+                programmeertalen in een privé omgeving kunnen uploaden. Aangezien BBD werkt met veel
+                verschillende programmeertalen/frameworks en eist dat componenten privé opgeslagen
+                kunnen worden, is NPM mogelijk een platform om te gebruiken voor BBD.</p>
+
+              <div class="vervolg-cont">
+                <b>Wat nu?</b>
+                <p>Nu er inspiratie opgedaan is, kunnen er schetsen gemaakt worden voor een eerste iteratie. Daarnaast
+                  moet er
+                  ook ingeleefd worden in de doelgroep om eisen voor het platform op te kunnen stellen.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="leer-content-wrapper">
+          <div class="content-cont">
+            <div class="pdf-cont">
+              <embed src="pdf/graduation/trendanalyse.pdf" width="100%" height="1000" type="application/pdf">
+              <a target="_blank" href="./pdf/graduation/trendanalyse.pdf" class="bbd-btn"><button>Bekijk trendanalyse
+                  in
+                  PDF</button>
+                <svg-icon class="svg-external-link" name="external_link" /></a>
+            </div>
+          </div>
+        </div>
+        <div class="leer-content-wrapper">
+          <div class="content-cont">
+            <h3 id="immersion">Immersion</h3>
+          </div>
+          <div class="marked content-cont">
+            <div class="proof-icon">
+              <svg-icon class="svg-checkmark" name="checkmark_filled"></svg-icon>
+              <b>Bewijs uitleg</b>
+            </div>
+            <div class="content-proof-explained">
+              <p>Om me beter te kunnen inleven in de doelgroep, heb ik 2-3 weken als front-end developer gewerkt aan een
+                Bluebird Day project. Tijdens de sprint heb ik samengewerkt met front-end developers. Op deze manier kon
+                ik de doelgroep analyseren.</p>
+            </div>
+          </div>
+          <div class="content-cont">
+            <div class="learned-cont">
+              <h4>Aanpak</h4>
+              <img src="~/assets/img/school/icons/approach.png" alt="">
+            </div>
+            <div class="research-tags-cont">
+              <div class="research-tag research-active research-desktop">
+                <p>Desktop</p>
+                <img src="~/assets/img/school/research_strats/library.png" alt="">
+              </div>
+              <div class="research-tag research-active research-field">
+                <p>Field</p>
+                <img src="~/assets/img/school/research_strats/field.png" alt="">
+              </div>
+              <div class="research-tag research-active research-workshop">
+                <p>Workshop</p>
+                <img src="~/assets/img/school/research_strats/workshop.png" alt="">
+              </div>
+            </div>
+            <div class="research-text label-cont">
+              <p><b>Field en workshop research is toegepast,</b> omdat door het deelnemen aan een Bluebird Day project
+                een duidelijker beeld zal ontstaan van de goals, struggles en behoeftes van de doelgroep.</p>
+              <p>Het plan is om mee te draaien in een sprint van een project. De sprint duurt een paar weken.
+                Tijdens deze periode zal ik taken oppakken van het project Boerschappen. Tijdens het werken aan de
+                taken, zal ik communiceren en om feedback vragen aan de BBD front-end
+                developers. Hierdoor wordt er geleerd hoe de BBD front-end developers te werk gaan.</p>
+            </div>
+          </div>
+          <div class="content-cont">
+            <h4>Onderzoeksvraag</h4>
+            <p>Wat zijn de goals, behoeften en irritaties die je als BBD front-end developer hebt tijdens het
+              werken aan een project?</p>
+          </div>
+          <div class="content-cont">
+            <h4>Conclusie & Vervolgstappen</h4>
+            <div class="text-columns">
+              <p>PDe goals van BBD’s front-end developers zijn het afronden van tickets binnen de voorspelde
+                tijd en het schrijven van duidelijke code die bijdraagt aan een goede performance.
+                De behoeften van de developers zijn het hebben van de benodigde info/documentatie om
+                een project klaar te zetten en om efficiënte code te schrijven.
+                De irritaties zijn het niet kunnen vinden van de nodige documentatie, onduidelijke tickets en
+                een trage en/of moeilijk op te zetten DEV omgeving voor een project.</p>
+
+              <div class="vervolg-cont">
+                <b>Wat nu?</b>
+                <p>Nu er bekend is wat je als BBD front-end developer meemaakt, is het nodig om te
+                  bevestigen of deze ervaringen overeenkomen met de BBD front-end developers. Dit kan
+                  door middel van de Interview methode. Door de ervaringen uit het Immersion onderzoek te
+                  delen, kan dit bevestigd worden.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="leer-content-wrapper">
+          <div class="content-cont">
+            <div class="pdf-cont">
+              <embed src="pdf/graduation/immersion.pdf" width="100%" height="1000" type="application/pdf">
+              <a target="_blank" href="./pdf/graduation/immersion.pdf" class="bbd-btn"><button>Bekijk immersion
+                  in
+                  PDF</button>
+                <svg-icon class="svg-external-link" name="external_link" /></a>
+            </div>
+          </div>
+        </div>
+        <div class="leer-content-wrapper">
+          <div class="content-cont">
+            <h3 id="interviews2">Interviews - Empathize</h3>
+          </div>
+          <div class="marked content-cont">
+            <div class="proof-icon">
+              <svg-icon class="svg-checkmark" name="checkmark_filled"></svg-icon>
+              <b>Bewijs uitleg</b>
+            </div>
+            <div class="content-proof-explained">
+              <p>Het hoofddoel is om een platform te vinden dat er mogelijk voor kan zorgen dat BBD Day front-end
+                developers componenten vaker hergebruiken. Als een dergelijk platform bestaat, kan BBD dit platform
+                gebruiken in plaats van het
+                ontwerpen en ontwikkelen van een eigen platform.
+                Als zo’n platform niet bestaat, kan de inspiratie gebruikt worden om een eigen platform te
+                ontwerpen die de benodigde functionaliteiten bevat.</p>
             </div>
           </div>
           <div class="content-cont">

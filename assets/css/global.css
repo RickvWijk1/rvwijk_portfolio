@@ -15,8 +15,7 @@ body,
 
 body {
   position: relative;
-  background-color: #242424;
-  color: #fff;
+  color: #fff;background: #242424;
   font-family: louis_george_caferegular, 'Roboto', sans-serif;
 }
 

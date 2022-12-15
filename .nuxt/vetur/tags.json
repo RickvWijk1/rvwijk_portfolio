@@ -44,11 +44,14 @@
   "GraduationHero": {
     "description": "Auto imported from components/graduation/Hero.vue"
   },
+  "ProjectsProducts": {
+    "description": "Auto imported from components/projects/Products.vue"
+  },
   "InterestsProducts": {
     "description": "Auto imported from components/interests/Products.vue"
   },
-  "ProjectsProducts": {
-    "description": "Auto imported from components/projects/Products.vue"
+  "GraduationHeroContClouds": {
+    "description": "Auto imported from components/graduation/HeroCont/Clouds.vue"
   },
   "SemestersixGroupProjectProduct": {
     "description": "Auto imported from components/semestersix/GroupProjectProduct.vue"
@@ -58,8 +61,5 @@
   },
   "SemestersixInterProjectProduct": {
     "description": "Auto imported from components/semestersix/InterProjectProduct.vue"
-  },
-  "GraduationHeroContClouds": {
-    "description": "Auto imported from components/graduation/HeroCont/Clouds.vue"
   }
 }

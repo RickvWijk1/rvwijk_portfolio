@@ -12,12 +12,18 @@
       </div>
       <div class="card-body"></div>
       <div class="card-footer">
-        <NuxtLink to="/semesters/graduation/learningoutcomes/analyseren">
+        <a href="/semesters/graduation/learningoutcomes/analyseren/">
           <div class="card-btn">
             <button>Bekijk</button>
             <svg-icon class="arrow-svg" name="arrow" />
           </div>
-        </NuxtLink>
+        </a>
+        <!-- <NuxtLink to="/semesters/graduation/learningoutcomes/analyseren">
+          <div class="card-btn">
+            <button>Bekijk</button>
+            <svg-icon class="arrow-svg" name="arrow" />
+          </div>
+        </NuxtLink> -->
       </div>
     </div>
     <!-- ---------------------------------------------------- -->

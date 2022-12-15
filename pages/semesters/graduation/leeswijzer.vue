@@ -22,7 +22,11 @@
 
 
   body {
-    background-color: #fff;
+    background-color: #fff !important;
+  }
+
+  .grad-wrapper{
+    background-color: #fff !important;
   }
 
   .content-wrapper {

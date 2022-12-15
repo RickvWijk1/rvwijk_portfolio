@@ -92,3 +92,7 @@ sw.*
 # Vim swap files
 *.swp
 node_modules
+
+# Nuxt dev/build outputs
+.nuxt
+.output

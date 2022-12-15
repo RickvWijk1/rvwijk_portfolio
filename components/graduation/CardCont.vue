@@ -12,7 +12,7 @@
       </div>
       <div class="card-body"></div>
       <div class="card-footer">
-        <a href="/semesters/graduation/learningoutcomes/analyseren/">
+        <a href="/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren/">
           <div class="card-btn">
             <button>Bekijk</button>
             <svg-icon class="arrow-svg" name="arrow" />
@@ -39,12 +39,12 @@
       </div>
       <div class="card-body"></div>
       <div class="card-footer">
-        <NuxtLink to="/semesters/graduation/learningoutcomes/adviseren">
+        <a href="/rvwijk_portfolio/semesters/graduation/learningoutcomes/adviseren/">
           <div class="card-btn">
             <button>Bekijk</button>
             <svg-icon class="arrow-svg" name="arrow" />
           </div>
-        </NuxtLink>
+        </a>
       </div>
     </div>
     <!-- ---------------------------------------------------- -->
@@ -60,12 +60,12 @@
       </div>
       <div class="card-body"></div>
       <div class="card-footer">
-        <NuxtLink to="/semesters/graduation/learningoutcomes/ontwerpen">
+        <a href="/rvwijk_portfolio/semesters/graduation/learningoutcomes/ontwerpen/">
           <div class="card-btn">
             <button>Bekijk</button>
             <svg-icon class="arrow-svg" name="arrow" />
           </div>
-        </NuxtLink>
+        </a>
       </div>
     </div>
     <!-- ---------------------------------------------------- -->
@@ -81,12 +81,12 @@
       </div>
       <div class="card-body"></div>
       <div class="card-footer">
-        <NuxtLink to="/semesters/graduation/learningoutcomes/realiseren">
+        <a href="/rvwijk_portfolio/semesters/graduation/learningoutcomes/realiseren/">
           <div class="card-btn">
             <button>Bekijk</button>
             <svg-icon class="arrow-svg" name="arrow" />
           </div>
-        </NuxtLink>
+        </a>
       </div>
     </div>
     <!-- ---------------------------------------------------- -->
@@ -103,12 +103,12 @@
       </div>
       <div class="card-body"></div>
       <div class="card-footer">
-        <NuxtLink to="/semesters/graduation/learningoutcomes/beheren">
+        <a href="/rvwijk_portfolio/semesters/graduation/learningoutcomes/beheren/">
           <div class="card-btn">
             <button>Bekijk</button>
             <svg-icon class="arrow-svg" name="arrow" />
           </div>
-        </NuxtLink>
+        </a>
       </div>
     </div>
     <!-- ---------------------------------------------------- -->
@@ -124,12 +124,12 @@
       </div>
       <div class="card-body"></div>
       <div class="card-footer">
-        <NuxtLink to="/semesters/graduation/learningoutcomes/oordeelsvorming">
+        <a href="/rvwijk_portfolio/semesters/graduation/learningoutcomes/oordeelsvorming/">
           <div class="card-btn">
             <button>Bekijk</button>
             <svg-icon class="arrow-svg" name="arrow" />
           </div>
-        </NuxtLink>
+        </a>
       </div>
     </div>
     <!-- ---------------------------------------------------- -->
@@ -147,12 +147,12 @@
       </div>
       <div class="card-body"></div>
       <div class="card-footer">
-        <NuxtLink to="/semesters/graduation/learningoutcomes/communicatie">
+        <a href="/rvwijk_portfolio/semesters/graduation/learningoutcomes/communicatie/">
           <div class="card-btn">
             <button>Bekijk</button>
             <svg-icon class="arrow-svg" name="arrow" />
           </div>
-        </NuxtLink>
+        </a>
       </div>
     </div>
     <!-- ---------------------------------------------------- -->
@@ -169,12 +169,12 @@
       </div>
       <div class="card-body"></div>
       <div class="card-footer">
-        <NuxtLink to="/semesters/graduation/learningoutcomes/leervermogen">
+        <a href="/rvwijk_portfolio/semesters/graduation/learningoutcomes/leervermogen/">
           <div class="card-btn">
             <button>Bekijk</button>
             <svg-icon class="arrow-svg" name="arrow" />
           </div>
-        </NuxtLink>
+        </a>
       </div>
     </div>
   </div>

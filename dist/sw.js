@@ -1,4 +1,4 @@
-const options = {"workboxURL":"https://cdn.jsdelivr.net/npm/workbox-cdn@5.1.4/workbox/workbox-sw.js","importScripts":[],"config":{"debug":false},"cacheOptions":{"cacheId":"rick_van_wijk-portfolio-prod","directoryIndex":"/","revision":"0njTKW6eaT1N"},"clientsClaim":true,"skipWaiting":true,"cleanupOutdatedCaches":true,"offlineAnalytics":false,"preCaching":[{"revision":"0njTKW6eaT1N","url":"/rvwijk_portfolio/?standalone=true"}],"runtimeCaching":[{"urlPattern":"/rvwijk_portfolio/_nuxt/","handler":"CacheFirst","method":"GET","strategyPlugins":[]},{"urlPattern":"/rvwijk_portfolio/","handler":"NetworkFirst","method":"GET","strategyPlugins":[]}],"offlinePage":null,"pagesURLPattern":"/rvwijk_portfolio/","offlineStrategy":"NetworkFirst"}
+const options = {"workboxURL":"https://cdn.jsdelivr.net/npm/workbox-cdn@5.1.4/workbox/workbox-sw.js","importScripts":[],"config":{"debug":false},"cacheOptions":{"cacheId":"rick_van_wijk-portfolio-prod","directoryIndex":"/","revision":"M4OTCcjMI1wV"},"clientsClaim":true,"skipWaiting":true,"cleanupOutdatedCaches":true,"offlineAnalytics":false,"preCaching":[{"revision":"M4OTCcjMI1wV","url":"/rvwijk_portfolio/?standalone=true"}],"runtimeCaching":[{"urlPattern":"/rvwijk_portfolio/_nuxt/","handler":"CacheFirst","method":"GET","strategyPlugins":[]},{"urlPattern":"/rvwijk_portfolio/","handler":"NetworkFirst","method":"GET","strategyPlugins":[]}],"offlinePage":null,"pagesURLPattern":"/rvwijk_portfolio/","offlineStrategy":"NetworkFirst"}
 
 importScripts(...[options.workboxURL, ...options.importScripts])
 
@@ -102,13 +102,13 @@ function offlinePage(workbox, options) {
 }
 
 function workboxExtensions(workbox, options) {
-
+  
 }
 
 function cachingExtensions(workbox, options) {
-
+  
 }
 
 function routingExtensions(workbox, options) {
-
+  
 }

@@ -50,9 +50,14 @@
   "InterestsProducts": {
     "description": "Auto imported from components/interests/Products.vue"
   },
-  "GraduationHeroContClouds": {
-    "description": "Auto imported from components/graduation/HeroCont/Clouds.vue"
+=======
+  "InterestsProducts": {
+    "description": "Auto imported from components/interests/Products.vue"
   },
+  "ProjectsProducts": {
+    "description": "Auto imported from components/projects/Products.vue"
+  },
+>>>>>>> parent of 2c711747 (added content)
   "SemestersixGroupProjectProduct": {
     "description": "Auto imported from components/semestersix/GroupProjectProduct.vue"
   },

@@ -24,28 +24,28 @@
                     </v-list-item-title>
                   </v-list-item>
                 </a>
-                <a class="pagination-next" href="semesters/graduation/learningoutcomes/adviseren/#projectplan">
+                <a class="pagination-next" href="semesters/graduation/learningoutcomes/adviseren/#architectuur">
                   <v-list-item>
                     <v-list-item-title class="v-list-item-title">
                       <p>Architectuursdiagram</p>
                     </v-list-item-title>
                   </v-list-item>
                 </a>
-                <a class="pagination-next" href="semesters/graduation/learningoutcomes/adviseren/#projectplan">
+                <a class="pagination-next" href="semesters/graduation/learningoutcomes/adviseren/#requirements">
                   <v-list-item>
                     <v-list-item-title class="v-list-item-title">
                       <p>Requirements</p>
                     </v-list-item-title>
                   </v-list-item>
                 </a>
-                <a class="pagination-next" href="semesters/graduation/learningoutcomes/adviseren/#projectplan">
+                <a class="pagination-next" href="semesters/graduation/learningoutcomes/adviseren/#coreflection">
                   <v-list-item>
                     <v-list-item-title class="v-list-item-title">
                       <p>Co-reflection/creation</p>
                     </v-list-item-title>
                   </v-list-item>
                 </a>
-                <a class="pagination-next" href="semesters/graduation/learningoutcomes/adviseren/#projectplan">
+                <a class="pagination-next" href="semesters/graduation/learningoutcomes/adviseren/#kennissessie">
                   <v-list-item>
                     <v-list-item-title class="v-list-item-title">
                       <p>Kennissessie</p>
@@ -154,7 +154,7 @@
         </div>
         <div class="leer-content-wrapper">
           <div class="content-cont">
-            <h3 id="interviews">Architectuursdiagram</h3>
+            <h3 id="architectuur">Architectuursdiagram</h3>
           </div>
           <div class="marked content-cont">
             <div class="proof-icon">
@@ -202,7 +202,7 @@
         </div>
         <div class="leer-content-wrapper">
           <div class="content-cont">
-            <h3 id="trendanalyse">Requirements</h3>
+            <h3 id="requirements">Requirements</h3>
           </div>
           <div class="marked content-cont">
             <div class="proof-icon">
@@ -276,7 +276,7 @@
         </div>
         <div class="leer-content-wrapper">
           <div class="content-cont">
-            <h3 id="trendanalyse">Co-reflection/creation</h3>
+            <h3 id="coreflection">Co-reflection/creation</h3>
           </div>
           <div class="marked content-cont">
             <div class="proof-icon">
@@ -326,6 +326,20 @@
               library?</p>
           </div>
           <div class="content-cont">
+            <div class="pdf-cont">
+              <div class="video-wrapper">
+                <iframe
+                  src="https://docs.google.com/presentation/d/e/2PACX-1vRZgDzHvum0UNPH5y4avMZ7Q2cUdCfyIHtlzp18QXgTXB4HDvgKYG-nf7a5dhcU2Ca6TKjBTD4GeARI/embed?start=true&loop=true&delayms=3000"
+                  frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true"
+                  webkitallowfullscreen="true"></iframe>
+              </div>
+              <a target="_blank"
+                href="https://docs.google.com/presentation/d/e/2PACX-1vRZgDzHvum0UNPH5y4avMZ7Q2cUdCfyIHtlzp18QXgTXB4HDvgKYG-nf7a5dhcU2Ca6TKjBTD4GeARI/pub?start=false&loop=false&delayms=3000"
+                class="bbd-btn"><button>Bekijk co-reflection/creation slides</button>
+                <svg-icon class="svg-external-link" name="external_link" /></a>
+            </div>
+          </div>
+          <div class="content-cont">
             <h4>Conclusie</h4>
             <div class="text-columns">
               <p>De developers vinden de basis van de oplossing goed. Echter zien zij mogelijkheden om de oplossing te
@@ -363,7 +377,7 @@
         </div>
         <div class="leer-content-wrapper">
           <div class="content-cont">
-            <h3 id="trendanalyse">Kennissessie</h3>
+            <h3 id="kennissessie">Kennissessie</h3>
           </div>
           <div class="marked content-cont">
             <div class="proof-icon">
@@ -397,7 +411,9 @@
           <div class="content-cont">
             <h4>Feedback</h4>
             <div class="text-columns">
-              <p>-</p>
+              <p>De algemene feedback die ik ontving van de developers, is dat dit een goed initiatief is waar ze nu de
+                waarde van inzien. Verder werd er aangeraden om een CHANGELOG.md toe te voegen om de versie updates bij
+                te houden.</p>
             </div>
           </div>
         </div>
@@ -406,13 +422,12 @@
             <div class="pdf-cont">
               <div class="video-wrapper">
                 <iframe
-                  src="https://docs.google.com/presentation/d/e/2PACX-1vRZgDzHvum0UNPH5y4avMZ7Q2cUdCfyIHtlzp18QXgTXB4HDvgKYG-nf7a5dhcU2Ca6TKjBTD4GeARI/embed?start=true&loop=true&delayms=3000"
+                  src="https://docs.google.com/presentation/d/e/2PACX-1vTOglyR00XRbH6oqACSAuJECkt9PeOlMi29tXsdia7GKEpFXuPHV5XBL8tyEyuHXwH26DwKJpnqpB1l/embed?start=false&loop=false&delayms=3000"
                   frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true"
                   webkitallowfullscreen="true"></iframe>
               </div>
-
               <a target="_blank"
-                href="https://docs.google.com/presentation/d/e/2PACX-1vRZgDzHvum0UNPH5y4avMZ7Q2cUdCfyIHtlzp18QXgTXB4HDvgKYG-nf7a5dhcU2Ca6TKjBTD4GeARI/pub?start=false&loop=false&delayms=3000"
+                href="https://docs.google.com/presentation/d/e/2PACX-1vTOglyR00XRbH6oqACSAuJECkt9PeOlMi29tXsdia7GKEpFXuPHV5XBL8tyEyuHXwH26DwKJpnqpB1l/embed?start=false&loop=false&delayms=3000"
                 class="bbd-btn"><button>Bekijk kennissessie slides</button>
                 <svg-icon class="svg-external-link" name="external_link" /></a>
             </div>
@@ -420,7 +435,7 @@
         </div>
         <div class="leer-content-wrapper">
           <div class="content-cont">
-            <h3 id="trendanalyse">Adviesrapport</h3>
+            <h3 id="adviesrapport">Adviesrapport</h3>
           </div>
           <div class="marked content-cont">
             <div class="proof-icon">
@@ -493,7 +508,7 @@
       </div>
       <div class="bottom-desktop-nav">
         <div class="desktop-nav-cont">
-          <NuxtLink to="/semesters/graduation/learningoutcomes/analyseren" class="desktop-next-page" exact>
+          <NuxtLink to="/semesters/graduation/learningoutcomes/analyseren/" class="desktop-next-page" exact>
             <svg-icon class="svg-arrow-right" name="arrow-left" />
             <p>Ga naar 'Analyseren'</p>
           </NuxtLink>
@@ -508,7 +523,7 @@
               <NuxtLink to="/semesters/graduation/leeruitkomsten" exact>Leeruitkomsten</NuxtLink>
             </li>
           </ul>
-          <NuxtLink to="/semesters/graduation/learningoutcomes/ontwerpen" class="desktop-next-page" exact>
+          <NuxtLink to="/semesters/graduation/learningoutcomes/ontwerpen/" class="desktop-next-page" exact>
             <p>Ga naar 'Ontwerpen'</p>
             <svg-icon class="svg-arrow-right" name="arrow-right" />
           </NuxtLink>

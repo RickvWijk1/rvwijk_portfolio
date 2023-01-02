@@ -64,17 +64,15 @@
         <div class="leer-content-wrapper">
           <div class="content-cont">
             <h3 id="interviews">Projectplan</h3>
-            </div>
+          </div>
           <div class="marked content-cont">
             <div class="proof-icon">
               <svg-icon class="svg-checkmark" name="checkmark_filled"></svg-icon>
               <b>Bewijs uitleg</b>
             </div>
             <div class="content-proof-explained">
-              <p>Een projectplan is opgesteld om alles van de huidige situatie tot de scoping vast te stellen en een plan
-                te creëren om het einddoel te bereiken. Het projectplan is gebruikt als middel om mijn blik op de opdracht
-                over te brengen op de bedrijfsbegeleider. Zo heb ik o.a. advies gegeven over hoe we het beste (welke
-                strategieën & methoden) de opdracht kunnen aanpakken.</p>
+              <p>Bevat een plan waarin passende onderzoeksstrategieën, patterns en methodes worden ingezet om het
+                probleem op te lossen.</p>
             </div>
           </div>
           <div class="content-cont">
@@ -89,37 +87,29 @@
               </div>
             </div>
             <div class="research-text label-cont">
-              <p><b>Field research is toegepast,</b> omdat het kennismaken met de doelgroep ervoor zorgt dat ik weet hoe
-                de doelgroep de huidige situatie ziet en zij mij meer details kunnen geven over de manier waarop zij
-                momenteel werken.</p>
+              <p><b>Field research is toegepast,</b> omdat door het aangaan van het gesprek met de doelgroep en het
+                bedrijf, er een duidelijker beeld kan worden geschetst van de huidige situatie en de verwachtingen/het
+                doel van het bedrijf.</p>
             </div>
           </div>
           <div class="content-cont">
-            <h4>Onderzoeksvraag</h4>
-            <p>Hoe worden componenten momenteel hergebruikt door developers van BBD?</p>
+            <h4>Hoofdvraag</h4>
+            <p>Hoe zorg ik dat BBD front-end developers een middel hebben om hun componenten te kunnen hergebruiken
+              zodat de kwaliteit van BBD’s projecten gewaarborgd kan blijven?</p>
           </div>
           <div class="content-cont">
             <h4>Conclusie & Vervolgstappen</h4>
             <div class="text-columns">
-              <p>Momenteel worden front-end componenten alleen hergebruikt door naar repo’s van oude
-                projecten te gaan en daar stukken code te kopiëren. Soms worden er ook stukken code
-                gekopieerd van Codepens of officiële documentatie van de gebruikte talen. Dit komt volgens
-                de developers, omdat er project gericht gewerkt wordt en er gebruikgemaakt wordt van vele
-                verschillende technologieën, waardoor het managen van de componenten en de
-                verschillende versies, lastig wordt.</p>
-              <p>
-                Voor back-end componenten, wordt er gebruikgemaakt van een package manager tool, dat
-                gehost wordt door Bluebird Day. De back-end developers gebruiken dan een command om
-                een bepaalde component te installeren voor een project. Deze componenten zijn al eens
-                eerder gebruikt in oude projecten en geupload naar de package manager. Echter wordt hier
-                ook niet altijd gebruik van gemaakt, want sommige componenten maken gebruik van een
-                oudere versie (van Magento bijv.) Daarnaast moeten sommige back-end onderdelen van
-                een project speciaal voor een specifiek project ontwikkeld worden en wordt het dus niet
-                geupload naar de package manager.</p>
+              <p>Het doel van het bedrijf is om meer componenten te gaan hergebruiken zodat de front-end developers van
+                BBD meer tijd over hebben om te kunnen werken aan het creëren van het 'Wow!' effect voor projecten.</p>
+              <p>In de huidige situatie is er vaak te weinig tijd om voor dit effect te kunnen zorgen. Het hergebruiken
+                van componenten wordt zelden gedaan en als het gebeurt, niet efficiënt genoeg. Daarom is het aan mij om
+                de BBD front-end developers te voorzien van een middel waarmee zij hun
+                componenten kunnen hergebruiken.</p>
               <div class="vervolg-cont">
                 <b>Wat nu?</b>
-                <p>Nu er meer bekend is over de huidige situatie, wordt het tijd om inspiratie op te doen door te
-                  onderzoeken welke huidige platformen bestaan waarmee je frontend componenten kunt managen.</p>
+                <p>Nu het plan is vastgesteld, kan er gefocust worden op het uitvoeren van onderzoek/het
+                  toepassen van methoden om tot een passende oplossing te komen.</p>
               </div>
             </div>
           </div>
@@ -138,17 +128,16 @@
         <div class="leer-content-wrapper">
           <div class="content-cont">
             <h3 id="interviews">Requirements</h3>
-            </div>
+          </div>
           <div class="marked content-cont">
             <div class="proof-icon">
               <svg-icon class="svg-checkmark" name="checkmark_filled"></svg-icon>
               <b>Bewijs uitleg</b>
             </div>
             <div class="content-proof-explained">
-              <p>Een projectplan is opgesteld om alles van de huidige situatie tot de scoping vast te stellen en een plan
-                te creëren om het einddoel te bereiken. Het projectplan is gebruikt als middel om mijn blik op de opdracht
-                over te brengen op de bedrijfsbegeleider. Zo heb ik o.a. advies gegeven over hoe we het beste (welke
-                strategieën & methoden) de opdracht kunnen aanpakken.</p>
+              <p>Er is bij het ontwerpen en realiseren van de oplossing rekening gehouden met het feit dat het platform
+                privé moet zijn voor de organisatie, maar er ook een optie moet zijn om het platform in de toekomst te
+                kunnen delen met derde partijen.</p>
             </div>
           </div>
           <div class="content-cont">
@@ -157,43 +146,33 @@
               <img src="~/assets/img/school/icons/approach.png" alt="">
             </div>
             <div class="research-tags-cont">
-              <div class="research-tag research-active research-field">
-                <p>Field</p>
-                <img src="~/assets/img/school/research_strats/field.png" alt="">
+              <div class="research-tag research-active research-showroom">
+                <p>Showroom</p>
+                <img src="~/assets/img/school/research_strats/showroom.png" alt="">
               </div>
             </div>
             <div class="research-text label-cont">
-              <p><b>Field research is toegepast,</b> omdat het kennismaken met de doelgroep ervoor zorgt dat ik weet hoe
-                de doelgroep de huidige situatie ziet en zij mij meer details kunnen geven over de manier waarop zij
-                momenteel werken.</p>
+              <p><b>Showroom research is toegepast,</b> wordt toegepast. De
+                ‘Co-reflection’ methode wordt ingezet. Samen met de front-end lead developer en bedrijfsbegeleider wordt
+                er gediscussieerd waaraan het platform moet voldoen. Resources die gebruikt zullen worden om
+                requirements op te stellen zijn het BBD beleid (bijv. beveiliging en coding standaard regels) en de
+                conclusies uit de eerdere onderzoeksresultaten.</p>
             </div>
           </div>
           <div class="content-cont">
             <h4>Onderzoeksvraag</h4>
-            <p>Hoe worden componenten momenteel hergebruikt door developers van BBD?</p>
+            <p>Wat zijn de requirements voor het ontwikkelen en onderhouden van de front-end componenten library?</p>
           </div>
           <div class="content-cont">
-            <h4>Conclusie & Vervolgstappen</h4>
+            <h4>Conclusie</h4>
             <div class="text-columns">
-              <p>Momenteel worden front-end componenten alleen hergebruikt door naar repo’s van oude
-                projecten te gaan en daar stukken code te kopiëren. Soms worden er ook stukken code
-                gekopieerd van Codepens of officiële documentatie van de gebruikte talen. Dit komt volgens
-                de developers, omdat er project gericht gewerkt wordt en er gebruikgemaakt wordt van vele
-                verschillende technologieën, waardoor het managen van de componenten en de
-                verschillende versies, lastig wordt.</p>
-              <p>
-                Voor back-end componenten, wordt er gebruikgemaakt van een package manager tool, dat
-                gehost wordt door Bluebird Day. De back-end developers gebruiken dan een command om
-                een bepaalde component te installeren voor een project. Deze componenten zijn al eens
-                eerder gebruikt in oude projecten en geupload naar de package manager. Echter wordt hier
-                ook niet altijd gebruik van gemaakt, want sommige componenten maken gebruik van een
-                oudere versie (van Magento bijv.) Daarnaast moeten sommige back-end onderdelen van
-                een project speciaal voor een specifiek project ontwikkeld worden en wordt het dus niet
-                geupload naar de package manager.</p>
+              <p>De requirements zijn het hebben van een privé/beveiligde omgeving/systeem en het hebben van test en
+                documentatie guidelines om de library te kunnen onderhouden met daarnaast ruimte voor
+                uitbreiding/support mochten er andere package types nodig zijn.</p>
+
               <div class="vervolg-cont">
                 <b>Wat nu?</b>
-                <p>Nu er meer bekend is over de huidige situatie, wordt het tijd om inspiratie op te doen door te
-                  onderzoeken welke huidige platformen bestaan waarmee je frontend componenten kunt managen.</p>
+                <p>De oplossing kan nu gerealiseerd en getest worden.</p>
               </div>
             </div>
           </div>
@@ -201,8 +180,9 @@
         <div class="leer-content-wrapper">
           <div class="content-cont">
             <div class="pdf-cont">
-              <embed src="pdf/graduation/projectplanV3.pdf" width="100%" height="1000" type="application/pdf">
-              <a target="_blank" href="./pdf/graduation/projectplanV3.pdf" class="bbd-btn"><button>Bekijk projectplan in
+              <embed src="pdf/graduation/requirements.pdf" width="100%" height="1000" type="application/pdf">
+              <a target="_blank" href="./pdf/graduation/requirements.pdf" class="bbd-btn"><button>Bekijk requirements
+                  in
                   PDF</button>
                 <svg-icon class="svg-external-link" name="external_link" /></a>
             </div>
@@ -212,17 +192,16 @@
         <div class="leer-content-wrapper">
           <div class="content-cont">
             <h3 id="interviews">Testing NPM & GitLab</h3>
-            </div>
+          </div>
           <div class="marked content-cont">
             <div class="proof-icon">
               <svg-icon class="svg-checkmark" name="checkmark_filled"></svg-icon>
               <b>Bewijs uitleg</b>
             </div>
             <div class="content-proof-explained">
-              <p>Een projectplan is opgesteld om alles van de huidige situatie tot de scoping vast te stellen en een plan
-                te creëren om het einddoel te bereiken. Het projectplan is gebruikt als middel om mijn blik op de opdracht
-                over te brengen op de bedrijfsbegeleider. Zo heb ik o.a. advies gegeven over hoe we het beste (welke
-                strategieën & methoden) de opdracht kunnen aanpakken.</p>
+              <p>Dit onderzoek vereiste meer aandacht/diepte dan ander onderzoek. Dit komt omdat dit de kern van de
+                oplossing is. Als de kern niet zou voldoen aan de behoeften van de stakeholders, zou de oplossing niet
+                geschikt zijn.</p>
             </div>
           </div>
           <div class="content-cont">
@@ -237,37 +216,39 @@
               </div>
             </div>
             <div class="research-text label-cont">
-              <p><b>Field research is toegepast,</b> omdat het kennismaken met de doelgroep ervoor zorgt dat ik weet hoe
-                de doelgroep de huidige situatie ziet en zij mij meer details kunnen geven over de manier waarop zij
-                momenteel werken.</p>
+              <p><b>Desktop en workshop research is toegepast,</b> omdat als de functionaliteiten van NPM bekend zijn,
+                er beslist kan worden of NPM voldoet aan de opstelde requirements. NPM wordt getest door een package
+                privé te uploaden naar NPM. Om dit uit te voeren moet
+                er eerst kennis opgedaan worden door de NPM docs te bekijken</p>
+              <p>
+              </p>
             </div>
           </div>
           <div class="content-cont">
             <h4>Onderzoeksvraag</h4>
-            <p>Hoe worden componenten momenteel hergebruikt door developers van BBD?</p>
+            <p>Hoe werken de functionaliteiten die NPM aanbiedt om packages te kunnen beheren?</p>
           </div>
           <div class="content-cont">
             <h4>Conclusie & Vervolgstappen</h4>
             <div class="text-columns">
-              <p>Momenteel worden front-end componenten alleen hergebruikt door naar repo’s van oude
-                projecten te gaan en daar stukken code te kopiëren. Soms worden er ook stukken code
-                gekopieerd van Codepens of officiële documentatie van de gebruikte talen. Dit komt volgens
-                de developers, omdat er project gericht gewerkt wordt en er gebruikgemaakt wordt van vele
-                verschillende technologieën, waardoor het managen van de componenten en de
-                verschillende versies, lastig wordt.</p>
-              <p>
-                Voor back-end componenten, wordt er gebruikgemaakt van een package manager tool, dat
-                gehost wordt door Bluebird Day. De back-end developers gebruiken dan een command om
-                een bepaalde component te installeren voor een project. Deze componenten zijn al eens
-                eerder gebruikt in oude projecten en geupload naar de package manager. Echter wordt hier
-                ook niet altijd gebruik van gemaakt, want sommige componenten maken gebruik van een
-                oudere versie (van Magento bijv.) Daarnaast moeten sommige back-end onderdelen van
-                een project speciaal voor een specifiek project ontwikkeld worden en wordt het dus niet
-                geupload naar de package manager.</p>
+              <p>In combinatie met GitLab biedt NPM een omgeving aan waarin packages beheerd kunnen
+                worden d.m.v van Git version control. Het uploaden van packages wordt gedaan door te
+                authenticeren met de package registry van GitLab, een npm endpoint te zetten in je GitLab
+                repo en deze te publishen met ‘npm publish’.
+                Het beheren van packages wordt grotendeels door GitLab gedaan. Features zoals het
+                opzoeken/filteren van packages en automatische documentatie zijn allemaal te vinden in de
+                GitLab repo. Wel ben je er als developer verantwoordelijk voor dat je repo structuur op orde
+                blijft en dat zelfgemaakte packages geoptimaliseerd zijn (door de packages te ‘minifyen’ met
+                rollup.js bijvoorbeeld).
+              </p>
+
               <div class="vervolg-cont">
                 <b>Wat nu?</b>
-                <p>Nu er meer bekend is over de huidige situatie, wordt het tijd om inspiratie op te doen door te
-                  onderzoeken welke huidige platformen bestaan waarmee je frontend componenten kunt managen.</p>
+                <p>Support voor PHP moet getest worden aangezien Magento PHP gebruikt en Magento in de
+                  toekomst nog regelmatig gebruikt zal worden door BBD.
+                  Verder is het verstandig een repo structuur te creëren wat ervoor moet zorgen dat BBD
+                  front-end developers makkelijk packages kunnen uploaden en vinden. Denk hierbij aan
+                  package benamingen en folder structuur.</p>
               </div>
             </div>
           </div>
@@ -275,15 +256,16 @@
         <div class="leer-content-wrapper">
           <div class="content-cont">
             <div class="pdf-cont">
-              <embed src="pdf/graduation/projectplanV3.pdf" width="100%" height="1000" type="application/pdf">
-              <a target="_blank" href="./pdf/graduation/projectplanV3.pdf" class="bbd-btn"><button>Bekijk projectplan in
+              <embed src="pdf/graduation/literatuuronderzoek_npm.pdf" width="100%" height="1000" type="application/pdf">
+              <a target="_blank" href="./pdf/graduation/literatuuronderzoek_npm.pdf" class="bbd-btn"><button>Bekijk
+                  literatuuronderzoek in
                   PDF</button>
                 <svg-icon class="svg-external-link" name="external_link" /></a>
             </div>
           </div>
         </div>
-        
-        
+
+
 
         <!-- <div class="pagination">
           <NuxtLink class="pagination-next" to="/semesters/graduation/leeruitkomsten">
@@ -326,7 +308,7 @@
       </div>
       <div class="bottom-desktop-nav">
         <div class="desktop-nav-cont">
-          <NuxtLink to="/semesters/graduation/learningoutcomes/beheren" class="desktop-next-page" exact>
+          <NuxtLink to="/semesters/graduation/learningoutcomes/beheren/" class="desktop-next-page" exact>
             <svg-icon class="svg-arrow-right" name="arrow-left" />
             <p>Ga naar 'Beheren'</p>
           </NuxtLink>
@@ -341,7 +323,7 @@
               <NuxtLink to="/semesters/graduation/leeruitkomsten" exact>Leeruitkomsten</NuxtLink>
             </li>
           </ul>
-          <NuxtLink to="/semesters/graduation/learningoutcomes/communicatie" class="desktop-next-page" exact>
+          <NuxtLink to="/semesters/graduation/learningoutcomes/communicatie/" class="desktop-next-page" exact>
             <p>Ga naar 'Communicatie'</p>
             <svg-icon class="svg-arrow-right" name="arrow-right" />
           </NuxtLink>

@@ -24,7 +24,7 @@
                     </v-list-item-title>
                   </v-list-item>
                 </a>
-                <a class="pagination-next" href="semesters/graduation/learningoutcomes/adviseren/#overdracht">
+                <a class="pagination-next" href="semesters/graduation/learningoutcomes/realiseren/#overdracht">
                   <v-list-item>
                     <v-list-item-title class="v-list-item-title">
                       <p>Overdracht</p>
@@ -56,92 +56,57 @@
       <div class="page-wrapper">
         <div class="leer-content-wrapper">
           <div class="content-cont">
-            <h3 id="interviews">Eindproducten</h3>
-            </div>
+            <h3 id="eindproducten">Eindproducten</h3>
+          </div>
           <div class="marked content-cont">
             <div class="proof-icon">
               <svg-icon class="svg-checkmark" name="checkmark_filled"></svg-icon>
               <b>Bewijs uitleg</b>
             </div>
             <div class="content-proof-explained">
-              <p>Een projectplan is opgesteld om alles van de huidige situatie tot de scoping vast te stellen en een plan
-                te creëren om het einddoel te bereiken. Het projectplan is gebruikt als middel om mijn blik op de opdracht
-                over te brengen op de bedrijfsbegeleider. Zo heb ik o.a. advies gegeven over hoe we het beste (welke
-                strategieën & methoden) de opdracht kunnen aanpakken.</p>
+              <p>De eindproducten laten zien aan te sluiten op de gemaakte ontwerpen en opgestelde criteria.</p>
+            </div>
+          </div>
+
+          <div class="content-cont">
+            <h4>Eindproduct; Componenten opslag omgeving</h4>
+            <div class="pdf-cont">
+              <img loading="lazy" src="~/assets/img/school/graduation/leeruitkomsten/gitlab_packageregistry.png" alt=""
+                class="image-zoom">
+                <p>Deze omgeving zorgt ervoor dat Bluebird Day een plaats heeft om de front-end componenten op te slaan.
+                  Requirements waarmee rekening gehouden is, zijn o.a. het aanbieden van een beveiligde omgeving, en het
+                  kunnen installeren van de library met 1 command.</p>
             </div>
           </div>
           <div class="content-cont">
-            <div class="learned-cont">
-              <h4>Aanpak</h4>
-              <img src="~/assets/img/school/icons/approach.png" alt="">
+            <h4>Eindproduct; Componenten documentatie omgeving</h4>
+            <div class="pdf-cont">
+              <img loading="lazy" src="~/assets/img/school/graduation/leeruitkomsten/gitbook.png" alt=""
+                class="image-zoom">
+                <p>Deze omgeving zorgt ervoor dat Bluebird Day front-end developers een plaats hebben om informatie over de front-end componenten te kunnen vinden.
+                  Requirements waarmee rekening gehouden is, zijn o.a. het aanbieden van een beveiligde omgeving, en het
+                  kunnen syncen met GitLab.</p>
             </div>
-            <div class="research-tags-cont">
-              <div class="research-tag research-active research-field">
-                <p>Field</p>
-                <img src="~/assets/img/school/research_strats/field.png" alt="">
-              </div>
-            </div>
-            <div class="research-text label-cont">
-              <p><b>Field research is toegepast,</b> omdat het kennismaken met de doelgroep ervoor zorgt dat ik weet hoe
-                de doelgroep de huidige situatie ziet en zij mij meer details kunnen geven over de manier waarop zij
-                momenteel werken.</p>
-            </div>
-          </div>
-          <div class="content-cont">
-            <h4>Onderzoeksvraag</h4>
-            <p>Hoe worden componenten momenteel hergebruikt door developers van BBD?</p>
           </div>
           <div class="content-cont">
             <h4>Conclusie & Vervolgstappen</h4>
             <div class="text-columns">
-              <p>Momenteel worden front-end componenten alleen hergebruikt door naar repo’s van oude
-                projecten te gaan en daar stukken code te kopiëren. Soms worden er ook stukken code
-                gekopieerd van Codepens of officiële documentatie van de gebruikte talen. Dit komt volgens
-                de developers, omdat er project gericht gewerkt wordt en er gebruikgemaakt wordt van vele
-                verschillende technologieën, waardoor het managen van de componenten en de
-                verschillende versies, lastig wordt.</p>
-              <p>
-                Voor back-end componenten, wordt er gebruikgemaakt van een package manager tool, dat
-                gehost wordt door Bluebird Day. De back-end developers gebruiken dan een command om
-                een bepaalde component te installeren voor een project. Deze componenten zijn al eens
-                eerder gebruikt in oude projecten en geupload naar de package manager. Echter wordt hier
-                ook niet altijd gebruik van gemaakt, want sommige componenten maken gebruik van een
-                oudere versie (van Magento bijv.) Daarnaast moeten sommige back-end onderdelen van
-                een project speciaal voor een specifiek project ontwikkeld worden en wordt het dus niet
-                geupload naar de package manager.</p>
-              <div class="vervolg-cont">
-                <b>Wat nu?</b>
-                <p>Nu er meer bekend is over de huidige situatie, wordt het tijd om inspiratie op te doen door te
-                  onderzoeken welke huidige platformen bestaan waarmee je frontend componenten kunt managen.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="leer-content-wrapper">
-          <div class="content-cont">
-            <div class="pdf-cont">
-              <embed src="pdf/graduation/projectplanV3.pdf" width="100%" height="1000" type="application/pdf">
-              <a target="_blank" href="./pdf/graduation/projectplanV3.pdf" class="bbd-btn"><button>Bekijk projectplan in
-                  PDF</button>
-                <svg-icon class="svg-external-link" name="external_link" /></a>
+              <p>Met deze producten kan Bluebird Day een eigen componenten library met up-to-date documentatie bouwen.</p>
             </div>
           </div>
         </div>
 
         <div class="leer-content-wrapper">
           <div class="content-cont">
-            <h3 id="interviews">Overdracht</h3>
-            </div>
+            <h3 id="overdracht">Overdracht</h3>
+          </div>
           <div class="marked content-cont">
             <div class="proof-icon">
               <svg-icon class="svg-checkmark" name="checkmark_filled"></svg-icon>
               <b>Bewijs uitleg</b>
             </div>
             <div class="content-proof-explained">
-              <p>Een projectplan is opgesteld om alles van de huidige situatie tot de scoping vast te stellen en een plan
-                te creëren om het einddoel te bereiken. Het projectplan is gebruikt als middel om mijn blik op de opdracht
-                over te brengen op de bedrijfsbegeleider. Zo heb ik o.a. advies gegeven over hoe we het beste (welke
-                strategieën & methoden) de opdracht kunnen aanpakken.</p>
+              <p>Alle kennis met betrekking tot de oplossing is digitaal overgedragen en d.m.v. een co-reflection/creation sessie en kennissessie, ook mondelings.</p>
             </div>
           </div>
           <div class="content-cont">
@@ -150,59 +115,28 @@
               <img src="~/assets/img/school/icons/approach.png" alt="">
             </div>
             <div class="research-tags-cont">
-              <div class="research-tag research-active research-field">
-                <p>Field</p>
-                <img src="~/assets/img/school/research_strats/field.png" alt="">
+              <div class="research-tag research-active research-lab">
+                <p>Lab</p>
+                <img src="~/assets/img/school/research_strats/lab.png" alt="">
+              </div>
+              <div class="research-tag research-active research-showroom">
+                <p>Showroom</p>
+                <img src="~/assets/img/school/research_strats/showroom.png" alt="">
               </div>
             </div>
             <div class="research-text label-cont">
-              <p><b>Field research is toegepast,</b> omdat het kennismaken met de doelgroep ervoor zorgt dat ik weet hoe
-                de doelgroep de huidige situatie ziet en zij mij meer details kunnen geven over de manier waarop zij
-                momenteel werken.</p>
-            </div>
-          </div>
-          <div class="content-cont">
-            <h4>Onderzoeksvraag</h4>
-            <p>Hoe worden componenten momenteel hergebruikt door developers van BBD?</p>
-          </div>
-          <div class="content-cont">
-            <h4>Conclusie & Vervolgstappen</h4>
-            <div class="text-columns">
-              <p>Momenteel worden front-end componenten alleen hergebruikt door naar repo’s van oude
-                projecten te gaan en daar stukken code te kopiëren. Soms worden er ook stukken code
-                gekopieerd van Codepens of officiële documentatie van de gebruikte talen. Dit komt volgens
-                de developers, omdat er project gericht gewerkt wordt en er gebruikgemaakt wordt van vele
-                verschillende technologieën, waardoor het managen van de componenten en de
-                verschillende versies, lastig wordt.</p>
-              <p>
-                Voor back-end componenten, wordt er gebruikgemaakt van een package manager tool, dat
-                gehost wordt door Bluebird Day. De back-end developers gebruiken dan een command om
-                een bepaalde component te installeren voor een project. Deze componenten zijn al eens
-                eerder gebruikt in oude projecten en geupload naar de package manager. Echter wordt hier
-                ook niet altijd gebruik van gemaakt, want sommige componenten maken gebruik van een
-                oudere versie (van Magento bijv.) Daarnaast moeten sommige back-end onderdelen van
-                een project speciaal voor een specifiek project ontwikkeld worden en wordt het dus niet
-                geupload naar de package manager.</p>
-              <div class="vervolg-cont">
-                <b>Wat nu?</b>
-                <p>Nu er meer bekend is over de huidige situatie, wordt het tijd om inspiratie op te doen door te
-                  onderzoeken welke huidige platformen bestaan waarmee je frontend componenten kunt managen.</p>
-              </div>
+              <p><b>Lab & Showroom research is toegepast,</b> omdat de kennis overdracht tijdens de co-reflection/creation sessie, kennissessie en de wekelijkse updates aan mijn bedrijfbegeleider heeft plaatsgevonden.</p>
             </div>
           </div>
         </div>
         <div class="leer-content-wrapper">
           <div class="content-cont">
             <div class="pdf-cont">
-              <embed src="pdf/graduation/projectplanV3.pdf" width="100%" height="1000" type="application/pdf">
-              <a target="_blank" href="./pdf/graduation/projectplanV3.pdf" class="bbd-btn"><button>Bekijk projectplan in
-                  PDF</button>
-                <svg-icon class="svg-external-link" name="external_link" /></a>
             </div>
           </div>
         </div>
-        
-        
+
+
 
         <!-- <div class="pagination">
           <NuxtLink class="pagination-next" to="/semesters/graduation/leeruitkomsten">
@@ -245,7 +179,7 @@
       </div>
       <div class="bottom-desktop-nav">
         <div class="desktop-nav-cont">
-          <NuxtLink to="/semesters/graduation/learningoutcomes/ontwerpen" class="desktop-next-page" exact>
+          <NuxtLink to="/semesters/graduation/learningoutcomes/ontwerpen/" class="desktop-next-page" exact>
             <svg-icon class="svg-arrow-right" name="arrow-left" />
             <p>Ga naar 'Ontwerpen'</p>
           </NuxtLink>
@@ -260,7 +194,7 @@
               <NuxtLink to="/semesters/graduation/leeruitkomsten" exact>Leeruitkomsten</NuxtLink>
             </li>
           </ul>
-          <NuxtLink to="/semesters/graduation/learningoutcomes/beheren" class="desktop-next-page" exact>
+          <NuxtLink to="/semesters/graduation/learningoutcomes/beheren/" class="desktop-next-page" exact>
             <p>Ga naar 'Beheren'</p>
             <svg-icon class="svg-arrow-right" name="arrow-right" />
           </NuxtLink>

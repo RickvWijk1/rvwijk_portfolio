@@ -25,7 +25,7 @@
                   </v-list-item>
                 </a>
                 <a class="pagination-next"
-                  href="semesters/graduation/learningoutcomes/ontwerpen/#architectuursdiagram ">
+                  href="semesters/graduation/learningoutcomes/ontwerpen/#architectuur ">
                   <v-list-item>
                     <v-list-item-title class="v-list-item-title">
                       <p>Architectuursdiagram </p>
@@ -57,7 +57,7 @@
       <div class="page-wrapper">
         <div class="leer-content-wrapper">
           <div class="content-cont">
-            <h3 id="projectplan">Sketching/low-fi-prototype</h3>
+            <h3 id="sketching">Sketching/low-fi-prototype</h3>
           </div>
           <div class="marked content-cont">
             <div class="proof-icon">
@@ -112,7 +112,7 @@
         </div>
         <div class="leer-content-wrapper">
           <div class="content-cont">
-            <h3 id="interviews">Architectuursdiagram</h3>
+            <h3 id="architectuur">Architectuursdiagram</h3>
           </div>
           <div class="marked content-cont">
             <div class="proof-icon">
@@ -120,12 +120,11 @@
               <b>Bewijs uitleg</b>
             </div>
             <div class="content-proof-explained">
-              <p>Een projectplan is opgesteld om alles van de huidige situatie tot de scoping vast te stellen en een
-                plan
-                te creëren om het einddoel te bereiken. Het projectplan is gebruikt als middel om mijn blik op de
-                opdracht
-                over te brengen op de bedrijfsbegeleider. Zo heb ik o.a. advies gegeven over hoe we het beste (welke
-                strategieën & methoden) de opdracht kunnen aanpakken.</p>
+              <p>Een architectuursdiagram is ontworpen om de oplossing makkelijker uit te kunnen leggen aan de
+                stakeholders. Zo heb ik aan de bedrijfsbegeleider en een aantal developers uitgelegd hoe het toepassen
+                van de voorgestelde software architectuur de oplossing kan zijn. Hierbij heb ik geadviseerd een ander
+                documentatie platform dan Confluence te gebruiken, aangezien Confluence niet genoeg functionaliteit
+                aanbiedt voor technische documentatie wat nodig is om de componenten library te onderhouden.</p>
             </div>
           </div>
           <div class="content-cont">
@@ -134,52 +133,26 @@
               <img src="~/assets/img/school/icons/approach.png" alt="">
             </div>
             <div class="research-tags-cont">
-              <div class="research-tag research-active research-field">
-                <p>Field</p>
-                <img src="~/assets/img/school/research_strats/field.png" alt="">
+              <div class="research-tag research-active research-workshop">
+                <p>Workshop</p>
+                <img src="~/assets/img/school/research_strats/workshop.png" alt="">
               </div>
             </div>
             <div class="research-text label-cont">
-              <p><b>Field research is toegepast,</b> omdat het kennismaken met de doelgroep ervoor zorgt dat ik weet hoe
-                de doelgroep de huidige situatie ziet en zij mij meer details kunnen geven over de manier waarop zij
-                momenteel werken.</p>
+              <p><b>Workshop research is toegepast,</b> omdat het uitwerken tot een diagram nuttig is om een overzicht
+                te creëren van de oplossing. De C4 model guidelines van het tweede niveau (Container diagram) worden
+                toegepast. Hiernaast wordt de flow van het gebruikmaken van de oplossing gemapped zodat het gebruikmaken
+                van de software architectuur stap voor stap uitgelegd kan worden aan de stakeholders.</p>
             </div>
           </div>
-          <div class="content-cont">
-            <h4>Onderzoeksvraag</h4>
-            <p>Hoe worden componenten momenteel hergebruikt door developers van BBD?</p>
-          </div>
-          <div class="content-cont">
-            <h4>Conclusie & Vervolgstappen</h4>
-            <div class="text-columns">
-              <p>Momenteel worden front-end componenten alleen hergebruikt door naar repo’s van oude
-                projecten te gaan en daar stukken code te kopiëren. Soms worden er ook stukken code
-                gekopieerd van Codepens of officiële documentatie van de gebruikte talen. Dit komt volgens
-                de developers, omdat er project gericht gewerkt wordt en er gebruikgemaakt wordt van vele
-                verschillende technologieën, waardoor het managen van de componenten en de
-                verschillende versies, lastig wordt.</p>
-              <p>
-                Voor back-end componenten, wordt er gebruikgemaakt van een package manager tool, dat
-                gehost wordt door Bluebird Day. De back-end developers gebruiken dan een command om
-                een bepaalde component te installeren voor een project. Deze componenten zijn al eens
-                eerder gebruikt in oude projecten en geupload naar de package manager. Echter wordt hier
-                ook niet altijd gebruik van gemaakt, want sommige componenten maken gebruik van een
-                oudere versie (van Magento bijv.) Daarnaast moeten sommige back-end onderdelen van
-                een project speciaal voor een specifiek project ontwikkeld worden en wordt het dus niet
-                geupload naar de package manager.</p>
-              <div class="vervolg-cont">
-                <b>Wat nu?</b>
-                <p>Nu er meer bekend is over de huidige situatie, wordt het tijd om inspiratie op te doen door te
-                  onderzoeken welke huidige platformen bestaan waarmee je frontend componenten kunt managen.</p>
-              </div>
-            </div>
-          </div>
+
         </div>
         <div class="leer-content-wrapper">
           <div class="content-cont">
             <div class="pdf-cont">
-              <embed src="pdf/graduation/projectplanV3.pdf" width="100%" height="1000" type="application/pdf">
-              <a target="_blank" href="./pdf/graduation/projectplanV3.pdf" class="bbd-btn"><button>Bekijk projectplan in
+              <embed src="pdf/graduation/architectuur.pdf" width="100%" height="1000" type="application/pdf">
+              <a target="_blank" href="./pdf/graduation/architectuur.pdf" class="bbd-btn"><button>Bekijk architectuur
+                  in
                   PDF</button>
                 <svg-icon class="svg-external-link" name="external_link" /></a>
             </div>
@@ -227,7 +200,7 @@
       </div>
       <div class="bottom-desktop-nav">
         <div class="desktop-nav-cont">
-          <NuxtLink to="/semesters/graduation/learningoutcomes/adviseren" class="desktop-next-page" exact>
+          <NuxtLink to="/semesters/graduation/learningoutcomes/adviseren/" class="desktop-next-page" exact>
             <svg-icon class="svg-arrow-right" name="arrow-left" />
             <p>Ga naar 'Adviseren'</p>
           </NuxtLink>
@@ -242,7 +215,7 @@
               <NuxtLink to="/semesters/graduation/leeruitkomsten" exact>Leeruitkomsten</NuxtLink>
             </li>
           </ul>
-          <NuxtLink to="/semesters/graduation/learningoutcomes/realiseren" class="desktop-next-page" exact>
+          <NuxtLink to="/semesters/graduation/learningoutcomes/realiseren/" class="desktop-next-page" exact>
             <p>Ga naar 'Realiseren'</p>
             <svg-icon class="svg-arrow-right" name="arrow-right" />
           </NuxtLink>

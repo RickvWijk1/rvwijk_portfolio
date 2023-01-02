@@ -52,6 +52,20 @@
                     </v-list-item-title>
                   </v-list-item>
                 </a>
+                <a class="pagination-next" href="semesters/graduation/learningoutcomes/analyseren/#designdocu">
+                  <v-list-item>
+                    <v-list-item-title class="v-list-item-title">
+                      <p>Design & documentatie <br> systemen</p>
+                    </v-list-item-title>
+                  </v-list-item>
+                </a>
+                <a class="pagination-next" href="semesters/graduation/learningoutcomes/analyseren/#codeeditor">
+                  <v-list-item>
+                    <v-list-item-title class="v-list-item-title">
+                      <p>Code editors & <br> preview editors</p>
+                    </v-list-item-title>
+                  </v-list-item>
+                </a>
               </div>
             </v-list-item-group>
             <v-list-item-group>
@@ -330,10 +344,6 @@
               <img src="~/assets/img/school/icons/approach.png" alt="">
             </div>
             <div class="research-tags-cont">
-              <div class="research-tag research-active research-desktop">
-                <p>Desktop</p>
-                <img src="~/assets/img/school/research_strats/library.png" alt="">
-              </div>
               <div class="research-tag research-active research-field">
                 <p>Field</p>
                 <img src="~/assets/img/school/research_strats/field.png" alt="">
@@ -360,7 +370,7 @@
           <div class="content-cont">
             <h4>Conclusie & Vervolgstappen</h4>
             <div class="text-columns">
-              <p>PDe goals van BBD’s front-end developers zijn het afronden van tickets binnen de voorspelde
+              <p>De goals van BBD’s front-end developers zijn het afronden van tickets binnen de voorspelde
                 tijd en het schrijven van duidelijke code die bijdraagt aan een goede performance.
                 De behoeften van de developers zijn het hebben van de benodigde info/documentatie om
                 een project klaar te zetten en om efficiënte code te schrijven.
@@ -398,12 +408,91 @@
               <b>Bewijs uitleg</b>
             </div>
             <div class="content-proof-explained">
-              <p>Het hoofddoel is om een platform te vinden dat er mogelijk voor kan zorgen dat BBD Day front-end
-                developers componenten vaker hergebruiken. Als een dergelijk platform bestaat, kan BBD dit platform
-                gebruiken in plaats van het
-                ontwerpen en ontwikkelen van een eigen platform.
-                Als zo’n platform niet bestaat, kan de inspiratie gebruikt worden om een eigen platform te
-                ontwerpen die de benodigde functionaliteiten bevat.</p>
+              <p>Door middel van interviews kan er meer informatie over de doelgroep achterhaald worden. Denk bij
+                informatie aan de goals/behoeften/irritaties van de BBD front-end developers, maar ook wat hun mening is
+                over de huidige situatie en de voorgestelde oplossing.</p>
+            </div>
+          </div>
+          <div class="content-cont">
+            <div class="learned-cont">
+              <h4>Aanpak</h4>
+              <img src="~/assets/img/school/icons/approach.png" alt="">
+            </div>
+            <div class="research-tags-cont">
+              <div class="research-tag research-active research-showroom">
+                <p>Showroom</p>
+                <img src="~/assets/img/school/research_strats/showroom.png" alt="">
+              </div>
+              <div class="research-tag research-active research-field">
+                <p>Field</p>
+                <img src="~/assets/img/school/research_strats/field.png" alt="">
+              </div>
+            </div>
+            <div class="research-text label-cont">
+              <p><b>Field en showroom research is toegepast,</b> omdat door het praten met de doelgroep duidelijk wordt
+                wat de goals/behoeften/irritaties zijn en wat zij vinden van de voorgestelde oplossing. Minimaal 4
+                developers worden geïnterviewd waarvan er minstens 3 front-end developers
+                moeten zijn. De developers worden uitgenodigd voor het interview door ze een berichtje via
+                Slack te sturen of te benaderen op kantoor. De resultaten worden gemapped in een empathy map en op basis
+                van de resultaten wordt er een conclusie geschreven.</p>
+            </div>
+          </div>
+          <div class="content-cont">
+            <h4>Onderzoeksvraag</h4>
+            <p>Hoe ervaren de BBD front-end developers de huidige manier van werken?</p>
+          </div>
+          <div class="content-cont">
+            <img loading="lazy" src="~/assets/img/school/graduation/leeruitkomsten/empathy_map.jpg" alt=""
+              class="image-zoom">
+          </div>
+          <div class="content-cont">
+            <h4>Conclusie & Vervolgstappen</h4>
+            <div class="text-columns">
+              <p>De BBD front-end developers hebben niet het gevoel dat ze informatie missen. Als ze info
+                nodig hebben kijken ze eerst naar de documentatie in Confluence of in de README van een
+                project en anders vragen ze het aan hun collega’s.
+                De BBD front-end developers hebben echter wel een aantal irritatiepunten. Zo wordt DDEV
+                vaak gebruikt voor deployment, maar DDEV kan traag zijn. Verder raken de developers
+                geïrriteerd als zij niet alle assets tot hun beschikking hebben die Weekend moet leveren.
+                Verder kan er geconcludeerd worden dat de developers openstaan voor het gebruik van een
+                component library, maar dit wel zodanig te gebruiken moet zijn dat de developers zelf niet
+                veel tijd hoeven te besteden aan het onderhouden van de library</p>
+
+              <div class="vervolg-cont">
+                <b>Wat nu?</b>
+                <p>Nu bekend is hoe de developers denken over de manier van werken en hoe ze denken over
+                  het gebruiken van een component library, moet er getest worden hoe de componenten
+                  library goed kan functioneren.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="leer-content-wrapper">
+          <div class="content-cont">
+            <div class="pdf-cont">
+              <embed src="pdf/graduation/interviews_empathize.pdf" width="100%" height="1000" type="application/pdf">
+              <a target="_blank" href="./pdf/graduation/interviews_empathize.pdf" class="bbd-btn"><button>Bekijk
+                  interviews
+                  in
+                  PDF</button>
+                <svg-icon class="svg-external-link" name="external_link" /></a>
+            </div>
+          </div>
+        </div>
+        <div class="leer-content-wrapper">
+          <div class="content-cont">
+            <h3 id="designdocu">Design & documentatie systemen</h3>
+          </div>
+          <div class="marked content-cont">
+            <div class="proof-icon">
+              <svg-icon class="svg-checkmark" name="checkmark_filled"></svg-icon>
+              <b>Bewijs uitleg</b>
+            </div>
+            <div class="content-proof-explained">
+              <p>Na het houden van de ‘Co-reflection/Co-creation’ meeting, bleek dat MkDocs te weinig
+                aanbiedt om te voldoen aan de behoeften van de stakeholders. Er wordt daarom verder
+                gezocht naar een ander design-documentatie platform.
+              </p>
             </div>
           </div>
           <div class="content-cont">
@@ -416,44 +505,47 @@
                 <p>Desktop</p>
                 <img src="~/assets/img/school/research_strats/library.png" alt="">
               </div>
-              <div class="research-tag research-active research-field">
-                <p>Field</p>
-                <img src="~/assets/img/school/research_strats/field.png" alt="">
-              </div>
               <div class="research-tag research-active research-workshop">
                 <p>Workshop</p>
                 <img src="~/assets/img/school/research_strats/workshop.png" alt="">
               </div>
             </div>
             <div class="research-text label-cont">
-              <p><b>Desktop, field en workshop research is toegepast,</b> omdat er gezocht wordt naar bestaande
-                platformen. Aangezien er veel developers werken bij BBD, is er een grote kans dat zij al een paar
-                platformen kunnen aanwijzen als inspiratiebron.
-                Er wordt een lijst met inspirationele platformen opgesteld inclusief een beschrijving van de
-                aangeboden functies per platform. De platformen worden uitgeprobeerd door bijvoorbeeld
-                een component te uploaden en/of te installeren.</p>
+              <p><b>Desktop en workshop research is toegepast,</b> omdat er gezocht wordt naar een nieuw platform om
+                informatie over front-end componenten te documenteren.
+                De geselecteerde design-documentatie systemen worden beoordeeld op basis van een
+                criterialijst dat de MoSCoW methode aanhoudt. Door literatuuronderzoek uit te voeren en de
+                platformen zelf uit te proberen, kan bepaald worden of de design-documentatie systemen
+                voldoen aan de criteria. Daarnaast wordt er gezocht naar de pains en gains die gebruikers
+                van de design-documentatie systemen ervaren om een beter afweging te kunnen maken.</p>
             </div>
           </div>
           <div class="content-cont">
             <h4>Onderzoeksvraag</h4>
-            <p>Bestaat er een platform dat er mogelijk voor kan zorgen dat front-end componenten
-              hergebruikt kunnen worden door BBD front-end developers?</p>
+            <p>Welk design-documentatie systeem voldoet aan de opgestelde criteria/requirements en lijkt
+              het beste aan te sluiten op het huidige systeem/de huidige manier van werken van het
+              bedrijf?</p>
           </div>
           <div class="content-cont">
             <h4>Conclusie & Vervolgstappen</h4>
             <div class="text-columns">
-              <p>Package manager NPM is een platform dat er mogelijk voor kan zorgen dat front-end
-                componenten van BBD vaker hergebruikt worden dan in de huidige situatie het geval is. Het
-                platform zorgt er o.a. voor dat developers componenten gebouwd met allerlei
-                programmeertalen in een privé omgeving kunnen uploaden. Aangezien BBD werkt met veel
-                verschillende programmeertalen/frameworks en eist dat componenten privé opgeslagen
-                kunnen worden, is NPM mogelijk een platform om te gebruiken voor BBD.</p>
+              <p>GitBook voldoet aan de criteria. Zeroheight voldoet ook aan alle ‘must have’ criteria, maar
+                het is duidelijk dat het platform zich focust op design, en niet op development of andere
+                bedrijfsprocessen. Storybook heeft een learning curve, heeft vooralsnog alleen support voor
+                JavaScript frameworks en is voornamelijk een testomgeving, niet zozeer een documentatie
+                tool. Carbon biedt geen documentatie tool aan, maar laat wel zien hoe je een component
+                library gestructureerd houdt. Confluence biedt goede functionaliteiten aan, maar niet genoeg
+                functionaliteit voor het aanmaken en onderhouden van technische documentatie.
+                Er kan daarom geconcludeerd worden dat GitBook het meest geschikte
+                design-documentatie systeem is voor Bluebird Day op het gebied van aangeboden
+                functionaliteit. Het Carbon Design System kan gebruikt worden als inspiratie om de
+                documentatie op GitBook georganiseerd te houden</p>
 
               <div class="vervolg-cont">
                 <b>Wat nu?</b>
-                <p>Nu er inspiratie opgedaan is, kunnen er schetsen gemaakt worden voor een eerste iteratie. Daarnaast
-                  moet er
-                  ook ingeleefd worden in de doelgroep om eisen voor het platform op te kunnen stellen.</p>
+                <p>De conclusie van dit onderzoek moet worden meegenomen in het advies. Het bedrijf kan
+                  deze informatie vervolgens afwegen tegen de financiële kosten als het wil overstappen op
+                  een nieuw documentatie platform.</p>
               </div>
             </div>
           </div>
@@ -461,10 +553,84 @@
         <div class="leer-content-wrapper">
           <div class="content-cont">
             <div class="pdf-cont">
-              <embed src="pdf/graduation/trendanalyse.pdf" width="100%" height="1000" type="application/pdf">
-              <a target="_blank" href="./pdf/graduation/trendanalyse.pdf" class="bbd-btn"><button>Bekijk trendanalyse
+              <embed src="pdf/graduation/design_systems.pdf" width="100%" height="1000" type="application/pdf">
+              <a target="_blank" href="./pdf/graduation/design_systems.pdf" class="bbd-btn"><button>Bekijk
+                  design/documentatie systeem onderzoek
                   in
                   PDF</button>
+                <svg-icon class="svg-external-link" name="external_link" /></a>
+            </div>
+          </div>
+        </div>
+        <div class="leer-content-wrapper">
+          <div class="content-cont">
+            <h3 id="codeeditor">Code editors & preview editors</h3>
+          </div>
+          <div class="marked content-cont">
+            <div class="proof-icon">
+              <svg-icon class="svg-checkmark" name="checkmark_filled"></svg-icon>
+              <b>Bewijs uitleg</b>
+            </div>
+            <div class="content-proof-explained">
+              <p>Alle onderzochte component libraries uit de trendanalyse gebruiken een zogenaamde ‘code
+                sandbox’. Dit is een essentieel onderdeel voor de developers zodat ze kunnen zien hoe de componenten
+                eruit zien en met de code kunnen experimenteren. Daarom wordt er gezocht naar een
+                passend middel.
+              </p>
+            </div>
+          </div>
+          <div class="content-cont">
+            <div class="learned-cont">
+              <h4>Aanpak</h4>
+              <img src="~/assets/img/school/icons/approach.png" alt="">
+            </div>
+            <div class="research-tags-cont">
+              <div class="research-tag research-active research-desktop">
+                <p>Desktop</p>
+                <img src="~/assets/img/school/research_strats/library.png" alt="">
+              </div>
+              <div class="research-tag research-active research-workshop">
+                <p>Workshop</p>
+                <img src="~/assets/img/school/research_strats/workshop.png" alt="">
+              </div>
+            </div>
+            <div class="research-text label-cont">
+              <p><b>Desktop en workshop research is toegepast,</b> omdat er gezocht wordt naar een middel waarmee de
+                front-end developers code en de output van de code kunnen bekijken.
+                Er wordt een lijst van criteria opgesteld. De gevonden tools worden beoordeeld op basis van
+                de criterialijst dat de MoSCoW methode aanhoudt. Door literatuuronderzoek uit te voeren en
+                de tools zelf uit te proberen, kan bepaald worden of de tools voldoen aan de criteria.</p>
+            </div>
+          </div>
+          <div class="content-cont">
+            <h4>Onderzoeksvraag</h4>
+            <p>Welk middel zorgt ervoor dat front-end developers code kunnen bekijken, code output
+              kunnen bekijken en code kunnen bewerken met live veranderingen op een efficiënte
+              manier?</p>
+          </div>
+          <div class="content-cont">
+            <h4>Conclusie & Vervolgstappen</h4>
+            <div class="text-columns">
+              <p>Replit voldoet als enige tool aan alle criteria. De GitLab integratie feature wordt helaas niet
+                aangeboden in de UI van de omgeving, maar met de GitLab CLI kan er via de terminal nog
+                wel verbonden worden met GitLab repos. Daarnaast ondersteund Replit PHP.
+                Er kan daarom geconcludeerd worden dat de online code editor, Replit, de meest geschikte
+                tool is voor Bluebird Day om de componenten mee te kunnen onderhouden.</p>
+
+              <div class="vervolg-cont">
+                <b>Wat nu?</b>
+                <p>De conclusie van dit onderzoek moet worden meegenomen in het advies. Het bedrijf kan
+                  deze informatie vervolgens afwegen tegen de financiële kosten.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="leer-content-wrapper">
+          <div class="content-cont">
+            <div class="pdf-cont">
+              <embed src="pdf/graduation/code_editors.pdf" width="100%" height="1000" type="application/pdf">
+              <a target="_blank" href="./pdf/graduation/code_editors.pdf" class="bbd-btn"><button>Bekijk
+                  code editor onderzoek in PDF</button>
                 <svg-icon class="svg-external-link" name="external_link" /></a>
             </div>
           </div>
@@ -526,7 +692,7 @@
               <NuxtLink to="/semesters/graduation/leeruitkomsten" exact>Leeruitkomsten</NuxtLink>
             </li>
           </ul>
-          <NuxtLink to="/semesters/graduation/learningoutcomes/adviseren" class="desktop-next-page" exact>
+          <NuxtLink to="/semesters/graduation/learningoutcomes/adviseren/" class="desktop-next-page" exact>
             <p>Ga naar 'Adviseren'</p>
             <svg-icon class="svg-arrow-right" name="arrow-right" />
           </NuxtLink>

@@ -301,7 +301,7 @@
       </div>
       <div class="bottom-desktop-nav">
         <div class="desktop-nav-cont">
-          <NuxtLink to="/semesters/graduation/learningoutcomes/communicatie" class="desktop-next-page" exact>
+          <NuxtLink to="/semesters/graduation/learningoutcomes/communicatie/" class="desktop-next-page" exact>
             <svg-icon class="svg-arrow-right" name="arrow-left" />
             <p>Ga naar 'Communicatie'</p>
           </NuxtLink>

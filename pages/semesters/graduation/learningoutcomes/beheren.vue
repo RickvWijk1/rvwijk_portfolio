@@ -17,42 +17,42 @@
                 </v-list-item>
               </div>
               <div class="sidepanel-item-cont">
-                <a class="pagination-next" href="semesters/graduation/learningoutcomes/adviseren/#projectplan">
+                <a class="pagination-next" href="semesters/graduation/learningoutcomes/beheren/#planning">
                   <v-list-item>
                     <v-list-item-title class="v-list-item-title">
                       <p>Scrum planning</p>
                     </v-list-item-title>
                   </v-list-item>
                 </a>
-                <a class="pagination-next" href="semesters/graduation/learningoutcomes/adviseren/#adviesrapport">
+                <a class="pagination-next" href="semesters/graduation/learningoutcomes/beheren/#sketching">
                   <v-list-item>
                     <v-list-item-title class="v-list-item-title">
                       <p>Sketching/low-fi prototype</p>
                     </v-list-item-title>
                   </v-list-item>
                 </a>
-                <a class="pagination-next" href="semesters/graduation/learningoutcomes/adviseren/#adviesrapport">
+                <a class="pagination-next" href="semesters/graduation/learningoutcomes/beheren/#confluence">
                   <v-list-item>
                     <v-list-item-title class="v-list-item-title">
                       <p>Testing confluence</p>
                     </v-list-item-title>
                   </v-list-item>
                 </a>
-                <a class="pagination-next" href="semesters/graduation/learningoutcomes/adviseren/#adviesrapport">
+                <a class="pagination-next" href="semesters/graduation/learningoutcomes/beheren/#npm">
                   <v-list-item>
                     <v-list-item-title class="v-list-item-title">
                       <p>Testing NPM & GitLab</p>
                     </v-list-item-title>
                   </v-list-item>
                 </a>
-                <a class="pagination-next" href="semesters/graduation/learningoutcomes/adviseren/#adviesrapport">
+                <a class="pagination-next" href="semesters/graduation/learningoutcomes/beheren/#immersion">
                   <v-list-item>
                     <v-list-item-title class="v-list-item-title">
                       <p>Immersion</p>
                     </v-list-item-title>
                   </v-list-item>
                 </a>
-                <a class="pagination-next" href="semesters/graduation/learningoutcomes/adviseren/#adviesrapport">
+                <a class="pagination-next" href="semesters/graduation/learningoutcomes/beheren/#architectuur">
                   <v-list-item>
                     <v-list-item-title class="v-list-item-title">
                       <p>Architectuursdiagram</p>
@@ -84,7 +84,7 @@
       <div class="page-wrapper">
         <div class="leer-content-wrapper">
           <div class="content-cont">
-            <h3 id="projectplan">Projectplan</h3>
+            <h3 id="planning">Scrum planning</h3>
           </div>
           <div class="marked content-cont">
             <div class="proof-icon">
@@ -92,65 +92,22 @@
               <b>Bewijs uitleg</b>
             </div>
             <div class="content-proof-explained">
-              <p>Een projectplan is opgesteld om alles van de huidige situatie tot de scoping vast te stellen en een plan
-                te creëren om het einddoel te bereiken. Het projectplan is gebruikt als middel om mijn blik op de opdracht
-                over te brengen op de bedrijfsbegeleider. Zo heb ik o.a. advies gegeven over hoe we het beste (welke
-                strategieën & methoden) de opdracht kunnen aanpakken.</p>
+              <p>Er is gebruikgemaakt van tooling dat past bij de werkwijze van het bedrijf. Zo is er o.a. gebruikgemaakt van Jira, een Scrum planning tool, om het project te managen.</p>
             </div>
           </div>
-          <div class="content-cont">
-            <div class="learned-cont">
-              <h4>Aanpak</h4>
-              <img src="~/assets/img/school/icons/approach.png" alt="">
+          <div class="pdf-cont">
+              <img loading="lazy" src="~/assets/img/school/graduation/leeruitkomsten/jira.png" alt="" class="image-zoom">
             </div>
-            <div class="research-tags-cont">
-              <div class="research-tag research-active research-field">
-                <p>Field</p>
-                <img src="~/assets/img/school/research_strats/field.png" alt="">
-              </div>
-            </div>
-            <div class="research-text label-cont">
-              <p><b>Field research is toegepast,</b> omdat door het aangaan van het gesprek met de doelgroep en het
-                bedrijf,
-                er een duidelijker beeld kan worden geschetst van de huidige situatie en de verwachtingen/het doel van
-                het bedrijf.</p> <p>Allereerst heb ik vragen gesteld aan mijn bedrijfgsbegeleider over de huidige situatie en het doel. Om meer informatie te krijgen heb ik hierna interviews gehouden.</p>
-            </div>
-          </div>
-          <div class=" content-cont">
-            <h4>Hoofdvraag</h4>
-            <p>Hoe zorg ik dat BBD front-end developers een middel hebben om hun componenten te kunnen hergebruiken
-              zodat de kwaliteit van BBD’s projecten gewaarborgd kan blijven?</p>
-          </div>
-          <div class="content-cont">
-            <h4>Conclusie</h4>
-            <div class="text-columns">
-              <p>Het doel van het bedrijf is om meer componenten te gaan hergebruiken zodat de front-end developers van
-                BBD meer tijd over hebben om te kunnen werken aan het creëren van het 'Wow!' effect voor projecten.</p>
-              <p>In de huidige situatie is er vaak te weinig tijd om voor dit effect te kunnen zorgen. Het hergebruiken
-                van componenten wordt zelden gedaan en als het gebeurt, niet efficiënt genoeg. Daarom is het aan mij om
-                de BBD front-end developers te voorzien van een middel waarmee zij hun
-                componenten kunnen hergebruiken.</p>
-              <div class="vervolg-cont">
-                <b>Wat nu?</b>
-                <p>Nu het plan is vastgesteld, kan er gefocust worden op het uitvoeren van onderzoek/het
-                  toepassen van methoden om tot een passende oplossing te komen.</p>
-              </div>
-            </div>
-          </div>
         </div>
         <div class="leer-content-wrapper">
           <div class="content-cont">
             <div class="pdf-cont">
-              <embed src="pdf/graduation/projectplanV3.pdf" width="100%" height="1000" type="application/pdf">
-              <a target="_blank" href="./pdf/graduation/projectplanV3.pdf" class="bbd-btn"><button>Bekijk projectplan in
-                  PDF</button>
-                <svg-icon class="svg-external-link" name="external_link" /></a>
             </div>
           </div>
         </div>
         <div class="leer-content-wrapper">
           <div class="content-cont">
-            <h3 id="interviews">Architectuursdiagram</h3>
+            <h3 id="sketching">Sketching/low-fi prototype</h3>
             </div>
           <div class="marked content-cont">
             <div class="proof-icon">
@@ -158,56 +115,99 @@
               <b>Bewijs uitleg</b>
             </div>
             <div class="content-proof-explained">
-              <p>Een projectplan is opgesteld om alles van de huidige situatie tot de scoping vast te stellen en een plan
-                te creëren om het einddoel te bereiken. Het projectplan is gebruikt als middel om mijn blik op de opdracht
-                over te brengen op de bedrijfsbegeleider. Zo heb ik o.a. advies gegeven over hoe we het beste (welke
-                strategieën & methoden) de opdracht kunnen aanpakken.</p>
+              <p>Er is gebruikgemaakt van Figma, een tool om designs te maken en te beheren.</p>
             </div>
           </div>
+          <div class="pdf-cont">
+              <img loading="lazy" src="~/assets/img/school/graduation/leeruitkomsten/figma.png" alt="" class="image-zoom">
+            </div>
+        </div>
+        <div class="leer-content-wrapper">
           <div class="content-cont">
-            <div class="learned-cont">
-              <h4>Aanpak</h4>
-              <img src="~/assets/img/school/icons/approach.png" alt="">
-            </div>
-            <div class="research-tags-cont">
-              <div class="research-tag research-active research-field">
-                <p>Field</p>
-                <img src="~/assets/img/school/research_strats/field.png" alt="">
-              </div>
-            </div>
-            <div class="research-text label-cont">
-              <p><b>Field research is toegepast,</b> omdat het kennismaken met de doelgroep ervoor zorgt dat ik weet hoe
-                de doelgroep de huidige situatie ziet en zij mij meer details kunnen geven over de manier waarop zij
-                momenteel werken.</p>
+            <div class="pdf-cont">
             </div>
           </div>
+        </div>
+        <div class="leer-content-wrapper">
           <div class="content-cont">
-            <h4>Onderzoeksvraag</h4>
-            <p>Hoe worden componenten momenteel hergebruikt door developers van BBD?</p>
+            <h3 id="confluence">Testing confluence</h3>
+            </div>
+          <div class="marked content-cont">
+            <div class="proof-icon">
+              <svg-icon class="svg-checkmark" name="checkmark_filled"></svg-icon>
+              <b>Bewijs uitleg</b>
+            </div>
+            <div class="content-proof-explained">
+              <p>Er is gebruikgemaakt van Confluence, een tool om kennis te beheren (in de vorm van documenten).</p>
+            </div>
           </div>
+          <div class="pdf-cont">
+              <img loading="lazy" src="~/assets/img/school/graduation/leeruitkomsten/confluence.png" alt="" class="image-zoom">
+            </div>
+        </div>
+        <div class="leer-content-wrapper">
           <div class="content-cont">
-            <h4>Conclusie & Vervolgstappen</h4>
-            <div class="text-columns">
-              <p>Momenteel worden front-end componenten alleen hergebruikt door naar repo’s van oude
-                projecten te gaan en daar stukken code te kopiëren. Soms worden er ook stukken code
-                gekopieerd van Codepens of officiële documentatie van de gebruikte talen. Dit komt volgens
-                de developers, omdat er project gericht gewerkt wordt en er gebruikgemaakt wordt van vele
-                verschillende technologieën, waardoor het managen van de componenten en de
-                verschillende versies, lastig wordt.</p>
-              <p>
-                Voor back-end componenten, wordt er gebruikgemaakt van een package manager tool, dat
-                gehost wordt door Bluebird Day. De back-end developers gebruiken dan een command om
-                een bepaalde component te installeren voor een project. Deze componenten zijn al eens
-                eerder gebruikt in oude projecten en geupload naar de package manager. Echter wordt hier
-                ook niet altijd gebruik van gemaakt, want sommige componenten maken gebruik van een
-                oudere versie (van Magento bijv.) Daarnaast moeten sommige back-end onderdelen van
-                een project speciaal voor een specifiek project ontwikkeld worden en wordt het dus niet
-                geupload naar de package manager.</p>
-              <div class="vervolg-cont">
-                <b>Wat nu?</b>
-                <p>Nu er meer bekend is over de huidige situatie, wordt het tijd om inspiratie op te doen door te
-                  onderzoeken welke huidige platformen bestaan waarmee je frontend componenten kunt managen.</p>
-              </div>
+            <div class="pdf-cont">
+            </div>
+          </div>
+        </div>
+        <div class="leer-content-wrapper">
+          <div class="content-cont">
+            <h3 id="npm">Testing NPM & GitLab</h3>
+            </div>
+          <div class="marked content-cont">
+            <div class="proof-icon">
+              <svg-icon class="svg-checkmark" name="checkmark_filled"></svg-icon>
+              <b>Bewijs uitleg</b>
+            </div>
+            <div class="content-proof-explained">
+              <p>Er is gebruikgemaakt van NPM en GitLab features (Package Registry, CI & Pages). Dit zijn tools die het bedrijf ook gebruikt en features die aansluiten op de tools van het bedrijf.</p>
+            </div>
+          </div>
+          <div class="pdf-cont">
+              <img loading="lazy" src="~/assets/img/school/graduation/leeruitkomsten/gitlabfeatures.png" alt="" class="image-zoom">
+            </div>
+        </div>
+        <div class="leer-content-wrapper">
+          <div class="content-cont">
+            <div class="pdf-cont">
+            </div>
+          </div>
+        </div>
+        <div class="leer-content-wrapper">
+          <div class="content-cont">
+            <h3 id="immersion">Immersion</h3>
+            </div>
+          <div class="marked content-cont">
+            <div class="proof-icon">
+              <svg-icon class="svg-checkmark" name="checkmark_filled"></svg-icon>
+              <b>Bewijs uitleg</b>
+            </div>
+            <div class="content-proof-explained">
+              <p>Er is gebruikgemaakt van PHPstorm, Shopware en Jira om inzichten te verzamelen over de werkwijze van de front-end developers.</p>
+            </div>
+          </div>
+          <div class="pdf-cont">
+              <img loading="lazy" src="~/assets/img/school/graduation/leeruitkomsten/phpstorm.png" alt="" class="image-zoom">
+            </div>
+        </div>
+        <div class="leer-content-wrapper">
+          <div class="content-cont">
+            <div class="pdf-cont">
+            </div>
+          </div>
+        </div>
+        <div class="leer-content-wrapper">
+          <div class="content-cont">
+            <h3 id="architectuur">Architectuursdiagram</h3>
+            </div>
+          <div class="marked content-cont">
+            <div class="proof-icon">
+              <svg-icon class="svg-checkmark" name="checkmark_filled"></svg-icon>
+              <b>Bewijs uitleg</b>
+            </div>
+            <div class="content-proof-explained">
+              <p>Er is gebruikgemaakt van Visio om diagrammen te maken die ik kan gebruiken om mijn oplossing uit te leggen.</p>
             </div>
           </div>
         </div>
@@ -222,322 +222,7 @@
             </div>
           </div>
         </div>
-        <div class="leer-content-wrapper">
-          <div class="content-cont">
-            <h3 id="trendanalyse">Requirements</h3>
-         </div>
-         <div class="marked content-cont">
-            <div class="proof-icon">
-              <svg-icon class="svg-checkmark" name="checkmark_filled"></svg-icon>
-              <b>Bewijs uitleg</b>
-            </div>
-            <div class="content-proof-explained">
-              <p>Een projectplan is opgesteld om alles van de huidige situatie tot de scoping vast te stellen en een plan
-                te creëren om het einddoel te bereiken. Het projectplan is gebruikt als middel om mijn blik op de opdracht
-                over te brengen op de bedrijfsbegeleider. Zo heb ik o.a. advies gegeven over hoe we het beste (welke
-                strategieën & methoden) de opdracht kunnen aanpakken.</p>
-            </div>
-          </div>
-          <div class="content-cont">
-            <div class="learned-cont">
-              <h4>Aanpak</h4>
-              <img src="~/assets/img/school/icons/approach.png" alt="">
-            </div>
-            <div class="research-tags-cont">
-              <div class="research-tag research-active research-desktop">
-                <p>Desktop</p>
-                <img src="~/assets/img/school/research_strats/library.png" alt="">
-              </div>
-              <div class="research-tag research-active research-field">
-                <p>Field</p>
-                <img src="~/assets/img/school/research_strats/field.png" alt="">
-              </div>
-              <div class="research-tag research-active research-workshop">
-                <p>Workshop</p>
-                <img src="~/assets/img/school/research_strats/workshop.png" alt="">
-              </div>
-            </div>
-            <div class="research-text label-cont">
-              <p><b>Desktop, field en workshop research is toegepast,</b> omdat er gezocht wordt naar bestaande
-                platformen. Aangezien er veel developers werken bij BBD, is er een grote kans dat zij al een paar
-                platformen kunnen aanwijzen als inspiratiebron.
-                Er wordt een lijst met inspirationele platformen opgesteld inclusief een beschrijving van de
-                aangeboden functies per platform. De platformen worden uitgeprobeerd door bijvoorbeeld
-                een component te uploaden en/of te installeren.</p>
-            </div>
-          </div>
-          <div class="content-cont">
-            <h4>Onderzoeksvraag</h4>
-            <p>Bestaat er een platform dat er mogelijk voor kan zorgen dat front-end componenten
-              hergebruikt kunnen worden door BBD front-end developers?</p>
-          </div>
-          <div class="content-cont">
-            <h4>Conclusie</h4>
-            <div class="text-columns">
-              <p>Package manager NPM is een platform dat er mogelijk voor kan zorgen dat front-end
-                componenten van BBD vaker hergebruikt worden dan in de huidige situatie het geval is. Het
-                platform zorgt er o.a. voor dat developers componenten gebouwd met allerlei
-                programmeertalen in een privé omgeving kunnen uploaden. Aangezien BBD werkt met veel
-                verschillende programmeertalen/frameworks en eist dat componenten privé opgeslagen
-                kunnen worden, is NPM mogelijk een platform om te gebruiken voor BBD.</p>
-
-              <div class="vervolg-cont">
-                <b>Wat nu?</b>
-                <p>Nu er inspiratie opgedaan is, kunnen er schetsen gemaakt worden voor een eerste iteratie. Daarnaast
-                  moet er
-                  ook ingeleefd worden in de doelgroep om eisen voor het platform op te kunnen stellen.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="leer-content-wrapper">
-          <div class="content-cont">
-            <div class="pdf-cont">
-              <embed src="pdf/graduation/requirements.pdf" width="100%" height="1000" type="application/pdf">
-              <a target="_blank" href="./pdf/graduation/trendanalyse.pdf" class="bbd-btn"><button>Bekijk requirements
-                  in
-                  PDF</button>
-                <svg-icon class="svg-external-link" name="external_link" /></a>
-            </div>
-          </div>
-        </div>
-        <div class="leer-content-wrapper">
-          <div class="content-cont">
-            <h3 id="trendanalyse">Co-reflection/creation</h3>
-         </div>
-         <div class="marked content-cont">
-            <div class="proof-icon">
-              <svg-icon class="svg-checkmark" name="checkmark_filled"></svg-icon>
-              <b>Bewijs uitleg</b>
-            </div>
-            <div class="content-proof-explained">
-              <p>Een projectplan is opgesteld om alles van de huidige situatie tot de scoping vast te stellen en een plan
-                te creëren om het einddoel te bereiken. Het projectplan is gebruikt als middel om mijn blik op de opdracht
-                over te brengen op de bedrijfsbegeleider. Zo heb ik o.a. advies gegeven over hoe we het beste (welke
-                strategieën & methoden) de opdracht kunnen aanpakken.</p>
-            </div>
-          </div>
-          <div class="content-cont">
-            <div class="learned-cont">
-              <h4>Aanpak</h4>
-              <img src="~/assets/img/school/icons/approach.png" alt="">
-            </div>
-            <div class="research-tags-cont">
-              <div class="research-tag research-active research-desktop">
-                <p>Desktop</p>
-                <img src="~/assets/img/school/research_strats/library.png" alt="">
-              </div>
-              <div class="research-tag research-active research-field">
-                <p>Field</p>
-                <img src="~/assets/img/school/research_strats/field.png" alt="">
-              </div>
-              <div class="research-tag research-active research-workshop">
-                <p>Workshop</p>
-                <img src="~/assets/img/school/research_strats/workshop.png" alt="">
-              </div>
-            </div>
-            <div class="research-text label-cont">
-              <p><b>Desktop, field en workshop research is toegepast,</b> omdat er gezocht wordt naar bestaande
-                platformen. Aangezien er veel developers werken bij BBD, is er een grote kans dat zij al een paar
-                platformen kunnen aanwijzen als inspiratiebron.
-                Er wordt een lijst met inspirationele platformen opgesteld inclusief een beschrijving van de
-                aangeboden functies per platform. De platformen worden uitgeprobeerd door bijvoorbeeld
-                een component te uploaden en/of te installeren.</p>
-            </div>
-          </div>
-          <div class="content-cont">
-            <h4>Onderzoeksvraag</h4>
-            <p>Bestaat er een platform dat er mogelijk voor kan zorgen dat front-end componenten
-              hergebruikt kunnen worden door BBD front-end developers?</p>
-          </div>
-          <div class="content-cont">
-            <h4>Conclusie</h4>
-            <div class="text-columns">
-              <p>Package manager NPM is een platform dat er mogelijk voor kan zorgen dat front-end
-                componenten van BBD vaker hergebruikt worden dan in de huidige situatie het geval is. Het
-                platform zorgt er o.a. voor dat developers componenten gebouwd met allerlei
-                programmeertalen in een privé omgeving kunnen uploaden. Aangezien BBD werkt met veel
-                verschillende programmeertalen/frameworks en eist dat componenten privé opgeslagen
-                kunnen worden, is NPM mogelijk een platform om te gebruiken voor BBD.</p>
-
-              <div class="vervolg-cont">
-                <b>Wat nu?</b>
-                <p>Nu er inspiratie opgedaan is, kunnen er schetsen gemaakt worden voor een eerste iteratie. Daarnaast
-                  moet er
-                  ook ingeleefd worden in de doelgroep om eisen voor het platform op te kunnen stellen.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="leer-content-wrapper">
-          <div class="content-cont">
-            <div class="pdf-cont">
-              <embed src="pdf/graduation/requirements.pdf" width="100%" height="1000" type="application/pdf">
-              <a target="_blank" href="./pdf/graduation/trendanalyse.pdf" class="bbd-btn"><button>Bekijk co-reflection/creation
-                  in
-                  PDF</button>
-                <svg-icon class="svg-external-link" name="external_link" /></a>
-            </div>
-          </div>
-        </div>
-        <div class="leer-content-wrapper">
-          <div class="content-cont">
-            <h3 id="trendanalyse">Kennissessie</h3>
-         </div>
-         <div class="marked content-cont">
-            <div class="proof-icon">
-              <svg-icon class="svg-checkmark" name="checkmark_filled"></svg-icon>
-              <b>Bewijs uitleg</b>
-            </div>
-            <div class="content-proof-explained">
-              <p>Een projectplan is opgesteld om alles van de huidige situatie tot de scoping vast te stellen en een plan
-                te creëren om het einddoel te bereiken. Het projectplan is gebruikt als middel om mijn blik op de opdracht
-                over te brengen op de bedrijfsbegeleider. Zo heb ik o.a. advies gegeven over hoe we het beste (welke
-                strategieën & methoden) de opdracht kunnen aanpakken.</p>
-            </div>
-          </div>
-          <div class="content-cont">
-            <div class="learned-cont">
-              <h4>Aanpak</h4>
-              <img src="~/assets/img/school/icons/approach.png" alt="">
-            </div>
-            <div class="research-tags-cont">
-              <div class="research-tag research-active research-desktop">
-                <p>Desktop</p>
-                <img src="~/assets/img/school/research_strats/library.png" alt="">
-              </div>
-              <div class="research-tag research-active research-field">
-                <p>Field</p>
-                <img src="~/assets/img/school/research_strats/field.png" alt="">
-              </div>
-              <div class="research-tag research-active research-workshop">
-                <p>Workshop</p>
-                <img src="~/assets/img/school/research_strats/workshop.png" alt="">
-              </div>
-            </div>
-            <div class="research-text label-cont">
-              <p><b>Desktop, field en workshop research is toegepast,</b> omdat er gezocht wordt naar bestaande
-                platformen. Aangezien er veel developers werken bij BBD, is er een grote kans dat zij al een paar
-                platformen kunnen aanwijzen als inspiratiebron.
-                Er wordt een lijst met inspirationele platformen opgesteld inclusief een beschrijving van de
-                aangeboden functies per platform. De platformen worden uitgeprobeerd door bijvoorbeeld
-                een component te uploaden en/of te installeren.</p>
-            </div>
-          </div>
-          <div class="content-cont">
-            <h4>Onderzoeksvraag</h4>
-            <p>Bestaat er een platform dat er mogelijk voor kan zorgen dat front-end componenten
-              hergebruikt kunnen worden door BBD front-end developers?</p>
-          </div>
-          <div class="content-cont">
-            <h4>Conclusie</h4>
-            <div class="text-columns">
-              <p>Package manager NPM is een platform dat er mogelijk voor kan zorgen dat front-end
-                componenten van BBD vaker hergebruikt worden dan in de huidige situatie het geval is. Het
-                platform zorgt er o.a. voor dat developers componenten gebouwd met allerlei
-                programmeertalen in een privé omgeving kunnen uploaden. Aangezien BBD werkt met veel
-                verschillende programmeertalen/frameworks en eist dat componenten privé opgeslagen
-                kunnen worden, is NPM mogelijk een platform om te gebruiken voor BBD.</p>
-
-              <div class="vervolg-cont">
-                <b>Wat nu?</b>
-                <p>Nu er inspiratie opgedaan is, kunnen er schetsen gemaakt worden voor een eerste iteratie. Daarnaast
-                  moet er
-                  ook ingeleefd worden in de doelgroep om eisen voor het platform op te kunnen stellen.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="leer-content-wrapper">
-          <div class="content-cont">
-            <div class="pdf-cont">
-              <embed src="pdf/graduation/requirements.pdf" width="100%" height="1000" type="application/pdf">
-              <a target="_blank" href="./pdf/graduation/trendanalyse.pdf" class="bbd-btn"><button>Bekijk kennissessie
-                  in
-                  PDF</button>
-                <svg-icon class="svg-external-link" name="external_link" /></a>
-            </div>
-          </div>
-        </div>
-        <div class="leer-content-wrapper">
-          <div class="content-cont">
-            <h3 id="trendanalyse">Adviesrapport</h3>
-         </div>
-         <div class="marked content-cont">
-            <div class="proof-icon">
-              <svg-icon class="svg-checkmark" name="checkmark_filled"></svg-icon>
-              <b>Bewijs uitleg</b>
-            </div>
-            <div class="content-proof-explained">
-              <p>Een projectplan is opgesteld om alles van de huidige situatie tot de scoping vast te stellen en een plan
-                te creëren om het einddoel te bereiken. Het projectplan is gebruikt als middel om mijn blik op de opdracht
-                over te brengen op de bedrijfsbegeleider. Zo heb ik o.a. advies gegeven over hoe we het beste (welke
-                strategieën & methoden) de opdracht kunnen aanpakken.</p>
-            </div>
-          </div>
-          <div class="content-cont">
-            <div class="learned-cont">
-              <h4>Aanpak</h4>
-              <img src="~/assets/img/school/icons/approach.png" alt="">
-            </div>
-            <div class="research-tags-cont">
-              <div class="research-tag research-active research-desktop">
-                <p>Desktop</p>
-                <img src="~/assets/img/school/research_strats/library.png" alt="">
-              </div>
-              <div class="research-tag research-active research-field">
-                <p>Field</p>
-                <img src="~/assets/img/school/research_strats/field.png" alt="">
-              </div>
-              <div class="research-tag research-active research-workshop">
-                <p>Workshop</p>
-                <img src="~/assets/img/school/research_strats/workshop.png" alt="">
-              </div>
-            </div>
-            <div class="research-text label-cont">
-              <p><b>Desktop, field en workshop research is toegepast,</b> omdat er gezocht wordt naar bestaande
-                platformen. Aangezien er veel developers werken bij BBD, is er een grote kans dat zij al een paar
-                platformen kunnen aanwijzen als inspiratiebron.
-                Er wordt een lijst met inspirationele platformen opgesteld inclusief een beschrijving van de
-                aangeboden functies per platform. De platformen worden uitgeprobeerd door bijvoorbeeld
-                een component te uploaden en/of te installeren.</p>
-            </div>
-          </div>
-          <div class="content-cont">
-            <h4>Onderzoeksvraag</h4>
-            <p>Bestaat er een platform dat er mogelijk voor kan zorgen dat front-end componenten
-              hergebruikt kunnen worden door BBD front-end developers?</p>
-          </div>
-          <div class="content-cont">
-            <h4>Conclusie</h4>
-            <div class="text-columns">
-              <p>Package manager NPM is een platform dat er mogelijk voor kan zorgen dat front-end
-                componenten van BBD vaker hergebruikt worden dan in de huidige situatie het geval is. Het
-                platform zorgt er o.a. voor dat developers componenten gebouwd met allerlei
-                programmeertalen in een privé omgeving kunnen uploaden. Aangezien BBD werkt met veel
-                verschillende programmeertalen/frameworks en eist dat componenten privé opgeslagen
-                kunnen worden, is NPM mogelijk een platform om te gebruiken voor BBD.</p>
-
-              <div class="vervolg-cont">
-                <b>Wat nu?</b>
-                <p>Nu er inspiratie opgedaan is, kunnen er schetsen gemaakt worden voor een eerste iteratie. Daarnaast
-                  moet er
-                  ook ingeleefd worden in de doelgroep om eisen voor het platform op te kunnen stellen.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="leer-content-wrapper">
-          <div class="content-cont">
-            <div class="pdf-cont">
-              <embed src="pdf/graduation/requirements.pdf" width="100%" height="1000" type="application/pdf">
-              <a target="_blank" href="./pdf/graduation/trendanalyse.pdf" class="bbd-btn"><button>Bekijk adviesrapport
-                  in
-                  PDF</button>
-                <svg-icon class="svg-external-link" name="external_link" /></a>
-            </div>
-          </div>
-        </div>
+        
 
         <!-- <div class="pagination">
           <NuxtLink class="pagination-next" to="/semesters/graduation/leeruitkomsten">
@@ -580,7 +265,7 @@
       </div>
       <div class="bottom-desktop-nav">
         <div class="desktop-nav-cont">
-          <NuxtLink to="/semesters/graduation/learningoutcomes/realiseren" class="desktop-next-page" exact>
+          <NuxtLink to="/semesters/graduation/learningoutcomes/realiseren/" class="desktop-next-page" exact>
             <svg-icon class="svg-arrow-right" name="arrow-left" />
             <p>Ga naar 'Realiseren'</p>
           </NuxtLink>
@@ -595,7 +280,7 @@
               <NuxtLink to="/semesters/graduation/leeruitkomsten" exact>Leeruitkomsten</NuxtLink>
             </li>
           </ul>
-          <NuxtLink to="/semesters/graduation/learningoutcomes/oordeelsvorming" class="desktop-next-page" exact>
+          <NuxtLink to="/semesters/graduation/learningoutcomes/oordeelsvorming/" class="desktop-next-page" exact>
             <p>Ga naar 'Oordeelsvorming'</p>
             <svg-icon class="svg-arrow-right" name="arrow-right" />
           </NuxtLink>

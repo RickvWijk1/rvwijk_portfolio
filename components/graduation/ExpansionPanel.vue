@@ -207,7 +207,8 @@
                 </div>
               </div>
               <div class="text-cont">
-                <img loading="lazy" src="~/assets/img/school/graduation/leeswijzer/sketch.jpg" alt="" class="image-zoom">
+                <img loading="lazy" src="~/assets/img/school/graduation/leeswijzer/sketch.jpg" alt=""
+                  class="image-zoom">
               </div>
               <div class="text-cont">
                 <div class="text-title">
@@ -225,7 +226,8 @@
                     een library klaar, maar deze was helemaal leeg en dus niet nuttig voor de BBD front-end developers.
                     Dit werd gedaan door een <a target="__blank"
                       href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren#projectplan"
-                      class="txt-link">co-creation meeting</a> op te zetten waarin ik aan een aantal front-end developers uitlegde
+                      class="txt-link">co-creation meeting</a> op te zetten waarin ik aan een aantal front-end
+                    developers uitlegde
                     hoe de oplossing in elkaar zit en werd er gediscussieerd wat voor componenten er nodig zijn om het
                     werk van de front-end developers op de lange termijn efficiënter te kunnen maken. Vervolgens zijn er
                     componenten ontwikkeld en geupload naar de library door de front-end developers. Hierdoor werd er
@@ -246,7 +248,8 @@
                     vlak in elkaar steekt, hoe de front-end developers hun eigen packages/componenten kunnen uploaden en
                     gebruiken, en welke guidelines gevolgd moeten worden om de library te onderhouden.
                   </p>
-                  <p>Deze informatie is digitaal terug te vinden in de documentatie die in de repo overgedragen is. Mijn onderzoeken zijn in de Google Drive van Bluebird Day overgedragen.</p>
+                  <p>Deze informatie is digitaal terug te vinden in de documentatie die in de repo overgedragen is. Mijn
+                    onderzoeken zijn in de Google Drive van Bluebird Day overgedragen.</p>
                 </div>
               </div>
             </div>
@@ -261,92 +264,36 @@
             <div class="expansion-cont">
               <table>
                 <tr>
-                  <th class="col-goals">Learning Outcome</th>
-                  <th class="col-proof">Proof</th>
+                  <th class="col-goals">ICT Competentie</th>
+                  <th class="col-proof">Bewijs</th>
                 </tr>
                 <tr>
                   <td>
                     <div class="grouped">
-                      <b>User interaction (analysis & advice)</b>
-                      <p>You analyse the user, the interaction, and the user experience, also taking state of the art
-                        interactive technologies into account. You select a suitable design process to be able to advise
-                        on
-                        UX interventions based on a validated UX design.</p>
+                      <b>Kennis en Inzicht</b>
+                      <p>Kennis en inzicht met juiste breedte en diepte van de ICT life cycle fases: beheer, analyse,
+                        advies, ontwerp en realisatie.</p>
+                      <br>
+                      <p>Mate van complexiteit van de opdracht en zelfstandigheid en eigen inbreng die de opdracht
+                        vergt.</p>
+                      <br>
+                      <div class="group-project-proof">
+                        <b><i>Additional explanation</i></b>
+                        <i>An above-average complex assignment, an assignment in a complex setting, or an assignment
+                          where the student has shown more than average independence leads to a higher assessment.</i>
+                      </div>
                     </div>
-                    <i>By analyse, we mean that you carry out research and record the conclusions.</i>
-                    <i>By state of the
-                      art interactive technologies, we mean that you investigate the latest technologies that may be
-                      relevant to the project.</i>
-                    <i>By a suitable design process, we mean that you make a justified choice for your design process
-                      and
-                      describe the different phases of this process for your project.</i>
                   </td>
                   <td>
                     <div class="group-project-proof">
                       <div>
-                        <p><b>PSV Group Project</b></p>
                         <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/interviews"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
                           class="txt-link">
-                          Target Audience Interviews
+                          Alle documenten en producten
                         </a>
                         <span>-></span>
-                        <p>Together with the other project members I helped define the target audience so that we could
-                          find
-                          the right people to interview. This was part of the empathize phase, which is part of the
-                          Design
-                          Thinking process we used.</p>
-                      </div>
-                      <div>
-                        <a target="_blank" href="#" class="txt-link">
-                          Flutter Notifications
-                        </a>
-                        <span>-></span>
-                        <p>I investigated the possibilities of notifications with a relatively new hybrid framework,
-                          Flutter. This included research into what public libraries/widgets would be usable and in what
-                          ways they could be beneficial.</p>
-                      </div>
-
-                      <div>
-                        <p><b>Individual Project</b></p>
-                        <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/techResearch"
-                          class="txt-link">
-                          Software Architecture
-                        </a>
-                        <span>-></span>
-                        <p>I did research into what technologies are most efficient at creating Android widgets.</p>
-                      </div>
-                      <div>
-                        <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/indInterviews"
-                          class="txt-link">
-                          Target Audience
-                        </a>
-                        <span>-></span>
-                        <p>I did research into the target audience by interviewing and creating a survey.</p>
-                      </div>
-                      <div>
-                        <p><b>International Project</b></p>
-                        <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/prepweek"
-                          class="txt-link">
-                          Preperation Week
-                        </a>
-                        <span>-></span>
-                        <p>I researched the metaverse on a technical and ethical level.</p>
-                      </div>
-
-                      <div>
-                        <p><b>PSV Group Project, Individual project</b></p>
-                        <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/portfolio-abstract"
-                          class="txt-link">
-                          Design Thinking
-                        </a>
-                        <span>-></span>
-                        <p>In the reading guide I describe the different phases of the project process and why we chose
-                          design thinking.</p>
+                        <p>Alle documenten en producten op mijn portfolio site tonen de vereiste kennis en inzicht.</p>
                       </div>
                     </div>
                   </td>
@@ -354,156 +301,245 @@
                 <tr>
                   <td>
                     <div class="grouped">
-                      <b>User interaction (execution & validation)</b>
+                      <b>Beheer</b>
                       <p>
-                        You execute and evaluate the user experience of an interactive product. You document the
-                        development
-                        process for the stakeholders.
+                        Werkwijze en tooling ingericht om tot professionele uitvoering te komen, passend bij opdracht
+                      </p>
+                      <p>
+                        Gewerkt volgens ingerichte werkwijze en tooling
                       </p>
                     </div>
-                    <i>By execute, we mean that you produce a high-fidelity prototype you can present to users. </i>
-                    <i>By evaluate user experience, we mean that you not only put forward the user friendliness of a
-                      product, but map the total user experience. </i>
-                    <i>By document, we mean that you can explain the choices you make in relation to user experience to
-                      stakeholders effectively. </i>
+                    <div class="group-project-proof">
+                      <b><i>Additional explanation</i></b>
+                      <i>This concerns both the design and implementation of the IT process from a management
+                        perspective (for example with a scrum approach) and more technical processes such as version
+                        management.</i>
+                    </div>
                   </td>
                   <td>
                     <div class="group-project-proof">
                       <div>
-                        <p><b>PSV Group Project</b></p>
                         <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/designTesting"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
                           class="txt-link">
-                          High-fidelity Prototype
+                          Scrum planning
                         </a>
                         <span>-></span>
-                        <p>I made a high-fidelity prototype so that I could test if/how well the users can accomplish
-                          their goals. Furthermore, I explain how my design choices support user friendliness.
-                        </p>
+                        <p>gebruikgemaakt van Jira, een Scrum planning tool, om het project te managen.</p>
                       </div>
                       <div>
                         <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/interviews"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
+                          class="txt-link">
+                          Sketching/low-fi-prototype
+                        </a>
+                        <span>-></span>
+                        <p>gebruikgemaakt van Figma, een tool om designs te maken en te beheren.</p>
+                      </div>
+                      <div>
+                        <a target="_blank"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
+                          class="txt-link">
+                          Testing Confluence
+                        </a>
+                        <span>-></span>
+                        <p>gebruikgemaakt van Confluence, een tool om kennis te beheren (in de vorm van documenten).</p>
+                      </div>
+                      <div>
+                        <a target="_blank"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
+                          class="txt-link">
+                          Testing NPM & GitLab Features
+                        </a>
+                        <span>-></span>
+                        <p>gebruikgemaakt van NPM en GitLab features (Package Registry, CI & Pages). Dit zijn tools die
+                          het bedrijf ook gebruikt en features die aansluiten op de tools van het bedrijf.</p>
+                      </div>
+                      <div>
+                        <a target="_blank"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
+                          class="txt-link">
+                          Immersion
+                        </a>
+                        <span>-></span>
+                        <p>gebruikgemaakt van PHPstorm, Shopware en Jira om inzichten te verzamelen over de werkwijze
+                          van de front-end developers.</p>
+                      </div>
+                      <div>
+                        <a target="_blank"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
+                          class="txt-link">
+                          Architectuursdiagram
+                        </a>
+                        <span>-></span>
+                        <p>gebruikgemaakt van Visio om diagrammen te maken die ik kan gebruiken om mijn oplossing uit te
+                          leggen.</p>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="grouped">
+                      <b>Analyse</b>
+                      <p>Duidelijke definitie en afbakening van context, probleem of uitdaging.</p>
+                      <br>
+                      <p>Probleemanalyse met juiste breedte en diepte.</p>
+                      <br>
+                      <div class="group-project-proof">
+                        <b><i>Additional explanation</i></b>
+                        <i>Student can argue who the stakeholders are and how they are involved in his project.</i>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="group-project-proof">
+                      <div>
+                        <a target="_blank"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
+                          class="txt-link">
+                          Projectplan
+                        </a>
+                        <span>-></span>
+                        <p>analyse van de opdracht & wie de stakeholders zijn.</p>
+                      </div>
+                      <div>
+                        <a target="_blank"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
+                          class="txt-link">
+                          Trendanalyse
+                        </a>
+                        <span>-></span>
+                        <p>analyse van de bestaande middelen en hoe deze mogelijk ingezet/overgenomen kunnen worden door
+                          het bedrijf met betrekking tot de belangen van het bedrijf.</p>
+                      </div>
+                      <div>
+                        <a target="_blank"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
+                          class="txt-link">
+                          Immersion
+                        </a>
+                        <span>-></span>
+                        <p>de doelgroep is geanalyseerd door aan een project te werken als front-end developer en samen
+                          te werken met andere front-end developers.</p>
+                      </div>
+                      <div>
+                        <a target="_blank"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
                           class="txt-link">
                           Interviews
                         </a>
                         <span>-></span>
-                        <p>I mapped what the user experience is like for the current PSV app users by interviewing them.
-                        </p>
+                        <p>analyse van de huidige situatie en doelgroep.</p>
                       </div>
-
                       <div>
                         <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/flutterNotifications"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
                           class="txt-link">
-                          Flutter Notifications
+                          Design & documentatie systems
                         </a>
                         <span>-></span>
-                        <p>I researched what the best Flutter practices are in relation to the development/maintaining
-                          process of the notification system, but also in relation to how it affects the user
-                          experience.
-                        </p>
+                        <p>analyse van bestaande design & documentatie systemen.</p>
                       </div>
                       <div>
                         <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/indDesign"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
                           class="txt-link">
-                          Design & Testing
+                          Code editors & preview editors
                         </a>
                         <span>-></span>
-                        <p>I documented why I made certain design choices in relation to the user experience.
-                        </p>
+                        <p>analyse van bestaande code & preview editors.</p>
                       </div>
-
-                      <div>
-                        <p><b>Individual Project</b></p>
-                        <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/indDesign"
-                          class="txt-link">5 second A/B testing
-                        </a>
-                        <span>-></span>
-                        <p>I mapped what the user experience is like with different kinds of widget designs.
-                        </p>
-                      </div>
-                      <div>
-                        <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/indInterviews"
-                          class="txt-link">
-                          Target Audience
-                        </a>
-                        <span>-></span>
-                        <p>I mapped what the target audience currently experiences (how they currently get info)</p>
-                      </div>
-
                     </div>
                   </td>
                 </tr>
                 <tr>
                   <td>
                     <div class="grouped">
-                      <b>Software design</b>
+                      <b>Advies</b>
                       <p>
-                        You design and evaluate a software system with existing components or libraries using
-                        predetermined
-                        quality criteria.
+                        Juiste afweging van belangen, mogelijkheden, kosten en baten
+                      </p>
+                      <p>
+                        Vorm en inhoud passend bij opdracht en context
                       </p>
                     </div>
-                    <i>By you design, we mean that you provide a schematic representation of the whole software system
-                      (for example ER diagram, architecture, flowcharts, UML diagram). </i>
-                    <i>By you evaluate, we mean that you determine the quality of the (software) design using
-                      established
-                      quality criteria and a predetermined test design. </i>
-                    <i>By existing components or libraries, we mean that you have investigated which of those is best
-                      suited to the project.</i>
-                    <i>By quality criteria, we mean that you have predetermined the criteria the system must meet in
-                      consultation with stakeholders. For example, scalability in the event of increased data and/or
-                      use,
-                      security aspects and different types of devices.</i>
+                    <div class="group-project-proof">
+                      <b><i>Additional explanation</i></b>
+                      <i>The project plan provides advice on project approach, scope and design.</i>
+
+                      <i>Advice can be given throughout the internship or graduation project and be recorded in various
+                        professional products. For example in a research report, blog, or as minutes of a sprint
+                        review.</i>
+
+                      <i>Regarding the thesis or internship report: the chapter “Recommendations” contains advices for
+                        after the project.</i>
+
+                      <i>Regarding portfolio: the reading guide clarifies which professional products have an advice
+                        component.</i>
+                    </div>
                   </td>
                   <td>
                     <div class="group-project-proof">
                       <div>
-                        <p><b>PSV Group Project</b></p>
                         <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/architecture"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
                           class="txt-link">
-                          Software Architecture
+                          Projectplan
                         </a>
                         <span>-></span>
-                        <p>I researched an existing software system and based on the findings I created an architecture
-                          diagram.</p>
+                        <p>scoping van de opdracht en de aanpak van het project.</p>
                       </div>
                       <div>
                         <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/notificationSystem"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
                           class="txt-link">
-                          Current Notification System
+                          Architectuursdiagram
                         </a>
                         <span>-></span>
-                        <p>I investigated what the current notification system looks like. I talked to the stakeholders
-                          to
-                          get more information about the system and their wishes.</p>
+                        <p>ik heb geadviseerd een ander platform te gebruiken dan Confluence aangezien Confluence niet
+                          genoeg aanbiedt voor technische documentatie.</p>
                       </div>
                       <div>
                         <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/flutterNotifications"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
                           class="txt-link">
-                          Flutter Notifications
+                          Requirements
                         </a>
                         <span>-></span>
-                        <p>I investigated the possibilities of what public libraries/widgets would be usable and in what
-                          ways they could be beneficial.</p>
+                        <p>er zijn requirements voor de oplossing opgesteld. De requirements zijn geformuleerd op basis
+                          van mijn onderzoek.</p>
                       </div>
                       <div>
-                        <p><b>Individual Project</b></p>
                         <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/techResearch"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
                           class="txt-link">
-                          Software Architecture
+                          Co-creation
                         </a>
                         <span>-></span>
-                        <p>I researched what components were needed based on set criteria, designed the software diagram
-                          based on the C4 (level 2) diagram criteria.</p>
+                        <p>ik heb de bedrijfsbegeleider geadviseerd samen een meeting in te plannen waarin de
+                          Co-creation methode zou worden toegepast om samen met de stakeholders effectief tot een
+                          passende oplossing te komen.</p>
+                      </div>
+                      <div>
+                        <a target="_blank"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
+                          class="txt-link">
+                          Kennissessie
+                        </a>
+                        <span>-></span>
+                        <p>het geven van uitleg aan de stakeholders over hoe het platform op een technisch niveau werkt
+                          en waarom het nuttig is voor de stakeholders.</p>
+                      </div>
+                      <div>
+                        <a target="_blank"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
+                          class="txt-link">
+                          Adviesrapport
+                        </a>
+                        <span>-></span>
+                        <p>het advies geven aan de stakeholders over het bereiken van het uiteindelijke doel met het oog
+                          op de toekomst.</p>
                       </div>
                     </div>
                   </td>
@@ -511,45 +547,37 @@
                 <tr>
                   <td>
                     <div class="grouped">
-                      <b>Future-oriented organisation</b>
-                      <p>
-                        You carry out a problem analysis and on that basis, you determine the definitive problem and
-                        elaborate
-                        on this in a project plan.
-                      </p>
+                      <b>Ontwerp</b>
+                      <p>Vorm en inhoud passend bij opdracht en context.</p>
+                      <br>
+                      <p>Aansluitend bij advies en voldoende uitgewerkt voor realisatie.</p>
+                      <br>
+                      <div class="group-project-proof">
+                        <b><i>Additional explanation</i></b>
+                        <i>The most important design decisions are substantiated.</i>
+                      </div>
                     </div>
-                    <i>By problem analysis, we mean that you identify the stakeholders and the context of the assignment
-                      based on methodical research.</i>
-                    <i>By definitive problem, we mean that you ascertain the question behind the question and formulate
-                      the primary question. </i>
-                    <i>By project plan, we mean that you describe in a document how you are going to answer the primary
-                      question, documenting your sub-tasks, planning, quality and budget, amongst others.</i>
                   </td>
                   <td>
                     <div class="group-project-proof">
                       <div>
-                        <p><b>PSV Group Project</b></p>
                         <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/projectPlan"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
                           class="txt-link">
-                          Project Plan
+                          Sketching/low-fi-prototype
                         </a>
                         <span>-></span>
-                        <p>The problem was determined by planning multiple debriefing meetings, asking questions and
-                          researching the media platforms of PSV. In addition, the primary
-                          question and sub-questions were formulated. A planning was made, risks were noted down, etc.
-                        </p>
+                        <p>ontwerpen gemaakt om de ideeën die ik en de bedrijfsbegeleider in gedachten hadden in kaart
+                          te brengen en te delen met de doelgroep.</p>
                       </div>
                       <div>
-                        <p><b>Individual Project</b></p>
                         <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/projectPlan"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
                           class="txt-link">
-                          Project Plan
+                          Architectuursdiagram
                         </a>
                         <span>-></span>
-                        <p>The problem was determined by monitoring F1 Twitter. The primary
-                          question and sub-questions were formulated. A planning and delivery plan were made.</p>
+                        <p>de oplossing in kaart gebracht door de C4-model guidelines te gebruiken.</p>
                       </div>
                     </div>
                   </td>
@@ -557,161 +585,214 @@
                 <tr>
                   <td>
                     <div class="grouped">
-                      <b> Investigative problem solving</b>
+                      <b>Realisatie</b>
                       <p>
-                        You formulate sub-questions pertaining to the primary question and answer these using relevant
-                        research methods. You use the conclusions of the sub-questions to justify (design) choices.
+                        Aansluitend bij ontwerp.
+                      </p>
+                      <p>
+                        In omvang en kwaliteit passend bij de probleemdefinitie en context.
+                      </p>
+                      <p>
+                        Bruikbaar voor opdrachtgever.
                       </p>
                     </div>
-                    <i>By formulating sub-questions, we mean that you split your primary question into a number of
-                      sub-questions in order to answer the primary question step-by-step. </i>
-                    <i>By research methods, we mean that you make a substantiated choice of DOT framework/CMD methods,
-                      using triangulation through relevant research patterns.</i>
+                    <div class="group-project-proof">
+                      <b><i>Additional explanation</i></b>
+                      <i>In all cases, a (partially) functioning IT product was realised within the project. This can be
+                        as a prototype (for more complex problems) or a working (partial) product.</i>
+                    </div>
                   </td>
                   <td>
-                    <div>
-                      <p><b>PSV Group Project</b></p>
-                      <a target="_blank"
-                        href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/projectPlan"
-                        class="txt-link">
-                        Project Plan
-                      </a>
-                      <span>-></span>
-                      <p>I formulated fitting sub-questions that helped answer the primary question.</p>
-                    </div>
-                    <div>
-                      <a target="_blank"
-                        href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/userstories"
-                        class="txt-link">
-                        User Story - Plan of Action
-                      </a>
-                      <span>-></span>
-                      <p>I formulated a primary question and fitting sub-questions that helped answer the primary
-                        question.</p>
-                    </div>
-                    <br>
-                    <div>
-                      <p><b>Individual Project</b></p>
-                      <a target="_blank"
-                        href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/projectPlan"
-                        class="txt-link">
-                        Project Plan
-                      </a>
-                      <span>-></span>
-                      <p>I formulated fitting sub-questions that helped answer the primary question.</p>
-                    </div>
-                    <div>
-                      <a target="_blank"
-                        href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/indDesign"
-                        class="txt-link">
-                        Design & Testing
-                      </a>
-                      <span>-></span>
-                      <p>I applied multiple research strategies (workshop, lab, field research) and methods (interviews,
-                        5-second A/B testing) to discover what type of design the target audience needed.</p>
-                      <p>'Why' I used a specific research pattern is explained in the <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/projectPlan"
+                    <div class="group-project-proof">
+                      <div>
+                        <a target="_blank"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
                           class="txt-link">
-                          Project Plan
-                        </a></p>
+                          Eindproducten
+                        </a>
+                        <span>-></span>
+                        <p>de gerealiseerde producten bevatten elementen die in de schetsen/het low-fi prototype
+                          voorkwamen. Bijv. de navigatiestructuur en bepaalde informatie over componenten. De
+                          eindproducten passen bij de probleemdefinitie en zijn van een hoge kwaliteit (zie de
+                          ‘Requirements’)</p>
+                      </div>
+                      <div>
+                        <a target="_blank"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
+                          class="txt-link">
+                          Overdracht
+                        </a>
+                        <span>-></span>
+                        <p>alle kennis met betrekking tot de oplossing is digitaal overgedragen en d.m.v. een
+                          kennissessie ook mondelings.</p>
+                      </div>
                     </div>
                   </td>
                 </tr>
                 <tr>
                   <td>
                     <div class="grouped">
-                      <b>Personal leadership</b>
-                      <p>You methodically reflect on your professional identity and personal development.</p>
-                    </div>
-                    <i>By reflect, we mean that you look back on your own work and actions and subsequently look at
-                      possibilities and opportunities you can utilise in your future career.</i>
-                    <i>By methodical, we mean that you select and use a reflection methodology to shape your reflection
-                      and on which basis you subsequently carry out a good analysis for follow-up steps. </i>
-                    <i>By professional identity, we mean the role you envisage for yourself in the media landscape and
-                      what role you play in a team, and that you document this in your portfolio. </i>
-                    <i>By develop, we mean that you consciously look at what you still want to learn. </i>
-                  </td>
-                  <td>
-                    <div>
-                      <p><b>PSV Group Project, International project, Individual project</b></p>
-                      <a target="_blank" href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/semesterSix"
-                        class="txt-link">
-                        Products
-                      </a>
-                      <span>-></span>
-                      <p>I reflected upon each piece of research.</p>
-                    </div>
-                    <div>
-                      <a target="_blank"
-                        href="https://rickvwijk1.github.io/rvwijk_portfolio/modals/semesterSix/portfolio-abstract"
-                        class="txt-link">
-                        Reading Guide
-                      </a>
-                      <span>-></span>
-                      <p>I reflected upon my work and actions during and after the projects and what impact these
-                        actions
-                        would have on my future career. </p>
-                    </div>
-                    <div>
-                      <a target="_blank" href="http://localhost:3000/rvwijk_portfolio/modals/semesterSix/delivery"
-                        class="txt-link">
-                        Delivery & Peer Feedback
-                      </a>
-                      <span>-></span>
-                      <p>Applied peer feedback, the retrospective method (starfish-method) and reflected upon the role
-                        each project member played within the project.</p>
-                    </div>
-                    <br>
-                    <div>
-                      <p><b>Individual project</b></p>
-                      <a target="_blank" href="http://localhost:3000/rvwijk_portfolio/modals/semesterSix/delivery"
-                        class="txt-link">
-                        Project Plan
-                      </a>
-                      <span>-></span>
-                      <p>In the project plan I described what I wanted to learn during the project and why (in regard to
-                        my ambitions).</p>
-                    </div>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <div class="grouped">
-                      <b>Goal-oriented interaction</b>
+                      <b>Oordeelsvorming</b>
                       <p>
-                        You communicate with different stakeholders and team members about the ICT assignment, taking
-                        into
-                        account an international context.
+                        Draws up appropriate research and sub-questions from an unstructured practical problem for all
+                        phases of design-oriented / practice-oriented research.
+                      </p>
+                      <p>
+                        Independently selects research methodology, sets up and carries out research methods
+                        independently, and justifies these with reference to research strategies and can demonstrate the
+                        robustness of his research.
+                      </p>
+                      <p>
+                        Involves social, international, scientific and ethical themes in the judgement process.
                       </p>
                     </div>
-                    <i>By communicate, we mean that you ensure the desired impact and execution.</i>
-                    <i>By stakeholders, we mean that you consider various collaboration partners.</i>
-                    <i>By international context, we mean that you are able to work with and consider people from diverse
-                      cultures.</i>
+                    <div class="group-project-proof">
+                      <b><i>Additional explanation</i></b>
+                      <i>The student shows investigative attitude during the entire project and this is not limited to a
+                        certain project phase or aspect.</i>
+
+                      <i>Research questions can be dynamic during the course of the research project.</i>
+
+                      <i>Not every choice requires the same degree of thoroughness of research; the student must be able
+                        to argue which aspects require more in-depth research and which less.</i>
+                    </div>
                   </td>
                   <td>
-                    <div>
-                      <p><b>International project</b></p>
-                      <a target="_blank" href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/semesterSix"
-                        class="txt-link">
-                        Preparation Week
-                      </a>,
-                      <a target="_blank" href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/semesterSix"
-                        class="txt-link">
-                        Metaverse concepting
-                      </a>,
-                      <a target="_blank" href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/semesterSix"
-                        class="txt-link">
-                        Metaverse prototyping
-                      </a>
-                      <span>-></span>
-                      <p>I got to know international students and worked together with them when ideating valuable
-                        concepts for potential stakeholders and prototyping
-                        a concept for
-                        stakeholder Boymans museum</p>
+                    <div class="group-project-proof">
+                      <div>
+                        <a target="_blank"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
+                          class="txt-link">
+                          Alle onderzoeksproducten
+                        </a>
+                        <span>-></span>
+                        <p>alle onderzoeksproducten in het portfolio bevatten een bepaalde onderzoek structuur met een
+                          plan van aanpak.</p>
+                      </div>
+                      <div>
+                        <a target="_blank"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
+                          class="txt-link">
+                          Projectplan
+                        </a>
+                        <span>-></span>
+                        <p>bevat een plan waarin passende onderzoeksstrategieën, patterns en methodes worden ingezet om
+                          het probleem op te lossen.</p>
+                      </div>
+                      <div>
+                        <a target="_blank"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
+                          class="txt-link">
+                          Requirements
+                        </a>
+                        <span>-></span>
+                        <p>er is bij het ontwerpen en realiseren van de oplossing rekening gehouden met het feit dat het
+                          platform privé moet zijn voor de organisatie, maar er ook een optie moet zijn om het platform
+                          in de toekomst te kunnen delen met derde partijen.</p>
+                      </div>
+                      <div>
+                        <a target="_blank"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
+                          class="txt-link">
+                          Testing NPM & GitLab Features
+                        </a>
+                        <span>-></span>
+                        <p>dit onderzoek vereiste meer aandacht/diepte dan ander onderzoek. Dit komt omdat dit de kern
+                          van de oplossing is. Als de kern niet zou voldoen aan de behoeften van de stakeholders, zou de
+                          oplossing niet geschikt zijn.</p>
+                      </div>
                     </div>
                   </td>
                 </tr>
+                <tr>
+                  <td>
+                    <div class="grouped">
+                      <b>Communicatie</b>
+                      <p>
+                        Justifies and defends the implementation of an extensive professional assignment, both verbally
+                        and in writing, and adapts the writing style to the intended audience, in Dutch or English.
+                      </p>
+                      <p>
+                        Collaborates effectively in the independent implementation of a professional assignment.
+                      </p>
+                    </div>
+                    <div class="group-project-proof">
+                      <b><i>Additional explanation</i></b>
+                      <i>With thesis or internship report, the thesis or report must be independently understandable and
+                        meet the usual document standards (including structure, table of contents, summary,
+                        references).</i>
+                      <i>For portfolio grading, the reading guide must be independently understandable and meet all
+                        document standards.</i>
+                      <i>The other professional products must be sufficiently comprehensible for the reader who is
+                        familiar with the relevant domain.</i>
+                      <i>The student can compensate for a lesser documentation competence through an oral explanation. A
+                        minimum level of written communication remains necessary (text must be unambiguous for peers in
+                        the relevant domain).</i>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="group-project-proof">
+                      <div>
+                        <a target="_blank"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
+                          class="txt-link">
+                          Resultaat
+                        </a>
+                        <span>-></span>
+                        <p>ik verdedig schriftelijk waarom het resultaat van mijn opdracht antwoordt geeft op de hoofdvraag en hoe er bijgedragen is aan het behalen van het doel.</p>
+                      </div>
+                      <div>
+                        <a target="_blank"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
+                          class="txt-link">
+                          Co-reflection/Co-creation
+                        </a>
+                        <span>-></span>
+                        <p>ik heb mondeling verdedigt waarom de ‘co-reflection & co-creation’ meeting van belang was en waarom ik het op mijn voorgestelde manier ging uitvoeren. Ook schriftelijk heb ik dit verdedigt. Daarnaast heb ik in de meeting samengewerkt en de vergaarde informatie zelfstandig gebruikt voor verder onderzoek.</p>
+                      </div>
+                      <div>
+                        <p>Wekelijkse standup meeting met de bedrijfsbegeleider.</p>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="grouped">
+                      <b>Leervermogen</b>
+                      <p>
+                        Describes professional talents and development ambitions in relation to the IT profession.
+                      </p>
+                      <p>
+                        Uses self-reflection and received feedback to improve own functioning in the IT profession.
+                      </p>
+                      <p>
+                        Takes initiatives, takes an independent position, and works independently and result-oriented on the professional assignment.
+                      </p>
+                    </div>
+                    <div class="group-project-proof">
+                      <b><i>Additional explanation</i></b>
+                      <i>In thesis or internship report, evaluation should reflect on learning experiences during the project.</i>
+                      <i>For portfolio grading, reflection and learning capacity must be demonstrated in the reading guide or in a separate product referred to.</i>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="group-project-proof">
+                      <div>
+                        <a target="_blank"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
+                          class="txt-link">
+                          Reflectie
+                        </a>
+                        <span>-></span>
+                        <p>in de reflectie beschrijf ik mijn ontwikkelingsambities binnen het vakgebied, reflecteer ik op mijn acties binnen de op- dracht en vertel ik hoe ik zelfstandig heb gewerkt.</p>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+
+
+
               </table>
             </div>
           </v-expansion-panel-content>
@@ -767,7 +848,6 @@
       </v-expansion-panels>
     </template>
     <script>
-
       export default {
         data: () => ({
           panel: [0, 1],
@@ -779,7 +859,7 @@
     </script>
 
     <style lang="css" scoped>
-  @import '~/assets/css/graduation.css';
+      @import '~/assets/css/graduation.css';
 
       .row {
         margin: 0 -10px;
@@ -953,6 +1033,7 @@
 
           flex-direction: column;
         }
+
         .expansion-cont table {
           display: flex;
           width: 100%;
@@ -963,22 +1044,21 @@
 
       }
 
-      @media (min-width: 1280px) {
-       
-      }
+      @media (min-width: 1280px) {}
 
       @media (min-width: 1536px) {}
+
       @media (min-width: 2100px) {
-        .expansion-cont{
+        .expansion-cont {
           /* display: flex;
           flex-direction: row;
           justify-content: space-around; */
           place-items: flex-start center;
         }
+
         .expansion-cont table {
           place-self: flex-start;
         }
       }
-
 
     </style>

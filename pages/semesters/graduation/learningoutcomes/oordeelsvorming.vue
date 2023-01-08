@@ -17,21 +17,21 @@
                 </v-list-item>
               </div>
               <div class="sidepanel-item-cont">
-                <a class="pagination-next" href="semesters/graduation/learningoutcomes/adviseren/#projectplan">
+                <a class="pagination-next" href="semesters/graduation/learningoutcomes/oordeelsvorming/#projectplan">
                   <v-list-item>
                     <v-list-item-title class="v-list-item-title">
                       <p>Projectplan</p>
                     </v-list-item-title>
                   </v-list-item>
                 </a>
-                <a class="pagination-next" href="semesters/graduation/learningoutcomes/adviseren/#adviesrapport">
+                <a class="pagination-next" href="semesters/graduation/learningoutcomes/oordeelsvorming/#requirements">
                   <v-list-item>
                     <v-list-item-title class="v-list-item-title">
                       <p>Requirements</p>
                     </v-list-item-title>
                   </v-list-item>
                 </a>
-                <a class="pagination-next" href="semesters/graduation/learningoutcomes/adviseren/#adviesrapport">
+                <a class="pagination-next" href="semesters/graduation/learningoutcomes/oordeelsvorming/#npm">
                   <v-list-item>
                     <v-list-item-title class="v-list-item-title">
                       <p>Testing NPM & GitLab</p>
@@ -127,7 +127,7 @@
 
         <div class="leer-content-wrapper">
           <div class="content-cont">
-            <h3 id="interviews">Requirements</h3>
+            <h3 id="requirements">Requirements</h3>
           </div>
           <div class="marked content-cont">
             <div class="proof-icon">
@@ -191,7 +191,7 @@
 
         <div class="leer-content-wrapper">
           <div class="content-cont">
-            <h3 id="interviews">Testing NPM & GitLab</h3>
+            <h3 id="npm">Testing NPM & GitLab</h3>
           </div>
           <div class="marked content-cont">
             <div class="proof-icon">

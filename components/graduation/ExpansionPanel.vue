@@ -320,7 +320,7 @@
                     <div class="group-project-proof">
                       <div>
                         <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/beheren/#planning"
                           class="txt-link">
                           Scrum planning
                         </a>
@@ -329,7 +329,7 @@
                       </div>
                       <div>
                         <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/beheren/#sketching"
                           class="txt-link">
                           Sketching/low-fi-prototype
                         </a>
@@ -338,7 +338,7 @@
                       </div>
                       <div>
                         <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/beheren/#confluence"
                           class="txt-link">
                           Testing Confluence
                         </a>
@@ -347,7 +347,7 @@
                       </div>
                       <div>
                         <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/beheren/#npm"
                           class="txt-link">
                           Testing NPM & GitLab Features
                         </a>
@@ -357,7 +357,7 @@
                       </div>
                       <div>
                         <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/beheren/#immersion"
                           class="txt-link">
                           Immersion
                         </a>
@@ -367,7 +367,7 @@
                       </div>
                       <div>
                         <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/beheren/#architectuur"
                           class="txt-link">
                           Architectuursdiagram
                         </a>
@@ -396,7 +396,7 @@
                     <div class="group-project-proof">
                       <div>
                         <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren/#projectplan"
                           class="txt-link">
                           Projectplan
                         </a>
@@ -405,7 +405,7 @@
                       </div>
                       <div>
                         <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren/#trendanalyse"
                           class="txt-link">
                           Trendanalyse
                         </a>
@@ -415,7 +415,7 @@
                       </div>
                       <div>
                         <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren/#immersion"
                           class="txt-link">
                           Immersion
                         </a>
@@ -425,7 +425,7 @@
                       </div>
                       <div>
                         <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren/#interviews1"
                           class="txt-link">
                           Interviews
                         </a>
@@ -434,7 +434,7 @@
                       </div>
                       <div>
                         <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren/#designdocu"
                           class="txt-link">
                           Design & documentatie systems
                         </a>
@@ -443,7 +443,7 @@
                       </div>
                       <div>
                         <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren/#codeeditor"
                           class="txt-link">
                           Code editors & preview editors
                         </a>
@@ -483,7 +483,7 @@
                     <div class="group-project-proof">
                       <div>
                         <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/adviseren/#projectplan"
                           class="txt-link">
                           Projectplan
                         </a>
@@ -492,7 +492,7 @@
                       </div>
                       <div>
                         <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/adviseren/#architectuur"
                           class="txt-link">
                           Architectuursdiagram
                         </a>
@@ -502,7 +502,7 @@
                       </div>
                       <div>
                         <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/adviseren/#requirements"
                           class="txt-link">
                           Requirements
                         </a>
@@ -512,7 +512,7 @@
                       </div>
                       <div>
                         <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/adviseren/#coreflection"
                           class="txt-link">
                           Co-creation
                         </a>
@@ -523,7 +523,7 @@
                       </div>
                       <div>
                         <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/adviseren/#kennissessie"
                           class="txt-link">
                           Kennissessie
                         </a>
@@ -533,7 +533,7 @@
                       </div>
                       <div>
                         <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/adviseren/#adviesrapport"
                           class="txt-link">
                           Adviesrapport
                         </a>
@@ -562,7 +562,7 @@
                     <div class="group-project-proof">
                       <div>
                         <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/ontwerpen/#sketching"
                           class="txt-link">
                           Sketching/low-fi-prototype
                         </a>
@@ -572,7 +572,7 @@
                       </div>
                       <div>
                         <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/ontwerpen/#architectuur"
                           class="txt-link">
                           Architectuursdiagram
                         </a>
@@ -606,7 +606,7 @@
                     <div class="group-project-proof">
                       <div>
                         <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/realiseren/#eindproducten"
                           class="txt-link">
                           Eindproducten
                         </a>
@@ -618,7 +618,7 @@
                       </div>
                       <div>
                         <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/realiseren/#overdracht"
                           class="txt-link">
                           Overdracht
                         </a>

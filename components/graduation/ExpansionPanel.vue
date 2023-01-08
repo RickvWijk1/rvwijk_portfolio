@@ -16,10 +16,7 @@
                   minuten loopafstand vanaf het station.
                 </p>
                 <div class="video-wrapper">
-                  <iframe frameborder="0" allowfullscreen="1"
-                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
-                    title="Bluebird Day Brand Movie" width="440" height="280"
-                    src="https://www.youtube-nocookie.com/embed/twjco4FJHHg"></iframe>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/GJsQjPdqJXs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
               </div>
               <div class="img-cont">
@@ -671,7 +668,7 @@
                       </div>
                       <div>
                         <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/oordeelsvorming/#projectplan"
                           class="txt-link">
                           Projectplan
                         </a>
@@ -681,7 +678,7 @@
                       </div>
                       <div>
                         <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/oordeelsvorming/#requirements"
                           class="txt-link">
                           Requirements
                         </a>
@@ -692,7 +689,7 @@
                       </div>
                       <div>
                         <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/oordeelsvorming/#npm"
                           class="txt-link">
                           Testing NPM & GitLab Features
                         </a>
@@ -734,26 +731,26 @@
                     <div class="group-project-proof">
                       <div>
                         <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
-                          class="txt-link">
-                          Resultaat
-                        </a>
-                        <span>-></span>
-                        <p>ik verdedig schriftelijk waarom het resultaat van mijn opdracht antwoordt geeft op de hoofdvraag en hoe er bijgedragen is aan het behalen van het doel.</p>
-                      </div>
-                      <div>
-                        <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
-                          class="txt-link">
-                          Co-reflection/Co-creation
-                        </a>
-                        <span>-></span>
-                        <p>ik heb mondeling verdedigt waarom de ‘co-reflection & co-creation’ meeting van belang was en waarom ik het op mijn voorgestelde manier ging uitvoeren. Ook schriftelijk heb ik dit verdedigt. Daarnaast heb ik in de meeting samengewerkt en de vergaarde informatie zelfstandig gebruikt voor verder onderzoek.</p>
-                      </div>
-                      <div>
-                        <p>Wekelijkse standup meeting met de bedrijfsbegeleider.</p>
-                      </div>
+                        href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/communicatie/#coreflection"
+                        class="txt-link">
+                        Co-reflection/Co-creation
+                      </a>
+                      <span>-></span>
+                      <p>ik heb mondeling verdedigt waarom de ‘co-reflection & co-creation’ meeting van belang was en waarom ik het op mijn voorgestelde manier ging uitvoeren. Ook schriftelijk heb ik dit verdedigt. Daarnaast heb ik in de meeting samengewerkt en de vergaarde informatie zelfstandig gebruikt voor verder onderzoek.</p>
                     </div>
+                    <div>
+                      <a target="_blank"
+                        href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/communicatie/#resultaat"
+                        class="txt-link">
+                        Resultaat
+                      </a>
+                      <span>-></span>
+                      <p>ik verdedig schriftelijk waarom het resultaat van mijn opdracht antwoordt geeft op de hoofdvraag en hoe er bijgedragen is aan het behalen van het doel.</p>
+                    </div>
+                    <div>
+                      <p>Wekelijkse standup meeting met de bedrijfsbegeleider.</p>
+                    </div>
+                  </div>
                   </td>
                 </tr>
                 <tr>

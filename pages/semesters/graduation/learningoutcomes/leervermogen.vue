@@ -84,8 +84,8 @@
               nog niet bekend of ervaren mee was (bijv. Twig, DDEV, Docker, GitLab features, SASS). Daarnaast heb ik een
               aantal tips gekregen tijdens code reviews waardoor ik met zekerheid kan zeggen dat ik gegroeid ben als
               front-end developer.</p>
-            <p>Als 'personal development goal' wilde ik ook meer ervaring opdoen op het gebied van design iteraties
-              testen. Tijdens de afstudeeropdracht heb ik hier helaas niet veel aan kunnen werken. Dit komt voornamelijk
+            <p>Als 'personal development goal' wilde ik ook meer ervaring opdoen op het gebied van <b>design iteraties
+              testen</b>. Tijdens de afstudeeropdracht heb ik hier helaas niet veel aan kunnen werken. Dit komt voornamelijk
               omdat mijn oplossing gebruikmaakt van bestaande systemen en er dus niet veel ruimte was voor eigen
               designs te maken en te testen. De oplossing heb ik wel kunnen testen, maar niet heel uitgebreid.</p>
 

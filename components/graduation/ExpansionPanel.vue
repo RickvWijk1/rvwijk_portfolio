@@ -7,7 +7,8 @@
           <v-expansion-panel-content eager>
             <div class="expansion-cont">
               <div class="text-cont">
-                <nuxt-img class="bbd-logo" src="/img/graduation/leeswijzer/logo.png" loading="lazy" />
+                <img loading="lazy" src="~/assets/img/school/graduation/leeswijzer/logo.png" alt=""
+                  class="bbd-logo image-zoom">
                 <p><a target="__blank" href="https://www.bluebirdday.nl/" class="txt-link">Bluebird Day</a> is de
                   Nederlandse #1 op het gebied van e-commerce en is één van de 9 <a target="__blank"
                     href="https://www.handpickedagencies.com/nl/" class="txt-link">Handpicked Agencies</a>.
@@ -16,7 +17,10 @@
                   minuten loopafstand vanaf het station.
                 </p>
                 <div class="video-wrapper">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/GJsQjPdqJXs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/GJsQjPdqJXs"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
                 </div>
               </div>
               <div class="img-cont">
@@ -147,13 +151,13 @@
                 <div class="text-p-cont">
                   <p>Gedurende de eerste 3 weken is er een projectplan opgesteld. De informatie die nodig was om het
                     <a target="__blank"
-                      href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren#projectplan"
+                      href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren/#projectplan"
                       class="txt-link">projectplan</a> op te stellen, is verkregen door het uitvoeren van <a
                       target="__blank"
-                      href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren#projectplan"
+                      href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren/#interviews1"
                       class="txt-link">interviews</a>. De doelgroep, front-end
                     developers, werden o.a. geïnterviewed. Door het uitvoeren van een <a target="__blank"
-                      href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren#projectplan"
+                      href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren/#trendanalyse"
                       class="txt-link">trendanalyse</a>, vond ik bestaande oplossingen voor front-end component
                     libraries.
                   </p>
@@ -165,17 +169,17 @@
                 </div>
                 <div class="text-p-cont">
                   <p>Na het opstellen van het projectplan is er m.b.v. meer <a target="__blank"
-                      href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren#projectplan"
+                      href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren/#interviews2"
                       class="txt-link">interviews</a> en de <a target="__blank"
-                      href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren#projectplan"
+                      href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren/#immersion"
                       class="txt-link">immersion</a> methode een beter beeld van de doelgroep ontstaan. Door deel te
                     nemen aan het 'Boerschappen' project als front-end developer, kon ik de dagelijkse irritaties,
                     behoeftes en goals van de BBD developers beter begrijpen.
                     De vondsten zijn in beeld gebracht door <a target="__blank"
-                      href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren#projectplan"
+                      href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren/#interviews2"
                       class="txt-link">empathy mapping</a> toe te passen. Met deze informatie en de eisen vanuit
                     Bluebird Day, kon er een lijst met <a target="__blank"
-                      href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren#projectplan"
+                      href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/adviseren/#requirements"
                       class="txt-link">requirements</a> voor de front-end component library opgesteld worden.
                   </p>
                 </div>
@@ -189,11 +193,11 @@
                     In de orienterende fase wilde ik weten of wat ik in gedachten had overeenkwam met de gedachtengang
                     van het bedrijf/de bedrijfsbegeleider en wat de doelgroep van mijn ideeën zou vinden. Daarom heb ik
                     een aantal <a target="__blank"
-                      href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren#projectplan"
+                      href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/ontwerpen/#sketching"
                       class="txt-link">schetsen/low-fidelity
                       prototypes</a> gemaakt. Daarnaast ben ik de bestaande front-end component library oplossingen
                     verder gaan verkennen d.m.v. <a target="__blank"
-                      href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren#projectplan"
+                      href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/oordeelsvorming/#npm"
                       class="txt-link">literatuuronderzoek en POC's</a>. Hieruit bleek dat GitLab's Package Registry
                     voldoet aan de opgestelde requirements om te gebruiken als frontend component library voor Bluebird
                     Day. Daarnaast is er
@@ -222,7 +226,7 @@
                   <p>Toen de eerste versie er stond, was het tijd om de oplossing te verfijnen. Er stond namelijk wel
                     een library klaar, maar deze was helemaal leeg en dus niet nuttig voor de BBD front-end developers.
                     Dit werd gedaan door een <a target="__blank"
-                      href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren#projectplan"
+                      href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/adviseren/#coreflection"
                       class="txt-link">co-creation meeting</a> op te zetten waarin ik aan een aantal front-end
                     developers uitlegde
                     hoe de oplossing in elkaar zit en werd er gediscussieerd wat voor componenten er nodig zijn om het
@@ -231,6 +235,14 @@
                     meteen getest of de documentatie duidelijk genoeg was en is er een begin gemaakt aan het vullen van
                     de library.
                   </p>
+                  <p>Uit de co-creation meeting bleek dat Mkdocs nuttig was, maar dat er mogelijk betere alternatieven
+                    zouden zijn om de documentatie te kunnen onderhouden. Daarom ben ik onderzoek gaan doen naar <a
+                      target="__blank"
+                      href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren/#designdocu"
+                      class="txt-link">design-documentatie systemen</a> en <a target="__blank"
+                      href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren/#codeeditor"
+                      class="txt-link">online code editors en heb ik geconcludeerd dat GitBook aan meer requirements
+                      voldoet dan MkDocs.</a></p>
                 </div>
               </div>
               <div class="text-cont">
@@ -238,7 +250,9 @@
                   <h4>Afronden/Opleveren/Evalueren</h4>
                 </div>
                 <div class="text-p-cont">
-                  <p>Om de kennis niet alleen op papier over te dragen, heb ik een kennissessie gehouden tijdens de
+                  <p>Om de kennis niet alleen op papier over te dragen, heb ik een <a target="__blank"
+                      href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/adviseren/#kennissessie"
+                      class="txt-link">kennissessie</a> gehouden tijdens de
                     'Front-end Monthly'. Dit is een online
                     meeting die maandelijks plaatsvindt en dient als update/nieuws moment en als moment om nieuwe
                     frontend kennis te delen met elkaar. In de kennissessie heb ik uitgelegd hoe de library op technisch
@@ -731,26 +745,30 @@
                     <div class="group-project-proof">
                       <div>
                         <a target="_blank"
-                        href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/communicatie/#coreflection"
-                        class="txt-link">
-                        Co-reflection/Co-creation
-                      </a>
-                      <span>-></span>
-                      <p>ik heb mondeling verdedigt waarom de ‘co-reflection & co-creation’ meeting van belang was en waarom ik het op mijn voorgestelde manier ging uitvoeren. Ook schriftelijk heb ik dit verdedigt. Daarnaast heb ik in de meeting samengewerkt en de vergaarde informatie zelfstandig gebruikt voor verder onderzoek.</p>
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/communicatie/#coreflection"
+                          class="txt-link">
+                          Co-reflection/Co-creation
+                        </a>
+                        <span>-></span>
+                        <p>ik heb mondeling verdedigt waarom de ‘co-reflection & co-creation’ meeting van belang was en
+                          waarom ik het op mijn voorgestelde manier ging uitvoeren. Ook schriftelijk heb ik dit
+                          verdedigt. Daarnaast heb ik in de meeting samengewerkt en de vergaarde informatie zelfstandig
+                          gebruikt voor verder onderzoek.</p>
+                      </div>
+                      <div>
+                        <a target="_blank"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/communicatie/#resultaat"
+                          class="txt-link">
+                          Resultaat
+                        </a>
+                        <span>-></span>
+                        <p>ik verdedig schriftelijk waarom het resultaat van mijn opdracht antwoordt geeft op de
+                          hoofdvraag en hoe er bijgedragen is aan het behalen van het doel.</p>
+                      </div>
+                      <div>
+                        <p>Wekelijkse standup meeting met de bedrijfsbegeleider.</p>
+                      </div>
                     </div>
-                    <div>
-                      <a target="_blank"
-                        href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/communicatie/#resultaat"
-                        class="txt-link">
-                        Resultaat
-                      </a>
-                      <span>-></span>
-                      <p>ik verdedig schriftelijk waarom het resultaat van mijn opdracht antwoordt geeft op de hoofdvraag en hoe er bijgedragen is aan het behalen van het doel.</p>
-                    </div>
-                    <div>
-                      <p>Wekelijkse standup meeting met de bedrijfsbegeleider.</p>
-                    </div>
-                  </div>
                   </td>
                 </tr>
                 <tr>
@@ -764,25 +782,39 @@
                         Uses self-reflection and received feedback to improve own functioning in the IT profession.
                       </p>
                       <p>
-                        Takes initiatives, takes an independent position, and works independently and result-oriented on the professional assignment.
+                        Takes initiatives, takes an independent position, and works independently and result-oriented on
+                        the professional assignment.
                       </p>
                     </div>
                     <div class="group-project-proof">
                       <b><i>Additional explanation</i></b>
-                      <i>In thesis or internship report, evaluation should reflect on learning experiences during the project.</i>
-                      <i>For portfolio grading, reflection and learning capacity must be demonstrated in the reading guide or in a separate product referred to.</i>
+                      <i>In thesis or internship report, evaluation should reflect on learning experiences during the
+                        project.</i>
+                      <i>For portfolio grading, reflection and learning capacity must be demonstrated in the reading
+                        guide or in a separate product referred to.</i>
                     </div>
                   </td>
                   <td>
                     <div class="group-project-proof">
                       <div>
                         <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeruitkomsten/"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeswijzer/"
                           class="txt-link">
                           Reflectie
                         </a>
                         <span>-></span>
-                        <p>in de reflectie beschrijf ik mijn ontwikkelingsambities binnen het vakgebied, reflecteer ik op mijn acties binnen de op- dracht en vertel ik hoe ik zelfstandig heb gewerkt.</p>
+                        <p>in de reflectie beschrijf ik mijn ontwikkelingsambities binnen het vakgebied, reflecteer ik
+                          op mijn acties binnen de opdracht en vertel ik hoe ik zelfstandig heb gewerkt.</p>
+                      </div>
+                      <div>
+                        <a target="_blank"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeswijzer/"
+                          class="txt-link">
+                          Professionele ontwikkeling
+                        </a>
+                        <span>-></span>
+                        <p>er wordt beschreven hoe ik mij ontwikkeld heb en wat mijn ontwikkelingsambities binnen het
+                          ICT vakgebied zijn.</p>
                       </div>
                     </div>
                   </td>
@@ -802,41 +834,48 @@
             <div class="expansion-cont">
               <div class="aanpak-cont text-cont">
                 <div class="text-title">
-                  <h4>Aanpak</h4>
-                  <div class="text-p-cont">
-                    <p>Gedurende het project is er zoveel mogelijk gewerkt met de tools waarmee Bluebird Day werkt. Jira
-                      is gebruikt om te plannen in combinatie met de Scrum projectmethodiek.
-                      GitLab is gebruikt als version control systeem. De Google suite is gebruikt voor email, agenda,
-                      online meetings en documentatie. Slack is gebruikt als communicatiemiddel om collega's te
-                      bereiken.
-                    </p>
-                    <p>
-                      Het Design Thinking proces is gebruikt om het probleem methodisch op te lossen. Verder zijn er
-                      onderzoekspatronen toegepast om het probleem in stappen op te lossen.
-                    </p>
-                  </div>
+                  <h4>Opdracht</h4>
                 </div>
-              </div>
-              <div class="text-cont">
-                <img src="~/assets/img/school/graduation/leeswijzer/jira.png" alt="">
+                <div class="text-p-cont">
+                  <p>Over de afloop van de opdracht ben ik tevreden. Ik heb het gevoel dat ik een oplossing heb
+                    aangeboden waar Bluebird Day iets mee kan. Het verloop van de opdracht was niet heel
+                    ‘straightforward’, het was soms lastig te bepalen hoe ik het beste iets specifieks kon
+                    onderzoeken. Gelukkig waren mijn stagebegeleiders goede ‘sparringpartners’ om dit soort problemen
+                    te kunnen tackelen.
+                  </p>
+                  <p>
+                    Ook het plannen was soms lastig, omdat ik op een gegeven moment zoveel
+                    richtingen had om te onderzoeken dat ik soms vergat dit op te delen in kleinere stukken/sprints.
+                    Vermoedelijk gebeurde dit doordat het nog niet duidelijk was welke ricthing het project opging
+                    waardoor ik niet wist hoe ik de sprints concreet kon krijgen. De volgende keer ben ik daarom van
+                    plan af en toe een stap terug te doen en tijd te besteden aan het maken van een concrete planning.
+                    Wat ik wel goed vond gaan was de communicatie tussen mijzelf en mijn collega’s. Hierdoor werden
+                    onduidelijkheden snel opgelost en werd er efficiënt informatie voor de opdracht vergaard.
+                  </p>
+                </div>
               </div>
               <div class="text-cont">
                 <div class="text-title">
-                  <h4>Analyseren</h4>
+                  <h4>Professionele ontwikkeling</h4>
                 </div>
                 <div class="text-p-cont">
-                  <p>Gedurende de eerste 3 weken is er een projectplan opgesteld. De informatie die nodig was om het
-                    <a target="__blank"
-                      href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren#projectplan"
-                      class="txt-link">projectplan</a> op te stellen, is verkregen door het uitvoeren van <a
-                      target="__blank"
-                      href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren#projectplan"
-                      class="txt-link">interviews</a>. De doelgroep, front-end
-                    developers, werden o.a. geïnterviewed. Door het uitvoeren van een <a target="__blank"
-                      href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/analyseren#projectplan"
-                      class="txt-link">trendanalyse</a>, vond ik bestaande oplossingen voor front-end component
-                    libraries.
-                  </p>
+                  <p>Tijdens de stage heb ik veel moeten communiceren. Aangezien een groot deel mijn collega's ook de
+                    doelgroep was, was het makkelijk de doelgroep te bereiken. In het verleden heb ik veel projecten
+                    gehad waarbij het niet mogelijk was om de doelgroep te bereiken (of er was beperkt contact). Dat was
+                    in dit semester niet het geval. Daarom voel ik dat ik nu meer heb kunnen werken aan deze competentie
+                    en op dit gebied vooruitgang heb geboekt. Elke week waren er wel afspraken te maken, meetings in te
+                    plannen en kennis te delen met collega's.</p>
+                  <p>Ook heb ik de kans aangegrepen mee te draaien als front-end developer in een klantenproject van
+                    Bluebird Day. Dit gaf mij veel nuttige inzichten in de werkwijze van Bluebird Day en voor mijn
+                    front-end developer ambities was dit ook een nuttige ervaring. Voor dit project heb ik kennisgemaakt
+                    met technologieën waar ik nog niet bekend of ervaren mee was (bijv. Twig, DDEV, Docker, GitLab
+                    features, SASS). Daarnaast heb ik een aantal tips gekregen tijdens code reviews waardoor ik met
+                    zekerheid kan zeggen dat ik gegroeid ben als front-end developer.</p>
+                  <p>Als 'personal development goal' wilde ik ook meer ervaring opdoen op het gebied van design
+                    iteraties testen. Tijdens de afstudeeropdracht heb ik hier helaas niet veel aan kunnen werken. Dit
+                    komt voornamelijk omdat mijn oplossing gebruikmaakt van bestaande systemen en er dus niet veel
+                    ruimte was voor eigen designs te maken en te testen. De oplossing heb ik wel kunnen testen, maar
+                    niet heel uitgebreid.</p>
                 </div>
               </div>
             </div>

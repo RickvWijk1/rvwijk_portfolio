@@ -446,12 +446,43 @@
               <p>Om het bedrijf te adviseren is een adviesrapport opgesteld. In dit rapport wordt uitgelegd wat er
                 bekend is geworden uit mijn onderzoek en geadviseerd wat er nog meer onderzocht moet worden om tot een
                 definitieve oplossing te komen. In het adviesrapport wordt rekening gehouden met de toekomst.</p>
+                <p style="color: red;">Let op! Het adviesrapport kan nog veranderd worden als er in de laatste weken van de afstudeerstage nieuwe vondsten gedaan worden.</p>
             </div>
           </div>
           <div class="content-cont">
             <h4>Advies</h4>
+            <p>In het adviesrapport wordt een definitief advies gegeven, maar ook advies over de vervolgstappen omtrent
+              de componenten library (zie PDF voor al het advies).</p>
             <div class="text-columns">
-              <p>-</p>
+              <p>De belangrijkste adviespunten:</p>
+              <p>- De GitLab Package Registry feature is het meest geschikte middel om front-end
+                componenten op te slaan en op te kunnen halen. Er wordt dus geadviseerd de Gitlab
+                Package Registry te gebruiken. Ook voor andere soorten componenten (bijv.
+                back-end componenten) wordt geadviseerd de Gitlab Package Registry te gebruiken.</p>
+              <p>- Testen design systeem; de structuur van de library moet voor developers duidelijk
+                zijn en uitbreidbaar zijn. Uit onderzoek bleek dat veel developers van Bluebird Day
+                bekend zijn met ‘Atomic design’. Daarom wordt aangeraden het Atomic design
+                systeem te gebruiken in de structuur van de library. Ook moet er rekening gehouden
+                worden met de verschillende type componenten (Magento, Shopware, Vue
+                Storefront). Er wordt aangeraden te testen hoe de library het beste gestructureerd
+                kan worden.
+              </p>
+              <p>-
+                Confluence en/of GitBook; maak een afweging of het mogelijk is van Confluence
+                over te stappen naar GitBook vanuit een financieel perspectief en vanuit een
+                organisatieperspectief. Het advies is om de huidige documentatie op Confluence te
+                exporteren naar GitBook. GitBook wordt dan gebruikt voor technische en
+                niet-technische documentatie binnen Bluebird Day. Een mogelijk probleem is dat
+                GitBook duurder is d
+              </p>
+              <p>- Motiveer de developers; zorg voor een basisset van componenten. De meest
+                gebruikte componenten in de projecten moeten in de componenten library komen te
+                staan, zodat de developers meer motivatie hebben om het te gebruiken. Zodra
+                developers het gaan gebruiken en merken dat het handig is, zullen zij ook meer
+                motivatie hebben tijd te besteden aan het toevoegen van nieuwe componenten. Zo
+                krijgt de componenten library steeds meer waarde voor de developers en zullen zij
+                de library vaker gaan gebruiken.</p>
+
             </div>
           </div>
         </div>

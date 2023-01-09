@@ -1,7 +1,7 @@
 <template>
   <div class="page-wrapper">
     <div class="content-wrapper">
-      <a class="bbd-btn" target="_blank" href="./pdf/semester6/reading_guide2.0.pdf"><button>
+      <a class="bbd-btn" target="_blank" href="./pdf/graduation/leeswijzer.pdf"><button>
           Leeswijzer in PDF</button>
         <svg-icon class="svg-external-link" name="external_link" /></a>
       <GraduationExpansionPanel />
@@ -25,9 +25,6 @@
     background-color: #fff !important;
   }
 
-  .grad-wrapper{
-    background-color: #fff !important;
-  }
 
   .content-wrapper {
     background-color: #fff;

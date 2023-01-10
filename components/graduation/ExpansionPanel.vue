@@ -808,9 +808,9 @@
                       </div>
                       <div>
                         <a target="_blank"
-                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/leeswijzer/"
+                          href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/learningoutcomes/communicatie/#ontwikkeling"
                           class="txt-link">
-                          Professionele ontwikkeling
+                          Professionele ontwikkeling & ambities
                         </a>
                         <span>-></span>
                         <p>er wordt beschreven hoe ik mij ontwikkeld heb en wat mijn ontwikkelingsambities binnen het

@@ -114,8 +114,8 @@
         description="Came up with a fitting solution to reuse & manage components for the e-commerce company Bluebird Day.">
         <template v-slot:footer_btn_html>
           <div class="card-footer-wrapper">
-            <a href="mailto:rick_van_wijk@hotmail.com"><button class="btnModalClose bntModalClose-bg-color">
-                <p>Email Me</p>
+            <a target="__blank" href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/home"><button class="btnModalClose bntModalClose-bg-color">
+                <p>View Assignment</p>
                 <svg-icon class="svg-external-link" name="external_link" />
               </button></a>
           </div>

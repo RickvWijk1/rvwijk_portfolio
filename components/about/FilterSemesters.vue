@@ -110,8 +110,8 @@
           </div>
         </template>
       </AboutCard>
-      <AboutCard :number="8" title="Graduation 🎓" data_category="fourth"
-        description="My graduation internship will start at the end of August at Bluebird Day in Breda!🤗">
+      <AboutCard :number="8" title="Graduation Internship 🎓" data_category="fourth"
+        description="Came up with a fitting solution to reuse & manage components for the e-commerce company Bluebird Day.">
         <template v-slot:footer_btn_html>
           <div class="card-footer-wrapper">
             <a href="mailto:rick_van_wijk@hotmail.com"><button class="btnModalClose bntModalClose-bg-color">

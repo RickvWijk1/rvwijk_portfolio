@@ -133,6 +133,11 @@ nav ul {
 }
 
 .nav-item-cont {}
+
+.nav-item-cont h4 {
+  color: #9b9b9b;
+}
+
 .nav-item-cont li{
   display: flex;
 }
@@ -160,7 +165,7 @@ nav ul {
 
 .nav-item {
   font-family: louis_george_caferegular;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .svg-close,

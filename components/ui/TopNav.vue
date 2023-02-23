@@ -51,9 +51,40 @@
             <li>
               <NuxtLink class="nav-item" to="/interests">Interests</NuxtLink>
             </li>
+            <br>
+            <h4>PERSONAL DEVELOPMENT</h4>
             <li>
-              <NuxtLink class="nav-item" to="/semesters/semesterSix">Semester 6</NuxtLink>
+              <a class="nav-item" target="_blank" href="https://rickvwijk1.github.io/portfolio/Semester1/">Semester 1 -
+                Orientation</a>
             </li>
+            <li>
+              <a class="nav-item" target="_blank" href="https://rickvwijk1.github.io/portfolio/Semester2/">Semester 2 -
+                Branding</a>
+            </li>
+            <li>
+              <NuxtLink class="nav-item" to="/modals/projects/mft/">Semester 3 - iOS Dev</NuxtLink>
+            </li>
+            <li>
+              <a class="nav-item" target="_blank" href="https://rickvwijk1.github.io/portfolio/Semester4/">Semester 4 -
+                Human Driven</a>
+            </li>
+            <li>
+              <a class="nav-item" target="_blank"
+                href="https://rickvwijk1.github.io/portfolio/stage/stage.html">Semester 5 - Internship</a>
+            </li>
+            <li>
+              <NuxtLink class="nav-item" to="/semesters/semesterSix">Semester 6 - Society Driven</NuxtLink>
+            </li>
+            <li>
+              <a class="nav-item" target="_blank"
+                href="https://rickvwijk1.github.io/portfolio/minor/minor.html">Semester 7 - Mobile Minor</a>
+            </li>
+            <li>
+              <a class="nav-item" target="_blank"
+                href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/home">Semester 8 -
+                Graduation</a>
+            </li>
+
           </div>
         </ul>
       </div>

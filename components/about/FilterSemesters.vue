@@ -145,6 +145,7 @@
 
 <style lang="css" scoped>
   @import '~/assets/css/buttonFilter';
+  @import '~/assets/css/video';
 
 
   section {
@@ -154,27 +155,6 @@
   .filters {
     text-align: left;
   }
-
-  .video-section {
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-  }
-
-  .video-wrapper {
-    position: relative;
-    height: 0;
-    padding-top: calc(var(--aspect-ratio, .5625) * 100%);
-  }
-
-  .video-wrapper iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-
 
   @media (min-width: 640px) {}
 
@@ -186,9 +166,6 @@
   }
 
   @media (min-width: 1024px) {
-    .video-wrapper {
-      justify-self: flex-end;
-    }
 
     .semester-cards {
       display: grid;

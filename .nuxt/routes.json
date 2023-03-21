@@ -34,6 +34,13 @@
     "_name": "_d9e128ea"
   },
   {
+    "name": "modals-interests-vfx",
+    "path": "/modals/interests/vfx",
+    "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\modals\\\\interests\\\\vfx.vue",
+    "chunkName": "pages/modals/interests/vfx",
+    "_name": "_7e72f821"
+  },
+  {
     "name": "modals-projects-fect",
     "path": "/modals/projects/fect",
     "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\modals\\\\projects\\\\fect.vue",

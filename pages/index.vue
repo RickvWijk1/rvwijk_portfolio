@@ -7,7 +7,7 @@
         <h1>van Wijk</h1>
       </div>
       <div class="home-icon-section">
-        <p>Student ICT & Media Design</p>
+        <p>Front-end designer & developer</p>
         <div class="home-icon-wrapper">
           <a target="__blank" href="https://github.com/RickvWijk1"
             aria-label="The GitHub profile page of Rick van Wijk">

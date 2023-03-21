@@ -80,7 +80,7 @@
     height: 6rem;
     padding: .75rem;
     border-radius: 50%;
-    background-color: #2738DE;
+    background-color: #4758fc;
   }
 
   .about-icon-svg {

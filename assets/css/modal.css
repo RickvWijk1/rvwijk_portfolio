@@ -172,6 +172,7 @@ a.close-modal {
   position: relative;
   flex-direction: column;
   align-self: center;
+  align-items: center;
   gap: 1em;
   max-width: 40em;
   padding: 1.5em;
@@ -405,6 +406,15 @@ a.paddedText{
   justify-content: center;
   align-items: center;
   max-height: 2.5rem;
+  fill: #fff;
+}
+
+.svg-external-link {
+  display: flex;
+  justify-content: flex-end;
+  width: 19px;
+  height: 19px;
+  cursor: pointer;
   fill: #fff;
 }
 

@@ -9,6 +9,7 @@ const _3d143d61 = () => interopDefault(import('..\\pages\\about.vue' /* webpackC
 const _1cc58746 = () => interopDefault(import('..\\pages\\interests.vue' /* webpackChunkName: "pages/interests" */))
 const _12f15ed6 = () => interopDefault(import('..\\pages\\projects.vue' /* webpackChunkName: "pages/projects" */))
 const _d9e128ea = () => interopDefault(import('..\\pages\\semesters\\semesterSix.vue' /* webpackChunkName: "pages/semesters/semesterSix" */))
+const _7e72f821 = () => interopDefault(import('..\\pages\\modals\\interests\\vfx.vue' /* webpackChunkName: "pages/modals/interests/vfx" */))
 const _2b9cc52c = () => interopDefault(import('..\\pages\\modals\\projects\\fect.vue' /* webpackChunkName: "pages/modals/projects/fect" */))
 const _9eb4cdac = () => interopDefault(import('..\\pages\\modals\\projects\\graduation.vue' /* webpackChunkName: "pages/modals/projects/graduation" */))
 const _65b5496f = () => interopDefault(import('..\\pages\\modals\\projects\\mft.vue' /* webpackChunkName: "pages/modals/projects/mft" */))
@@ -77,6 +78,10 @@ export const routerOptions = {
     path: "/semesters/semesterSix",
     component: _d9e128ea,
     name: "semesters-semesterSix"
+  }, {
+    path: "/modals/interests/vfx",
+    component: _7e72f821,
+    name: "modals-interests-vfx"
   }, {
     path: "/modals/projects/fect",
     component: _2b9cc52c,

@@ -33,6 +33,7 @@
       
         
         <AboutApproachContainer />
+        <AboutLighthouse />
      
       <!-- <UIBorderFullWidth class="border-full-width"/> -->
     </section>

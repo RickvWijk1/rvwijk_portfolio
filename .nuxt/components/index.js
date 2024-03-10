@@ -19,6 +19,7 @@ export { default as ProjectsProducts } from '../..\\components\\projects\\Produc
 export { default as SemestersixGroupProjectProduct } from '../..\\components\\semestersix\\GroupProjectProduct.vue'
 export { default as SemestersixIndProjectProduct } from '../..\\components\\semestersix\\IndProjectProduct.vue'
 export { default as SemestersixInterProjectProduct } from '../..\\components\\semestersix\\InterProjectProduct.vue'
+export { default as ThreedCube } from '../..\\components\\threed\\cube.vue'
 export { default as GraduationHeroContClouds } from '../..\\components\\graduation\\HeroCont\\Clouds.vue'
 
 // nuxt/nuxt.js#8607

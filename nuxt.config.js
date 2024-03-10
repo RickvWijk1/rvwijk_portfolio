@@ -78,6 +78,10 @@ export default {
         extensions: ['vue'],
       },
       {
+        path: '~/threed',
+        extensions: ['vue'],
+      },
+      {
         path: '~/components/about',
         prefix: 'About',
         extensions: ['vue'],
@@ -130,5 +134,11 @@ export default {
     },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {}
+  build: {
+    transpile: [
+      "three"
+    ],
+    // babel: { compact: true }
+  },
+ 
 }

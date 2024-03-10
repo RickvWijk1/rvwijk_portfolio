@@ -62,6 +62,9 @@
   "SemestersixInterProjectProduct": {
     "description": "Auto imported from components/semestersix/InterProjectProduct.vue"
   },
+  "ThreedCube": {
+    "description": "Auto imported from components/threed/cube.vue"
+  },
   "GraduationHeroContClouds": {
     "description": "Auto imported from components/graduation/HeroCont/Clouds.vue"
   }

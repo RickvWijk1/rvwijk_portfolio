@@ -27,4 +27,5 @@ You can directly use them in pages and other components without the need to impo
 - `<SemestersixGroupProjectProduct>` | `<semestersix-group-project-product>` (components/semestersix/GroupProjectProduct.vue)
 - `<SemestersixIndProjectProduct>` | `<semestersix-ind-project-product>` (components/semestersix/IndProjectProduct.vue)
 - `<SemestersixInterProjectProduct>` | `<semestersix-inter-project-product>` (components/semestersix/InterProjectProduct.vue)
+- `<ThreedCube>` | `<threed-cube>` (components/threed/cube.vue)
 - `<GraduationHeroContClouds>` | `<graduation-hero-cont-clouds>` (components/graduation/HeroCont/Clouds.vue)

@@ -26,6 +26,9 @@
   "UITopNav": {
     "description": "Auto imported from components/ui/TopNav.vue"
   },
+  "ExperiencesProducts": {
+    "description": "Auto imported from components/experiences/Products.vue"
+  },
   "GraduationBanner": {
     "description": "Auto imported from components/graduation/Banner.vue"
   },
@@ -47,11 +50,14 @@
   "GraduationHero": {
     "description": "Auto imported from components/graduation/Hero.vue"
   },
-  "InterestsProducts": {
-    "description": "Auto imported from components/interests/Products.vue"
+  "ProjectsHobby": {
+    "description": "Auto imported from components/projects/Hobby.vue"
   },
-  "ProjectsProducts": {
-    "description": "Auto imported from components/projects/Products.vue"
+  "ProjectsStudy": {
+    "description": "Auto imported from components/projects/Study.vue"
+  },
+  "ThreedCube": {
+    "description": "Auto imported from components/threed/cube.vue"
   },
   "SemestersixGroupProjectProduct": {
     "description": "Auto imported from components/semestersix/GroupProjectProduct.vue"
@@ -61,9 +67,6 @@
   },
   "SemestersixInterProjectProduct": {
     "description": "Auto imported from components/semestersix/InterProjectProduct.vue"
-  },
-  "ThreedCube": {
-    "description": "Auto imported from components/threed/cube.vue"
   },
   "GraduationHeroContClouds": {
     "description": "Auto imported from components/graduation/HeroCont/Clouds.vue"

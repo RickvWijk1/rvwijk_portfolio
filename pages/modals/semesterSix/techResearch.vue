@@ -135,14 +135,14 @@
                 class="btnModalClose bntModalClose-bg-color">View image in new tab</button></a>
             <div class="text">
               <p><b>POCS</b></p>
-<div class="text">
-                  <a style="width:24em;" target="_blank" href="https://github.com/RickvWijk1/android_widget_pocs">
-                    <div class="paddedText">
-                      <p>View the repo for the POCS</p>
-                      <svg-icon class="svg-github" name="github" />
-                    </div>
-                  </a>
-                </div>
+              <div class="text">
+                <a style="width:24em;" target="_blank" href="https://github.com/RickvWijk1/android_widget_pocs">
+                  <div class="paddedText">
+                    <p>View the repo for more information here for the POCS</p>
+                    <svg-icon class="svg-github" name="github" />
+                  </div>
+                </a>
+              </div>
             </div>
             <div class="paddedTextLine"></div>
             <div class="text">
@@ -196,13 +196,12 @@
 </template>
 
 <script>
-  export default {
-    layout: 'noNav',
-  }
+export default {
+  layout: 'noNav',
+}
 
 </script>
 
 <style>
-  @import '~/assets/css/modal.css';
-
+@import '~/assets/css/modal.css';
 </style>

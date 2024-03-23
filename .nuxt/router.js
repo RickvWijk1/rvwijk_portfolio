@@ -6,15 +6,19 @@ import scrollBehavior from './router.scrollBehavior.js'
 
 const _d56d31b8 = () => interopDefault(import('..\\node_modules\\@nuxtjs\\svg-sprite\\lib\\pages\\icons-list.vue' /* webpackChunkName: "" */))
 const _3d143d61 = () => interopDefault(import('..\\pages\\about.vue' /* webpackChunkName: "pages/about" */))
-const _1cc58746 = () => interopDefault(import('..\\pages\\interests.vue' /* webpackChunkName: "pages/interests" */))
+const _05bcf31d = () => interopDefault(import('..\\pages\\experiences.vue' /* webpackChunkName: "pages/experiences" */))
 const _12f15ed6 = () => interopDefault(import('..\\pages\\projects.vue' /* webpackChunkName: "pages/projects" */))
 const _d9e128ea = () => interopDefault(import('..\\pages\\semesters\\semesterSix.vue' /* webpackChunkName: "pages/semesters/semesterSix" */))
-const _7e72f821 = () => interopDefault(import('..\\pages\\modals\\interests\\vfx.vue' /* webpackChunkName: "pages/modals/interests/vfx" */))
-const _2b9cc52c = () => interopDefault(import('..\\pages\\modals\\projects\\fect.vue' /* webpackChunkName: "pages/modals/projects/fect" */))
-const _9eb4cdac = () => interopDefault(import('..\\pages\\modals\\projects\\graduation.vue' /* webpackChunkName: "pages/modals/projects/graduation" */))
+const _0bfbcea7 = () => interopDefault(import('..\\pages\\modals\\experiences\\fect.vue' /* webpackChunkName: "pages/modals/experiences/fect" */))
+const _10785a65 = () => interopDefault(import('..\\pages\\modals\\experiences\\graduation.vue' /* webpackChunkName: "pages/modals/experiences/graduation" */))
+const _1f2c3bf4 = () => interopDefault(import('..\\pages\\modals\\experiences\\pidz.vue' /* webpackChunkName: "pages/modals/experiences/pidz" */))
+const _629e9282 = () => interopDefault(import('..\\pages\\modals\\projects\\frontend_mentor.vue' /* webpackChunkName: "pages/modals/projects/frontend_mentor" */))
 const _65b5496f = () => interopDefault(import('..\\pages\\modals\\projects\\mft.vue' /* webpackChunkName: "pages/modals/projects/mft" */))
+const _47a5b401 = () => interopDefault(import('..\\pages\\modals\\projects\\p5.vue' /* webpackChunkName: "pages/modals/projects/p5" */))
+const _bfd23d4e = () => interopDefault(import('..\\pages\\modals\\projects\\pixelart.vue' /* webpackChunkName: "pages/modals/projects/pixelart" */))
 const _189e2486 = () => interopDefault(import('..\\pages\\modals\\projects\\quaquiz.vue' /* webpackChunkName: "pages/modals/projects/quaquiz" */))
 const _ab2769c2 = () => interopDefault(import('..\\pages\\modals\\projects\\solid.vue' /* webpackChunkName: "pages/modals/projects/solid" */))
+const _4205bcbc = () => interopDefault(import('..\\pages\\modals\\projects\\vfx.vue' /* webpackChunkName: "pages/modals/projects/vfx" */))
 const _43c6bfea = () => interopDefault(import('..\\pages\\modals\\semesterSix\\architecture.vue' /* webpackChunkName: "pages/modals/semesterSix/architecture" */))
 const _72a62ba8 = () => interopDefault(import('..\\pages\\modals\\semesterSix\\delivery.vue' /* webpackChunkName: "pages/modals/semesterSix/delivery" */))
 const _16f4ae6a = () => interopDefault(import('..\\pages\\modals\\semesterSix\\designTesting.vue' /* webpackChunkName: "pages/modals/semesterSix/designTesting" */))
@@ -67,9 +71,9 @@ export const routerOptions = {
     component: _3d143d61,
     name: "about"
   }, {
-    path: "/interests",
-    component: _1cc58746,
-    name: "interests"
+    path: "/experiences",
+    component: _05bcf31d,
+    name: "experiences"
   }, {
     path: "/projects",
     component: _12f15ed6,
@@ -79,21 +83,33 @@ export const routerOptions = {
     component: _d9e128ea,
     name: "semesters-semesterSix"
   }, {
-    path: "/modals/interests/vfx",
-    component: _7e72f821,
-    name: "modals-interests-vfx"
+    path: "/modals/experiences/fect",
+    component: _0bfbcea7,
+    name: "modals-experiences-fect"
   }, {
-    path: "/modals/projects/fect",
-    component: _2b9cc52c,
-    name: "modals-projects-fect"
+    path: "/modals/experiences/graduation",
+    component: _10785a65,
+    name: "modals-experiences-graduation"
   }, {
-    path: "/modals/projects/graduation",
-    component: _9eb4cdac,
-    name: "modals-projects-graduation"
+    path: "/modals/experiences/pidz",
+    component: _1f2c3bf4,
+    name: "modals-experiences-pidz"
+  }, {
+    path: "/modals/projects/frontend_mentor",
+    component: _629e9282,
+    name: "modals-projects-frontend_mentor"
   }, {
     path: "/modals/projects/mft",
     component: _65b5496f,
     name: "modals-projects-mft"
+  }, {
+    path: "/modals/projects/p5",
+    component: _47a5b401,
+    name: "modals-projects-p5"
+  }, {
+    path: "/modals/projects/pixelart",
+    component: _bfd23d4e,
+    name: "modals-projects-pixelart"
   }, {
     path: "/modals/projects/quaquiz",
     component: _189e2486,
@@ -102,6 +118,10 @@ export const routerOptions = {
     path: "/modals/projects/solid",
     component: _ab2769c2,
     name: "modals-projects-solid"
+  }, {
+    path: "/modals/projects/vfx",
+    component: _4205bcbc,
+    name: "modals-projects-vfx"
   }, {
     path: "/modals/semesterSix/architecture",
     component: _43c6bfea,

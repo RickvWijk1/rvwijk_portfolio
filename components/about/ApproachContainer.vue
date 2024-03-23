@@ -39,76 +39,75 @@
 </template>
 
 <script>
-  export default {
+export default {
 
-  }
+}
 
 </script>
 
 <style lang="css" scoped>
-  @import '~/assets/css/aboutContent.css';
+@import '~/assets/css/aboutContent.css';
 
-  .main-wrapper {
-    gap: 2rem;
-    padding-bottom: 3em;
-  }
+.main-wrapper {
+  gap: 2rem;
+  padding-bottom: 3em;
+}
 
+.about-icon-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.4rem;
+}
+
+.about-icon-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: .5rem;
+}
+
+.about-icon-cont p {
+  font-weight: 300;
+  /* font-family: louis_george_cafelight; */
+}
+
+.about-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6rem;
+  height: 6rem;
+  padding: .75rem;
+  border-radius: 50%;
+  background-color: #4758fc;
+}
+
+.about-icon-svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 4rem;
+  fill: #fff;
+}
+
+@media (max-width: 300px) {
   .about-icon-wrapper {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2.4rem;
+    grid-template-columns: repeat(1, 1fr);
   }
+}
 
-  .about-icon-cont {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: .5rem;
+@media (min-width: 640px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 1024px) {
+  .about-icon-wrapper {
+    grid-template-columns: repeat(4, 1fr);
   }
+}
 
-  .about-icon-cont p {
-    font-weight: 300;
-    /* font-family: louis_george_cafelight; */
-  }
+@media (min-width: 1280px) {}
 
-  .about-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 6rem;
-    height: 6rem;
-    padding: .75rem;
-    border-radius: 50%;
-    background-color: #4758fc;
-  }
-
-  .about-icon-svg {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-height: 4rem;
-    fill: #fff;
-  }
-
-  @media (max-width: 300px) {
-    .about-icon-wrapper {
-      grid-template-columns: repeat(1, 1fr);
-    }
-  }
-
-  @media (min-width: 640px) {}
-
-  @media (min-width: 768px) {}
-
-  @media (min-width: 1024px) {
-    .about-icon-wrapper {
-      grid-template-columns: repeat(4, 1fr);
-    }
-  }
-
-  @media (min-width: 1280px) {}
-
-  @media (min-width: 1536px) {}
-
+@media (min-width: 1536px) {}
 </style>

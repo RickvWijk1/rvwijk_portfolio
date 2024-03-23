@@ -34,7 +34,7 @@
               <p>Some screenshots of the app.</p>
               <div class="image-grid">
                 <img src="~/assets/img/projects/quaquiz/screen1.png" width="500px" alt="">
-                <img src="~/assets/img/projects/quaquiz/screen2.png" width="500px"  alt="">
+                <img src="~/assets/img/projects/quaquiz/screen2.png" width="500px" alt="">
                 <img src="~/assets/img/projects/quaquiz/screen3.png" width="500px" alt="">
               </div>
             </div>
@@ -45,12 +45,12 @@
                 interaction possible.</p>
               <img src="~/assets/img/projects/quaquiz/react-native2.png" width="500px" alt="">
             </div>
-              <div class="text centered full-width">
-                <a class="paddedText" target="_blank" href="https://git.fhict.nl/I404350/Quarantine-Quiz">
-                    <p>View the repo for more information here</p>
-                    <svg-icon class="svg-github" name="github" />
-                </a>
-              </div>
+            <div class="text centered full-width">
+              <a class="paddedText" target="_blank" href="https://git.fhict.nl/I404350/Quarantine-Quiz">
+                <p>View the repo for more information here</p>
+                <svg-icon class="svg-github" name="github" />
+              </a>
+            </div>
           </div>
 
         </div>
@@ -66,13 +66,12 @@
 </template>
 
 <script>
-  export default {
+export default {
 
-  }
+}
 
 </script>
 
 <style>
-  @import '~/assets/css/modal.css';
-
+@import '~/assets/css/modal.css';
 </style>

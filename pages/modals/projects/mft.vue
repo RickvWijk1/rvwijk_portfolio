@@ -65,12 +65,12 @@
             </div>
 
             <div class="text spacing">
-                <h3>Technology Behind The App</h3>
-                <p>The app is build for iOS only. It's has been build in the Xcode IDE and coded
-                  with
-                  Swift. The app uses the built-in accelerometer
-                  hardware from the iPhone.</p>
-                <img src="~/assets/img/projects/mft/swift.jpg" width="700px" alt="">
+              <h3>Technology Behind The App</h3>
+              <p>The app is build for iOS only. It's has been build in the Xcode IDE and coded
+                with
+                Swift. The app uses the built-in accelerometer
+                hardware from the iPhone.</p>
+              <img src="~/assets/img/projects/mft/swift.jpg" width="700px" alt="">
             </div>
             <div class="text centered full-width">
               <a class="paddedText" target="_blank" href="https://git.fhict.nl/I425384/smartmobile-repo">
@@ -92,13 +92,12 @@
 </template>
 
 <script>
-  export default {
+export default {
 
-  }
+}
 
 </script>
 
 <style>
-  @import '~/assets/css/modal.css';
-
+@import '~/assets/css/modal.css';
 </style>

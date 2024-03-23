@@ -16,7 +16,7 @@
           <div class="paragraph-text">
             <p>A front-end developer located in
               Eindhoven, The Netherlands.
-              I have passion for developing and designing UI's.</p>
+              Passion for developing and designing.</p>
             <p>My goal is to become a well-experienced front-end
               developer; someone who can make sketches become reality.</p>
           </div>

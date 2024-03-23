@@ -7,7 +7,7 @@
         <h1>van Wijk</h1>
       </div>
       <div class="home-icon-section">
-        <p>Front-end designer & developer</p>
+        <p>Front-end developer</p>
         <div class="home-icon-wrapper">
           <a target="__blank" href="https://github.com/RickvWijk1"
             aria-label="The GitHub profile page of Rick van Wijk">
@@ -41,8 +41,8 @@
 
 <script></script>
 <style lang="css" scoped>
-  @import '~/assets/css/global.css';
-  @import '~/assets/css/homeContent.css';
+@import '~/assets/css/global.css';
+@import '~/assets/css/homeContent.css';
 
 @media (min-width: 640px) {
   .layout-body {
@@ -50,10 +50,12 @@
     height: 100%;
     /* justify-content: space-between; */
   }
-}@media (min-width: 640px) {
+}
+
+@media (min-width: 640px) {
   .wrapper {
     width: 100%;
     padding: 0em 4em 0em;
-  }}
-
+  }
+}
 </style>

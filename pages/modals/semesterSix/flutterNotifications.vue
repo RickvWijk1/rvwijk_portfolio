@@ -20,7 +20,8 @@
                 <img src="~/assets/img/school/icons/motivation.png" alt="">
               </div>
               <div class="label-cont">
-                <p>By researching which notification functionalities Flutter offers for the target audience and finding out how this works on a
+                <p>By researching which notification functionalities Flutter offers for the target audience and finding
+                  out how this works on a
                   technical level, advice can be given to PSV.</p>
               </div>
             </div>
@@ -207,13 +208,12 @@
 </template>
 
 <script>
-  export default {
-    layout: 'noNav',
-  }
+export default {
+  layout: 'noNav',
+}
 
 </script>
 
 <style>
-  @import '~/assets/css/modal.css';
-
+@import '~/assets/css/modal.css';
 </style>

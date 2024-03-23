@@ -1,5 +1,5 @@
 <template>
-  <nav :class="{ 'onScroll': !view.topOfPage}">
+  <nav :class="{ 'onScroll': !view.topOfPage }">
     <!-- <div class="nav-home">
       <div class="nav-home-1">
         <svg-icon class="svg-chevron chevron-topnav" name="chevron" />
@@ -27,7 +27,7 @@
         <NuxtLink to="/projects">Projects</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/interests">Interests</NuxtLink>
+        <NuxtLink to="/experiences">Experiences</NuxtLink>
       </li>
     </ul>
     <div v-show="mobileNavIsActive" class="nav-mobile">
@@ -49,7 +49,7 @@
               <NuxtLink class="nav-item" to="/projects">Projects</NuxtLink>
             </li>
             <li>
-              <NuxtLink class="nav-item" to="/interests">Interests</NuxtLink>
+              <NuxtLink class="nav-item" to="/experiences">Experiences</NuxtLink>
             </li>
             <br>
             <h4>PERSONAL DEVELOPMENT</h4>
@@ -93,41 +93,40 @@
 </template>
 
 <script>
-  export default {
-    setup() {
+export default {
+  setup() {
 
-    },
-    watch: {
-      '$route'() {
-        this.mobileNavIsActive = false
-      }
-    },
+  },
+  watch: {
+    '$route'() {
+      this.mobileNavIsActive = false
+    }
+  },
 
-    data() {
-      return {
-        mobileNavIsActive: false,
-        view: {
-          topOfPage: true
-        }
+  data() {
+    return {
+      mobileNavIsActive: false,
+      view: {
+        topOfPage: true
       }
-    },
-    beforeMount() {
-      window.addEventListener('scroll', this.handleScroll)
-    },
-    methods: {
-      handleScroll() {
-        if (window.pageYOffset > 0) {
-          if (this.view.topOfPage) this.view.topOfPage = false
-        } else {
-          if (!this.view.topOfPage) this.view.topOfPage = true
-        }
+    }
+  },
+  beforeMount() {
+    window.addEventListener('scroll', this.handleScroll)
+  },
+  methods: {
+    handleScroll() {
+      if (window.pageYOffset > 0) {
+        if (this.view.topOfPage) this.view.topOfPage = false
+      } else {
+        if (!this.view.topOfPage) this.view.topOfPage = true
       }
-    },
-  }
+    }
+  },
+}
 
 </script>
 <style scoped>
-  @import '~/assets/css/topnav.css';
-  @import '~/assets/scss/nav.scss';
-
+@import '~/assets/css/topnav.css';
+@import '~/assets/scss/nav.scss';
 </style>

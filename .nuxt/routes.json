@@ -13,11 +13,11 @@
     "_name": "_3d143d61"
   },
   {
-    "name": "interests",
-    "path": "/interests",
-    "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\interests.vue",
-    "chunkName": "pages/interests",
-    "_name": "_1cc58746"
+    "name": "experiences",
+    "path": "/experiences",
+    "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\experiences.vue",
+    "chunkName": "pages/experiences",
+    "_name": "_05bcf31d"
   },
   {
     "name": "projects",
@@ -34,25 +34,32 @@
     "_name": "_d9e128ea"
   },
   {
-    "name": "modals-interests-vfx",
-    "path": "/modals/interests/vfx",
-    "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\modals\\\\interests\\\\vfx.vue",
-    "chunkName": "pages/modals/interests/vfx",
-    "_name": "_7e72f821"
+    "name": "modals-experiences-fect",
+    "path": "/modals/experiences/fect",
+    "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\modals\\\\experiences\\\\fect.vue",
+    "chunkName": "pages/modals/experiences/fect",
+    "_name": "_0bfbcea7"
   },
   {
-    "name": "modals-projects-fect",
-    "path": "/modals/projects/fect",
-    "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\modals\\\\projects\\\\fect.vue",
-    "chunkName": "pages/modals/projects/fect",
-    "_name": "_2b9cc52c"
+    "name": "modals-experiences-graduation",
+    "path": "/modals/experiences/graduation",
+    "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\modals\\\\experiences\\\\graduation.vue",
+    "chunkName": "pages/modals/experiences/graduation",
+    "_name": "_10785a65"
   },
   {
-    "name": "modals-projects-graduation",
-    "path": "/modals/projects/graduation",
-    "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\modals\\\\projects\\\\graduation.vue",
-    "chunkName": "pages/modals/projects/graduation",
-    "_name": "_9eb4cdac"
+    "name": "modals-experiences-pidz",
+    "path": "/modals/experiences/pidz",
+    "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\modals\\\\experiences\\\\pidz.vue",
+    "chunkName": "pages/modals/experiences/pidz",
+    "_name": "_1f2c3bf4"
+  },
+  {
+    "name": "modals-projects-frontend_mentor",
+    "path": "/modals/projects/frontend_mentor",
+    "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\modals\\\\projects\\\\frontend_mentor.vue",
+    "chunkName": "pages/modals/projects/frontend_mentor",
+    "_name": "_629e9282"
   },
   {
     "name": "modals-projects-mft",
@@ -60,6 +67,20 @@
     "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\modals\\\\projects\\\\mft.vue",
     "chunkName": "pages/modals/projects/mft",
     "_name": "_65b5496f"
+  },
+  {
+    "name": "modals-projects-p5",
+    "path": "/modals/projects/p5",
+    "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\modals\\\\projects\\\\p5.vue",
+    "chunkName": "pages/modals/projects/p5",
+    "_name": "_47a5b401"
+  },
+  {
+    "name": "modals-projects-pixelart",
+    "path": "/modals/projects/pixelart",
+    "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\modals\\\\projects\\\\pixelart.vue",
+    "chunkName": "pages/modals/projects/pixelart",
+    "_name": "_bfd23d4e"
   },
   {
     "name": "modals-projects-quaquiz",
@@ -74,6 +95,13 @@
     "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\modals\\\\projects\\\\solid.vue",
     "chunkName": "pages/modals/projects/solid",
     "_name": "_ab2769c2"
+  },
+  {
+    "name": "modals-projects-vfx",
+    "path": "/modals/projects/vfx",
+    "component": "C:\\\\Users\\\\rickvw\\\\Documents\\\\nuxt\\\\rvwijk_portfolio\\\\pages\\\\modals\\\\projects\\\\vfx.vue",
+    "chunkName": "pages/modals/projects/vfx",
+    "_name": "_4205bcbc"
   },
   {
     "name": "modals-semesterSix-architecture",

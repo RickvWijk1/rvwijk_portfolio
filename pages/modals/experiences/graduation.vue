@@ -3,7 +3,7 @@
     <div class="modal">
       <div class="modal-content">
         <div class="modal-header">
-          <NuxtLink class="modal-close" to="/projects">×</NuxtLink>
+          <NuxtLink class="modal-close" to="/experiences">×</NuxtLink>
           <h1>Component Management</h1>
         </div>
         <div class="modalbody-container">
@@ -21,7 +21,8 @@
               <p>
                 Bluebird Day develops webshops for clients. Bluebird Day wants to ensure each webshop is fitting and
                 unique for their client. Bluebird Day often notices that the development time of just the basic
-                parts of the webshops costs most of the time. Reusing basic parts of the webshops will allow the
+                parts of the webshops costs a occupies a big part of their time. Reusing basic parts of the webshops
+                will allow the
                 developers to work on the unique parts of each webshop.
                 <br><br>
                 Check <a target="__blank" href="https://rickvwijk1.github.io/rvwijk_portfolio/semesters/graduation/home"
@@ -60,7 +61,8 @@
                   <li class="list-bullet"><b>GitBook</b>: an environment designed for creating and managing tecnhical
                     documentation. With GitBook, Bluebird Day developers have a place to create information and get
                     information about components. GitBook has a sync option with GitLab so that each change a developer
-                    makes gets managed by version control. This all makes GitBook a tool that will help Bluebird Day upkeep their components.
+                    makes gets managed by version control. This all makes GitBook a tool that will help Bluebird Day
+                    upkeep their components.
                   </li>
                   <img src="~/assets/img/projects/graduation/solution2.png" width="800px" alt="">
                 </ul>
@@ -69,7 +71,7 @@
           </div>
         </div>
         <div class="modal-footer">
-          <NuxtLink to="/projects"><button class="btnModalClose bntModalClose-bg-color">Close</button>
+          <NuxtLink to="/experiences"><button class="btnModalClose bntModalClose-bg-color">Close</button>
           </NuxtLink>
         </div>
       </div>
@@ -80,13 +82,12 @@
 </template>
 
 <script>
-  export default {
+export default {
 
-  }
+}
 
 </script>
 
 <style>
-  @import '~/assets/css/modal.css';
-
+@import '~/assets/css/modal.css';
 </style>

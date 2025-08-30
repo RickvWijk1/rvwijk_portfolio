@@ -31,5 +31,8 @@ jobs:
       # 5. Deploy to Cloudflare Pages
       - name: Deploy to Cloudflare Pages
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npx gh-pages -d dist -r https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          directory: ./dist
+        run: npx gh-pages -d dist

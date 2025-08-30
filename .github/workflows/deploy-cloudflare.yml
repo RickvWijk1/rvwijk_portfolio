@@ -32,4 +32,4 @@ jobs:
       - name: Deploy to Cloudflare Pages
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npx gh-pages -d dist
+        run: npx gh-pages -d dist -r https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git

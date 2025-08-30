@@ -10,6 +10,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # Ensure latest Wrangler is installed
+      - name: Install latest Wrangler
+        run: npm install -g wrangler
+
       # Step to build the Nuxt project
       - name: Build Nuxt Project
         run: npm install && npm run generate
@@ -20,7 +24,7 @@ jobs:
 
       # Step to deploy using Cloudflare Wrangler
       - name: Deploy Worker
-        uses: cloudflare/wrangler-action@v4
+        uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

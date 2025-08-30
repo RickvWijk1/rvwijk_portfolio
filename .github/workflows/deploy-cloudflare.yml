@@ -23,21 +23,17 @@ jobs:
       # 3. Install dependencies & generate static site
       - name: Build Nuxt Project
         run: npm install && npm run generate
-        env:
-          # Optional: inject environment variables from GitHub Secrets
-          NUXT_CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          NUXT_CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
 
       # 4. Add .nojekyll to dist folder
       - name: Add .nojekyll
         run: touch dist/.nojekyll
 
-      # 5. Deploy dist/ to Cloudflare Pages via gh-pages
-      - name: Deploy to Cloudflare Pages
-        run: npx gh-pages -d dist
-
-      # 6. Configure git identity for gh-pages commit
+      # 5. Configure git identity for gh-pages commit
       - name: Configure git credentials
         uses: OleksiyRudenko/gha-git-credentials@v2.1.2
         with:
           token: "${{ secrets.GITHUB_TOKEN }}"
+
+      # 6. Deploy dist/ to Cloudflare Pages via gh-pages
+      - name: Deploy to Cloudflare Pages
+        run: npx gh-pages -d dist

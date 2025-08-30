@@ -39,8 +39,8 @@
     "postcss": "^8.3.5",
     "pug": "^3.0.2",
     "pug-plain-loader": "^1.1.0",
-    "sass": "^1.55.0",
-    "sass-loader": "^10.4.1",
+    "sass": "^1.91.0",
+    "sass-loader": "^10.5.2",
     "vite": "^4.2.1"
   }
 }

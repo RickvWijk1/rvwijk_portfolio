@@ -28,7 +28,13 @@ jobs:
       - name: Add .nojekyll
         run: touch dist/.nojekyll
 
-      # 5. Deploy to Cloudflare Pages
+      # 5. Configure git identity for gh-pages commit
+      - name: Configure git credentials
+        uses: OleksiyRudenko/gha-git-credentials@v2.1.2
+        with:
+          token: "${{ secrets.GITHUB_TOKEN }}"
+
+      # 6. Deploy to Cloudflare Pages
       - name: Deploy to Cloudflare Pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

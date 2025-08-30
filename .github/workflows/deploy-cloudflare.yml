@@ -1,0 +1,26 @@
+name: Deploy Worker
+on:
+  push:
+    branches:
+      - master
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      # Step to build the Nuxt project
+      - name: Build Nuxt Project
+        run: npm install && npm run generate
+
+      # Step to add .nojekyll to dist
+      - name: Add .nojekyll
+        run: touch dist/.nojekyll
+
+      # Step to deploy using Cloudflare Wrangler
+      - name: Deploy Worker
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

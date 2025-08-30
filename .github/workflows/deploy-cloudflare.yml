@@ -23,6 +23,10 @@ jobs:
       # 3. Install dependencies & generate static site
       - name: Build Nuxt Project
         run: npm install && npm run generate
+        env:
+          # Optional: inject environment variables from GitHub Secrets
+          NUXT_CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          NUXT_CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
 
       # 4. Add .nojekyll to dist folder
       - name: Add .nojekyll

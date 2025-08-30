@@ -66,14 +66,13 @@ typings/
 .next
 
 # nuxt.js build output
-.nuxt
+.nuxt/
 
 # service worker
 sw.*
 
 # Nuxt generate
-dist\
-dist
+dist/
 
 # vuepress build output
 .vuepress/dist

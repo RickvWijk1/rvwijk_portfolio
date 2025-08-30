@@ -1,4 +1,4 @@
-name: Deploy Worker
+name: Deploy portfolio
 on:
   push:
     branches:
@@ -10,13 +10,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # Ensure latest Wrangler is installed
-      - name: Install latest Wrangler
-        run: npm install -g wrangler
-
-      - name: Add Wrangler entry-point
-        run: npx wrangler deploy dist
-
       # Step to build the Nuxt project
       - name: Build Nuxt Project
         run: npm install && npm run generate
@@ -25,9 +18,6 @@ jobs:
       - name: Add .nojekyll
         run: touch dist/.nojekyll
 
-      # Step to deploy using Cloudflare Wrangler
-      - name: Deploy Worker
-        uses: cloudflare/wrangler-action@v3
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      # Step to deploy to Cloudflare Pages
+      - name: Deploy to Cloudflare Pages
+        run: npx gh-pages -d dist
